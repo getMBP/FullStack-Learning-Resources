@@ -14,6 +14,9 @@
 
 - **Udemy Learn and Understand React** 
     https://www.udemy.com/learn-and-understand-react-and-redux-i/
+   
+ - **Loop inside React JSX**
+  https://stackoverflow.com/questions/22876978/loop-inside-react-jsx
 
 - **All the Conditional Renderings in React**  
   https://www.robinwieruch.de/conditional-rendering-react/  
@@ -33,14 +36,26 @@
 - **Does React keep the order for state updates?** 
     https://stackoverflow.com/questions/48563650/does-react-keep-the-order-for-state-updates
     
+  - **How to update a nested state in React**
+    https://stackoverflow.com/questions/43040721/how-to-update-a-nested-state-in-react
+   
+   - **this.setState isn't merging states as I would expect**
+   https://stackoverflow.com/questions/18933985/this-setstate-isnt-merging-states-as-i-would-expect
+    
 - **The 5 Types Of React Application State**
     http://jamesknelson.com/5-types-react-application-state/
     
 - **State of React #2 – From Inception to Redux**
     http://jamesknelson.com/state-react-2-inception-redux/
-    
+
+- **Lists and Keys**  
+    http://www.react.express/lists_and_keys
+   
     
     #### React Component Lifecycle
+    
+ - **(A => B) !=> (B => A)**
+    https://reactjs.org/blog/2016/01/08/A-implies-B-does-not-imply-B-implies-A.html
     
 - **React In-Depth: The React Life Cycle**  
   https://developmentarc.gitbooks.io/react-indepth/content/  
@@ -55,7 +70,7 @@
 - **Dissecting React Lifecycle Methods**  
   https://medium.com/@fay_jai/dissecting-reactjs-lifecycle-methods-be4fdea11c6d  
   Breaks the lifecycle methods down into "mount/unmount" and "update" categories, and describes the purpose and use of each.
-    
+  
    
  #### React Component Children
  https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
@@ -104,6 +119,9 @@
 - **How to use React's Provider pattern**  
   https://www.robinwieruch.de/react-provider-pattern-context/  
   Walks through the concepts and implementation of a "Provider" component that makes data available to deeply nested children, similar to the ones that come with Redux and MobX
+  
+  
+  
     
 ### React Patterns
     
@@ -131,7 +149,42 @@
   https://reacttraining.com/patterns/  
   The lecture videos from React Training's "Advanced React" course.  The videos themselves are now free.  Covers topics like declarative vs imperative, compound components, context, Higher Order Components, render props, and controlled components.
   
+
+
+
+
+### Higher Order React Components
+
+ - **A GENTLE INTRODUCTION TO REACT'S HIGHER ORDER COMPONENTS**  
+https://www.robinwieruch.de/gentle-introduction-higher-order-components/
+
+ - **React Higher Order Components in depth – franleplant – Medium**  
+ https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
+ 
+  - **Top 5 Recompose HOCs – Abhi Aiyer – Medium**  
+ https://medium.com/@abhiaiyer/top-5-recompose-hocs-1a4c9cc4566
   
+  - **Building HOCs with Recompose – Front-end developer – Medium**  
+  https://medium.com/front-end-developers/building-hocs-with-recompose-7debb951d101
+  
+  
+  - **Advanced React.js**  
+https://app.pluralsight.com/library/courses/reactjs-advanced/discussion
+  
+
+
+
+#### React Performance
+- **Performance-tuning a React application.A Case Study**  
+ https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2 
+ 
+ 
+ ### React Styling
+
+- **React.js inline style best practices**
+ https://stackoverflow.com/questions/26882177/react-js-inline-style-best-practices
+ 
+ 
   #### Modal Dialogs
 
 - **How to Render Components Outside the Main React App**  
@@ -169,10 +222,16 @@
   
     
     
+  #### Routing
+
+- **Routing in React, the uncomplicated way**
+https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
+
+- **Build your own React Router v4**  
+    https://tylermcginnis.com/build-your-own-react-router-v4/
     
-    
-    
-    
+ - **React Router v4**    
+    https://tylermcginnis.com/courses/react-router/
     
     
     
