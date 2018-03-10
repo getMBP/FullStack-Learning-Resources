@@ -27,29 +27,29 @@
     http://www.reactenlightenment.com/  
      A straightforward, cookbook-style approach to learning React.  (Currently a work-in-progress.)
      
-    - **Understanding ReactJS — setState – Bartosz Szczeciński – Medium**  
+- **Understanding ReactJS — setState – Bartosz Szczeciński – Medium**  
     https://medium.com/p/a4640451865b?source=user_profile---------12-------------------
     
-    - **Does React keep the order for state updates?** 
+- **Does React keep the order for state updates?** 
     https://stackoverflow.com/questions/48563650/does-react-keep-the-order-for-state-updates
     
-    - **The 5 Types Of React Application State**
+- **The 5 Types Of React Application State**
     http://jamesknelson.com/5-types-react-application-state/
     
-    - **State of React #2 – From Inception to Redux**
+- **State of React #2 – From Inception to Redux**
     http://jamesknelson.com/state-react-2-inception-redux/
     
     
     #### React Component Lifecycle
     
-    - **React In-Depth: The React Life Cycle**  
+- **React In-Depth: The React Life Cycle**  
   https://developmentarc.gitbooks.io/react-indepth/content/  
   A deep dive into the lifecycle methods, and various techniques for using them.
     
-     - **Understanding React — Component life-cycle**  
+- **Understanding React — Component life-cycle**  
     https://medium.com/p/823a640b3e8d?source=user_profile---------8-------------------
     
-    - **Component life-cycle**  
+- **Component life-cycle**  
     https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/introduction.html
       
 - **Dissecting React Lifecycle Methods**  
@@ -57,11 +57,11 @@
   Breaks the lifecycle methods down into "mount/unmount" and "update" categories, and describes the purpose and use of each.
     
    
-    #### React Component Children
-    https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
+ #### React Component Children
+ https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
     
     
-    - **Ownership and Children in React**  
+ - **Ownership and Children in React**  
   http://ctheu.com/2015/02/10/ownership-and-children-in-reactjs/  
   Discusses the difference between "parent" and "owner" relationships, and what the `children` prop can look like.
   
@@ -105,13 +105,13 @@
   https://www.robinwieruch.de/react-provider-pattern-context/  
   Walks through the concepts and implementation of a "Provider" component that makes data available to deeply nested children, similar to the ones that come with Redux and MobX
     
-    ### React Patterns
+### React Patterns
     
-    - **React Patterns**
-    https://reactpatterns.com/
-    An excellent list of common patterns for structuring React components, with examples
+- **React Patterns**
+  https://reactpatterns.com/
+  An excellent list of common patterns for structuring React components, with examples
     
-    - **React Bits: React patterns, techniques, tips, and tricks**  
+- **React Bits: React patterns, techniques, tips, and tricks**  
   https://github.com/vasanthk/react-bits  
   An extensive list of terms, concepts, patterns, and techniques for writing React components, with explanations and examples.  A few of the descriptions are overly opinionated and some items are not things the React team would recommend, but overall an excellent resource.
   
@@ -177,10 +177,7 @@
     
     
     
-    
-    
-    
-    
+     
     
     
     
