@@ -139,7 +139,7 @@ https://app.pluralsight.com/library/courses/fixing-common-javascript-bugs/table-
 ### Functional JS course
 
 - **Functional-Lite JavaScript**
-https://frontendmasters.com/courses/functional-js-lite/
+https://frontendmasters.com/courses/functional-javascript-v2/
 
 - **Deep Dive into Functional JavaScript [Video] | PACKT Books**
 https://www.packtpub.com/web-development/deep-dive-functional-javascript-video
@@ -186,7 +186,8 @@ https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webp
 - **Modern, Modular JavaScript with SystemJS and jspm**
 https://app.pluralsight.com/library/courses/javascript-systemjs-jspm/table-of-contents
 
-
+- **Webpack 2: The Complete Developer's Guide**
+https://www.udemy.com/webpack-2-the-complete-developers-guide/
 
 
 ### Testing 
