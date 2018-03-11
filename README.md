@@ -101,7 +101,7 @@ Learning JavaScript Design Patterns Addy Osmani
 
 High Performance JavaScript
 
-ES6 Course	
+### ES6 Course	
 
 ES6: The Right Parts
 https://frontendmasters.com/courses/es6-right-parts/
@@ -112,12 +112,12 @@ http://wesbos.com/es6-for-everyone/
 JavaScript Fundamentals for ES6
 https://app.pluralsight.com/library/courses/javascript-fundamentals-es6
 
-ES6 Reading 
+### ES6 Reading 
 
 exploringjs.com
 
 
-Debugging course
+### Debugging course
 
 Debugging and Fixing Common JavaScript Errors
 https://frontendmasters.com/courses/debugging-javascript/
