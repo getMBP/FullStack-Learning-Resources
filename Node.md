@@ -40,6 +40,13 @@ https://nodeschool.io/
 
 http://book.mixu.net/node/index.html
 
+What Makes Node.js Faster Than Java?
+https://strongloop.com/strongblog/node-js-is-faster-than-java/
+
+Asynchronous Processing in Node.js
+https://www.oracle.com/corporate/features/asynchronous-nodejs-part1.html
+
+https://blogs.oracle.com/oraclemagazine/using-the-callback-pattern-and-the-async-module
 
 Understanding the Node.js Event Loop _ @RisingStack
 Node.js Overview_ What Is Node.js Used For _ @RisingStack
