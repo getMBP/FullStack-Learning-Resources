@@ -48,6 +48,10 @@ https://www.oracle.com/corporate/features/asynchronous-nodejs-part1.html
 
 https://blogs.oracle.com/oraclemagazine/using-the-callback-pattern-and-the-async-module
 
+http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/
+
+https://blog.ghaiklor.com/how-nodejs-works-bfe09efc80ca
+
 Understanding the Node.js Event Loop _ @RisingStack
 Node.js Overview_ What Is Node.js Used For _ @RisingStack
 
