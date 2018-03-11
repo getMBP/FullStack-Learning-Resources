@@ -196,6 +196,9 @@ https://app.pluralsight.com/library/courses/javascript-systemjs-jspm/table-of-co
 https://app.pluralsight.com/library/courses/testing-javascript
 
 
+### Talks
+
+- **https://github.com/AllThingsSmitty/must-watch-javascript
 
 
 
