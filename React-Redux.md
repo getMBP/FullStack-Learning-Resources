@@ -234,6 +234,10 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     https://tylermcginnis.com/courses/react-router/
     
     
+    #### Form
+    
+   - **How to handle validations involving several fields?**
+    https://goshakkk.name/validations-several-fields/
     
     
      
