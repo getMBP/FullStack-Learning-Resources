@@ -132,6 +132,9 @@ http://wesbos.com/es6-for-everyone/
 - **JavaScript Fundamentals for ES6**
 https://app.pluralsight.com/library/courses/javascript-fundamentals-es6
 
+- **ES6 in Motion**
+https://www.safaribooksonline.com/library/view/es6-in-motion/10000MNLV201701/
+
 ### ES6 Reading 
 
 - **exploringjs.com**
