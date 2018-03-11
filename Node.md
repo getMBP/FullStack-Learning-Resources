@@ -31,7 +31,15 @@
 
 ## Reading :
 
-- **Rising Stack blogs**
+
+The Art of Node
+https://github.com/maxogden/art-of-node/#the-art-of-node
+
+NODESCHOOL
+https://nodeschool.io/
+
+http://book.mixu.net/node/index.html
+
 
 Understanding the Node.js Event Loop _ @RisingStack
 Node.js Overview_ What Is Node.js Used For _ @RisingStack
@@ -67,7 +75,7 @@ Functional UI and Components as Higher Order Functions _ @RisingStack
 
 https://blog.risingstack.com/iojs-overview/ 
 
-
+https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c
 
 
 
