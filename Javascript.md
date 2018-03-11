@@ -79,6 +79,13 @@ http://jibbering.com/faq/notes/closures/#clIRExSc
 Identifier Resolution and Closures in the JavaScript Scope Chain
 http://davidshariff.com/blog/javascript-scope-chain-and-closures/
 
+MDN
+https://developer.mozilla.org/bm/docs/Web/JavaScript
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+http://ecma-international.org/ecma-262/5.1/#sec-11.9.3
+Equality comparisons and sameness
+
 ### Books :
 
 Professional JavaScript for Web Developers
@@ -116,6 +123,8 @@ https://app.pluralsight.com/library/courses/javascript-fundamentals-es6
 
 exploringjs.com
 
+ES6 Katas
+http://es6katas.org/
 
 ### Debugging course
 
