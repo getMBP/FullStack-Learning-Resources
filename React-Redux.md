@@ -244,7 +244,9 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     
     
     
+    ### Mastering Redux 
     
+    https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
     
     
     
