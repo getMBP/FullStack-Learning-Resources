@@ -181,31 +181,6 @@ https://www.packtpub.com/web-development/mastering-functional-javascript-librari
 
 - **Functional Programming in JavaScript Luis Atencio**
 
-### Tools :
-
-- **Better Code Quality with ESLint**
-https://app.pluralsight.com/library/courses/eslint-better-code-quality
-
-- **JavaScript Module Fundamentals**
-https://app.pluralsight.com/library/courses/javascript-module-fundamentals
-
-- **Babel: Get Started**
-https://app.pluralsight.com/library/courses/babel-get-started
-
-- **NPM Playbook**
-https://app.pluralsight.com/library/courses/npm-playbook
-
-- **Introduction to npm as a Build Tool**
-https://app.pluralsight.com/library/courses/npm-build-tool-introduction
-
-- **Webpack: Transpiling and Bundling JavaScript**
-https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webpack
-
-- **Modern, Modular JavaScript with SystemJS and jspm**
-https://app.pluralsight.com/library/courses/javascript-systemjs-jspm/table-of-contents
-
-- **Webpack 2: The Complete Developer's Guide**
-https://www.udemy.com/webpack-2-the-complete-developers-guide/
 
 
 ### Testing 
