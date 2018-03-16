@@ -13,13 +13,20 @@
   A free video course with short lessons that explain key React concepts, including using `React.createElement` and JSX, conditional rendering, forms, styling, lists, HTTP requests, and deploying a React app.
 
 - **Learning React.js**
-https://www.lynda.com/React-js-tutorials/Learning-React-js/645064-2.html
+   https://www.lynda.com/React-js-tutorials/Learning-React-js/645064-2.html
 
 - **React.js Essential Training**
-https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/496905-2.html
+  https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/496905-2.html
 
 - **Udemy Learn and Understand React** 
     https://www.udemy.com/learn-and-understand-react-and-redux-i/
+    
+- **React.js: Getting Started**
+    https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents
+   
+ - **Building Applications with React and Flux**
+   https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents
+   
    
  - **Loop inside React JSX**
   https://stackoverflow.com/questions/22876978/loop-inside-react-jsx
@@ -157,29 +164,31 @@ https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/496905-2.ht
   https://reacttraining.com/patterns/  
   The lecture videos from React Training's "Advanced React" course.  The videos themselves are now free.  Covers topics like declarative vs imperative, compound components, context, Higher Order Components, render props, and controlled components.
   
+### Styling
 
-
-
+- **Styling React Components**
+https://app.pluralsight.com/library/courses/react-styling-components/table-of-contents
 
 ### Higher Order React Components
 
  - **A GENTLE INTRODUCTION TO REACT'S HIGHER ORDER COMPONENTS**  
-https://www.robinwieruch.de/gentle-introduction-higher-order-components/
+   https://www.robinwieruch.de/gentle-introduction-higher-order-components/
 
  - **React Higher Order Components in depth – franleplant – Medium**  
- https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
+   https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
  
   - **Top 5 Recompose HOCs – Abhi Aiyer – Medium**  
- https://medium.com/@abhiaiyer/top-5-recompose-hocs-1a4c9cc4566
+   https://medium.com/@abhiaiyer/top-5-recompose-hocs-1a4c9cc4566
   
   - **Building HOCs with Recompose – Front-end developer – Medium**  
-  https://medium.com/front-end-developers/building-hocs-with-recompose-7debb951d101
+    https://medium.com/front-end-developers/building-hocs-with-recompose-7debb951d101
   
   
   - **Advanced React.js**  
-https://app.pluralsight.com/library/courses/reactjs-advanced/discussion
-  
-
+   https://app.pluralsight.com/library/courses/reactjs-advanced/discussion
+ 
+  - **Higher Order Components with Functional Patterns Using Recompose**
+    https://egghead.io/courses/higher-order-components-with-functional-patterns-using-recompose
 
 
 #### React Performance
