@@ -276,12 +276,19 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents
     
     
+    - **https://frontendmasters.com/courses/react-state/**
+    FrontEndMasters Advanced State Management in React (feat. Redux and MobX)
     
+     - **WesBos Redux**
+    https://learnredux.com/
     
+    ### Testing
     
+    - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
+    https://frontendmasters.com/courses/testing-javascript/
     
-    
-    
+    - **Pluralsight - Mastering React Testing with Jest**
+    https://www.pluralsight.com/courses/jest-mastering-react-testing
     
     
     
