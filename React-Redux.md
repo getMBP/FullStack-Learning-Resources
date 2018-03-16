@@ -35,7 +35,7 @@
   https://www.robinwieruch.de/conditional-rendering-react/  
   Examples of all the possible ways to conditionally render components
   
-  - **When to use Ref on a DOM Node in React**  
+- **When to use Ref on a DOM Node in React**  
   https://www.robinwieruch.de/react-ref-attribute-dom-node/  
   An explanation of the `ref` property, how to use it to access real DOM nodes, and when you should use it.
   
@@ -49,10 +49,10 @@
 - **Does React keep the order for state updates?** 
     https://stackoverflow.com/questions/48563650/does-react-keep-the-order-for-state-updates
     
-  - **How to update a nested state in React**
+- **How to update a nested state in React**
     https://stackoverflow.com/questions/43040721/how-to-update-a-nested-state-in-react
    
-   - **this.setState isn't merging states as I would expect**
+- **this.setState isn't merging states as I would expect**
    https://stackoverflow.com/questions/18933985/this-setstate-isnt-merging-states-as-i-would-expect
     
 - **The 5 Types Of React Application State**
@@ -251,44 +251,44 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     https://tylermcginnis.com/courses/react-router/
     
     
-    #### Form
+#### Form
     
-   - **How to handle validations involving several fields?**
-    https://goshakkk.name/validations-several-fields/
-    
-    
-     
-     
-    ### Mastering Redux 
-    
-    - **Getting Started with Redux**
-    https://egghead.io/courses/getting-started-with-redux
-    
-    - **Redux Fundamentals**
-    https://app.pluralsight.com/library/courses/redux-fundamentals/table-of-contents
+- **How to handle validations involving several fields?**
+https://goshakkk.name/validations-several-fields/
     
     
-   - **Building React Applications with Idiomatic Redux**
-   https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
+      
+### Mastering Redux 
+    
+ - **Getting Started with Redux**
+ https://egghead.io/courses/getting-started-with-redux
+    
+ - **Redux Fundamentals**
+ https://app.pluralsight.com/library/courses/redux-fundamentals/table-of-contents
+    
+    
+- **Building React Applications with Idiomatic Redux**
+https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
    
     
-    - **Building Applications with React and Redux in ES6**
-    https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents
+- **Building Applications with React and Redux in ES6**
+ https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents
     
     
-    - **https://frontendmasters.com/courses/react-state/**
-    FrontEndMasters Advanced State Management in React (feat. Redux and MobX)
+ - **https://frontendmasters.com/courses/react-state/**
+  FrontEndMasters Advanced State Management in React (feat. Redux and MobX)
     
-     - **WesBos Redux**
-    https://learnredux.com/
+ - **WesBos Redux**
+  https://learnredux.com/
     
-    ### Testing
+ 
+ ### Testing
     
-    - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
-    https://frontendmasters.com/courses/testing-javascript/
+ - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
+ https://frontendmasters.com/courses/testing-javascript/
     
-    - **Pluralsight - Mastering React Testing with Jest**
-    https://www.pluralsight.com/courses/jest-mastering-react-testing
+ - **Pluralsight - Mastering React Testing with Jest**
+ https://www.pluralsight.com/courses/jest-mastering-react-testing
     
     
     
