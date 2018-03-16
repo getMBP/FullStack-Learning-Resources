@@ -12,6 +12,12 @@
   https://egghead.io/courses/the-beginner-s-guide-to-reactjs  
   A free video course with short lessons that explain key React concepts, including using `React.createElement` and JSX, conditional rendering, forms, styling, lists, HTTP requests, and deploying a React app.
 
+- **Learning React.js**
+https://www.lynda.com/React-js-tutorials/Learning-React-js/645064-2.html
+
+- **React.js Essential Training**
+https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/496905-2.html
+
 - **Udemy Learn and Understand React** 
     https://www.udemy.com/learn-and-understand-react-and-redux-i/
    
@@ -71,9 +77,11 @@
   https://medium.com/@fay_jai/dissecting-reactjs-lifecycle-methods-be4fdea11c6d  
   Breaks the lifecycle methods down into "mount/unmount" and "update" categories, and describes the purpose and use of each.
   
+ - **React: Lifecycles**
+  https://www.lynda.com/React-js-tutorials/React-Lifecycles/592509-2.html
    
  #### React Component Children
- https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
+   https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
     
     
  - **Ownership and Children in React**  
@@ -241,9 +249,7 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     
     
      
-    
-    
-    
+     
     ### Mastering Redux 
     
     - **Getting Started with Redux**
