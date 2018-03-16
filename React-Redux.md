@@ -246,10 +246,19 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     
     ### Mastering Redux 
     
-    https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
+    - **Getting Started with Redux**
+    https://egghead.io/courses/getting-started-with-redux
+    
+    - **Redux Fundamentals**
+    https://app.pluralsight.com/library/courses/redux-fundamentals/table-of-contents
     
     
+   - **Building React Applications with Idiomatic Redux**
+   https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
+   
     
+    - **Building Applications with React and Redux in ES6**
+    https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents
     
     
     
