@@ -190,7 +190,24 @@ https://app.pluralsight.com/library/courses/react-styling-components/table-of-co
   - **Higher Order Components with Functional Patterns Using Recompose**
     https://egghead.io/courses/higher-order-components-with-functional-patterns-using-recompose
 
+ - **Higher Order With Context**
+   https://dev.to/kayis/higher-order-with-context
+   https://dev.to/kayis/higher-order-components-and-context-example Examples of using Higher Order Components to pass data to nested components using context
 
+- **Refactoring: Moving API calls to a higher-order component**
+https://medium.com/@guigonc/refactoring-moving-api-calls-to-a-higher-order-component-53062c086cb
+Shows how to progressively refactor fetching logic out of a component and move it into a parent component, then make that parent component reusable.
+
+- **The React + Redux Container Pattern**
+https://dev.to/sophiedebenedetto/the-react--redux-container-pattern-bmk
+An excellent explanation of what "container components" and "presentational components" are, with discussion of how they fit together and a good sample project implementing the ideas.
+
+
+- **React Cast**
+https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ
+
+- **React 101 - Episode 7 - Higher Order Components and Render Props**
+https://www.youtube.com/watch?v=llRpC--KA_8
 #### React Performance
 - **Performance-tuning a React application.A Case Study**  
  https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2 
