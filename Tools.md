@@ -6,6 +6,9 @@ https://hackernoon.com/the-ultimate-list-of-javascript-tools-e0a5351b98e3
 
 ### Babel
 
+**https://babeljs.io/docs/usage/cli/**
+
+
 **Babel: Get Started | Pluralsight**
 https://www.pluralsight.com/courses/babel-get-started 
 
