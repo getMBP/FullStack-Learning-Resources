@@ -27,6 +27,41 @@ https://egghead.io/courses/reduce-data-with-javascript
 - **Understand Javascript arrays**
 https://egghead.io/courses/understand-javascript-arrays
 
+- **What is the most efficient way to deep clone an object in JavaScript?**
+https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1
+
+Length of a JavaScript object
+https://stackoverflow.com/questions/5223/length-of-a-javascript-object?rq=1
+
+How can I merge properties of two JavaScript objects dynamically?
+https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically?rq=1
+
+Detecting an undefined object property
+https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property?rq=1
+
+How do I remove a property from a JavaScript object?
+https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?rq=1
+
+Strict
+https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
+
+How do I remove a property from a JavaScript object?
+https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object
+
+Check if object is array?
+https://stackoverflow.com/questions/4775722/check-if-object-is-array
+
+Parse JSON in JavaScript?
+https://stackoverflow.com/questions/4935632/parse-json-in-javascript
+
+How do I check if an object has a property in JavaScript?
+https://stackoverflow.com/questions/135448/how-do-i-check-if-an-object-has-a-property-in-javascript
+
+How do I check if an object has a key in JavaScript?
+https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript?noredirect=1&lq=1
+
+
+
 
 - **Advanced Javascript**
 https://www.udemy.com/top-javascript-interview-questions-and-answers/
