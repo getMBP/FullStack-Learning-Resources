@@ -60,3 +60,21 @@ https://app.pluralsight.com/library/courses/chrome-developer-tools
 https://app.pluralsight.com/library/courses/javascript-project-json/table-of-contents
 
 
+- **JavaScript Module Fundamentals**
+https://app.pluralsight.com/library/courses/javascript-module-fundamentals
+
+
+- **Modern, Modular JavaScript with SystemJS and jspm**
+https://app.pluralsight.com/library/courses/javascript-systemjs-jspm/table-of-contents
+
+
+
+
+
+
+
+
+
+
+
+
