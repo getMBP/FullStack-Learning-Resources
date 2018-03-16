@@ -135,6 +135,9 @@ https://app.pluralsight.com/library/courses/javascript-fundamentals-es6
 - **ES6 in Motion**
 https://www.safaribooksonline.com/library/view/es6-in-motion/10000MNLV201701/
 
+- **Rapid ES6 Training**
+https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
+
 ### ES6 Reading 
 
 - **exploringjs.com**
