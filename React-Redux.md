@@ -267,6 +267,10 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
  - **React Router v4**    
     https://tylermcginnis.com/courses/react-router/
     
+    - **The Haiku Of React Routing Principles**
+    http://jamesknelson.com/the-haiku-of-react-routing-principles/
+    
+    
     
 #### Form
     
