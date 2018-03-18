@@ -27,6 +27,10 @@
  - **Building Applications with React and Flux**
    https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents
    
+ - **https://github.com/developit/preact/blob/master/src/h.js**
+ 
+ - **the-inner-workings-of-virtual-dom**
+ https://medium.com/@rajaraodv/the-inner-workings-of-virtual-dom-666ee7ad47cf
    
  - **Loop inside React JSX**
   https://stackoverflow.com/questions/22876978/loop-inside-react-jsx
