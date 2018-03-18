@@ -29,6 +29,8 @@ https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webp
 **Webpack 2 Deep Dive**
 https://frontendmasters.com/courses/webpack/
 
+https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9
+
 ### npm
 
 **Introduction to npm as a Build Tool**
