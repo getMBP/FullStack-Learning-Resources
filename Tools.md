@@ -33,6 +33,8 @@ https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9
 
 https://stackoverflow.com/questions/9249830/how-can-i-set-node-env-production-on-windows
 
+https://github.com/survivejs/webpack-book/blob/dev/manuscript/04_what_is_webpack.md
+
 ### npm
 
 **Introduction to npm as a Build Tool**
