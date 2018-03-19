@@ -93,8 +93,16 @@
    
  #### React Component Children
    https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
-    
-    
+
+- **7 Reasons to Outlaw React’s Functional Components**
+ https://medium.freecodecamp.org/7-reasons-to-outlaw-reacts-functional-components-ff5b5ae09b7c
+ 
+ - **Centralized Props**
+ https://medium.freecodecamp.org/react-pattern-centralized-proptypes-f981ff672f3b?source=user_profile---------1----------------
+  
+ - **8 key React Component Decisions** 
+ https://medium.freecodecamp.org/8-key-react-component-decisions-cc965db11594?source=user_profile---------3----------------   
+ 
  - **Ownership and Children in React**  
   http://ctheu.com/2015/02/10/ownership-and-children-in-reactjs/  
   Discusses the difference between "parent" and "owner" relationships, and what the `children` prop can look like.
