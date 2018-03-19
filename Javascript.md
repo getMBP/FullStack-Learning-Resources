@@ -60,7 +60,8 @@ https://stackoverflow.com/questions/135448/how-do-i-check-if-an-object-has-a-pro
 How do I check if an object has a key in JavaScript?
 https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript?noredirect=1&lq=1
 
-
+Master the JavaScript Interview: What is Function Composition?
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb
 
 
 - **Advanced Javascript**
@@ -99,6 +100,14 @@ https://frontendmasters.com/courses/asynchronous-javascript/
 - **Advanced Asynchronous JavaScript**
 https://frontendmasters.com/courses/advanced-async-js/
 
+- **Understand promises before you start using async/await**
+https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8
+
+- **Master the JavaScript Interview: What is a Promise?**
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
+
+- **Even with async/await, raw promises are still key to writing optimal concurrent javascript**
+https://medium.com/@bluepnume/even-with-async-await-you-probably-still-need-promises-9b259854c161
 
 ### Fundamentals Javascript Reading:
 
