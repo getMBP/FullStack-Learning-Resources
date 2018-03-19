@@ -210,7 +210,7 @@ https://www.packtpub.com/web-development/deep-dive-functional-javascript-video
 
 https://www.packtpub.com/web-development/mastering-functional-javascript-libraries-video
 
-
+https://github.com/deenjohn/functional-javascript
 
 ### Functional JS Reading
 
