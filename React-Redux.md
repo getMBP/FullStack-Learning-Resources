@@ -3,10 +3,14 @@
 
 ### Master React
 
+
+- **Curated tutorial and resource links by markerikson**
+   https://github.com/markerikson/react-redux-links
+
 - **React Documentation**  
     https://reactjs.org/
 
- - https://github.com/markerikson/react-redux-links
+- https://github.com/markerikson/react-redux-links
 
 - **The Beginner's Guide to ReactJS**  
   https://egghead.io/courses/the-beginner-s-guide-to-reactjs  
@@ -24,15 +28,15 @@
 - **React.js: Getting Started**
     https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents
     
-  - **All the fundamental React.js concepts, jammed into this single Medium article**
+ - **All the fundamental React.js concepts, jammed into this single Medium article**
    https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2
    
- - **Building Applications with React and Flux**
+- **Building Applications with React and Flux**
    https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents
    
- - **https://github.com/developit/preact/blob/master/src/h.js**
+- **https://github.com/developit/preact/blob/master/src/h.js**
  
- - **the-inner-workings-of-virtual-dom**
+- **the-inner-workings-of-virtual-dom**
  https://medium.com/@rajaraodv/the-inner-workings-of-virtual-dom-666ee7ad47cf
    
  - **Loop inside React JSX**
@@ -332,6 +336,8 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
     
  - **Pluralsight - Mastering React Testing with Jest**
  https://www.pluralsight.com/courses/jest-mastering-react-testing
+ 
+ https://www.robinwieruch.de/react-testing-tutorial/
     
     
  ### Extras  
