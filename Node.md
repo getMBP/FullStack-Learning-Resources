@@ -141,6 +141,8 @@ https://medium.com/the-node-js-collection/what-you-should-know-to-really-underst
 - **You Have To Explicitly End Streams After Pipes Break In Node.js**
 
 
+  https://medium.com/@daspinola/video-stream-with-node-js-and-html5-320b3191a6b6
+
 #### Libuv
 
 - **Bert Belder 'Node and Libuv and Strongloop'**
