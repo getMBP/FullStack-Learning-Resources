@@ -26,6 +26,10 @@ https://www.udemy.com/webpack-2-the-complete-developers-guide/
 **Webpack: Transpiling and Bundling JavaScript**
 https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webpack
 
+https://webpack.js.org/api/cli/
+
+https://github.com/babel/babel/tree/master/packages/babel-preset-env
+
 **Webpack 2 Deep Dive**
 https://frontendmasters.com/courses/webpack/
 
