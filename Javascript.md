@@ -241,6 +241,9 @@ https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
 - **ES6 Katas**
 http://es6katas.org/
 
+- **ES6 Modules in Depth**
+https://ponyfoo.com/articles/es6-modules-in-depth
+
 ### Debugging course
 
 - **Debugging and Fixing Common JavaScript Errors**
@@ -277,6 +280,9 @@ https://github.com/deenjohn/functional-javascript
 
 - **Functional Programming in JavaScript Luis Atencio**
 
+https://github.com/mjavascript/mastering-modular-javascript
+
+https://github.com/mjavascript/practical-modern-javascript
 
 ### Regex
 
