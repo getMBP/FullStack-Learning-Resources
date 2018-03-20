@@ -265,9 +265,12 @@ https://www.youtube.com/watch?v=llRpC--KA_8
   https://hackernoon.com/using-a-react-16-portal-to-do-something-cool-2a2d627b0202  
   Demonstrates using React 16's `createPortal` API to control a separate browser window from the original React component tree.
   
-  
-    
-    
+ - **How to build a basic version of Product Hunt using React**
+  https://medium.freecodecamp.org/how-to-build-a-basic-version-of-product-hunt-using-react-f87d016fedae
+   
+ - **Debugging React performance with React 16 and Chrome Devtools.**
+ https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad  
+ 
   #### Routing
 
 - **Routing in React, the uncomplicated way**
@@ -282,7 +285,8 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     - **The Haiku Of React Routing Principles**
     http://jamesknelson.com/the-haiku-of-react-routing-principles/
     
-    
+   - **Beginner’s Guide to React Router 4**
+   https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58 
     
 #### Form
     
