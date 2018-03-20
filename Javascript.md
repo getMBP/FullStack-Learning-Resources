@@ -275,6 +275,11 @@ https://github.com/deenjohn/functional-javascript
 - **Functional Programming in JavaScript Luis Atencio**
 
 
+### Regex
+
+https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-hard-as-it-looks-617b55cf787
+
+
 
 ### Testing 
 
