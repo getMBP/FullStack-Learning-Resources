@@ -182,6 +182,9 @@ https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-
 https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_parsing_algorithm
 https://github.com/WebKit/webkit/blob/fde57e46b1f8d7dde4b2006aaf7ebe5a09a6984b/Source/WebCore/rendering/RenderObject.h
 
+https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458
+https://www.reddit.com/r/cscareerquestions/comments/5gnmkj/what_are_some_of_the_best_resu%D0%BCe_formats_youve/
+
 https://github.com/thlorenz/v8-perf
 
 http://benediktmeurer.de/2017/10/05/connecting-the-dots/
