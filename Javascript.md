@@ -142,6 +142,12 @@ https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/
 
 https://know-it-all.io/
 
+- **How JavaScript works: an overview of the engine, the runtime, and the call stack**
+https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf
+
+
+- **How JavaScript works: tracking changes in the DOM using MutationObser**
+https://blog.sessionstack.com/how-javascript-works-tracking-changes-in-the-dom-using-mutationobserver-86adc7446401
 
 - **How JavaScript works: The building blocks of Web Workers + 5 cases when you should use them**
 https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a
@@ -161,6 +167,30 @@ https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-hand
 - **How JavaScript works: the rendering engine and tips to optimize its performance**
 https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
 
+
+- **How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code**
+https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
+
+- **How Modern Web Browsers Accelerate Performance: The Networking Layer**
+https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the-networking-layer-f6efaf7bfcf4
+
+- **JavaScript hacks for ES6 hipsters**
+https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=placement_card_footer_grid---------2-60
+
+https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
+https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations
+https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_parsing_algorithm
+https://github.com/WebKit/webkit/blob/fde57e46b1f8d7dde4b2006aaf7ebe5a09a6984b/Source/WebCore/rendering/RenderObject.h
+
+https://github.com/thlorenz/v8-perf
+
+http://benediktmeurer.de/2017/10/05/connecting-the-dots/
+
+https://github.com/thlorenz/async-await-box
+
+https://medium.freecodecamp.org/elegant-patterns-in-modern-javascript-roro-be01e7669cbd
+
+https://codeburst.io/javascript-null-vs-undefined-20f955215a2?source=placement_card_footer_grid---------2-60
 
 ### Books :
 
