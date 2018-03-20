@@ -23,6 +23,9 @@
     
 - **React.js: Getting Started**
     https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents
+    
+  - **All the fundamental React.js concepts, jammed into this single Medium article**
+   https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2
    
  - **Building Applications with React and Flux**
    https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents
