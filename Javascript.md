@@ -143,6 +143,18 @@ https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/
 https://know-it-all.io/
 
 
+- **How JavaScript works: The building blocks of Web Workers + 5 cases when you should use them**
+https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a
+
+- **An overview of the engine, the runtime, and the call stack**
+https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf?source=collection_home---2------1----------------
+
+- **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
+https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+
+- **How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE + how to pick the right path**
+https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
+
 ### Books :
 
 - **Professional JavaScript for Web Developers**
