@@ -27,6 +27,11 @@ https://egghead.io/courses/reduce-data-with-javascript
 - **Understand Javascript arrays**
 https://egghead.io/courses/understand-javascript-arrays
 
+https://github.com/deenjohn/Javascript-revision
+https://github.com/deenjohn/functional-javascript
+https://github.com/deenjohn/You-Dont-Need-JavaScript
+
+
 - **What is the most efficient way to deep clone an object in JavaScript?**
 https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1
 
