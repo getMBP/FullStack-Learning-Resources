@@ -220,10 +220,14 @@ https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ
 
 - **React 101 - Episode 7 - Higher Order Components and Render Props**
 https://www.youtube.com/watch?v=llRpC--KA_8
+
 #### React Performance
+
 - **Performance-tuning a React application.A Case Study**  
  https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2 
  
+ - **Debugging React performance with React 16 and Chrome Devtools.**
+ https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad  
  
  ### React Styling
 
@@ -268,8 +272,7 @@ https://www.youtube.com/watch?v=llRpC--KA_8
  - **How to build a basic version of Product Hunt using React**
   https://medium.freecodecamp.org/how-to-build-a-basic-version-of-product-hunt-using-react-f87d016fedae
    
- - **Debugging React performance with React 16 and Chrome Devtools.**
- https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad  
+
  
   #### Routing
 
