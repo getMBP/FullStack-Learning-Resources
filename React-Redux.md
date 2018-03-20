@@ -334,6 +334,8 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  https://www.pluralsight.com/courses/jest-mastering-react-testing
     
     
-    
+ ### Extras  
+ 
+ https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c
     
     
