@@ -155,6 +155,13 @@ https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-as
 - **How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE + how to pick the right path**
 https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
 
+- **How JavaScript works: memory management + how to handle 4 common memory leaks**
+https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec?source=user_profile---------8----------------
+
+- **How JavaScript works: the rendering engine and tips to optimize its performance**
+https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
+
+
 ### Books :
 
 - **Professional JavaScript for Web Developers**
