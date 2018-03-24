@@ -39,6 +39,8 @@ https://stackoverflow.com/questions/9249830/how-can-i-set-node-env-production-on
 
 https://github.com/survivejs/webpack-book/blob/dev/manuscript/04_what_is_webpack.md
 
+https://www.sitepoint.com/beginners-guide-to-webpack-2-and-module-bundling/
+
 ### npm
 
 **Introduction to npm as a Build Tool**
