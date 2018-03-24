@@ -202,7 +202,10 @@ https://app.pluralsight.com/library/courses/react-styling-components/table-of-co
   - **Building HOCs with Recompose – Front-end developer – Medium**  
     https://medium.com/front-end-developers/building-hocs-with-recompose-7debb951d101
   
-  
+    https://github.com/acdlite/recompose
+    https://github.com/timkindberg/egghead-recompose
+    
+    
   - **Advanced React.js**  
    https://app.pluralsight.com/library/courses/reactjs-advanced/discussion
  
