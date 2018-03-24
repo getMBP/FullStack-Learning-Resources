@@ -144,6 +144,7 @@ https://www.sitepoint.com/dom-tips-techniques-parent-child-siblings/
 - **The Basics of DOM Manipulation in Vanilla JavaScript (No jQuery)**
 https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/
 
+https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/
 
 https://know-it-all.io/
 
