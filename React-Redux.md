@@ -353,4 +353,5 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c
     
-    
+ https://speakerdeck.com/joelburget/backbone-to-react
+ http://khan.github.io/react-components/
