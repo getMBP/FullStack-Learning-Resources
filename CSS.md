@@ -5,10 +5,10 @@
 - **Introduction to CSS**
 https://app.pluralsight.com/library/courses/css-intro/table-of-contents
 
-Inspired CSS: Styling for a Beautiful Web
+- **Inspired CSS: Styling for a Beautiful Web**
 https://www.safaribooksonline.com/library/view/inspired-css-styling/9780321563767/
 
-Designing with CSS for a Beautiful Web, Video
+- **Designing with CSS for a Beautiful Web, Video**
 https://www.safaribooksonline.com/library/view/designing-with-css/9780321668660/
 
 - **Build Responsive Real World Websites with HTML5 and CSS3**
@@ -31,3 +31,25 @@ https://www.safaribooksonline.com/library/view/learning-css-animations/978149199
 
 - **Designing Web Accessibility for a Beautiful Web, Video**
 https://www.safaribooksonline.com/library/view/designing-web-accessibility/9780321668622/
+
+
+### CSS Grid
+
+- **CSS Grid Changes EVERYTHING**
+https://www.youtube.com/watch?v=7kVeCqQCxlk&feature=youtu.be
+
+- **WesBos CSS Grid**
+https://cssgrid.io/
+
+- **CSS Grid Jen simmons**
+https://www.youtube.com/watch?v=FEnRpy9Xfes&list=PLbSquHt1VCf18lllS0C5quAaOcsuMAC70
+https://www.youtube.com/watch?v=Gn3JOE6qMuE
+
+
+
+
+
+
+
+
+### CSS Flexbox
