@@ -312,6 +312,7 @@ https://goshakkk.name/validations-several-fields/
     
  - **Getting Started with Redux**
  https://egghead.io/courses/getting-started-with-redux
+ https://medium.com/@justin3737/getting-started-with-redux-dded45556673
     
  - **Redux Fundamentals**
  https://app.pluralsight.com/library/courses/redux-fundamentals/table-of-contents
