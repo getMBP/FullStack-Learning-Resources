@@ -157,6 +157,9 @@
   - **React frequently faced problems**
   https://medium.com/@samerbuna/react-js-frequently-faced-problems-45e7060ef884?source=placement_card_footer_grid---------1-60
     
+  - **awesome-cheatsheets**
+  https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/react.js
+    
 ### React Patterns
     
 - **React Patterns**
