@@ -341,6 +341,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  https://github.com/gaearon/redux-thunk
  https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
  
+ https://medium.com/netscape/advanced-redux-action-types-d5a71ed44e16
  
  ### Testing
     
