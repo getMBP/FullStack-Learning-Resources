@@ -201,6 +201,11 @@ https://medium.freecodecamp.org/elegant-patterns-in-modern-javascript-roro-be01e
 
 https://codeburst.io/javascript-null-vs-undefined-20f955215a2?source=placement_card_footer_grid---------2-60
 
+https://google.github.io/styleguide/jsguide.html
+
+https://github.com/airbnb/javascript
+
+
 ### Books :
 
 - **Professional JavaScript for Web Developers**
