@@ -347,6 +347,9 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  https://github.com/reactjs/redux/blob/master/src/applyMiddleware.js
  https://github.com/gaearon/redux-thunk/blob/master/src/index.js
+ https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux
+ https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
+ 
  
  ### Testing
     
