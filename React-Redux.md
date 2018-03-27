@@ -350,6 +350,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux
  https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
  
+ https://github.com/reactjs/redux/issues/1088
  
  ### Testing
     
