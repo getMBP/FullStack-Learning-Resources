@@ -343,6 +343,8 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  https://medium.com/netscape/advanced-redux-action-types-d5a71ed44e16
  
+ https://github.com/reactjs/redux/issues/1824#issuecomment-228585904
+ 
  ### Thunk & middlewares
  
  https://github.com/reactjs/redux/blob/master/src/applyMiddleware.js
