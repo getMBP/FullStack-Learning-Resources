@@ -352,6 +352,9 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  https://github.com/reactjs/redux/issues/1088
  
+ 
+ http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
+ 
  ### Testing
     
  - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
