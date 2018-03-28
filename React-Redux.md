@@ -303,6 +303,8 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     
    - **Beginner’s Guide to React Router 4**
    https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58 
+   
+   https://github.com/ReactTraining/react-router/tree/master/packages/react-router/modules
     
 #### Form
     
