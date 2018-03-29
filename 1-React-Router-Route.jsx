@@ -16,12 +16,15 @@ const historyReplace = (path) => {
 const matchPath = (pathname, options) => {
   const exact = options.exact || false
   const path = options.path
-  
+  console.log(pathname);
+  console.log(options)
   //<Route component={Home} />
   if (!path) {
-    console.log('path ',path);
-    console.log('url ',pathname);
-    console.log('.......................');
+    console.group('MatchPath function ')
+      console.log('path ',"null");
+      console.log('url is pathname',pathname);
+      console.groupEnd();
+    console.log('');
     return {
       path: null,
       url: pathname,
@@ -30,19 +33,33 @@ const matchPath = (pathname, options) => {
   }
 
   const match = new RegExp(`^${path}`).exec(pathname)
-  console.log('match ',match);
   
-  if (!match)
+  if (!match){
+    console.group('MatchPath function ')
+      console.log('match ',"null");
+      console.log('path ',path);
+      console.log('url ',pathname);
+     console.groupEnd();
+    console.log('');
     return null
-
+  }
   const url = match[0]
-  const isExact = pathname === url
-  console.log('url ',url);
-  console.log('pathname ',pathname);
-  console.log('.......................');
-  if (exact && !isExact)
+  const isExact = pathname === url;
+  
+      console.group('MatchPath function ')
+        console.log('match ',match);
+        console.log('url ',url);
+        console.log('pathname ',pathname);
+      
+  
+  if (exact && !isExact){
+     console.log('exact && !isExact ');
+    console.groupEnd();
+    console.log('');
     return null
-
+  }
+  console.groupEnd();
+  console.log('');
   return {
     path,
     url,
@@ -72,15 +89,28 @@ const Route = React.createClass({
       component,
       render,
     } = this.props
-
+   
+    if(component){
+      console.group("Route ",component.name);
+    }else{
+       console.group('Route ');
+    }
+    
     const match = matchPath(location.pathname, {
       path,
       exact
     })
 
-    if (!match)
+    if (!match){
+      console.log("no match :current location doesn't match the path prop");
+      console.groupEnd();
+      console.log('');
       return null
-
+  }
+    console.log('match');
+    console.groupEnd();
+    console.log('');
+    
     if (component)
       return React.createElement(component, {
         match
@@ -97,6 +127,7 @@ const Route = React.createClass({
 
 const Link = React.createClass({
   handleClick(event) {
+    console.log('handle click : Link ');
     const {
       replace,
       to
@@ -139,16 +170,20 @@ const Redirect = React.createClass({
 const Home = () => (
   <h2>Home</h2>
 )
+Home.displayName ="HomeComponent";
 
 const About = () => (
   <h2>About</h2>
 )
+About.displayName ="AboutComponent";
 
 const Topic = ({
   topicId
 }) => (
   <h3>{topicId}</h3>
 )
+
+Topic.displayName ="TopicComponent" ;
 
 const Topics = ({
   match
@@ -202,7 +237,7 @@ const App = () => {
       <hr/>
 
       <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
+      <Route  exact path="/about" component={About}/>
       <Route path="/topics" component={Topics} />
     </div>
   )
