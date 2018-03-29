@@ -82,6 +82,8 @@ https://app.pluralsight.com/library/courses/javascript-module-fundamentals
 **Modern, Modular JavaScript with SystemJS and jspm**
 https://app.pluralsight.com/library/courses/javascript-systemjs-jspm/table-of-contents
 
+**developer-roadmap**
+https://github.com/kamranahmedse/developer-roadmap
 
 
 
