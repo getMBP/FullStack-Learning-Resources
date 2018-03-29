@@ -23,6 +23,7 @@ const matchPath = (pathname, options) => {
     console.group('MatchPath function ')
       console.log('path ',"null");
       console.log('url is pathname',pathname);
+      console.log('isExact ',true)
       console.groupEnd();
     console.log('');
     return {
@@ -32,6 +33,9 @@ const matchPath = (pathname, options) => {
     }
   }
 
+  //path is like > the path mentioned on Links 
+  //pathname is the location.pathname
+  //http://www.gilliganondata.com/index.php/2012/05/22/the-anatomy-of-a-url-protocol-hostname-path-and-parameters/
   const match = new RegExp(`^${path}`).exec(pathname)
   
   if (!match){
@@ -39,25 +43,32 @@ const matchPath = (pathname, options) => {
       console.log('match ',"null");
       console.log('path ',path);
       console.log('url ',pathname);
+      console.log('isExact ',isExact)
      console.groupEnd();
     console.log('');
     return null
   }
-  const url = match[0]
+  const url = match[0] ;
+  // for pathname /topics/components ,
+  // and url which we get from Regex function
+  // like '/topics' 
   const isExact = pathname === url;
   
       console.group('MatchPath function ')
         console.log('match ',match);
         console.log('url ',url);
         console.log('pathname ',pathname);
-      
+        console.log('isExact ',isExact)
   
+  //no exact match found
   if (exact && !isExact){
      console.log('exact && !isExact ');
     console.groupEnd();
     console.log('');
     return null
   }
+  
+  //partial match
   console.groupEnd();
   console.log('');
   return {
