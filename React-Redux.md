@@ -317,6 +317,9 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
    - **Beginner’s Guide to React Router 4**
    https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58 
    
+   - **A Simple React Router v4 Tutorial**
+   https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
+   
    https://github.com/ReactTraining/react-router/tree/master/packages/react-router/modules
    https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/guides/migrating.md
    https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom/modules
