@@ -9,6 +9,8 @@
 
 - **React Documentation**  
     https://reactjs.org/
+    
+    https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca?source=search_post
 
 - https://github.com/markerikson/react-redux-links
 
@@ -160,6 +162,13 @@
   - **awesome-cheatsheets**
   https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/react.js
     
+  https://medium.freecodecamp.org/why-arrow-functions-and-bind-in-reacts-render-are-problematic-f1c08b060e36?source=search_post
+    
+    
+    https://medium.freecodecamp.org/conditional-rendering-in-react-using-ternaries-and-logical-and-7807f53b6935?source=search_post
+    
+    
+    
 ### React Patterns
     
 - **React Patterns**
@@ -247,14 +256,7 @@ https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ
 - **React 101 - Episode 7 - Higher Order Components and Render Props**
 https://www.youtube.com/watch?v=llRpC--KA_8
 
-#### React Performance
 
-- **Performance-tuning a React application.A Case Study**  
- https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2 
- 
- - **Debugging React performance with React 16 and Chrome Devtools.**
- https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad  
- 
  ### React Styling
 
 - **React.js inline style best practices**
@@ -320,6 +322,9 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
    - **A Simple React Router v4 Tutorial**
    https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
    
+   
+   https://medium.com/airbnb-engineering/server-rendering-code-splitting-and-lazy-loading-with-react-router-v4-bfe596a6af70?source=search_post
+  
    https://github.com/ReactTraining/react-router/tree/master/packages/react-router/modules
    https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/guides/migrating.md
    https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom/modules
@@ -374,7 +379,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  https://github.com/reactjs/redux/issues/1088
  
- 
+ https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3?source=search_post
  http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
  
  ### Testing
@@ -396,3 +401,36 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  http://khan.github.io/react-components/
  
  https://github.com/enaqx/awesome-react
+ 
+ 
+ https://hackernoon.com/how-i-converted-my-react-app-to-vanillajs-and-whether-or-not-it-was-a-terrible-idea-4b14b1b2faff?source=search_post
+ 
+ https://medium.freecodecamp.org/8-key-react-component-decisions-cc965db11594?source=search_post
+ 
+ https://medium.freecodecamp.org/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56?source=search_post
+ https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e?source=search_post
+ https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f?source=search_post
+ 
+ 
+ #### React Performance and Debugging
+
+- **Performance-tuning a React application.A Case Study**  
+ https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2 
+ 
+ - **Debugging React performance with React 16 and Chrome Devtools.**
+ https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad  
+ 
+ https://hackernoon.com/debugging-react-like-a-champ-with-vscode-66281760037?source=search_post
+ https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4?source=search_post
+ https://medium.com/myheritage-engineering/how-to-greatly-improve-your-react-app-performance-e70f7cbbb5f6?source=search_post
+ 
+ https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad?source=search_post
+ https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2?source=search_post
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
