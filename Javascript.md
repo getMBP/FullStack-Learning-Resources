@@ -68,6 +68,9 @@ https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key
 Master the JavaScript Interview: What is Function Composition?
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb
 
+- **Javascript - DOM in depth**
+https://codepen.io/collection/Dapaqx/
+
 
 - **Advanced Javascript**
 https://www.udemy.com/top-javascript-interview-questions-and-answers/
@@ -277,6 +280,10 @@ https://www.packtpub.com/web-development/deep-dive-functional-javascript-video
 https://www.packtpub.com/web-development/mastering-functional-javascript-libraries-video
 
 https://github.com/deenjohn/functional-javascript
+
+- **Functional Programming**
+https://codepen.io/collection/nWRKrb/
+
 
 ### Functional JS Reading
 
