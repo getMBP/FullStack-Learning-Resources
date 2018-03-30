@@ -41,6 +41,8 @@ https://github.com/survivejs/webpack-book/blob/dev/manuscript/04_what_is_webpack
 
 https://www.sitepoint.com/beginners-guide-to-webpack-2-and-module-bundling/
 
+https://medium.com/webpack/webpack-bits-learn-and-debug-webpack-with-chrome-dev-tools-da1c5b19554
+
 ### npm
 
 **Introduction to npm as a Build Tool**
