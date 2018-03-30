@@ -378,3 +378,5 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
     
  https://speakerdeck.com/joelburget/backbone-to-react
  http://khan.github.io/react-components/
+ 
+ https://github.com/enaqx/awesome-react
