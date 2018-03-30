@@ -165,6 +165,19 @@
 - **React Patterns**
   https://reactpatterns.com/
   An excellent list of common patterns for structuring React components, with examples
+  
+  - **React Patterns**
+  https://codepen.io/collection/nRpWYd/
+  
+  - **React revision**
+  https://codepen.io/collection/AGzYYG/
+  
+   - **My React**
+    https://codepen.io/collection/XdNJVb/10/
+    
+    - **Egghead Advanced React Component Patterns**
+    https://codepen.io/collection/XLxzjx
+    
     
 - **React Bits: React patterns, techniques, tips, and tricks**  
   https://github.com/vasanthk/react-bits  
