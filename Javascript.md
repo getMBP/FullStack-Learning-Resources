@@ -308,12 +308,7 @@ https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-ha
 
 
 
-### Testing 
 
-
-- **Testing Clientside JavaScript**
-https://app.pluralsight.com/library/courses/testing-javascript
-https://blog.kentcdodds.com/but-really-what-is-a-javascript-mock-10d060966f7d?source=bookmarks---------19----------------
 
 ### Talks
 
