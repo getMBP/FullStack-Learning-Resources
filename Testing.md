@@ -18,6 +18,8 @@ https://app.pluralsight.com/library/courses/mocha-javascript-testing-nodejs/tabl
 - **Unit Testing with Node.js**
 https://app.pluralsight.com/library/courses/unit-testing-nodejs/table-of-contents
 
+- **Testing JavaScript Applications (feat. React and Redux)**
+https://frontendmasters.com/courses/testing-javascript/
 
 - **Building a JavaScript Development Environment**
 https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents
