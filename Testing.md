@@ -28,3 +28,6 @@ https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
 https://blog.kentcdodds.com/but-really-what-is-a-javascript-mock-10d060966f7d?source=bookmarks---------19----------------
 
 https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3
+
+
+https://github.com/deenjohn/Testing-In-Depth/blob/master/jest2.js
