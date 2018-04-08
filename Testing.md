@@ -33,3 +33,6 @@ https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f
 
 
 https://github.com/deenjohn/Testing-In-Depth/blob/master/jest2.js
+
+
+https://medium.com/@mbaranovski/quick-guide-to-tdd-in-react-81888be67c64
