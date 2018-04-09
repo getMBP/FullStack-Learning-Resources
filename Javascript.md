@@ -47,16 +47,16 @@ https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property
 How do I remove a property from a JavaScript object?
 https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?rq=1
 
-Strict
+### Strict
 https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
 
 How do I remove a property from a JavaScript object?
 https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object
 
-Check if object is array?
+### Check if object is array?
 https://stackoverflow.com/questions/4775722/check-if-object-is-array
 
-Parse JSON in JavaScript?
+### Parse JSON in JavaScript?
 https://stackoverflow.com/questions/4935632/parse-json-in-javascript
 
 How do I check if an object has a property in JavaScript?
@@ -145,6 +145,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and
 http://ecma-international.org/ecma-262/5.1/#sec-11.9.3
 
 http://getify.github.io/coercions-grid/
+
+### typeof vs instanceof
+https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof
 
 - **Uncovering the Native DOM API**
 https://ponyfoo.com/articles/uncovering-the-native-dom-api
