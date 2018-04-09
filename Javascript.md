@@ -136,11 +136,15 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/
 ### MDN
 https://developer.mozilla.org/bm/docs/Web/JavaScript
 
+## Coercion 
+
 - **Equality comparisons and sameness**
 Coercion 
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 http://ecma-international.org/ecma-262/5.1/#sec-11.9.3
+
+http://getify.github.io/coercions-grid/
 
 - **Uncovering the Native DOM API**
 https://ponyfoo.com/articles/uncovering-the-native-dom-api
