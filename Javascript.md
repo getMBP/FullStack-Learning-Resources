@@ -137,6 +137,8 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/
 https://developer.mozilla.org/bm/docs/Web/JavaScript
 
 - **Equality comparisons and sameness**
+Coercion 
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 http://ecma-international.org/ecma-262/5.1/#sec-11.9.3
 
