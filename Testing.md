@@ -36,3 +36,5 @@ https://github.com/deenjohn/Testing-In-Depth/blob/master/jest2.js
 
 
 https://medium.com/@mbaranovski/quick-guide-to-tdd-in-react-81888be67c64
+
+https://medium.com/@7ynk3r/react-testing-done-right-24fdb4ef43d8
