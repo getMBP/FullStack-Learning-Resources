@@ -92,6 +92,8 @@
     
 - **Component life-cycle**  
     https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/introduction.html
+    
+    https://reactarmory.com/guides/lifecycle-simulators
       
 - **Dissecting React Lifecycle Methods**  
   https://medium.com/@fay_jai/dissecting-reactjs-lifecycle-methods-be4fdea11c6d  
