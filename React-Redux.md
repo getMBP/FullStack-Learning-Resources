@@ -76,7 +76,7 @@
 
 - **Lists and Keys**  
     http://www.react.express/lists_and_keys
-   
+   https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318
     
     #### React Component Lifecycle
     
