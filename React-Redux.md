@@ -3,41 +3,15 @@
 
 ### Master React
 
-
 - **Curated tutorial and resource links by markerikson**
-   https://github.com/markerikson/react-redux-links
+ 
+ [react-redux link by mark erikson](https://github.com/markerikson/react-redux-links)
 
-- **React Documentation**  
-    https://reactjs.org/
-    
-    https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca?source=search_post
+- **React Documentation**
+    [react docs](https://reactjs.org/)
 
-    https://github.com/markerikson/react-redux-links
-
-- **The Beginner's Guide to ReactJS**  
-  https://egghead.io/courses/the-beginner-s-guide-to-reactjs  
-  https://codepen.io/collection/nMJEKN/
-  
-  A free video course with short lessons that explain key React concepts, including using `React.createElement` and JSX, conditional rendering, forms, styling, lists, HTTP requests, and deploying a React app.
-  
-  
-- **Learning React.js**
-   https://www.lynda.com/React-js-tutorials/Learning-React-js/645064-2.html
-
-- **React.js Essential Training**
-  https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/496905-2.html
-
-- **Udemy Learn and Understand React** 
-    https://www.udemy.com/learn-and-understand-react-and-redux-i/
-    
-- **React.js: Getting Started**
-    https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents
-    
  - **All the fundamental React.js concepts, jammed into this single Medium article**
    https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2
-   
-- **Building Applications with React and Flux**
-   https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents
    
 - **https://github.com/developit/preact/blob/master/src/h.js**
  
@@ -55,7 +29,7 @@
   https://www.robinwieruch.de/react-ref-attribute-dom-node/  
   An explanation of the `ref` property, how to use it to access real DOM nodes, and when you should use it. 
    
- - **ref component** 
+ - **ref Component** 
   https://codepen.io/deen_john/pen/jYmjZM?editors=0010
   https://codepen.io/deen_john/pen/PEmKMQ
   
@@ -86,7 +60,10 @@
     http://jamesknelson.com/state-react-2-inception-redux/
 
 - **Lists and Keys**  
-    http://www.react.express/lists_and_keys
+   https://egghead.io/lessons/react-use-the-key-prop-when-rendering-a-list-with-react
+   https://codepen.io/deen_john/pen/XVrGgo
+   https://codepen.io/deen_john/pen/POvrqE
+   http://www.react.express/lists_and_keys
    https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318
     
     #### React Component Lifecycle
@@ -120,6 +97,7 @@
  - **How does shallow compare work in react**
   https://stackoverflow.com/questions/36084515/how-does-shallow-compare-work-in-react 
   https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/update/using_should_component_update.html
+  https://codepen.io/deen_john/pen/GOLjqK
   
   - **How does shallow merge setstate work in react**
   https://codepen.io/deen_john/pen/NXjmMX
@@ -375,6 +353,11 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
 #### Form
     
 - **How to handle validations involving several fields?**
+https://codepen.io/deen_john/pen/yPWpPM
+https://egghead.io/lessons/react-make-dynamic-forms-with-react
+
+https://codepen.io/deen_john/pen/zPQpJj
+
 https://goshakkk.name/validations-several-fields/
 https://codepen.io/deen_john/pen/zPwXNd
 https://codepen.io/deen_john/pen/zPweLX?editors=1010
@@ -476,15 +459,37 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad?source=search_post
  https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2?source=search_post
  
- 
+
  https://www.youtube.com/watch?v=b8IcYOV5_Rc
  
- 
- 
- 
  https://github.com/diegohaz/awesome-react-context
+
+ 
+ ## Courses
  
  
+ ## Free
+ 
+ - **The Beginner's Guide to ReactJS**  
+  https://egghead.io/courses/the-beginner-s-guide-to-reactjs  
+  https://codepen.io/collection/nMJEKN/
+  
+ ## Paid
+ 
+ - **Learning React.js**
+   https://www.lynda.com/React-js-tutorials/Learning-React-js/645064-2.html
+   
+- **React.js Essential Training**
+  https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/496905-2.html
+  
+- **Udemy Learn and Understand React** 
+    https://www.udemy.com/learn-and-understand-react-and-redux-i/
+    
+- **React.js: Getting Started**
+    https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents
+    
+- **Building Applications with React and Flux**
+   https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents
  
  
  
