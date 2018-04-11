@@ -62,7 +62,11 @@
 - **Lists and Keys**  
    https://egghead.io/lessons/react-use-the-key-prop-when-rendering-a-list-with-react
    https://codepen.io/deen_john/pen/XVrGgo
+   
    https://codepen.io/deen_john/pen/POvrqE
+   
+   https://codepen.io/deen_john/pen/OzmeYM
+   
    http://www.react.express/lists_and_keys
    https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318
     
