@@ -12,12 +12,15 @@
     
     https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca?source=search_post
 
-- https://github.com/markerikson/react-redux-links
+    https://github.com/markerikson/react-redux-links
 
 - **The Beginner's Guide to ReactJS**  
   https://egghead.io/courses/the-beginner-s-guide-to-reactjs  
+  https://codepen.io/collection/nMJEKN/
+  
   A free video course with short lessons that explain key React concepts, including using `React.createElement` and JSX, conditional rendering, forms, styling, lists, HTTP requests, and deploying a React app.
-
+  
+  
 - **Learning React.js**
    https://www.lynda.com/React-js-tutorials/Learning-React-js/645064-2.html
 
@@ -50,7 +53,15 @@
   
 - **When to use Ref on a DOM Node in React**  
   https://www.robinwieruch.de/react-ref-attribute-dom-node/  
-  An explanation of the `ref` property, how to use it to access real DOM nodes, and when you should use it.
+  An explanation of the `ref` property, how to use it to access real DOM nodes, and when you should use it. 
+   
+ - **ref component** 
+  https://codepen.io/deen_john/pen/jYmjZM?editors=0010
+  https://codepen.io/deen_john/pen/PEmKMQ
+  
+ - **debounce react set state**
+  https://codepen.io/deen_john/pen/RxVOrP
+  
   
 - **React Enlightenment**  
     http://www.reactenlightenment.com/  
@@ -95,6 +106,9 @@
     https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/introduction.html
     
     https://reactarmory.com/guides/lifecycle-simulators
+    https://codepen.io/deen_john/pen/aENXbQ
+    https://codepen.io/deen_john/pen/QaNJoL
+    
       
 - **Dissecting React Lifecycle Methods**  
   https://medium.com/@fay_jai/dissecting-reactjs-lifecycle-methods-be4fdea11c6d  
@@ -103,10 +117,20 @@
  - **React: Lifecycles**
   https://www.lynda.com/React-js-tutorials/React-Lifecycles/592509-2.html
  
-   - **How does shallow compare work in react**
-  https://stackoverflow.com/questions/36084515/how-does-shallow-compare-work-in-react
-  
+ - **How does shallow compare work in react**
+  https://stackoverflow.com/questions/36084515/how-does-shallow-compare-work-in-react 
   https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/update/using_should_component_update.html
+  
+  - **How does shallow merge setstate work in react**
+  https://codepen.io/deen_john/pen/NXjmMX
+  https://codepen.io/deen_john/pen/MrmdMy
+  https://codepen.io/deen_john/pen/WdjgGZ
+  
+  https://codepen.io/deen_john/pen/wmBryx
+  https://codepen.io/deen_john/pen/PRwJde
+  https://codepen.io/deen_john/pen/VXYrvQ
+  
+  
    
  #### React Component Children
    https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
@@ -181,24 +205,20 @@
     
 - **React Patterns**
   https://reactpatterns.com/
-  An excellent list of common patterns for structuring React components, with examples
-  
-  - **React Patterns**
+  https://codepen.io/collection/nRpWYd/8/
   https://codepen.io/collection/nRpWYd/
   
-  - **React revision**
+- **React revision**
   https://codepen.io/collection/AGzYYG/
   
-   - **My React**
-    https://codepen.io/collection/XdNJVb/10/
+ - **My React**
+  https://codepen.io/collection/XdNJVb/10/
     
-    - **Egghead Advanced React Component Patterns**
-    https://codepen.io/collection/XLxzjx
+ - **Egghead Advanced React Component Patterns**
+  https://codepen.io/collection/XLxzjx
     
     
 - **React Bits: React patterns, techniques, tips, and tricks**
- https://reactpatterns.com/
- 
   https://github.com/vasanthk/react-bits  
   An extensive list of terms, concepts, patterns, and techniques for writing React components, with explanations and examples.  A few of the descriptions are overly opinionated and some items are not things the React team would recommend, but overall an excellent resource.
   
@@ -240,16 +260,29 @@ https://app.pluralsight.com/library/courses/react-styling-components/table-of-co
     https://github.com/acdlite/recompose
     https://github.com/timkindberg/egghead-recompose
     
+    - **Advanced React.js -Ryan florence**
+    https://courses.totalreact.com/p/advanced-react-free
+    https://codepen.io/deen_john/pen/eebvEo
+    https://codepen.io/deen_john/pen/qVLdBm
+    https://codepen.io/deen_john/pen/eebvEo
+    https://codepen.io/deen_john/pen/ZamaJo
+    https://codepen.io/deen_john/pen/dZwWJm
+    https://codepen.io/deen_john/pen/ZaVwwB
+    https://codepen.io/deen_john/pen/YEdmmQ
     
-  - **Advanced React.js**  
-   https://app.pluralsight.com/library/courses/reactjs-advanced/discussion
+    
+- **Advanced React.js**  
+  https://app.pluralsight.com/library/courses/reactjs-advanced/discussion
  
-  - **Higher Order Components with Functional Patterns Using Recompose**
-    https://egghead.io/courses/higher-order-components-with-functional-patterns-using-recompose
+- **Higher Order Components with Functional Patterns Using Recompose**
+  https://egghead.io/courses/higher-order-components-with-functional-patterns-using-recompose
 
- - **Higher Order With Context**
+- **Higher Order With Context**
    https://dev.to/kayis/higher-order-with-context
-   https://dev.to/kayis/higher-order-components-and-context-example Examples of using Higher Order Components to pass data to nested components using context
+   https://dev.to/kayis/higher-order-components-and-context-example 
+   
+  Examples of using Higher Order Components to pass data to nested components using context
+  
 
 - **Refactoring: Moving API calls to a higher-order component**
 https://medium.com/@guigonc/refactoring-moving-api-calls-to-a-higher-order-component-53062c086cb
@@ -343,7 +376,10 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
     
 - **How to handle validations involving several fields?**
 https://goshakkk.name/validations-several-fields/
-    
+https://codepen.io/deen_john/pen/zPwXNd
+https://codepen.io/deen_john/pen/zPweLX?editors=1010
+https://codepen.io/deen_john/pen/xPdyMx
+
     
       
 ### Mastering Redux 
