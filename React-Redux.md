@@ -398,7 +398,10 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  ### Extras  
  
  https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c
-    
+ 
+ Material UI
+ https://www.youtube.com/watch?v=Akfp2X5QUXs
+ 
  https://speakerdeck.com/joelburget/backbone-to-react
  http://khan.github.io/react-components/
  
@@ -428,6 +431,9 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad?source=search_post
  https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2?source=search_post
+ 
+ 
+ https://www.youtube.com/watch?v=b8IcYOV5_Rc
  
  
  
