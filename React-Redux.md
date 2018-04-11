@@ -196,7 +196,9 @@
     https://codepen.io/collection/XLxzjx
     
     
-- **React Bits: React patterns, techniques, tips, and tricks**  
+- **React Bits: React patterns, techniques, tips, and tricks**
+ https://reactpatterns.com/
+ 
   https://github.com/vasanthk/react-bits  
   An extensive list of terms, concepts, patterns, and techniques for writing React components, with explanations and examples.  A few of the descriptions are overly opinionated and some items are not things the React team would recommend, but overall an excellent resource.
   
