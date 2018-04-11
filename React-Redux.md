@@ -499,7 +499,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
   
   ### Routing Courses
   
-  ##Free
+  ## Free
   
  - **React Router v4**    
      https://tylermcginnis.com/courses/react-router/
@@ -507,7 +507,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
   - **Egghead React Router v4** 
      https://egghead.io/courses/add-routing-to-react-apps-using-react-router-v4
 
-  ##Paid
+  ## Paid
     
   - **pluralsight- Client Side React Router 4** 
    https://www.pluralsight.com/courses/client-side-react-router-4
