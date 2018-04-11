@@ -212,9 +212,6 @@
   https://hackernoon.com/10-react-mini-patterns-c1da92f068c5  
   Ten useful patterns for working with React components, including data flow, techniques for working with inputs, controlling CSS usage, switching between components, and more.
   
-- **React Training: Advanced React - React Patterns**  
-  https://reacttraining.com/patterns/  
-  The lecture videos from React Training's "Advanced React" course.  The videos themselves are now free.  Covers topics like declarative vs imperative, compound components, context, Higher Order Components, render props, and controlled components.
   
 ### Styling
 
@@ -330,10 +327,7 @@ https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
 
 - **Build your own React Router v4**  
     https://tylermcginnis.com/build-your-own-react-router-v4/
-    
- - **React Router v4**    
-    https://tylermcginnis.com/courses/react-router/
-    
+        
     - **The Haiku Of React Routing Principles**
     http://jamesknelson.com/the-haiku-of-react-routing-principles/
     
@@ -367,28 +361,9 @@ https://codepen.io/deen_john/pen/xPdyMx
       
 ### Mastering Redux 
     
- - **Getting Started with Redux**
- https://egghead.io/courses/getting-started-with-redux
- https://medium.com/@justin3737/getting-started-with-redux-dded45556673
-    
- - **Redux Fundamentals**
- https://app.pluralsight.com/library/courses/redux-fundamentals/table-of-contents
-    
-    
 - **Building React Applications with Idiomatic Redux**
 https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
-   
     
-- **Building Applications with React and Redux in ES6**
- https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents
-    
-    
- - **https://frontendmasters.com/courses/react-state/**
-  FrontEndMasters Advanced State Management in React (feat. Redux and MobX)
-    
- - **WesBos Redux**
-  https://learnredux.com/
-  
  - **React-redux "connect" explained**
   https://www.sohamkamani.com/blog/2017/03/31/react-redux-connect-explained/
     
@@ -465,7 +440,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  https://github.com/diegohaz/awesome-react-context
 
  
- ## Courses
+ ## React Courses
  
  
  ## Free
@@ -473,6 +448,10 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  - **The Beginner's Guide to ReactJS**  
   https://egghead.io/courses/the-beginner-s-guide-to-reactjs  
   https://codepen.io/collection/nMJEKN/
+  
+ - **React Training: Advanced React - React Patterns**  
+  https://reacttraining.com/patterns/  
+  The lecture videos from React Training's "Advanced React" course.  The videos themselves are now free.  Covers topics like declarative vs imperative, compound components, context, Higher Order Components, render props, and controlled components.
   
  ## Paid
  
@@ -492,4 +471,50 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
    https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents
  
  
+## Redux Courses
+
+### Free
  
+ - **Getting Started with Redux**
+ https://egghead.io/courses/getting-started-with-redux
+ https://medium.com/@justin3737/getting-started-with-redux-dded45556673
+
+    
+ - **WesBos Redux**
+  https://learnredux.com/
+
+
+### Paid
+
+- **Redux Fundamentals**
+ https://app.pluralsight.com/library/courses/redux-fundamentals/table-of-contents
+        
+- **Building Applications with React and Redux in ES6**
+ https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents
+    
+  
+ - **https://frontendmasters.com/courses/react-state/**
+  FrontEndMasters Advanced State Management in React (feat. Redux and MobX)
+  
+  
+  ### Routing Courses
+  
+  ##Free
+  
+ - **React Router v4**    
+     https://tylermcginnis.com/courses/react-router/
+    
+  - **Egghead React Router v4** 
+     https://egghead.io/courses/add-routing-to-react-apps-using-react-router-v4
+
+  ##Paid
+    
+  - **pluralsight- Client Side React Router 4** 
+   https://www.pluralsight.com/courses/client-side-react-router-4
+  
+  
+  
+  
+  
+  
+
