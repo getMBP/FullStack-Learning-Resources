@@ -67,6 +67,8 @@
    
    https://codepen.io/deen_john/pen/OzmeYM
    
+   https://codepen.io/deen_john/pen/XEQbEm?editors=0010
+   
    http://www.react.express/lists_and_keys
    https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318
     
