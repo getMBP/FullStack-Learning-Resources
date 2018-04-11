@@ -102,6 +102,9 @@
   
  - **React: Lifecycles**
   https://www.lynda.com/React-js-tutorials/React-Lifecycles/592509-2.html
+ 
+   - **How does shallow compare work in react**
+  https://stackoverflow.com/questions/36084515/how-does-shallow-compare-work-in-react
    
  #### React Component Children
    https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
