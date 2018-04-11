@@ -105,6 +105,8 @@
  
    - **How does shallow compare work in react**
   https://stackoverflow.com/questions/36084515/how-does-shallow-compare-work-in-react
+  
+  https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/update/using_should_component_update.html
    
  #### React Component Children
    https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
