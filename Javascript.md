@@ -59,16 +59,20 @@ https://stackoverflow.com/questions/4775722/check-if-object-is-array
 ### Parse JSON in JavaScript?
 https://stackoverflow.com/questions/4935632/parse-json-in-javascript
 
-How do I check if an object has a property in JavaScript?
+- **How do I check if an object has a property in JavaScript?**
 https://stackoverflow.com/questions/135448/how-do-i-check-if-an-object-has-a-property-in-javascript
 
-How do I check if an object has a key in JavaScript?
+- **How do I check if an object has a key in JavaScript?**
 https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript?noredirect=1&lq=1
 
-Master the JavaScript Interview: What is Function Composition?
+- **Master the JavaScript Interview: What is Function Composition?**
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb
 
 https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
+
+
+- **What is the difference between parseInt() and Number()?**
+https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parseint-and-number
 
 - **Javascript - DOM in depth**
 https://codepen.io/collection/Dapaqx/
@@ -313,6 +317,13 @@ https://github.com/mjavascript/mastering-modular-javascript
 
 https://github.com/mjavascript/practical-modern-javascript
 
+Creating an ES6ish Compose in Javascript – Drew Tipson – Medium
+
+Let’s Make a Monad – Drew Tipson – Medium
+
+Currying versus partial application (with JavaScript code)
+
+
 ### Regex
 
 https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-hard-as-it-looks-617b55cf787
@@ -324,6 +335,10 @@ https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-ha
 ### Talks
 
 - **https://github.com/AllThingsSmitty/must-watch-javascript
+
+How Browsers Work_ Behind the scenes of modern web browsers - HTML5 Rocks
+
+
 
 
 
