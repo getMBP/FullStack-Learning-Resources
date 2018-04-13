@@ -223,30 +223,20 @@ https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the
 - **JavaScript hacks for ES6 hipsters**
 https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=placement_card_footer_grid---------2-60
 
-https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
-https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations
-https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_parsing_algorithm
-https://github.com/WebKit/webkit/blob/fde57e46b1f8d7dde4b2006aaf7ebe5a09a6984b/Source/WebCore/rendering/RenderObject.h
 
-https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458
-https://www.reddit.com/r/cscareerquestions/comments/5gnmkj/what_are_some_of_the_best_resu%D0%BCe_formats_youve/
+- **Creating an ES6ish Compose in Javascript**
 
-https://github.com/thlorenz/v8-perf
+  Creating an ES6ish Compose in Javascript – Drew Tipson – Medium
 
-http://benediktmeurer.de/2017/10/05/connecting-the-dots/
+  Let’s Make a Monad – Drew Tipson – Medium
 
-https://github.com/thlorenz/async-await-box
-
-https://medium.freecodecamp.org/elegant-patterns-in-modern-javascript-roro-be01e7669cbd
-
-https://codeburst.io/javascript-null-vs-undefined-20f955215a2?source=placement_card_footer_grid---------2-60
-
-https://google.github.io/styleguide/jsguide.html
-
-https://github.com/airbnb/javascript
+  Currying versus partial application (with JavaScript code)
 
 
-### Books :
+
+## Books :
+
+### For Core Javascript
 
 - **Professional JavaScript for Web Developers**
 
@@ -268,7 +258,12 @@ https://github.com/airbnb/javascript
 
 - **High Performance JavaScript**
 
-### ES6 Course	
+## ES6 Course	
+
+ - **Rapid ES6 Training**
+ https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
+ 
+ A great course - very indepth , good complement for exploringjs.com book
 
 - **ES6: The Right Parts**
 https://frontendmasters.com/courses/es6-right-parts/
@@ -287,13 +282,13 @@ https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
 
 
 
-### ES6 Reading 
+## ES6 Reading 
 
 - **exploringjs.com**
- best book
+  
+  best book
  
- - **Rapid ES6 Training**
- https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
+ 
 
 - **ES6 Katas**
 http://es6katas.org/
@@ -303,7 +298,7 @@ https://ponyfoo.com/articles/es6-modules-in-depth
 
 
 
-### Debugging course
+## Debugging course
 
 - **Debugging and Fixing Common JavaScript Errors**
 https://frontendmasters.com/courses/debugging-javascript/
@@ -313,7 +308,7 @@ https://app.pluralsight.com/library/courses/fixing-common-javascript-bugs/table-
 
 
 
-### Functional JS course
+## Functional JS course
 
 - **Functional-Lite JavaScript**
 https://frontendmasters.com/courses/functional-javascript-v2/
@@ -331,7 +326,7 @@ https://github.com/deenjohn/functional-javascript
 https://codepen.io/collection/nWRKrb/
 
 
-### Functional JS Reading
+## Functional JS Reading
 
 
 ### books :
@@ -348,20 +343,13 @@ https://github.com/mjavascript/mastering-modular-javascript
 
 https://github.com/mjavascript/practical-modern-javascript
 
-Creating an ES6ish Compose in Javascript – Drew Tipson – Medium
-
-Let’s Make a Monad – Drew Tipson – Medium
-
-Currying versus partial application (with JavaScript code)
 
 
-### Regex
+## Regex
 
+https://www.codeschool.com/discuss/t/breaking-the-ice-with-regular-expressions-course-launch/17130
 https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-hard-as-it-looks-617b55cf787
-
-
-
-
+ 
 
 ### Talks
 
@@ -370,6 +358,31 @@ https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-ha
   
   How Browsers Work_ Behind the scenes of modern web browsers - HTML5 Rocks
 
+
+
+## Extras
+
+https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
+https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations
+https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_parsing_algorithm
+https://github.com/WebKit/webkit/blob/fde57e46b1f8d7dde4b2006aaf7ebe5a09a6984b/Source/WebCore/rendering/RenderObject.h
+
+https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458
+https://www.reddit.com/r/cscareerquestions/comments/5gnmkj/what_are_some_of_the_best_resu%D0%BCe_formats_youve/
+
+https://github.com/thlorenz/v8-perf
+
+http://benediktmeurer.de/2017/10/05/connecting-the-dots/
+
+https://github.com/thlorenz/async-await-box
+
+https://medium.freecodecamp.org/elegant-patterns-in-modern-javascript-roro-be01e7669cbd
+
+https://codeburst.io/javascript-null-vs-undefined-20f955215a2?source=placement_card_footer_grid---------2-60
+
+https://google.github.io/styleguide/jsguide.html
+
+https://github.com/airbnb/javascript
 
 
 
