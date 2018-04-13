@@ -2,77 +2,6 @@
 
 
 
-## Fundamentals Javascript Course :
-
-- **JavaScript: Understanding the Weird Parts**
-https://www.udemy.com/understand-javascript/
-
-- **Deep JavaScript Foundations**
-https://frontendmasters.com/courses/javascript-foundations/
-
-
-- **JavaScript: Events**
-https://www.lynda.com/JavaScript-tutorials/JavaScript-Events/140780-2.html
-
-
-- **JavaScript: Enhancing the DOM**
-https://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html
-
-- **JavaScript Objects and Prototypes**
-https://app.pluralsight.com/library/courses/javascript-objects-prototypes
-
-- **Reduce Data with Javascript Array#reduce**
-https://egghead.io/courses/reduce-data-with-javascript
-
-- **Understand Javascript arrays**
-https://egghead.io/courses/understand-javascript-arrays
-
-https://github.com/deenjohn/Javascript-revision
-https://github.com/deenjohn/functional-javascript
-https://github.com/deenjohn/You-Dont-Need-JavaScript
-
-- **Advanced Javascript**
-https://www.udemy.com/top-javascript-interview-questions-and-answers/
-(good course- covers CORS,JSONP)
-
-- **JavaScript 30 — Build 30 things with vanilla JS in 30 days**
-https://javascript30.com/
-
-
-- **The Complete JavaScript Course: Build a Real-World Project*
-
-https://www.udemy.com/the-complete-javascript-course/
-
-
-- **JavaScript: Getting Started**
-https://app.pluralsight.com/library/courses/javascript-getting-started/table-of-contents
-
-
-- **jQuery-free JavaScript**
-https://app.pluralsight.com/library/courses/jquery-free-javascript
-(awesome course -teaches you DOM in depth)
-
-
-- **JavaScript: The Hard Parts**
-https://frontendmasters.com/courses/javascript-hard-parts/
-
-- **Modern Asynchronous JavaScript**
-https://app.pluralsight.com/library/courses/javascript-asynchronous-modern/table-of-contentsnts
-
-- **Reasoning About Asynchronous JavaScript**
-https://app.pluralsight.com/library/courses/asynchronous-javascript-reasoning/table-of-contents
-
-- **Asynchronous Programming: The End of The Loop**
-https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop
-
-
-- **Asynchronous Programming in JavaScript (with Rx.js Observables)**
-https://frontendmasters.com/courses/asynchronous-javascript/
-
-- **Advanced Asynchronous JavaScript**
-https://frontendmasters.com/courses/advanced-async-js/
-
-
 ## Important javascript concepts 
 
 
@@ -168,6 +97,12 @@ https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key
 
 https://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript
 
+- **Checking if a key exists in a JavaScript object?**
+https://stackoverflow.com/questions/1098040/checking-if-a-key-exists-in-a-javascript-object
+
+- **How do I remove a property from a JavaScript object?**
+https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?noredirect=1&lq=1
+
 ### Strict
 https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
 
@@ -254,6 +189,78 @@ https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=pla
 
 https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
 
+
+
+
+## Fundamentals Javascript Course :
+
+- **JavaScript: Understanding the Weird Parts**
+https://www.udemy.com/understand-javascript/
+
+- **Deep JavaScript Foundations**
+https://frontendmasters.com/courses/javascript-foundations/
+
+
+- **JavaScript: Events**
+https://www.lynda.com/JavaScript-tutorials/JavaScript-Events/140780-2.html
+
+
+- **JavaScript: Enhancing the DOM**
+https://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html
+
+- **JavaScript Objects and Prototypes**
+https://app.pluralsight.com/library/courses/javascript-objects-prototypes
+
+- **Reduce Data with Javascript Array#reduce**
+https://egghead.io/courses/reduce-data-with-javascript
+
+- **Understand Javascript arrays**
+https://egghead.io/courses/understand-javascript-arrays
+
+https://github.com/deenjohn/Javascript-revision
+https://github.com/deenjohn/functional-javascript
+https://github.com/deenjohn/You-Dont-Need-JavaScript
+
+- **Advanced Javascript**
+https://www.udemy.com/top-javascript-interview-questions-and-answers/
+(good course- covers CORS,JSONP)
+
+- **JavaScript 30 — Build 30 things with vanilla JS in 30 days**
+https://javascript30.com/
+
+
+- **The Complete JavaScript Course: Build a Real-World Project*
+
+https://www.udemy.com/the-complete-javascript-course/
+
+
+- **JavaScript: Getting Started**
+https://app.pluralsight.com/library/courses/javascript-getting-started/table-of-contents
+
+
+- **jQuery-free JavaScript**
+https://app.pluralsight.com/library/courses/jquery-free-javascript
+(awesome course -teaches you DOM in depth)
+
+
+- **JavaScript: The Hard Parts**
+https://frontendmasters.com/courses/javascript-hard-parts/
+
+- **Modern Asynchronous JavaScript**
+https://app.pluralsight.com/library/courses/javascript-asynchronous-modern/table-of-contentsnts
+
+- **Reasoning About Asynchronous JavaScript**
+https://app.pluralsight.com/library/courses/asynchronous-javascript-reasoning/table-of-contents
+
+- **Asynchronous Programming: The End of The Loop**
+https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop
+
+
+- **Asynchronous Programming in JavaScript (with Rx.js Observables)**
+https://frontendmasters.com/courses/asynchronous-javascript/
+
+- **Advanced Asynchronous JavaScript**
+https://frontendmasters.com/courses/advanced-async-js/
 
 
 
