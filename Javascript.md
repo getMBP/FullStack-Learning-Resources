@@ -35,12 +35,13 @@ https://github.com/deenjohn/You-Dont-Need-JavaScript
 https://www.udemy.com/top-javascript-interview-questions-and-answers/
 (good course- covers CORS,JSONP)
 
+- **JavaScript 30 — Build 30 things with vanilla JS in 30 days**
+https://javascript30.com/
+
+
 - **The Complete JavaScript Course: Build a Real-World Project*
 
 https://www.udemy.com/the-complete-javascript-course/
-
-- **JavaScript 30 — Build 30 things with vanilla JS in 30 days**
-https://javascript30.com/
 
 
 - **JavaScript: Getting Started**
@@ -89,7 +90,7 @@ http://jibbering.com/faq/notes/closures/#clIRExSc
 - **Identifier Resolution and Closures in the JavaScript Scope Chain**
 http://davidshariff.com/blog/javascript-scope-chain-and-closures/
 
-### MDN
+- **MDN**
 https://developer.mozilla.org/bm/docs/Web/JavaScript
 
 - **Understand promises before you start using async/await**
@@ -114,6 +115,8 @@ http://getify.github.io/coercions-grid/
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof
 
+## DOM
+
 - **Uncovering the Native DOM API**
 https://ponyfoo.com/articles/uncovering-the-native-dom-api
 
@@ -126,51 +129,12 @@ https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/
 
 https://know-it-all.io/
 
-- **How JavaScript works: an overview of the engine, the runtime, and the call stack**
-https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf
+https://codepen.io/collection/Dapaqx/
+
+http://domenlightenment.com/
 
 
-- **How JavaScript works: tracking changes in the DOM using MutationObser**
-https://blog.sessionstack.com/how-javascript-works-tracking-changes-in-the-dom-using-mutationobserver-86adc7446401
-
-- **How JavaScript works: The building blocks of Web Workers + 5 cases when you should use them**
-https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a
-
-- **An overview of the engine, the runtime, and the call stack**
-https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf?source=collection_home---2------1----------------
-
-- **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
-https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
-
-- **How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE + how to pick the right path**
-https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
-
-- **How JavaScript works: memory management + how to handle 4 common memory leaks**
-https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec?source=user_profile---------8----------------
-
-- **How JavaScript works: the rendering engine and tips to optimize its performance**
-https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
-
-
-- **How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code**
-https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
-
-- **How Modern Web Browsers Accelerate Performance: The Networking Layer**
-https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the-networking-layer-f6efaf7bfcf4
-
-- **JavaScript hacks for ES6 hipsters**
-https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=placement_card_footer_grid---------2-60
-
-
-- **Creating an ES6ish Compose in Javascript**
-
-  Creating an ES6ish Compose in Javascript – Drew Tipson – Medium
-
-  Let’s Make a Monad – Drew Tipson – Medium
-
-  Currying versus partial application (with JavaScript code)
-
-
+## object
 
 - **What is the most efficient way to deep clone an object in JavaScript?**
 https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1
@@ -225,13 +189,71 @@ https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parse
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb
 
 
-- **Javascript - DOM in depth**
 
-https://codepen.io/collection/Dapaqx/
 
-https://www.sitepoint.com/dom-tips-techniques-parent-child-siblings/
 
-http://domenlightenment.com/
+
+## V8
+
+- **How JavaScript works: an overview of the engine, the runtime, and the call stack**
+
+https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf
+
+
+- **How JavaScript works: tracking changes in the DOM using MutationObser**
+
+https://blog.sessionstack.com/how-javascript-works-tracking-changes-in-the-dom-using-mutationobserver-86adc7446401
+
+- **How JavaScript works: The building blocks of Web Workers + 5 cases when you should use them**
+
+https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a
+
+- **An overview of the engine, the runtime, and the call stack**
+
+https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf?source=collection_home---2------1----------------
+
+
+
+- **How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE + how to pick the right path**
+
+https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
+
+- **How JavaScript works: memory management + how to handle 4 common memory leaks**
+https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec?source=user_profile---------8----------------
+
+- **How JavaScript works: the rendering engine and tips to optimize its performance**
+
+https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
+
+
+- **How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code**
+
+https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
+
+- **How Modern Web Browsers Accelerate Performance: The Networking Layer**
+
+https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the-networking-layer-f6efaf7bfcf4
+
+
+## ES6 ,functional
+
+- **JavaScript hacks for ES6 hipsters**
+
+https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=placement_card_footer_grid---------2-60
+
+
+- **Creating an ES6ish Compose in Javascript**
+
+  Creating an ES6ish Compose in Javascript – Drew Tipson – Medium
+
+  Let’s Make a Monad – Drew Tipson – Medium
+
+  Currying versus partial application (with JavaScript code)
+
+- **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
+
+https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+
 
 
 
