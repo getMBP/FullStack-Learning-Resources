@@ -74,6 +74,8 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-func
 
 https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
 
+https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property
+
 - **JavaScript data types and data structures**
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
