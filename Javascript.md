@@ -76,11 +76,8 @@ https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-jav
 - **How do I remove a property from a JavaScript object?**
 https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object
 
-### Check if object is array?
+- **Check if object is array?**
 https://stackoverflow.com/questions/4775722/check-if-object-is-array
-
-### Parse JSON in JavaScript?
-https://stackoverflow.com/questions/4935632/parse-json-in-javascript
 
 - **How do I check if an object has a property in JavaScript?**
 https://stackoverflow.com/questions/135448/how-do-i-check-if-an-object-has-a-property-in-javascript
@@ -95,6 +92,9 @@ https://stackoverflow.com/questions/1098040/checking-if-a-key-exists-in-a-javasc
 
 - **How do I remove a property from a JavaScript object?**
 https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?noredirect=1&lq=1
+
+- **Parse JSON in JavaScript?**
+https://stackoverflow.com/questions/4935632/parse-json-in-javascript
 
 ### Strict
 https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
@@ -385,9 +385,13 @@ https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-ha
 ### Talks
 
 - **https://github.com/AllThingsSmitty/must-watch-javascript
-
+   
+   A list of important javascript talks
   
-  How Browsers Work_ Behind the scenes of modern web browsers - HTML5 Rocks
+ - **How Browsers Work_ Behind the scenes of modern web browsers**
+     https://vimeo.com/44182484 **
+ 
+     How Browsers Work_ Behind the scenes of modern web browsers - HTML5 Rocks
 
 
 
