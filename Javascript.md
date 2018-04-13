@@ -65,10 +65,17 @@ https://stackoverflow.com/questions/135448/how-do-i-check-if-an-object-has-a-pro
 - **How do I check if an object has a key in JavaScript?**
 https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript?noredirect=1&lq=1
 
+https://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript
+
 - **Master the JavaScript Interview: What is Function Composition?**
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb
 
+- **How to check for “undefined” in JavaScript?**
+
 https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
+
+- **JavaScript data types and data structures**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
 
 - **What is the difference between parseInt() and Number()?**
