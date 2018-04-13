@@ -22,14 +22,7 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/
 - **MDN**
 https://developer.mozilla.org/bm/docs/Web/JavaScript
 
-- **Understand promises before you start using async/await**
-https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8
 
-- **Master the JavaScript Interview: What is a Promise?**
-https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
-
-- **Even with async/await, raw promises are still key to writing optimal concurrent javascript**
-https://medium.com/@bluepnume/even-with-async-await-you-probably-still-need-promises-9b259854c161
 
 ## Coercion 
 
@@ -124,7 +117,34 @@ https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parse
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb
 
 
+## ES6 ,functional
 
+- **JavaScript hacks for ES6 hipsters**
+
+https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=placement_card_footer_grid---------2-60
+
+
+- **Creating an ES6ish Compose in Javascript**
+
+  Creating an ES6ish Compose in Javascript – Drew Tipson – Medium
+
+  Let’s Make a Monad – Drew Tipson – Medium
+
+  Currying versus partial application (with JavaScript code)
+
+- **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
+
+https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+
+
+- **Understand promises before you start using async/await**
+https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8
+
+- **Master the JavaScript Interview: What is a Promise?**
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
+
+- **Even with async/await, raw promises are still key to writing optimal concurrent javascript**
+https://medium.com/@bluepnume/even-with-async-await-you-probably-still-need-promises-9b259854c161
 
 
 
@@ -168,26 +188,6 @@ https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-o
 - **How Modern Web Browsers Accelerate Performance: The Networking Layer**
 
 https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the-networking-layer-f6efaf7bfcf4
-
-
-## ES6 ,functional
-
-- **JavaScript hacks for ES6 hipsters**
-
-https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=placement_card_footer_grid---------2-60
-
-
-- **Creating an ES6ish Compose in Javascript**
-
-  Creating an ES6ish Compose in Javascript – Drew Tipson – Medium
-
-  Let’s Make a Monad – Drew Tipson – Medium
-
-  Currying versus partial application (with JavaScript code)
-
-- **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
-
-https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
 
 
 
