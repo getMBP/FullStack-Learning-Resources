@@ -2,6 +2,10 @@
 
 # Master Node
 
+## my notes
+
+https://github.com/deenjohn/NodeRevision
+
 ## Courses :
 
 - **Udemy Learn and Understand NodeJS**
