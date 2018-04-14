@@ -24,6 +24,7 @@ https://developer.mozilla.org/bm/docs/Web/JavaScript
 
 
 
+
 ## Coercion 
 
 - **Equality comparisons and sameness**
@@ -118,7 +119,11 @@ https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-d
 https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1
 
 
+## functions
 
+#### IIFE
+
+https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope
 
 ## DOM
 
@@ -446,6 +451,8 @@ https://github.com/airbnb/javascript
 
 - **Answering Tricky JS Interview Questions**
 https://www.youtube.com/watch?v=MY0UBGX2FtA
+
+https://www.youtube.com/watch?v=057Rs6CgJnY
 
 
 
