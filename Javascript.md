@@ -442,5 +442,12 @@ https://google.github.io/styleguide/jsguide.html
 https://github.com/airbnb/javascript
 
 
+## Interview
+
+- **Answering Tricky JS Interview Questions**
+https://www.youtube.com/watch?v=MY0UBGX2FtA
+
+
+
 
 
