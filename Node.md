@@ -187,9 +187,7 @@ https://github.com/mrvautin/expressCart/compare?expand=1
 - **Profiling Node.js Applications by Patrick Mueller**
 
 - **Netflix JavaScript Talks - Debugging Node.js in Production**
-
-
-
+    
 
 
 
