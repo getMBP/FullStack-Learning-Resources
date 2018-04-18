@@ -125,6 +125,10 @@ https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-
 
 https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope
 
+- **Call,Apply,Bind**
+https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md
+
 ## DOM
 
 - **Uncovering the Native DOM API**
