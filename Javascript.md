@@ -561,31 +561,88 @@ https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions
 The only REGEX course that really taught me Regex , it's free too
 
 
+- **Regular Expressions Demystified: RegEx isn’t as hard as it looks**
 
-https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-hard-as-it-looks-617b55cf787
+https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-
+hard-as-it-looks-617b55cf787
+
+
+
+### Testing 
+
+
+- **Testing Clientside JavaScript**
+https://app.pluralsight.com/library/courses/testing-javascript
+
+- **Testing JavaScript Applications (feat. React and Redux)**
+https://frontendmasters.com/courses/testing-javascript/
+
+- **Front-End First: Testing and Prototyping JavaScript Apps**
+https://app.pluralsight.com/library/courses/testing-and-prototyping-javascript-apps/table-of-contents
+
+- **Testing JavaScript for Node.js with Mocha**
+https://app.pluralsight.com/library/courses/mocha-javascript-testing-nodejs/table-of-contents
+
+- **Unit Testing with Node.js**
+https://app.pluralsight.com/library/courses/unit-testing-nodejs/table-of-contents
+
+
+
+- **Building a JavaScript Development Environment**
+https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents
+
+- **Understanding Jest Mocks**
+https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
+
+https://blog.kentcdodds.com/but-really-what-is-a-javascript-mock-10d060966f7d?source=bookmarks---------19----------------
+
+https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3
+
+
+https://github.com/deenjohn/Testing-In-Depth/blob/master/jest2.js
+
+
+https://medium.com/@mbaranovski/quick-guide-to-tdd-in-react-81888be67c64
+
+https://medium.com/@7ynk3r/react-testing-done-right-24fdb4ef43d8
+
  
+
+## Interview Preparation - mocks
+
+- **Answering Tricky JS Interview Questions**
+https://www.youtube.com/watch?v=MY0UBGX2FtA
+
+https://www.youtube.com/watch?v=057Rs6CgJnY
+
+
+
 
 ### Talks
 
 - **https://github.com/AllThingsSmitty/must-watch-javascript
    
-   A list of important javascript talks
+ A list of important javascript talks
   
- - **How Browsers Work_ Behind the scenes of modern web browsers**
+- **How Browsers Work_ Behind the scenes of modern web browsers**
      https://vimeo.com/44182484 **
  
-     How Browsers Work_ Behind the scenes of modern web browsers - HTML5 Rocks
+ How Browsers Work_ Behind the scenes of modern web browsers - HTML5 Rocks
 
 
 
 ## Extras
 
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
+
 https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations
+
 https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_parsing_algorithm
+
 https://github.com/WebKit/webkit/blob/fde57e46b1f8d7dde4b2006aaf7ebe5a09a6984b/Source/WebCore/rendering/RenderObject.h
 
 https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458
+
 https://www.reddit.com/r/cscareerquestions/comments/5gnmkj/what_are_some_of_the_best_resu%D0%BCe_formats_youve/
 
 https://github.com/thlorenz/v8-perf
@@ -603,12 +660,7 @@ https://google.github.io/styleguide/jsguide.html
 https://github.com/airbnb/javascript
 
 
-## Interview
 
-- **Answering Tricky JS Interview Questions**
-https://www.youtube.com/watch?v=MY0UBGX2FtA
-
-https://www.youtube.com/watch?v=057Rs6CgJnY
 
 
 
