@@ -1,9 +1,6 @@
 # Master Javascript
 
-
-
-## Important javascript concepts 
-
+[Fork,Star The GITHub link](https://github.com/deenjohn/FullStack-Learning-Resources/edit/master/Javascript.md)
 
 ### Fundamentals Javascript Reading:
 
@@ -18,6 +15,19 @@ http://jibbering.com/faq/notes/closures/#clIRExSc
 
 - **Identifier Resolution and Closures in the JavaScript Scope Chain**
 http://davidshariff.com/blog/javascript-scope-chain-and-closures/
+
+- **You Don't Know JS: Scope & Closures**
+https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures
+
+- **Chapter 2. Variable Scope**
+
+from book : Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript
+
+
+This chapter taught me some more hidden things about closures and scopes.
+
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch02.html#ch02lev1sec4
+
 
 - **MDN**
 https://developer.mozilla.org/bm/docs/Web/JavaScript
@@ -35,6 +45,13 @@ http://ecma-international.org/ecma-262/5.1/#sec-11.9.3
 
 http://getify.github.io/coercions-grid/
 
+- **Chapter 4: Coercion**
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md
+
+- **Item 3: Beware of Implicit Coercions**
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch01.html#ch01lev1sec3
+
+
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof
 
@@ -42,6 +59,9 @@ https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instan
 
 
 ## object
+
+- **MDN : Object**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
 - **What is the most efficient way to deep clone an object in JavaScript?**
 https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1
@@ -95,6 +115,7 @@ https://stackoverflow.com/questions/1248302/how-to-get-the-size-of-a-javascript-
 
 
 ### Strict
+
 https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
 
 - **How to check for “undefined” in JavaScript?**
@@ -123,11 +144,28 @@ https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-
 
 #### IIFE
 
+- **Using IIFEs in JavaScript to control variable scope**
 https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope
 
-- **Call,Apply,Bind**
+
+### Call,Apply,Bind
+
 https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/
+
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md
+
+
+### Call,Apply,Bind - Learn even more
+
+- **Use call to Call Methods with a Custom Receiver**
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec3
+
+- **Use apply to Call Functions with Different Numbers of Arguments**
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec4
+
+- **Use bind to Extract Methods with a Fixed Receiver **
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec9
+
 
 ## DOM
 
@@ -140,6 +178,27 @@ https://www.sitepoint.com/dom-tips-techniques-parent-child-siblings/
 - **The Basics of DOM Manipulation in Vanilla JavaScript (No jQuery)**
 https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/
 
+- **An Introduction To DOM Events — Smashing Magazine**
+https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/
+
+
+- **JavaScript Events - w3school **
+good for quick look at all events in javascript
+
+
+- **The Event() constructor**
+https://developer.mozilla.org/en-US/docs/Web/API/Event/Event
+
+
+- **The Event interface**
+https://developer.mozilla.org/en-US/docs/Web/API/Event
+
+
+https://www.w3schools.com/js/js_events.asp
+
+- **Introduction to events**
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+
 
 https://know-it-all.io/
 
@@ -148,10 +207,23 @@ https://codepen.io/collection/Dapaqx/
 http://domenlightenment.com/
 
 
+
 ## ES6 ,functional
 
-- **JavaScript hacks for ES6 hipsters**
 
+- **Annotated Underscore.js source code**
+http://underscorejs.org/docs/underscore.html
+
+- **MDN : Array API **
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
+https://github.com/deenjohn/functional-javascript
+
+- **Functional Programming**
+https://codepen.io/collection/nWRKrb/
+
+- **JavaScript hacks for ES6 hipsters**
 https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=placement_card_footer_grid---------2-60
 
 
@@ -168,6 +240,11 @@ https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=pla
 https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
 
 
+### Async-Await /Promises
+
+- **Promises and Asynchronous Programming**
+https://github.com/nzakas/understandinges6/blob/master/manuscript/11-Promises.md
+
 - **Understand promises before you start using async/await**
 https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8
 
@@ -177,6 +254,33 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pr
 - **Even with async/await, raw promises are still key to writing optimal concurrent javascript**
 https://medium.com/@bluepnume/even-with-async-await-you-probably-still-need-promises-9b259854c161
 
+
+## Event Loop 
+
+### Level 1
+ 
+- **Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014**
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
+### ### Level 2
+
+- **Understanding the Node.js Event Loop**
+https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/
+
+
+- **Jake Archibald: In The Loop**
+https://www.youtube.com/watch?v=cCOL7MC4Pl0&t=8s
+
+
+### Level 3 : master level  
+
+- **lesson : The Internals of Node**
+https://www.udemy.com/advanced-node-for-developers/
+
+
+## Concurrency :
+
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch07.html
 
 
 ## V8
@@ -223,13 +327,23 @@ https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the
 
 
 
-## Fundamentals Javascript Course :
+# Video Courses :
+
+
+## Fundamentals Javascript Course
 
 - **JavaScript: Understanding the Weird Parts**
+
 https://www.udemy.com/understand-javascript/
 
+A great course which gives you a rock solid foundation but even more, you start loving javascript
+
+
 - **Deep JavaScript Foundations**
+
 https://frontendmasters.com/courses/javascript-foundations/
+
+taught by Kyle Simpson .... enough said
 
 
 - **JavaScript: Events**
@@ -253,6 +367,7 @@ https://github.com/deenjohn/functional-javascript
 https://github.com/deenjohn/You-Dont-Need-JavaScript
 
 - **Advanced Javascript**
+
 https://www.udemy.com/top-javascript-interview-questions-and-answers/
 (good course- covers CORS,JSONP)
 
@@ -297,76 +412,98 @@ https://frontendmasters.com/courses/advanced-async-js/
 
 
 ## Books :
+(only mentioning the books i read & found helpful)
+
 
 ### For Core Javascript
 
 - **Professional JavaScript for Web Developers**
 
-- **You Don't Know JS: Scope & Closures**
+The only book that covers events & HTML Form inner details in depth.
+
+An awesome coverage on Objects,prototypes,all the inheritance patterns
+
+
+- **You Don't Know JS series: 
+https://github.com/getify/You-Dont-Know-JS
+
+
+- **You Don't Know JS: Types & Grammar**
+
+- **You Don't Know JS:Scope & Closures**
 
 - **You Don't Know JS: this & Object Prototypes**
 
-- **Types & Grammar**
+
+
+All the above 3 books by Kyle Simpson are must read , word by word
+
+
 
 - **DOM Enlightenment**
 
-- **Effective javascript**
+Best book ever written on DOM
+
+
+
+- **Effective javascript** 
+Polish your skills , learn more hidden gems on JS
+
 
 - **Secrets of the JavaScript Ninja**
 
+
 - **JavaScript Allongé: A strong cup of functions, objects, combinators, and decorators**
+
+This book will change the way you think in Javascript
+
 
 - **Learning JavaScript Design Patterns Addy Osmani**
 
-- **High Performance JavaScript**
+- **High Performance JavaScript - Nicholas C. Zakas **
+
 
 ## ES6 Course	
 
  - **Rapid ES6 Training**
  https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
  
- A great course - very indepth , good complement for exploringjs.com book
-
-- **ES6: The Right Parts**
-https://frontendmasters.com/courses/es6-right-parts/
-
-- **ES6 for Everyone! | Wes Bos**
-http://wesbos.com/es6-for-everyone/
-
-- **JavaScript Fundamentals for ES6**
-https://app.pluralsight.com/library/courses/javascript-fundamentals-es6
-
-- **ES6 in Motion**
-https://www.safaribooksonline.com/library/view/es6-in-motion/10000MNLV201701/
+ A great course - very indepth , complement the exploringjs.com book
 
 - **Rapid ES6 Training**
 https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
 
+Most in-depth of all course on ES6 , complement the Exploring ES6
+by Dr. Axel Rauschmayer book well
+
+- **ES6: The Right Parts**
+https://frontendmasters.com/courses/es6-right-parts/
+
+
+- **ES6 for Everyone! | Wes Bos**
+http://wesbos.com/es6-for-everyone/
+
+
+- **ES6 in Motion**
+https://www.safaribooksonline.com/library/view/es6-in-motion/10000MNLV201701/
+
+(good to learn es6 class in depth )
 
 
 ## ES6 Reading 
 
 - **exploringjs.com**
-  
-  best book
- 
- 
 
+http://exploringjs.com/es6.html
+  
+best book
+ 
+ 
 - **ES6 Katas**
 http://es6katas.org/
 
 - **ES6 Modules in Depth**
 https://ponyfoo.com/articles/es6-modules-in-depth
-
-
-
-## Debugging course
-
-- **Debugging and Fixing Common JavaScript Errors**
-https://frontendmasters.com/courses/debugging-javascript/
-
-- **Fixing Common JavaScript Bugs**  
-https://app.pluralsight.com/library/courses/fixing-common-javascript-bugs/table-of-contents
 
 
 
@@ -382,10 +519,18 @@ https://www.packtpub.com/web-development/deep-dive-functional-javascript-video
 
 https://www.packtpub.com/web-development/mastering-functional-javascript-libraries-video
 
-https://github.com/deenjohn/functional-javascript
 
-- **Functional Programming**
-https://codepen.io/collection/nWRKrb/
+
+
+## Debugging course
+
+- **Debugging and Fixing Common JavaScript Errors**
+https://frontendmasters.com/courses/debugging-javascript/
+
+- **Fixing Common JavaScript Bugs**  
+https://app.pluralsight.com/library/courses/fixing-common-javascript-bugs/table-of-contents
+
+
 
 
 ## Functional JS Reading
@@ -409,7 +554,14 @@ https://github.com/mjavascript/practical-modern-javascript
 
 ## Regex
 
-https://www.codeschool.com/discuss/t/breaking-the-ice-with-regular-expressions-course-launch/17130
+
+- **Breaking the Ice With Regular Expressions**
+https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions
+
+The only REGEX course that really taught me Regex , it's free too
+
+
+
 https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-hard-as-it-looks-617b55cf787
  
 
