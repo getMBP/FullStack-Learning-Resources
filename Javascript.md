@@ -68,6 +68,26 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/inst
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
 
 
+- **where instanceof fails**
+If you have two arbitrary objects, say a and b, and want to find out if the objects are related to each other through a [[Prototype]] chain, instanceof alone can't help.
+
+much cleaner, approach to [[Prototype]] reflection is:
+
+```javascript
+
+      function Foo() {  }
+
+      Foo.prototype = { 
+         c :2
+
+       }; // create a new prototype object
+
+      var a1 = new Foo();
+
+      Foo.prototype.isPrototypeOf( a ); // true
+
+```
+
 ## object
 
 - **MDN : Object**
