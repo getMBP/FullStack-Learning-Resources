@@ -114,6 +114,27 @@ https://stackoverflow.com/questions/742623/deleting-objects-in-javascript
 - **How to get the size of a JavaScript object?**
 https://stackoverflow.com/questions/1248302/how-to-get-the-size-of-a-javascript-object
 
+- **Object property shadowing**
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
+
+```javascript
+
+      'use strict';
+
+      const anotherObject = {};
+
+      Object.defineProperty(anotherObject, 'a', {
+        value: 2,
+        writable: false
+      });
+
+      var myObject = Object.create( anotherObject );
+
+      myObject.a = 3;
+
+```
+
 
 ### Strict
 
