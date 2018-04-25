@@ -56,6 +56,11 @@ https://www.safaribooksonline.com/library/view/effective-javascript-68/978013290
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof
 
+- **instanceof**
+
+The instanceof operator tests the presence of constructor.prototype in object's prototype chain.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
 
 
 
