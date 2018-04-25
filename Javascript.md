@@ -69,6 +69,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 
 
 - **where instanceof fails**
+
 If you have two arbitrary objects, say a and b, and want to find out if the objects are related to each other through a [[Prototype]] chain, instanceof alone can't help.
 
 much cleaner, approach to [[Prototype]] reflection is:
@@ -87,6 +88,9 @@ much cleaner, approach to [[Prototype]] reflection is:
       Foo.prototype.isPrototypeOf( a ); // true
 
 ```
+Notice that in this case, we don't really care about (or even need) Foo, we just need an object (in our case, arbitrarily labeled Foo.prototype) to test against another object. The question isPrototypeOf(..) answers is: in the entire [[Prototype]] chain of a, does Foo.prototype ever appear?
+
+https://github.com/getify/You-Dont-Know-JS/blob/6efd08c9db8e9808a9046204c719c99cb4702c18/this%20%26%20object%20prototypes/ch5.md#L487
 
 ## object
 
