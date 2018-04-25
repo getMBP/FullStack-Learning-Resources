@@ -60,8 +60,12 @@ https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instan
 
 The instanceof operator tests the presence of constructor.prototype in object's prototype chain.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+a instanceof Foo; // true
 
+The instanceof operator takes a plain object as its left-hand operand and a function as its right-hand operand. The question instanceof answers is: in the entire [[Prototype]] chain of a, does the object arbitrarily pointed to by Foo.prototype ever appear?
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
 
 
 ## object
