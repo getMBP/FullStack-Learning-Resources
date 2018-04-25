@@ -32,7 +32,8 @@ https://www.safaribooksonline.com/library/view/effective-javascript-68/978013290
 - **MDN**
 https://developer.mozilla.org/bm/docs/Web/JavaScript
 
-
+## in vs for ...in
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
 
 
 ## Coercion 
