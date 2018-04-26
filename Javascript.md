@@ -169,6 +169,10 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 ```
 
 
+## json.stringify
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md
+
 ### Strict
 
 https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
