@@ -194,6 +194,18 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-func
 https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined
 https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1
 
+- **Test null**
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md
+
+If you want to test for a null value using its type, you need a compound condition:
+```javascript
+var a = null;
+
+(!a && typeof a === "object"); // true
+
+```
+null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
+
 
 ## functions
 
