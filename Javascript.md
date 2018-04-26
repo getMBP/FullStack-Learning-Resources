@@ -193,6 +193,7 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-func
 - **Why is null an object and what's the difference between null and undefined?**
 https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined
 https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md
 
 - **Test null**
 https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md
