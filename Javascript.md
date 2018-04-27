@@ -4,6 +4,9 @@
 
 ### Fundamentals Javascript Reading:
 
+- **Expressions and operators**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
 - **Borrowing Methods in JavaScript**
 http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article
 
