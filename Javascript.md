@@ -174,11 +174,15 @@ Notice that in this case, we don't really care about (or even need) Foo, we just
 
 ## Arrays 
 
-
-https://stackoverflow.com/questions/tagged/javascript+arrays
+- **Remove duplicates from an array of objects in JavaScript**
+[ClickThisLink](https://stackoverflow.com/questions/tagged/javascript+arrays)
 
 - **arraylike vs array**
 [ClickThisLink](https://github.com/deenjohn/Javascript-revision/blob/master/General/arraylike%20vs%20array.md)
+
+
+https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript
+
 
 - **How do I remove a particular element from an array in JavaScript?**
 [ClickThisLink](https://stackoverflow.com/questions/5767325/how-do-i-remove-a-particular-element-from-an-array-in-javascript)
