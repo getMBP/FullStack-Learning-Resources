@@ -37,12 +37,14 @@ This chapter taught me some more hidden things about closures and scopes.
 
 
 ## in vs for ...in
+
 [ClickThisLink](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
 
 
 ## Coercion 
 
 - **Equality comparisons and sameness**
+
 Coercion 
 
 [ClickThisLink](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
@@ -197,8 +199,6 @@ Notice that in this case, we don't really care about (or even need) Foo, we just
 - **Merge/flatten an array of arrays in JavaScript?**
 [ClickThisLink](https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript)
 
-GeekForGeeks
-[ClickThisLink](https://www.geeksforgeeks.org/tag/javascript-array/)
 
 ## json.stringify
 
@@ -294,7 +294,8 @@ null is the only primitive value that is "falsy" (aka false-like; see Chapter 4)
 [ClickThisLink](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
 
 
-- **JavaScript Events - w3school **
+- **JavaScript Events - w3school**
+[ClickThisLink](https://www.w3schools.com/js/js_events.asp)
 good for quick look at all events in javascript
 
 
