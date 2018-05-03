@@ -174,6 +174,9 @@ Notice that in this case, we don't really care about (or even need) Foo, we just
 
 ## Arrays 
 
+
+https://stackoverflow.com/questions/tagged/javascript+arrays
+
 - **arraylike vs array**
 [ClickThisLink](https://github.com/deenjohn/Javascript-revision/blob/master/General/arraylike%20vs%20array.md)
 
