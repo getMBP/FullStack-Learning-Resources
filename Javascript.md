@@ -1,6 +1,8 @@
 # Master Javascript
 
-[Fork,Star The GITHub link](https://github.com/deenjohn/FullStack-Learning-Resources/edit/master/Javascript.md)
+[Fork,Star The GITHub link]
+
+(https://github.com/deenjohn/FullStack-Learning-Resources/edit/master/Javascript.md)
 
 ### Fundamentals Javascript Reading:
 
@@ -9,7 +11,7 @@ https://developer.mozilla.org/bm/docs/Web/JavaScript
 
 
 - **Expressions and operators**
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+[Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 - **Borrowing Methods in JavaScript**
 http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article
@@ -178,6 +180,27 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 - **arraylike vs array**
 https://github.com/deenjohn/Javascript-revision/blob/master/General/arraylike%20vs%20array.md
 
+- **How do I remove a particular element from an array in JavaScript?**
+https://stackoverflow.com/questions/5767325/how-do-i-remove-a-particular-element-from-an-array-in-javascript
+
+- **How do I check if an array includes an object in JavaScript?**
+https://stackoverflow.com/questions/237104/how-do-i-check-if-an-array-includes-an-object-in-javascript
+
+
+- **Check if object is array?**
+https://stackoverflow.com/questions/4775722/check-if-object-is-array
+
+- **Why is using “for…in” with array iteration a bad idea?**
+https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-a-bad-idea
+
+- **How can I concatenate two arrays in Java?**
+https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java
+
+- **Remove duplicate values from JS array**
+https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
+
+- **Merge/flatten an array of arrays in JavaScript?**
+https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript
 
 
 ## json.stringify
