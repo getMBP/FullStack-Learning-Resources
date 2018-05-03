@@ -197,6 +197,8 @@ Notice that in this case, we don't really care about (or even need) Foo, we just
 - **Merge/flatten an array of arrays in JavaScript?**
 [ClickThisLink](https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript)
 
+GeekForGeeks
+[ClickThisLink](https://www.geeksforgeeks.org/tag/javascript-array/)
 
 ## json.stringify
 
