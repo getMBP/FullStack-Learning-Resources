@@ -8,10 +8,11 @@
 
 - **MDN**
 https://developer.mozilla.org/bm/docs/Web/JavaScript
+[ClickThisLink](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 
 
 - **Expressions and operators**
-[Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+[ClickThisLink](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 - **Borrowing Methods in JavaScript**
 http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article
