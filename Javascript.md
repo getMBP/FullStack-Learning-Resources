@@ -229,6 +229,9 @@ https://www.smashingmagazine.com/2014/01/understanding-javascript-function-proto
 
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md
 
+- **My Notes**
+https://github.com/deenjohn/Javascript-revision/blob/master/General/1-%20bind%20call%20apply%20-Borrowing%20method.md
+
 
 ### Call,Apply,Bind - Learn even more
 
