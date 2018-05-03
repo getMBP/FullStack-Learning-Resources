@@ -420,6 +420,107 @@ https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the
 
 
 
+# Books :
+(only mentioning the books i read & found helpful)
+
+
+### For Core Javascript
+
+- **Professional JavaScript for Web Developers**
+
+The only book that covers events & HTML Form inner details in depth.
+
+An awesome coverage on Objects,prototypes,all the inheritance patterns
+
+
+- **You Don't Know JS series: 
+https://github.com/getify/You-Dont-Know-JS
+
+
+- **You Don't Know JS: Types & Grammar**
+
+- **You Don't Know JS:Scope & Closures**
+
+- **You Don't Know JS: this & Object Prototypes**
+
+
+
+All the above 3 books by Kyle Simpson are must read , word by word
+
+
+
+- **DOM Enlightenment**
+
+Best book ever written on DOM
+
+
+
+- **Effective javascript** 
+Polish your skills , learn more hidden gems on JS
+
+
+- **Secrets of the JavaScript Ninja**
+
+
+- **JavaScript Allongé: A strong cup of functions, objects, combinators, and decorators**
+
+This book will change the way you think in Javascript
+
+
+- **Learning JavaScript Design Patterns Addy Osmani**
+
+- **High Performance JavaScript - Nicholas C. Zakas **
+
+## ES6 Reading 
+
+- **exploringjs.com**
+
+http://exploringjs.com/es6.html
+  
+best book
+ 
+ 
+- **ES6 Katas**
+http://es6katas.org/
+
+- **ES6 Modules in Depth**
+https://ponyfoo.com/articles/es6-modules-in-depth
+
+## Functional JS Reading
+
+
+### books :
+
+- **Introducing functional programming with Underscore.js**
+
+- **Functional-Light JavaScript: Pragmatic, Balanced FP in JavaScript**
+
+- **http://reactivex.io/learnrx/**
+
+- **Functional Programming in JavaScript Luis Atencio**
+
+https://github.com/mjavascript/mastering-modular-javascript
+
+https://github.com/mjavascript/practical-modern-javascript
+
+
+
+## Regex
+
+
+- **Breaking the Ice With Regular Expressions**
+https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions
+
+The only REGEX course that really taught me Regex , it's free too
+
+
+- **Regular Expressions Demystified: RegEx isn’t as hard as it looks**
+
+https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-
+hard-as-it-looks-617b55cf787
+
+
+
 
 # Video Courses :
 
@@ -503,66 +604,7 @@ https://frontendmasters.com/courses/asynchronous-javascript/
 https://frontendmasters.com/courses/advanced-async-js/
 
 
-
-
-## Books :
-(only mentioning the books i read & found helpful)
-
-
-### For Core Javascript
-
-- **Professional JavaScript for Web Developers**
-
-The only book that covers events & HTML Form inner details in depth.
-
-An awesome coverage on Objects,prototypes,all the inheritance patterns
-
-
-- **You Don't Know JS series: 
-https://github.com/getify/You-Dont-Know-JS
-
-
-- **You Don't Know JS: Types & Grammar**
-
-- **You Don't Know JS:Scope & Closures**
-
-- **You Don't Know JS: this & Object Prototypes**
-
-
-
-All the above 3 books by Kyle Simpson are must read , word by word
-
-
-
-- **DOM Enlightenment**
-
-Best book ever written on DOM
-
-
-
-- **Effective javascript** 
-Polish your skills , learn more hidden gems on JS
-
-
-- **Secrets of the JavaScript Ninja**
-
-
-- **JavaScript Allongé: A strong cup of functions, objects, combinators, and decorators**
-
-This book will change the way you think in Javascript
-
-
-- **Learning JavaScript Design Patterns Addy Osmani**
-
-- **High Performance JavaScript - Nicholas C. Zakas **
-
-
 ## ES6 Course	
-
- - **Rapid ES6 Training**
- https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
- 
- A great course - very indepth , complement the exploringjs.com book
 
 - **Rapid ES6 Training**
 https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
@@ -583,21 +625,6 @@ https://www.safaribooksonline.com/library/view/es6-in-motion/10000MNLV201701/
 
 (good to learn es6 class in depth )
 
-
-## ES6 Reading 
-
-- **exploringjs.com**
-
-http://exploringjs.com/es6.html
-  
-best book
- 
- 
-- **ES6 Katas**
-http://es6katas.org/
-
-- **ES6 Modules in Depth**
-https://ponyfoo.com/articles/es6-modules-in-depth
 
 
 
@@ -623,42 +650,6 @@ https://frontendmasters.com/courses/debugging-javascript/
 
 - **Fixing Common JavaScript Bugs**  
 https://app.pluralsight.com/library/courses/fixing-common-javascript-bugs/table-of-contents
-
-
-
-
-## Functional JS Reading
-
-
-### books :
-
-- **Introducing functional programming with Underscore.js**
-
-- **Functional-Light JavaScript: Pragmatic, Balanced FP in JavaScript**
-
-- **http://reactivex.io/learnrx/**
-
-- **Functional Programming in JavaScript Luis Atencio**
-
-https://github.com/mjavascript/mastering-modular-javascript
-
-https://github.com/mjavascript/practical-modern-javascript
-
-
-
-## Regex
-
-
-- **Breaking the Ice With Regular Expressions**
-https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions
-
-The only REGEX course that really taught me Regex , it's free too
-
-
-- **Regular Expressions Demystified: RegEx isn’t as hard as it looks**
-
-https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-
-hard-as-it-looks-617b55cf787
 
 
 
