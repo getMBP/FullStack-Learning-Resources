@@ -171,6 +171,12 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 
 ```
 
+## Arrays 
+
+- **arraylike vs array**
+https://github.com/deenjohn/Javascript-revision/blob/master/General/arraylike%20vs%20array.md
+
+
 
 ## json.stringify
 
@@ -222,6 +228,12 @@ null is the only primitive value that is "falsy" (aka false-like; see Chapter 4)
 - **Using IIFEs in JavaScript to control variable scope**
 https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope
 
+ - **function arguments object**
+https://github.com/deenjohn/Javascript-revision/blob/master/General/3-%20function%20arguments%20object%20.md
+
+
+ - **Function length vs arguments**
+https://github.com/deenjohn/Javascript-revision/blob/master/General/Function%20length%20vs%20arguments
 
 ### Call,Apply,Bind
 
@@ -294,6 +306,7 @@ http://domenlightenment.com/
 
 - **Annotated Underscore.js source code**
 http://underscorejs.org/docs/underscore.html
+https://github.com/deenjohn/Javascript-revision/blob/master/General/underscore%20notes
 
 - **MDN : Array API **
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
