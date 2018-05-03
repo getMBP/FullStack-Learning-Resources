@@ -1,33 +1,29 @@
 # Master Javascript
 
-[Fork,Star The GITHub link]
-
-(https://github.com/deenjohn/FullStack-Learning-Resources/edit/master/Javascript.md)
+[Fork,StarThe GITHub link](https://github.com/deenjohn/FullStack-Learning-Resources/edit/master/Javascript.md)
 
 ### Fundamentals Javascript Reading:
 
 - **MDN**
-https://developer.mozilla.org/bm/docs/Web/JavaScript
 [ClickThisLink](https://developer.mozilla.org/bm/docs/Web/JavaScript)
-
 
 - **Expressions and operators**
 [ClickThisLink](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 - **Borrowing Methods in JavaScript**
-http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article
+[ClickThisLink](http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article)
 
 - **What is the Execution Context & Stack in JavaScript?**
-http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/#first-article
+[ClickThisLink](http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/#first-article)
 
 - **Identifier Resolution, Execution Contexts and scope chains**
-http://jibbering.com/faq/notes/closures/#clIRExSc
+[ClickThisLink](http://jibbering.com/faq/notes/closures/#clIRExSc)
 
 - **Identifier Resolution and Closures in the JavaScript Scope Chain**
-http://davidshariff.com/blog/javascript-scope-chain-and-closures/
+[ClickThisLink](http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 
 - **You Don't Know JS: Scope & Closures**
-https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures
+[ClickThisLink](https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
 - **Chapter 2. Variable Scope**
 
@@ -36,12 +32,12 @@ from book : Effective JavaScript: 68 Specific Ways to Harness the Power of JavaS
 
 This chapter taught me some more hidden things about closures and scopes.
 
-https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch02.html#ch02lev1sec4
+[ClickThisLink](https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch02.html#ch02lev1sec4)
 
 
 
 ## in vs for ...in
-https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
+[ClickThisLink](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
 
 
 ## Coercion 
@@ -49,31 +45,29 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 - **Equality comparisons and sameness**
 Coercion 
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
-http://ecma-international.org/ecma-262/5.1/#sec-11.9.3
-
-http://getify.github.io/coercions-grid/
+[ClickThisLink](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+[ClickThisLink](http://ecma-international.org/ecma-262/5.1/#sec-11.9.3)
+[ClickThisLink](http://getify.github.io/coercions-grid/)
 
 - **Chapter 4: Coercion**
-https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md
+[ClickThisLink](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
 
 - **Item 3: Beware of Implicit Coercions**
-https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch01.html#ch01lev1sec3
+[ClickThisLink](https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch01.html#ch01lev1sec3)
 
 
 ### typeof vs instanceof
-https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof
+[ClickThisLink](https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
 
 - **instanceof**
-
 The instanceof operator tests the presence of constructor.prototype in object's prototype chain.
 
 a instanceof Foo; // true
 
 The instanceof operator takes a plain object as its left-hand operand and a function as its right-hand operand. The question instanceof answers is: in the entire [[Prototype]] chain of a, does the object arbitrarily pointed to by Foo.prototype ever appear?
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
-https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
+[ClickThisLink](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+[ClickThisLink](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
 
 
 - **where instanceof fails**
@@ -98,27 +92,27 @@ much cleaner, approach to [[Prototype]] reflection is:
 ```
 Notice that in this case, we don't really care about (or even need) Foo, we just need an object (in our case, arbitrarily labeled Foo.prototype) to test against another object. The question isPrototypeOf(..) answers is: in the entire [[Prototype]] chain of a, does Foo.prototype ever appear?
 
-https://github.com/getify/You-Dont-Know-JS/blob/6efd08c9db8e9808a9046204c719c99cb4702c18/this%20%26%20object%20prototypes/ch5.md#L487
+[ClickThisLink](https://github.com/getify/You-Dont-Know-JS/blob/6efd08c9db8e9808a9046204c719c99cb4702c18/this%20%26%20object%20prototypes/ch5.md#L487)
 
 ## object
 
 - **MDN : Object**
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+[ClickThisLink](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 - **What is the most efficient way to deep clone an object in JavaScript?**
-https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1
+[ClickThisLink](https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1)
 
 - **Length of a JavaScript object**
-https://stackoverflow.com/questions/5223/length-of-a-javascript-object?rq=1
+[ClickThisLink](https://stackoverflow.com/questions/5223/length-of-a-javascript-object?rq=1)
 
 - **How can I merge properties of two JavaScript objects dynamically?**
-https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically?rq=1
+[ClickThisLink](https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically?rq=1)
 
 - **Detecting an undefined object property**
-https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property?rq=1
+[ClickThisLink](https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property?rq=1)
 
 - **How do I remove a property from a JavaScript object?**
-https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?rq=1
+[ClickThisLink](https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?rq=1)
 
 - **How do I remove a property from a JavaScript object?**
 https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object
