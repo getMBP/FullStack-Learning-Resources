@@ -199,6 +199,11 @@ Notice that in this case, we don't really care about (or even need) Foo, we just
 - **Merge/flatten an array of arrays in JavaScript?**
 [ClickThisLink](https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript)
 
+What is the most efficient method to groupby on a JavaScript array of objects?
+[ClickThisLink](https://stackoverflow.com/questions/14446511/what-is-the-most-efficient-method-to-groupby-on-a-javascript-array-of-objects)
+
+Remove duplicates from an array of objects in JavaScript
+[ClickThisLink](https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript)
 
 ## json.stringify
 
