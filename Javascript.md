@@ -4,6 +4,10 @@
 
 ### Fundamentals Javascript Reading:
 
+- **MDN**
+https://developer.mozilla.org/bm/docs/Web/JavaScript
+
+
 - **Expressions and operators**
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
@@ -32,8 +36,6 @@ This chapter taught me some more hidden things about closures and scopes.
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch02.html#ch02lev1sec4
 
 
-- **MDN**
-https://developer.mozilla.org/bm/docs/Web/JavaScript
 
 ## in vs for ...in
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md
