@@ -748,6 +748,8 @@ https://github.com/ichpuchtli/awesome-rxjs
 
 https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f
 
+https://toddmotto.com/rxjs-observables-observers-operators
+
 ## Extras
 
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
