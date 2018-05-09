@@ -746,7 +746,7 @@ https://www.youtube.com/watch?v=057Rs6CgJnY)
 
 https://github.com/ichpuchtli/awesome-rxjs
 
-
+https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f
 
 ## Extras
 
