@@ -742,6 +742,12 @@ https://www.youtube.com/watch?v=057Rs6CgJnY)
 
 
 
+## RXJS 
+
+https://github.com/ichpuchtli/awesome-rxjs
+
+
+
 ## Extras
 
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
