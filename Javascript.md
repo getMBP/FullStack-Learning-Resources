@@ -776,7 +776,7 @@ https://google.github.io/styleguide/jsguide.html)
 
 https://github.com/airbnb/javascript)
 
-
+https://www.sitepoint.com/mvc-design-pattern-javascript/
 
 
 
