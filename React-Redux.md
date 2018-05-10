@@ -12,6 +12,8 @@
 
 - **React Documentation**
     [react docs](https://reactjs.org/)
+    
+    http://blog.vjeux.com/
 
  - **All the fundamental React.js concepts, jammed into this single Medium article**
    https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2
