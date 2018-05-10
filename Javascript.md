@@ -750,6 +750,12 @@ https://medium.com/google-developer-experts/angular-introduction-to-reactive-ext
 
 https://toddmotto.com/rxjs-observables-observers-operators
 
+
+## Performance 
+
+https://developers.google.com/web/fundamentals/performance/get-started/
+
+
 ## Extras
 
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
