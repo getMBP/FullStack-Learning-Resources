@@ -758,6 +758,8 @@ https://developers.google.com/web/fundamentals/performance/get-started/
 
 ## Extras
 
+https://awesometalks.party/
+
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
 
 https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations)
