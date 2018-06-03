@@ -96,6 +96,67 @@ Notice that in this case, we don't really care about (or even need) Foo, we just
 
 https://github.com/getify/You-Dont-Know-JS/blob/6efd08c9db8e9808a9046204c719c99cb4702c18/this%20%26%20object%20prototypes/ch5.md#L487)
 
+## This in Object
+
+
+Chapter 1 :https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch1.md
+Chapter 2 : https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md
+
+http://davidshariff.com/blog/javascript-this-keyword/
+
+Effective Javascript : Chapter 4
+
+The scope of this is always determined by its nearest enclosing
+function.
+
+```javascript
+
+function CSVReader(separators) {
+    this.separators = separators || [","];
+    this.regexp =
+    new RegExp(this.separators.map(function(sep) {
+      return "\\" + sep[0];
+       }).join("|"));
+}
+
+
+CSVReader.prototype.read = function(str) {
+    var lines = str.trim().split(/\n/);
+    return lines.map(function(line) {
+        console.log(this)
+       return line.split(this.regexp); // wrong this!
+     });
+};
+var reader = new CSVReader();
+reader.read("a,b,c\nd,e,f\n");
+
+```
+
+```javascript
+
+function CSVReader(separators) {
+    this.separators = separators || [","];
+    this.regexp =
+    new RegExp(this.separators.map(function(sep) {
+      return "\\" + sep[0];
+       }).join("|"));
+}
+
+
+CSVReader.prototype.read = function(str) {
+    var lines = str.trim().split(/\n/);
+    return lines.map(function(line) {
+        console.log(this)
+       return line.split(this.regexp); // wrong this!
+     },this);
+};
+var reader = new CSVReader();
+reader.read("a,b,c\nd,e,f\n");
+
+```
+
+
+
 ## object
 
 - **MDN : Object**
