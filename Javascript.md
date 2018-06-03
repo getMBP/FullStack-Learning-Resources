@@ -132,6 +132,15 @@ reader.read("a,b,c\nd,e,f\n");
 
 ```
 
+[
+  [
+    "a,b,c"
+  ],
+  [
+    "d,e,f"
+  ]
+]
+
 ```javascript
 
 function CSVReader(separators) {
@@ -154,7 +163,18 @@ var reader = new CSVReader();
 reader.read("a,b,c\nd,e,f\n");
 
 ```
-
+[
+  [
+    "a",
+    "b",
+    "c"
+  ],
+  [
+    "d",
+    "e",
+    "f"
+  ]
+]
 
 
 ## object
