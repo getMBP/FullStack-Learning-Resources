@@ -375,6 +375,8 @@ https://codepen.io/deen_john/pen/xPdyMx
 - **Getting Started with Redux**   
 https://egghead.io/courses/getting-started-with-redux
 https://medium.com/@justin3737/getting-started-with-redux-dded45556673
+
+https://learnreduxwithdanabramov.com/
     
 - **Building React Applications with Idiomatic Redux**
 https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
