@@ -536,6 +536,19 @@ https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-o
 
 https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the-networking-layer-f6efaf7bfcf4)
 
+## Design Patterns
+
+https://github.com/deenjohn/Design-Patterns
+
+- **Dependency injection in JavaScript
+http://krasimirtsonev.com/blog/article/Dependency-injection-in-JavaScript
+
+- **The MVC Design Pattern in Vanilla JavaScript
+https://www.sitepoint.com/mvc-design-pattern-javascript/
+
+- **Observer pattern
+https://github.com/deenjohn/Design-Patterns/tree/master/Observer%20Pattern
+
 
 
 # Books :
