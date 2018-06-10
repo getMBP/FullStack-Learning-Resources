@@ -194,6 +194,7 @@
     
 - **React Patterns**
   https://reactpatterns.com/
+  https://github.com/krasimir/react-in-patterns
   https://codepen.io/collection/nRpWYd/8/
   https://codepen.io/collection/nRpWYd/
   
