@@ -826,14 +826,15 @@ https://www.youtube.com/watch?v=057Rs6CgJnY)
 ### Talks
 
 - **https://github.com/AllThingsSmitty/must-watch-javascript
-   
- A list of important javascript talks
+   A list of important javascript talks
   
 - **How Browsers Work_ Behind the scenes of modern web browsers**
-     https://vimeo.com/44182484)
+  https://vimeo.com/44182484)
  
  How Browsers Work_ Behind the scenes of modern web browsers - HTML5 Rocks
 
+- **JavaScript engine fundamentals: Shapes and Inline Caches
+https://mathiasbynens.be/notes/shapes-ics
 
 
 ## RXJS 
