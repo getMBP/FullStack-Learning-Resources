@@ -72,6 +72,46 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/inst
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
 
 
+
+
+## functions
+
+#### IIFE
+
+- **Using IIFEs in JavaScript to control variable scope**
+https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope)
+
+ - **function arguments object**
+https://github.com/deenjohn/Javascript-revision/blob/master/General/3-%20function%20arguments%20object%20.md)
+
+
+ - **Function length vs arguments**
+https://github.com/deenjohn/Javascript-revision/blob/master/General/Function%20length%20vs%20arguments)
+
+### Call,Apply,Bind
+
+https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md)
+
+- **My Notes**
+https://github.com/deenjohn/Javascript-revision/blob/master/General/1-%20bind%20call%20apply%20-Borrowing%20method.md)
+
+
+### Call,Apply,Bind - Learn even more
+
+- **Use call to Call Methods with a Custom Receiver**
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec3)
+
+- **Use apply to Call Functions with Different Numbers of Arguments**
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec4)
+
+- **Use bind to Extract Methods with a Fixed Receiver **
+https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec9)
+
+- **How does Function.prototype.call.bind work?
+https://stackoverflow.com/questions/11121586/how-does-function-prototype-call-bind-work/50874883#50874883
+
 - **where instanceof fails**
 
 If you have two arbitrary objects, say a and b, and want to find out if the objects are related to each other through a [[Prototype]] chain, instanceof alone can't help.
@@ -95,6 +135,50 @@ much cleaner, approach to [[Prototype]] reflection is:
 Notice that in this case, we don't really care about (or even need) Foo, we just need an object (in our case, arbitrarily labeled Foo.prototype) to test against another object. The question isPrototypeOf(..) answers is: in the entire [[Prototype]] chain of a, does Foo.prototype ever appear?
 
 https://github.com/getify/You-Dont-Know-JS/blob/6efd08c9db8e9808a9046204c719c99cb4702c18/this%20%26%20object%20prototypes/ch5.md#L487)
+
+
+## json.stringify
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
+
+### Strict
+
+https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it)
+
+- **How to check for “undefined” in JavaScript?**
+
+https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
+
+https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property)
+
+
+- **JavaScript data types and data structures**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+
+
+- **What is the difference between parseInt() and Number()?**
+https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parseint-and-number)
+
+- **Master the JavaScript Interview: What is Function Composition?**
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
+
+- **Why is null an object and what's the difference between null and undefined?**
+https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined)
+https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1)
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
+
+- **Test null**
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
+
+If you want to test for a null value using its type, you need a compound condition:
+```javascript
+var a = null;
+
+(!a && typeof a === "object"); // true
+
+```
+null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
+
 
 ## This in Object
 
@@ -292,84 +376,6 @@ https://stackoverflow.com/questions/14446511/what-is-the-most-efficient-method-t
 
 Remove duplicates from an array of objects in JavaScript
 https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript)
-
-## json.stringify
-
-https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
-
-### Strict
-
-https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it)
-
-- **How to check for “undefined” in JavaScript?**
-
-https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
-
-https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property)
-
-
-- **JavaScript data types and data structures**
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-
-
-- **What is the difference between parseInt() and Number()?**
-https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parseint-and-number)
-
-- **Master the JavaScript Interview: What is Function Composition?**
-https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
-
-- **Why is null an object and what's the difference between null and undefined?**
-https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined)
-https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1)
-https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
-
-- **Test null**
-https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
-
-If you want to test for a null value using its type, you need a compound condition:
-```javascript
-var a = null;
-
-(!a && typeof a === "object"); // true
-
-```
-null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
-
-
-## functions
-
-#### IIFE
-
-- **Using IIFEs in JavaScript to control variable scope**
-https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope)
-
- - **function arguments object**
-https://github.com/deenjohn/Javascript-revision/blob/master/General/3-%20function%20arguments%20object%20.md)
-
-
- - **Function length vs arguments**
-https://github.com/deenjohn/Javascript-revision/blob/master/General/Function%20length%20vs%20arguments)
-
-### Call,Apply,Bind
-
-https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
-
-https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md)
-
-- **My Notes**
-https://github.com/deenjohn/Javascript-revision/blob/master/General/1-%20bind%20call%20apply%20-Borrowing%20method.md)
-
-
-### Call,Apply,Bind - Learn even more
-
-- **Use call to Call Methods with a Custom Receiver**
-https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec3)
-
-- **Use apply to Call Functions with Different Numbers of Arguments**
-https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec4)
-
-- **Use bind to Extract Methods with a Fixed Receiver **
-https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec9)
 
 
 ## DOM
