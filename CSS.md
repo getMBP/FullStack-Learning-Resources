@@ -66,4 +66,20 @@ http://www.barelyfitz.com/screencast/html-training/css/positioning/
 
 
 
+Libraries source code to learn css
+
+https://daneden.github.io/animate.css/
+https://github.com/daneden/animate.css
+http://bouncejs.com/
+https://github.com/elrumordelaluz/csshake
+http://ianlunn.github.io/Hover/
+
+
+
+
+
+
+
+
+
 
