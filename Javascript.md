@@ -25,6 +25,7 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 - **You Don't Know JS: Scope & Closures**
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
+
 - **Chapter 2. Variable Scope**
 
 from book : Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript
@@ -34,7 +35,31 @@ This chapter taught me some more hidden things about closures and scopes.
 
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch02.html#ch02lev1sec4)
 
+- **Practical use of closure examples
 
+const createStore = (reducer) => {
+     let state;
+     let listeners = [];
+
+  const getState = () => state;
+
+  const dispatch = (action) => {
+    state = reducer(state, action);
+    listeners.forEach(listener => listener());
+  };
+
+  const subscribe = (listener) => {
+    listeners.push(listener);
+    return () => {
+      listeners = listeners.filter(l => l !== listener);
+    }
+  };
+
+  dispatch({}); // dummy dispatch
+
+  return { getState, dispatch, subscribe };
+
+};
 
 ## in vs for ...in
 
