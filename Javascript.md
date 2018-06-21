@@ -188,6 +188,7 @@ https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parse
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
 
 - **null vs undefined
+https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
 
 Something hasn't been initialized : undefined.
 Something is currently unavailable: null.
