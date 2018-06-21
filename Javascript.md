@@ -187,6 +187,11 @@ https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parse
 - **Master the JavaScript Interview: What is Function Composition?**
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
 
+- **null vs undefined
+
+Something hasn't been initialized : undefined.
+Something is currently unavailable: null.
+
 - **Why is null an object and what's the difference between null and undefined?**
 https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined)
 https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1)
