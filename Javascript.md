@@ -915,7 +915,7 @@ https://github.com/airbnb/javascript)
 https://www.sitepoint.com/mvc-design-pattern-javascript/
 
 
-
+https://legacy.gitbook.com/book/basarat/typescript/details
 
 
 
