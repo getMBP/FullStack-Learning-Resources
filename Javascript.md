@@ -888,6 +888,9 @@ https://toddmotto.com/rxjs-observables-observers-operators
 https://developers.google.com/web/fundamentals/performance/get-started/
 
 
+## Jquery Annotated source
+https://robflaherty.github.io/jquery-annotated-source/
+
 ## Extras
 
 https://awesometalks.party/
