@@ -25,7 +25,7 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 - **You Don't Know JS: Scope & Closures**
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
-Closures Examples :
+Closure use Example : Overloading functions
 
 ```javascript
 
