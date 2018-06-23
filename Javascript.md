@@ -137,6 +137,8 @@ https://www.safaribooksonline.com/library/view/effective-javascript-68/978013290
 - **How does Function.prototype.call.bind work?
 https://stackoverflow.com/questions/11121586/how-does-function-prototype-call-bind-work/50874883#50874883
 
+Call
+
 ```javascript
 var elems = {
    length: 0,
@@ -160,6 +162,24 @@ var elems = {
 
 ```
 
+Apply
+
+```javascript
+
+ function smallest(array){
+     return Math.min.apply(Math, array);
+ }
+ function largest(array){
+     return Math.max.apply(Math, array);
+ }
+ 
+ assert(smallest([0, 1, 2, 3]) == 0,
+ "Located the smallest value.");
+ 
+ assert(largest([0, 1, 2, 3]) == 3,
+ "Located the largest value."); 
+ 
+```
 - **where instanceof fails**
 
 If you have two arbitrary objects, say a and b, and want to find out if the objects are related to each other through a [[Prototype]] chain, instanceof alone can't help.
