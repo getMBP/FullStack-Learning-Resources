@@ -137,6 +137,29 @@ https://www.safaribooksonline.com/library/view/effective-javascript-68/978013290
 - **How does Function.prototype.call.bind work?
 https://stackoverflow.com/questions/11121586/how-does-function-prototype-call-bind-work/50874883#50874883
 
+```javascript
+var elems = {
+   length: 0,
+   add: function(elem){
+       Array.prototype.push.call(this, elem);
+   },
+   gather: function(id){
+       this.add(document.getElementById(id));
+   }
+ };
+
+ elems.gather("first");
+
+ console.log(elems.length == 1 && elems[0].nodeType,
+ "Verify that we have an element in our stash");
+
+ elems.gather("second");
+ 
+ console.log(elems.length == 2 && elems[1].nodeType,
+ "Verify the other insertion"); 
+
+```
+
 - **where instanceof fails**
 
 If you have two arbitrary objects, say a and b, and want to find out if the objects are related to each other through a [[Prototype]] chain, instanceof alone can't help.
