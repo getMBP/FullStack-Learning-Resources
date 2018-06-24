@@ -55,9 +55,38 @@ ex1 : Private variables
              "We're able to access the internal feint count." );    //#8
 
 ```
+ex2 :
 
+```javascript
 
-ex 2 :
+function animateIt(elementId) {
+
+    var elem = document.getElementById(elementId);              //#2
+    var tick = 0;                                               //#3
+
+    var timer = setInterval(function(){                         //#4
+      if (tick < 100) {
+        elem.style.left = elem.style.top = tick + "px";
+        tick++;
+      }
+      else {
+        clearInterval(timer);
+        assert(tick == 100,                                      //#5
+               "Tick accessed via a closure.");
+        assert(elem,
+               "Element also accessed via a closure.");
+        assert(timer,
+               "Timer reference also obtained via a closure." );
+      }
+    }, 10);
+
+  }
+
+  animateIt('box')
+
+```
+
+ex 3 :
 
 const createStore = (reducer) => {
      let state;
