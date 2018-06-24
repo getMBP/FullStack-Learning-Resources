@@ -637,6 +637,30 @@ https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=pla
   Let’s Make a Monad – Drew Tipson – Medium
 
   Currying versus partial application (with JavaScript code)
+http://2ality.com/2011/09/currying-vs-part-eval.html
+https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8
+
+example from secrets of Javascript book -ed1 , chapter 5
+
+```javascript
+
+Function.prototype.curry = function() {
+  var fn = this, args = Array.prototype.slice.call(arguments,0,1);  //only the first argument
+  return function() {
+    return fn.apply(this, args.concat(
+      Array.prototype.slice.call(arguments)));
+  };
+};
+
+function test(x,y){
+  return x+y
+}
+
+var add10 = test.curry(10,2); //only 10 is bind , 2 is ignored , like test.curry(10)
+
+add10(3)
+
+```
 
 - **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
 
