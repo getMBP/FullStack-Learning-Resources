@@ -161,6 +161,17 @@ function addMethod(object, name, fn) {
  "Found nothing");
 
 ```
+example 2 :
+CREATING A SELF-CONTAINED SCOPE
+
+Consider the following snippet:
+
+(function(){
+ var numClicks = 0;
+ document.addEventListener("click", function(){
+ alert( ++numClicks );
+ }, false);
+})();
 
 - **Chapter 2. Variable Scope**
 
