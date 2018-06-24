@@ -166,6 +166,8 @@ CREATING A SELF-CONTAINED SCOPE
 
 Consider the following snippet:
 
+```javascript
+
 (function(){
  var numClicks = 0;
  document.addEventListener("click", function(){
@@ -173,6 +175,7 @@ Consider the following snippet:
  }, false);
 })();
 
+```
 - **Chapter 2. Variable Scope**
 
 from book : Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript
