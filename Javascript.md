@@ -175,6 +175,15 @@ Consider the following snippet:
  }, false);
 })();
 
+/*
+Because the immediate function is executed immediately (hence its name), the click
+handler is also bound right away. The important thing to note is that a closure is created
+for the handler that includes numClicks, allowing the numClicks variable to persist
+along with the handler, and be referenceable by the handler but nowhere else.
+ This is one of the most common ways in which immediate functions are used: as
+simple, self-contained wrappers for functionality. The variables needed for the unit of
+functionality are trapped in the closure, but they aren’t visible anywhere else.
+*/
 ```
 - **Chapter 2. Variable Scope**
 
