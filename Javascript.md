@@ -25,6 +25,65 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 - **You Don't Know JS: Scope & Closures**
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
+- **Practical use of closure examples
+
+ex1 : Private variables
+
+```javascript
+
+      function Ninja() {                                            //#1
+
+        var feints = 0;                                             //#2
+
+        this.getFeints = function(){                                //#3
+          return feints;                                            //#3
+        };                                                          //#3
+
+        this.feint = function(){                                    //#4
+          feints++;                                                 //#4
+        };                                                          //#4
+      }
+
+      var ninja = new Ninja();                                      //#5
+
+      ninja.feint();                                                //#6
+
+      assert(ninja.feints === undefined,                            //#7
+          "And the private data is inaccessible to us." );          //#7
+
+      assert(ninja.getFeints() == 1,                                //#8
+             "We're able to access the internal feint count." );    //#8
+
+```
+
+
+ex 2 :
+
+const createStore = (reducer) => {
+     let state;
+     let listeners = [];
+
+  const getState = () => state;
+
+  const dispatch = (action) => {
+    state = reducer(state, action);
+    listeners.forEach(listener => listener());
+  };
+
+  const subscribe = (listener) => {
+    listeners.push(listener);
+    return () => {
+      listeners = listeners.filter(l => l !== listener);
+    }
+  };
+
+  dispatch({}); // dummy dispatch
+
+  return { getState, dispatch, subscribe };
+
+};
+
+
 Closure use Example : Overloading functions
 
 ```javascript
@@ -83,31 +142,6 @@ This chapter taught me some more hidden things about closures and scopes.
 
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch02.html#ch02lev1sec4)
 
-- **Practical use of closure examples
-
-const createStore = (reducer) => {
-     let state;
-     let listeners = [];
-
-  const getState = () => state;
-
-  const dispatch = (action) => {
-    state = reducer(state, action);
-    listeners.forEach(listener => listener());
-  };
-
-  const subscribe = (listener) => {
-    listeners.push(listener);
-    return () => {
-      listeners = listeners.filter(l => l !== listener);
-    }
-  };
-
-  dispatch({}); // dummy dispatch
-
-  return { getState, dispatch, subscribe };
-
-};
 
 ## in vs for ...in
 
