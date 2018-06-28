@@ -1163,3 +1163,6 @@ https://legacy.gitbook.com/book/basarat/typescript/details
 
 
 
+http://dfsq.info/site/read/writing-your-own-jquery
+https://learnquery.infinum.co/
+
