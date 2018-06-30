@@ -625,6 +625,9 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
+- **innerText vs innerHTML vs textContent
+https://www.w3schools.com/jsref/prop_node_textcontent.asp
+
 https://know-it-all.io/)
 
 https://codepen.io/collection/Dapaqx/)
