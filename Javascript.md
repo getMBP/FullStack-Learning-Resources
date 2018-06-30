@@ -628,6 +628,13 @@ https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-
 - **innerText vs innerHTML vs textContent
 https://www.w3schools.com/jsref/prop_node_textcontent.asp
 
+textContent gets the content of all elements, including <script> and <style> elements, innerText does not
+
+innerText is aware of style and will not return the text of hidden elements, whereas textContent will.
+
+
+
+
 https://know-it-all.io/)
 
 https://codepen.io/collection/Dapaqx/)
