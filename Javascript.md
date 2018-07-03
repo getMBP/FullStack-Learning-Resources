@@ -1136,6 +1136,13 @@ https://developers.google.com/web/fundamentals/performance/get-started/
 ## Jquery Annotated source
 https://robflaherty.github.io/jquery-annotated-source/
 
+
+## CSS
+https://www.inmotionhosting.com/support/edu/website-design/using-css/linking-your-css-to-your-website
+
+https://www.w3schools.com/cssref/css_selectors.asp
+
+
 ## Extras
 
 https://awesometalks.party/
