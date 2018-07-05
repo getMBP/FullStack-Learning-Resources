@@ -1177,7 +1177,7 @@ https://www.sitepoint.com/mvc-design-pattern-javascript/
 
 
 https://legacy.gitbook.com/book/basarat/typescript/details
-
+https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone
 
 
 http://dfsq.info/site/read/writing-your-own-jquery
