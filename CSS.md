@@ -2,6 +2,8 @@
 
 ### Basics
 
+https://css-tricks.com/almanac/
+
 https://www.udemy.com/css-the-complete-guide-incl-flexbox-grid-sass/
 
 #### Inheritance
@@ -9,16 +11,24 @@ https://www.udemy.com/css-the-complete-guide-incl-flexbox-grid-sass/
   ##### width and height are inherited but can be overiden by % or px
   
    height(https://css-tricks.com/almanac/properties/h/height/) of a block level elem is its height + children's like a <section> element may have its children
+ block level elements takes full height by default.
   
   ##### box sizing :
+  Include padding and border in the element's total width and height:
   
-  
-  
-  
-  block level elements takes full geight by default.
-  
-
+ http://blog.teamtreehouse.com/box-sizing-secret-simple-css-layouts
+ 
+ https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+ 
+ https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing (best)
+ 
+ https://codepen.io/deen_john/pen/LrwOgV
+ 
+ 
 #### Selectors :
+
+ https://www.w3schools.com/cssref/css_selectors.asp
+https://www.safaribooksonline.com/library/view/css-the-definitive/9781449325053/ch02.html#selectors_comma_specificity_comma_an
 
 #### Box model:
   
