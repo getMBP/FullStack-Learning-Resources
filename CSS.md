@@ -2,12 +2,29 @@
 
 ### Basics
 
-Inheritance
-Selectors
-Box model:
+https://www.udemy.com/css-the-complete-guide-incl-flexbox-grid-sass/
 
+#### Inheritance
+
+  ##### width and height are inherited but can be overiden by % or px
+  
+   height(https://css-tricks.com/almanac/properties/h/height/) of a block level elem is its height + children's like a <section> element may have its children
+  
+  ##### box sizing :
+  
+  
+  
+  
+  block level elements takes full geight by default.
+  
+
+#### Selectors :
+
+#### Box model:
+  
   ### body default margin :
-     to prevent this,
+     to prevent this, add margin : 0  , in body element
+     
   ### margin collapse
      
    ##### There, three base cases are described:
