@@ -9,7 +9,9 @@ Box model:
   ### body default margin :
      to prevent this,
   ### margin collapse
-     #### There, three base cases are described:
+     
+   ##### There, three base cases are described:
+     
 
       Adjacent siblings which both have margins
       A parent which holds one or more child elements where the first and/ or last (or the only) child has margins
