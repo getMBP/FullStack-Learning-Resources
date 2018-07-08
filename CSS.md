@@ -63,6 +63,9 @@ https://www.safaribooksonline.com/library/view/css-the-definitive/9781449325053/
 
       This case probably doesn't occur that often but if you got an element with no content, no padding, no border and no height, then the top and bottom margin will be merged into one single margin. Again, the bigger one wins.
 
+
+#### Text Align
+https://css-tricks.com/almanac/properties/t/text-align/
   
 
 
