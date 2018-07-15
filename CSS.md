@@ -70,7 +70,8 @@ https://css-tricks.com/almanac/properties/t/text-align/
 #### practical use of transform and translate
 https://www.w3schools.com/howto/howto_css_overlay.asp
 
-
+#### Cascade and Inheritance
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance
 
 
 - **Introduction to CSS**
