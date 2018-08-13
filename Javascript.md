@@ -10,6 +10,8 @@ https://developer.mozilla.org/bm/docs/Web/JavaScript)
 - **Expressions and operators**
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
+http://exploringjs.com/impatient-js/ch_syntax.html#statement-vs.expression
+
 - **Borrowing Methods in JavaScript**
 http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article)
 
