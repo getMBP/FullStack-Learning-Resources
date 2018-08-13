@@ -916,6 +916,7 @@ https://github.com/mjavascript/mastering-modular-javascript)
 
 https://github.com/mjavascript/practical-modern-javascript)
 
+http://exploringjs.com/impatient-js/toc.html
 
 
 ## Regex
