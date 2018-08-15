@@ -648,6 +648,9 @@ http://domenlightenment.com/)
 ## ES6 ,functional
 
 
+- **Decorators **
+https://www.youtube.com/watch?v=_8wOde1fmEM
+
 - **Annotated Underscore.js source code**
 http://underscorejs.org/docs/underscore.html)
 https://github.com/deenjohn/Javascript-revision/blob/master/General/underscore%20notes)
