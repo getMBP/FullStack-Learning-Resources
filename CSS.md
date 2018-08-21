@@ -126,7 +126,11 @@ https://www.youtube.com/watch?v=Gn3JOE6qMuE
 
 ### CSS Flexbox
 
+### CSS reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
+### Event reference
+https://developer.mozilla.org/en-US/docs/Web/Events
 
 
 ### Extras
