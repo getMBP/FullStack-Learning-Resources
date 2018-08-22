@@ -70,6 +70,8 @@ https://app.pluralsight.com/library/courses/eslint-better-code-quality/table-of-
 **Using The Chrome Developer Tools**
 https://app.pluralsight.com/library/courses/chrome-developer-tools
 
+**Art of debugging with Chrome DevTools**
+https://medium.com/frontmen/art-of-debugging-with-chrome-devtools-ab7b5fd8e0b4
 
 ### Extras
 
