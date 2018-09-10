@@ -366,6 +366,9 @@ https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parse
 - **Master the JavaScript Interview: What is Function Composition?**
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
 
+- **How do you check that a number is NaN in JavaScript?**
+https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascript
+
 - **null vs undefined
 https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
 
