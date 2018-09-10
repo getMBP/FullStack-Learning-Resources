@@ -249,6 +249,7 @@ https://github.com/deenjohn/Javascript-revision/blob/master/General/3-%20functio
  - **Function length vs arguments**
 https://github.com/deenjohn/Javascript-revision/blob/master/General/Function%20length%20vs%20arguments)
 
+
 ### Call,Apply,Bind
 
 https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
@@ -316,6 +317,29 @@ Apply
  "Located the largest value."); 
  
 ```
+
+
+- **How to delete a function**
+
+```javascript
+var animals = [
+  { species: 'Lion', name: 'King' },
+  { species: 'Whale', name: 'Fail' }
+];
+
+for (var i = 0; i < animals.length; i++) {
+  (function(i) {
+    this.print = function() {
+      console.log('#' + i + ' ' + this.species
+                  + ': ' + this.name);
+    }
+    this.print();
+    this.print = null ;
+    delete this.print ;
+  }).call(animals[i], i);
+}
+```
+
 - **where instanceof fails**
 
 If you have two arbitrary objects, say a and b, and want to find out if the objects are related to each other through a [[Prototype]] chain, instanceof alone can't help.
