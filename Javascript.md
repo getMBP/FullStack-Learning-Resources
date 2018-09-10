@@ -372,6 +372,22 @@ https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-na
 - **Is Number.IsNaN() more broken than isNaN()**
 https://stackoverflow.com/questions/25176459/is-number-isnan-more-broken-than-isnan
 
+isNaN() and Number.isNaN() both test if a value is (or, in the case of isNaN(), can be converted to a number-type value that represents) the NaN value. In other words, "NaN" does not simply mean "this value is not a number", it specifically means "this value is a numeric Not-a-Number value according to IEEE-754".
+
+The reason all your tests above return false is because all of the given values can be converted to a numeric value that is not NaN:
+
+Number('')    // 0
+Number('   ') // 0
+Number(true)  // 1
+Number(false) // 0
+Number([0])   // 0
+The reason isNaN() is "broken" is because, ostensibly, type conversions aren't supposed to happen when testing values. That is the issue Number.isNaN() is designed to address. In particular,  Number.isNaN() will only attempt to compare a value to NaN if the value is a number-type value. Any other type will return false, even if they are literally "not a number", because the type of the value NaN is number. See the respective MDN docs for isNaN() and Number.isNaN().
+
+If you simply want to determine whether or not a value is of the number type, even if that value is NaN, use typeof instead:
+
+typeof 'RAWRRR' === 'number' // false
+
+
 - **null vs undefined
 https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
 
