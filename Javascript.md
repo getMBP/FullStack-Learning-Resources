@@ -27,6 +27,16 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 - **You Don't Know JS: Scope & Closures**
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
+- **https://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js-ebook/dp/B00D624AQO**
+
+Sometimes encapsulation is used to restrict the visibility of
+certain elements, and this act is known as data hiding. JavaScript’s object system does
+not provide a way to hide data directly, so data is hidden using something called closures.
+
+By using functional techniques involving closures, you can achieve data hiding that is as effective 
+as the same capability offered by most object-oriented languages
+
+
 - **Practical use of closure examples
 
 ex1 : Private variables
