@@ -1210,6 +1210,12 @@ https://www.inmotionhosting.com/support/edu/website-design/using-css/linking-you
 
 https://www.w3schools.com/cssref/css_selectors.asp
 
+##Mobile
+
+1)Detecting which mobile
+https://www.w3schools.com/jsref/prop_nav_useragent.asp
+
+
 
 ## Extras
 
