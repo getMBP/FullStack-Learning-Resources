@@ -27,6 +27,8 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 - **You Don't Know JS: Scope & Closures**
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
+http://javascript.info/closure
+
 - **https://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js-ebook/dp/B00D624AQO**
 
 Sometimes encapsulation is used to restrict the visibility of
