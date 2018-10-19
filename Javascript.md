@@ -1239,6 +1239,9 @@ https://docs.sencha.com/extreact/6.5.3/guides/gestures.html
 
 https://www.davrous.com/2015/08/10/unifying-touch-and-mouse-how-pointer-events-will-make-cross-browsers-touch-support-easy/
 
+https://developer.tizen.org/dev-guide/2.4/org.tizen.tutorials/html/web/w3c/device/task_touch_paint_mw.htm
+https://codepen.io/deen_john/pen/PyeXyP
+
 ## Extras
 
 https://awesometalks.party/
