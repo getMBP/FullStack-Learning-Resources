@@ -1235,6 +1235,10 @@ https://blog.mobiscroll.com/working-with-touch-events/
 
 https://www.html5rocks.com/en/mobile/touchandmouse/
 
+https://docs.sencha.com/extreact/6.5.3/guides/gestures.html
+
+https://www.davrous.com/2015/08/10/unifying-touch-and-mouse-how-pointer-events-will-make-cross-browsers-touch-support-easy/
+
 ## Extras
 
 https://awesometalks.party/
