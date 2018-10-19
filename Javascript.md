@@ -1248,6 +1248,7 @@ http://www.thatsoftwaredude.com/content/8579/javascript-touch-events
 https://eloquentjavascript.net/15_event.html
 
 https://www.sitepen.com/blog/2011/12/07/touching-and-gesturing-on-iphone-android-and-more/
+https://davidwalsh.name/mootools-touch
 
 ## Extras
 
