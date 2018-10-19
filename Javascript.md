@@ -1241,6 +1241,9 @@ https://www.davrous.com/2015/08/10/unifying-touch-and-mouse-how-pointer-events-w
 
 https://developer.tizen.org/dev-guide/2.4/org.tizen.tutorials/html/web/w3c/device/task_touch_paint_mw.htm
 https://codepen.io/deen_john/pen/PyeXyP
+https://medium.com/@jh3y/implementing-touch-support-in-javascript-b8e43f267a16
+https://css-tricks.com/the-javascript-behind-touch-friendly-sliders/
+https://www.youtube.com/watch?v=_3b1rvuFCJY
 
 ## Extras
 
