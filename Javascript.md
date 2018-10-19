@@ -109,7 +109,7 @@ const createStore = (reducer) => {
   const getState = () => state;
 
   const dispatch = (action) => {
-    state = reducer(state, action);
+    state = reducer(state, action)
     listeners.forEach(listener => listener());
   };
 
@@ -1245,7 +1245,9 @@ https://medium.com/@jh3y/implementing-touch-support-in-javascript-b8e43f267a16
 https://css-tricks.com/the-javascript-behind-touch-friendly-sliders/
 https://www.youtube.com/watch?v=_3b1rvuFCJY
 http://www.thatsoftwaredude.com/content/8579/javascript-touch-events
+https://eloquentjavascript.net/15_event.html
 
+https://www.sitepen.com/blog/2011/12/07/touching-and-gesturing-on-iphone-android-and-more/
 
 ## Extras
 
