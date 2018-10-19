@@ -1244,6 +1244,8 @@ https://codepen.io/deen_john/pen/PyeXyP
 https://medium.com/@jh3y/implementing-touch-support-in-javascript-b8e43f267a16
 https://css-tricks.com/the-javascript-behind-touch-friendly-sliders/
 https://www.youtube.com/watch?v=_3b1rvuFCJY
+http://www.thatsoftwaredude.com/content/8579/javascript-touch-events
+
 
 ## Extras
 
