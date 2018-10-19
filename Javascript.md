@@ -1233,6 +1233,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/Touch_events
 https://patrickhlauke.github.io/getting-touchy-presentation/
 https://blog.mobiscroll.com/working-with-touch-events/
 
+https://www.html5rocks.com/en/mobile/touchandmouse/
+
 ## Extras
 
 https://awesometalks.party/
