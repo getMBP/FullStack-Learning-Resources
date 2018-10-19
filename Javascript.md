@@ -1212,12 +1212,26 @@ https://www.inmotionhosting.com/support/edu/website-design/using-css/linking-you
 
 https://www.w3schools.com/cssref/css_selectors.asp
 
-##Mobile
+## Mobile
 
 1)Detecting which mobile
 https://www.w3schools.com/jsref/prop_nav_useragent.asp
 
+https://developer.mozilla.org/en-US/docs/Web/API/Touch_events/Multi-touch_interaction
 
+https://stackoverflow.com/questions/42929323/touchevent-touches-length-returns-always-1-on-android
+
+https://javascript.info/bubbling-and-capturing
+https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html
+
+http://qu.edu.iq/wp-content/uploads/2017/09/HTML5-APPLICATIONS-DEVELOPMENT-MANUAL-2017.pdf
+
+https://github.com/john-doherty/long-press/blob/master/src/long-press.js
+
+https://developer.mozilla.org/en-US/docs/Web/API/Touch_events
+
+https://patrickhlauke.github.io/getting-touchy-presentation/
+https://blog.mobiscroll.com/working-with-touch-events/
 
 ## Extras
 
