@@ -1250,6 +1250,10 @@ https://eloquentjavascript.net/15_event.html
 https://www.sitepen.com/blog/2011/12/07/touching-and-gesturing-on-iphone-android-and-more/
 https://davidwalsh.name/mootools-touch
 
+https://www.youtube.com/watch?v=Rwc4fHUnGuU
+
+https://www.youtube.com/watch?v=ga_SLzsUdTY
+
 ## Extras
 
 https://awesometalks.party/
