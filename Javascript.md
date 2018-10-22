@@ -690,6 +690,8 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 https://www.w3schools.com/jsref/event_cancelable.asp
 https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html
 
+https://segmentfault.com/q/1010000002870710
+
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
@@ -1256,6 +1258,8 @@ https://www.youtube.com/watch?v=Rwc4fHUnGuU
 
 https://www.youtube.com/watch?v=ga_SLzsUdTY
 https://segmentfault.com/q/1010000002870710
+
+ What is the difference between targetTouches, touches, and changedTouches in TouchEvent?https://segmentfault.com/q/1010000002870710
 
 ## Extras
 
