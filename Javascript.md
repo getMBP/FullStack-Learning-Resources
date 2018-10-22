@@ -1216,7 +1216,7 @@ https://www.w3schools.com/cssref/css_selectors.asp
 
 1)Detecting which mobile
 https://www.w3schools.com/jsref/prop_nav_useragent.asp
-
+https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html
 https://developer.mozilla.org/en-US/docs/Web/API/Touch_events/Multi-touch_interaction
 
 https://stackoverflow.com/questions/42929323/touchevent-touches-length-returns-always-1-on-android
