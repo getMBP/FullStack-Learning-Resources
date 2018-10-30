@@ -991,6 +991,7 @@ https://github.com/mjavascript/practical-modern-javascript)
 
 http://exploringjs.com/impatient-js/toc.html
 
+https://javascript.info/
 
 ## Regex
 
