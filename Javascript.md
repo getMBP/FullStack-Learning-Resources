@@ -695,6 +695,8 @@ https://developer.apple.com/library/archive/documentation/AppleApplications/Refe
 
 https://segmentfault.com/q/1010000002870710
 
+https://github.com/krasimir/EventBus
+
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
