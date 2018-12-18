@@ -716,6 +716,11 @@ https://codepen.io/collection/Dapaqx/)
 
 http://domenlightenment.com/)
 
+https://stackoverflow.com/questions/26496176/when-logging-an-event-object-currenttarget-is-null-but-when-logging-event-curr
+
+https://stackoverflow.com/questions/5921413/difference-between-e-target-and-e-currenttarget?noredirect=1&lq=1
+
+https://stackoverflow.com/questions/6073505/what-is-the-difference-between-screenx-y-clientx-y-and-pagex-y
 
 
 ## ES6 ,functional
