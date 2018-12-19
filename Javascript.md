@@ -691,6 +691,8 @@ https://www.w3schools.com/js/js_events.asp)
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
 
 https://www.w3schools.com/jsref/event_cancelable.asp
+
+https://javascript.info/default-browser-action
 https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html
 
 https://segmentfault.com/q/1010000002870710
