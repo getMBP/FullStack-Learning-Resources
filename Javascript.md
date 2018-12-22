@@ -465,6 +465,10 @@ null is the only primitive value that is "falsy" (aka false-like; see Chapter 4)
 Numeric conversion using a plus + or Number() is strict. If a value is not exactly a number, it fails:
 alert( +"100px" ); // NaN
 
+There are situations when parseInt/parseFloat will return NaN. It happens when no digits could be read:
+
+ alert( parseInt('a123') ); // NaN, the first symbol stops the process
+
 ## This in Object
 
 
