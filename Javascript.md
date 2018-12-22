@@ -452,6 +452,10 @@ var a = null;
 ```
 null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
 
+- **parseInt and parseFloat
+
+Numeric conversion using a plus + or Number() is strict. If a value is not exactly a number, it fails:
+alert( +"100px" ); // NaN
 
 ## This in Object
 
