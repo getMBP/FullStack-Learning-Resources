@@ -408,6 +408,7 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-func
 
 - **How do you check that a number is NaN in JavaScript?**
 https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascript
+I would recommend: typeof value === 'number' && !isNaN(value). Because typeof NaN === 'number'.
 
 - **Is Number.IsNaN() more broken than isNaN()**
 https://stackoverflow.com/questions/25176459/is-number-isnan-more-broken-than-isnan
