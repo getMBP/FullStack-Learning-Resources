@@ -24,6 +24,25 @@ http://jibbering.com/faq/notes/closures/#clIRExSc)
 - **Identifier Resolution and Closures in the JavaScript Scope Chain**
 http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 
+Note : 
+ scope chain only works for fnctions inside functions and not functions inside object
+      var StartStopCounter = {
+          counter : 0,
+          start : function(){
+                StartStopCounter.stopCounter = setInterval(function(){
+                    console.log(StartStopCounter.counter);
+                    //que : why only counter won't work ?
+                    StartStopCounter.counter=StartStopCounter.counter + 1 ;
+                },1000);
+
+          },
+          stop : function(){
+              clearInterval(StartStopCounter.stopCounter);
+
+          }
+      }
+
+
 - **You Don't Know JS: Scope & Closures**
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
