@@ -571,6 +571,8 @@ reader.read("a,b,c\nd,e,f\n");
 
 ## object
 
+https://stackoverflow.com/questions/tagged/javascript+object
+
 - **MDN : Object**
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
@@ -652,6 +654,8 @@ https://medium.freecodecamp.org/lets-explore-objects-in-javascript-4a4ad76af798
 http://javascript.info/object-toprimitive
 
 ## Arrays 
+
+https://stackoverflow.com/questions/tagged/arrays+javascript
 
 - **Remove duplicates from an array of objects in JavaScript**
 https://stackoverflow.com/questions/tagged/javascript+arrays)
