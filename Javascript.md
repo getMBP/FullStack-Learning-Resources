@@ -476,6 +476,10 @@ var a = null;
 
 (!a && typeof a === "object"); // true
 
+When you’re trying to
+identify null, use triple equals so that you can correctly identify the type.
+ex : console.log(undefined == null); // true
+console.log(undefined === null); // false
 ```
 null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
 
