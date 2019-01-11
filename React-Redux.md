@@ -378,7 +378,10 @@ https://egghead.io/courses/getting-started-with-redux
 https://medium.com/@justin3737/getting-started-with-redux-dded45556673
 
 https://learnreduxwithdanabramov.com/
-    
+  
+- **Simple Redux
+ https://bumbu.me/simple-redux/
+  
 - **Building React Applications with Idiomatic Redux**
 https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
     
