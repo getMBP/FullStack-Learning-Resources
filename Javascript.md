@@ -696,8 +696,12 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 https://stackoverflow.com/questions/310870/use-of-prototype-vs-this-in-javascript
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch6.md
 https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
-
-
+https://stackoverflow.com/questions/4166616/understanding-the-difference-between-object-create-and-new-somefunction
+https://stackoverflow.com/questions/4508313/advantages-of-using-prototype-vs-defining-methods-straight-in-the-constructor
+https://stackoverflow.com/questions/10430279/extending-an-object-in-javascript
+https://stackoverflow.com/questions/3781373/javascript-what-are-extend-and-prototype-used-for
+https://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-bad-practice
+https://stackoverflow.com/questions/4740806/native-way-to-merge-objects-in-javascript
 ## Arrays 
 
 https://stackoverflow.com/questions/tagged/arrays+javascript
