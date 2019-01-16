@@ -281,9 +281,6 @@ a instanceof Foo; // true
 The instanceof operator takes a plain object as its left-hand operand and a function as its right-hand operand. The question instanceof answers is: in the entire [[Prototype]] chain of a, does the object arbitrarily pointed to by Foo.prototype ever appear?
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
-https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
-
-
 
 
 ## functions
@@ -692,6 +689,14 @@ https://medium.freecodecamp.org/lets-explore-objects-in-javascript-4a4ad76af798
 
 - **Object to primitive conversion
 http://javascript.info/object-toprimitive
+
+- **Prototypes
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
+https://stackoverflow.com/questions/310870/use-of-prototype-vs-this-in-javascript
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch6.md
+https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
+
 
 ## Arrays 
 
@@ -1354,6 +1359,10 @@ https://www.youtube.com/watch?v=ga_SLzsUdTY
 https://segmentfault.com/q/1010000002870710
 
  What is the difference between targetTouches, touches, and changedTouches in TouchEvent?https://segmentfault.com/q/1010000002870710
+
+
+## Interview prep
+http://davidshariff.com/blog/preparing-for-a-front-end-web-development-interview-in-2017/
 
 ## Extras
 https://html.spec.whatwg.org/
