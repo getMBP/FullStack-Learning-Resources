@@ -434,7 +434,13 @@ alert( parseFloat('12.5em') ); // 12.5
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
 
 - **How do you check that a number is NaN in JavaScript?**
-https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascript
+https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascripthttps://stackoverflow.com/questions/825402/why-does-isnan-equal-falsehttps://stackoverflow.com/questions/8965364/comparing-nan-values-for-equality-in-javascript
+https://stackoverflow.com/questions/6736476/how-to-turn-nan-from-parseint-into-0-for-an-empty-string
+https://stackoverflow.com/questions/34261938/what-is-the-difference-between-nan-nan-and-nan-nan
+https://stackoverflow.com/questions/20534887/break-on-nan-in-javascript
+https://stackoverflow.com/questions/26962341/number-isnan-doesnt-exist-in-ie
+https://stackoverflow.com/questions/15176076/understanding-underscores-implementation-of-isnan
+
 I would recommend: typeof value === 'number' && !isNaN(value). Because typeof NaN === 'number'.
 
 - **Is Number.IsNaN() more broken than isNaN()**
@@ -466,6 +472,14 @@ Something is currently unavailable: null.
 https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined)
 https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1)
 https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
+https://stackoverflow.com/questions/2559318/how-to-check-for-an-undefined-or-null-variable-in-javascript
+https://stackoverflow.com/questions/5515310/is-there-a-standard-function-to-check-for-null-undefined-or-blank-variables-in
+https://stackoverflow.com/questions/2647867/how-to-determine-if-variable-is-undefined-or-null
+https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property?noredirect=1&lq=1
+https://stackoverflow.com/questions/4186906/check-if-object-exists-in-javascript
+https://stackoverflow.com/questions/16672743/javascript-null-check
+https://stackoverflow.com/questions/5716976/javascript-undefined-vs-void-0
+https://stackoverflow.com/questions/385960/javascript-identify-whether-a-property-is-defined-and-set-to-undefined-or-u
 
 - **Test null**
 https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
