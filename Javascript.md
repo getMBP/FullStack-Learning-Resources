@@ -11,6 +11,14 @@ https://developer.mozilla.org/bm/docs/Web/JavaScript)
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 http://exploringjs.com/impatient-js/ch_syntax.html#statement-vs.expression
+https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md
+https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression
+
+
+- **Values & Types
+https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#values--types
+https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
+
 
 - **Borrowing Methods in JavaScript**
 http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article)
@@ -44,6 +52,7 @@ Note :
 
 
 - **You Don't Know JS: Scope & Closures**
+https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#scope
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
 http://javascript.info/closure
@@ -57,6 +66,7 @@ not provide a way to hide data directly, so data is hidden using something calle
 By using functional techniques involving closures, you can achieve data hiding that is as effective 
 as the same capability offered by most object-oriented languages
 
+https://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript
 
 - **Practical use of closure examples
 
@@ -228,6 +238,13 @@ This chapter taught me some more hidden things about closures and scopes.
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch02.html#ch02lev1sec4)
 
 
+https://stackoverflow.com/questions/111102/how-do-javascript-closures-work
+https://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example
+https://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript
+https://stackoverflow.com/questions/2728278/what-is-a-practical-use-for-a-closure-in-javascript
+https://stackoverflow.com/questions/1451009/javascript-infamous-loop-issue
+
+
 ## in vs for ...in
 
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
@@ -275,6 +292,11 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 
 - **Using IIFEs in JavaScript to control variable scope**
 https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope)
+https://stackoverflow.com/questions/2421911/what-is-the-purpose-of-wrapping-whole-javascript-files-in-anonymous-functions-li
+https://stackoverflow.com/questions/13341698/javascript-plus-sign-in-front-of-function-name
+https://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript
+https://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript
+
 
  - **function arguments object**
 https://github.com/deenjohn/Javascript-revision/blob/master/General/3-%20function%20arguments%20object%20.md)
