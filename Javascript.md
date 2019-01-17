@@ -200,7 +200,8 @@ function addMethod(object, name, fn) {
  "Found ninja by first name");
  assert(ninjas.find("Dean", "Edwards").length == 1,
  "Found ninja by first and last name");
- assert(ninjas.find("Alex", "Russell", "Jr") == null,
+ assert(ninjas.find("Alex", "Russell", "Jr") == 
+ ,
  "Found nothing");
 
 ```
@@ -517,6 +518,17 @@ ex : console.log(undefined == null); // true
 console.log(undefined === null); // false
 ```
 null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
+
+- **Use of null in prototype**
+Use null Prototypes to Prevent Prototype Pollution
+
+function C() { }
+C.prototype = null;
+But instantiating this constructor still results in instances of Object:
+var o = new C();
+Object.getPrototypeOf(o) === null; // false
+Object.getPrototypeOf(o) === Object.prototype; // true
+
 
 - **parseInt and parseFloat
 
