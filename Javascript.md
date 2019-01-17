@@ -15,7 +15,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md
 https://stackoverflow.com/questions/12703214/javascript-difference-between-a-statement-and-an-expression
 
 
-- **Values & Types
+- **Values & Types**
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#values--types
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
 
