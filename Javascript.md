@@ -702,6 +702,9 @@ https://stackoverflow.com/questions/10430279/extending-an-object-in-javascript
 https://stackoverflow.com/questions/3781373/javascript-what-are-extend-and-prototype-used-for
 https://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-bad-practice
 https://stackoverflow.com/questions/4740806/native-way-to-merge-objects-in-javascript
+https://stackoverflow.com/questions/8859828/javascript-what-dangers-are-in-extending-array-prototype
+
+
 ## Arrays 
 
 https://stackoverflow.com/questions/tagged/arrays+javascript
