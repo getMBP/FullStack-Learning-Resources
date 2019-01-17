@@ -718,6 +718,7 @@ https://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-b
 https://stackoverflow.com/questions/4740806/native-way-to-merge-objects-in-javascript
 https://stackoverflow.com/questions/8859828/javascript-what-dangers-are-in-extending-array-prototype
 
+Effective Javascript - chapter 4 
 
 ## Arrays 
 
