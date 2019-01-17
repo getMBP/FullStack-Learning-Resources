@@ -248,10 +248,19 @@ https://stackoverflow.com/questions/1451009/javascript-infamous-loop-issue
 
 ## in vs for ...in
 
+The for-in statement by itself is not a "bad practice", however it can be mis-used, 
+for example, to iterate over arrays or array-like objects.
+
+The purpose of the for-in statement is to enumerate over object properties. 
+This statement will go up in the prototype chain, also enumerating over inherited properties, a thing that sometimes is not desired.
+
+for..in isn't guaranteed to preserve element ordering
+
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
 
 https://www.w3schools.com/jsref/jsref_forin.asp
 https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-a-bad-idea
+
 
 ## Coercion 
 
@@ -730,6 +739,7 @@ https://stackoverflow.com/questions/tagged/arrays+javascript
 https://stackoverflow.com/questions/tagged/javascript+arrays)
 
 - **arraylike vs array**
+
 https://github.com/deenjohn/Javascript-revision/blob/master/General/arraylike%20vs%20array.md)
 
 what exactly makes an object “array-like”? The basic contract of
