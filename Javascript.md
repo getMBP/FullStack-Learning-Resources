@@ -339,11 +339,11 @@ https://www.safaribooksonline.com/library/view/effective-javascript-68/978013290
 - **Use apply to Call Functions with Different Numbers of Arguments**
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec4)
 
-- **Use bind to Extract Methods with a Fixed Receiver **
+- **Use bind to Extract Methods with a Fixed Receiver**
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec9)
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
 
-- **How does Function.prototype.call.bind work?
+- **How does Function.prototype.call.bind work?**
 https://stackoverflow.com/questions/11121586/how-does-function-prototype-call-bind-work/50874883#50874883
 
 Call
