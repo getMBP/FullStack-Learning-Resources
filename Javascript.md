@@ -34,6 +34,8 @@ http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 
 Note : 
  scope chain only works for fnctions inside functions and not functions inside object
+ 
+```javascript
       var StartStopCounter = {
           counter : 0,
           start : function(){
@@ -50,6 +52,8 @@ Note :
           }
       }
 
+
+```
 
 - **You Don't Know JS: Scope & Closures**
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#scope
