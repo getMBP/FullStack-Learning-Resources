@@ -250,6 +250,8 @@ https://stackoverflow.com/questions/1451009/javascript-infamous-loop-issue
 
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
 
+https://www.w3schools.com/jsref/jsref_forin.asp
+https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-a-bad-idea
 
 ## Coercion 
 
