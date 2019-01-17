@@ -730,6 +730,51 @@ https://stackoverflow.com/questions/tagged/javascript+arrays)
 - **arraylike vs array**
 https://github.com/deenjohn/Javascript-revision/blob/master/General/arraylike%20vs%20array.md)
 
+what exactly makes an object “array-like”? The basic contract of
+an array object amounts to two simple rules.
+ ■ It has an integer length property in the range 0...232 – 1.
+ ■ The length property is greater than the largest index of the object.
+An index is an integer in the range 0...232 – 2 whose string representation is the key of a property of the object
+
+This is all the behavior an object needs to implement to be compatible
+with any of the methods of Array.prototype. Even a simple object literal can be used to create an array-like object:
+
+var arrayLike = { 0: "a", 1: "b", 2: "c", length: 3 };
+var result = Array.prototype.map.call(arrayLike, function(s) {
+return s.toUpperCase();
+}); // ["A", "B", "C"]
+
+Strings act like immutable arrays, too, since they can be indexed
+and their length can be accessed as a length property. So the
+Array.prototype methods that do not modify their array work with
+strings:
+var result = Array.prototype.map.call("abc", function(s) {
+return s.toUpperCase();
+}); // ["A", "B", "C"]
+
+There is just one Array method that is not fully generic: the array concatenation method concat. This method can be called on any arraylike receiver, but it tests the [[Class]] of its arguments. If an argument
+is a true array, its contents are concatenated to the result; otherwise,
+the argument is added as a single element. This means, for example,
+that we can’t simply concatenate an array with the contents of an
+arguments object:
+
+function namesColumn() {
+  return ["Names"].concat(arguments);
+}
+namesColumn("Alice", "Bob", "Chris");
+// ["Names", { 0: "Alice", 1: "Bob", 2: "Chris" }]
+
+In order to convince concat to treat an array-like object as a true
+array, we have to convert it ourselves. A popular and concise idiom
+for doing this conversion is to call the slice method on the array-like
+object:
+function namesColumn() {
+   return ["Names"].concat([].slice.call(arguments));
+}
+namesColumn("Alice", "Bob", "Chris");
+// ["Names", "Alice", "Bob", "Chris"]
+
+
 
 https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript
 
