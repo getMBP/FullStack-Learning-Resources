@@ -72,7 +72,7 @@ as the same capability offered by most object-oriented languages
 
 https://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript
 
-- **Practical use of closure examples
+- **Practical use of closure examples**
 
 ex1 : Private variables
 
