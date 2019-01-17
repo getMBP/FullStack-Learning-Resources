@@ -483,11 +483,13 @@ isNaN() and Number.isNaN() both test if a value is (or, in the case of isNaN(), 
 
 The reason all your tests above return false is because all of the given values can be converted to a numeric value that is not NaN:
 
+```javascript
 Number('')    // 0
 Number('   ') // 0
 Number(true)  // 1
 Number(false) // 0
 Number([0])   // 0
+```
 The reason isNaN() is "broken" is because, ostensibly, type conversions aren't supposed to happen when testing values. That is the issue Number.isNaN() is designed to address. In particular,  Number.isNaN() will only attempt to compare a value to NaN if the value is a number-type value. Any other type will return false, even if they are literally "not a number", because the type of the value NaN is number. See the respective MDN docs for isNaN() and Number.isNaN().
 
 If you simply want to determine whether or not a value is of the number type, even if that value is NaN, use typeof instead:
@@ -533,6 +535,8 @@ null is the only primitive value that is "falsy" (aka false-like; see Chapter 4)
 - **Use of null in prototype**
 Use null Prototypes to Prevent Prototype Pollution
 
+```javascript
+
 function C() { }
 C.prototype = null;
 But instantiating this constructor still results in instances of Object:
@@ -540,6 +544,7 @@ var o = new C();
 Object.getPrototypeOf(o) === null; // false
 Object.getPrototypeOf(o) === Object.prototype; // true
 
+```
 
 - **parseInt and parseFloat
 
@@ -729,6 +734,24 @@ https://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-b
 https://stackoverflow.com/questions/4740806/native-way-to-merge-objects-in-javascript
 https://stackoverflow.com/questions/8859828/javascript-what-dangers-are-in-extending-array-prototype
 
+Use hasOwnProperty to Protect Against Prototype Pollution
+
+```javascript
+var dict = {};
+"alice" in dict; // false
+"bob" in dict; // false
+"chris" in dict; // false
+"toString" in dict; // true
+"valueOf" in dict; // true
+Luckily, Object.prototype provides the hasOwnProperty method, which
+is just the tool we need to avoid prototype pollution when testing for
+dictionary entries:
+dict.hasOwnProperty("alice"); // false
+dict.hasOwnProperty("toString"); // false
+dict.hasOwnProperty("valueOf"); // false
+
+```
+
 Effective Javascript - chapter 4 
 
 ## Arrays 
@@ -751,18 +774,26 @@ An index is an integer in the range 0...232 – 2 whose string representation is
 This is all the behavior an object needs to implement to be compatible
 with any of the methods of Array.prototype. Even a simple object literal can be used to create an array-like object:
 
+```javascript
+
 var arrayLike = { 0: "a", 1: "b", 2: "c", length: 3 };
 var result = Array.prototype.map.call(arrayLike, function(s) {
 return s.toUpperCase();
 }); // ["A", "B", "C"]
 
+```
 Strings act like immutable arrays, too, since they can be indexed
 and their length can be accessed as a length property. So the
 Array.prototype methods that do not modify their array work with
 strings:
+
+```javascript
 var result = Array.prototype.map.call("abc", function(s) {
 return s.toUpperCase();
 }); // ["A", "B", "C"]
+
+
+```
 
 There is just one Array method that is not fully generic: the array concatenation method concat. This method can be called on any arraylike receiver, but it tests the [[Class]] of its arguments. If an argument
 is a true array, its contents are concatenated to the result; otherwise,
@@ -770,16 +801,26 @@ the argument is added as a single element. This means, for example,
 that we can’t simply concatenate an array with the contents of an
 arguments object:
 
+
+```javascript
+
 function namesColumn() {
   return ["Names"].concat(arguments);
 }
 namesColumn("Alice", "Bob", "Chris");
 // ["Names", { 0: "Alice", 1: "Bob", 2: "Chris" }]
 
+
+```
+
 In order to convince concat to treat an array-like object as a true
 array, we have to convert it ourselves. A popular and concise idiom
 for doing this conversion is to call the slice method on the array-like
 object:
+
+
+```javascript
+
 function namesColumn() {
    return ["Names"].concat([].slice.call(arguments));
 }
@@ -787,6 +828,7 @@ namesColumn("Alice", "Bob", "Chris");
 // ["Names", "Alice", "Bob", "Chris"]
 
 
+```
 
 https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript
 
