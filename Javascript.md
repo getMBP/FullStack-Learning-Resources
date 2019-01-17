@@ -274,6 +274,8 @@ https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
 
 - **instanceof**
+https://javascript.info/instanceof
+
 The instanceof operator tests the presence of constructor.prototype in object's prototype chain.
 
 a instanceof Foo; // true
