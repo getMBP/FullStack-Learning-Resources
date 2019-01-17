@@ -283,7 +283,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch01.html#ch01lev1sec3)
 
 
-- **Truthy values
+- **Truthy values**
 https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 
 ### typeof vs instanceof
