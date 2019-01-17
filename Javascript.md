@@ -743,12 +743,14 @@ https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-arra
 - **Merge/flatten an array of arrays in JavaScript?**
 https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript)
 
-What is the most efficient method to groupby on a JavaScript array of objects?
+- **What is the most efficient method to groupby on a JavaScript array of objects?
 https://stackoverflow.com/questions/14446511/what-is-the-most-efficient-method-to-groupby-on-a-javascript-array-of-objects)
 
-Remove duplicates from an array of objects in JavaScript
+- **Remove duplicates from an array of objects in JavaScript
 https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript)
 
+- **Remove duplicate values from JS array
+https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates?noredirect=1&lq=1
 
 ## DOM
 
