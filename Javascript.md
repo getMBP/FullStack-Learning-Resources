@@ -92,6 +92,58 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and
 http://ecma-international.org/ecma-262/5.1/#sec-11.9.3)
 http://getify.github.io/coercions-grid/)
 
+http://speakingjs.com/es5/ch09.html
+Use case: working with numbers in strings
+If you are not sure whether a value x is a number or a number-as-a-string, you can use checks such as the following:
+
+```javascript
+
+if (x == 123) ...
+
+```
+The preceding checks whether x is either 123 or '123'. Again, this is very compact, and again, it is better to be explicit:
+
+```javascript
+if (Number(x) === 123)
+
+```
+
+Use case: comparing wrapper instances with primitives
+Lenient equals lets you compare primitives with wrapped primitives:
+
+```javascript
+
+> 'abc' == new String('abc')
+true
+```
+
+There are three reasons against this approach. First, lenient equality does not work between wrapped primitives:
+
+```javascript
+> new String('abc') == new String('abc')
+false
+Second, you should avoid wrappers anyway. 
+Third, if you do use them, it is better to be explicit:
+
+if (wrapped.valueOf() === 'abc') 
+
+```
+
+***How is this experssion evaluated ? x < y****
+The Algorithm (http://speakingjs.com/es5/ch08.html#toprimitive)
+You evaluate a comparison:
+
+```javascript
+x < y
+```
+by taking the following steps:
+
+Ensure that both operands are primitives. Objects obj are converted to primitives via the internal operation ToPrimitive(obj, Number) (refer to Algorithm: ToPrimitive()—Converting a Value to a Primitive), which calls obj.valueOf() and, possibly, obj.toString() to do so.
+If both operands are strings, then compare them by lexicographically comparing the 16-bit code units (see Chapter 24) that represent the JavaScript characters of the string.
+Otherwise, convert both operands to numbers and compare them numerically.
+The other ordering operators are handled similarly
+
+
 - **Chapter 4: Coercion**
 https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
 
@@ -684,12 +736,21 @@ var a = null;
 
 (!a && typeof a === "object"); // true
 
-When you’re trying to
-identify null, use triple equals so that you can correctly identify the type.
+When you’re trying to identify null, use triple equals so that you can correctly identify the type.
 ex : console.log(undefined == null); // true
 console.log(undefined === null); // false
 ```
 null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
+
+Pitfall: typeof null
+Unfortunately, typeof null is 'object'. This is considered a bug (null is not a member of the internal type Object), but it can’t be fixed, because doing so would break existing code. You thus have to be wary of null. For example, the following function checks whether value is an object:
+
+function isObject(value) {
+    return (value !== null
+       && (typeof value === 'object'
+           || typeof value === 'function'));
+
+
 
 - **Use of null in prototype**
 Use null Prototypes to Prevent Prototype Pollution
