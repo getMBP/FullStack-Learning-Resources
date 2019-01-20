@@ -353,10 +353,29 @@ var jane = {
         });
     }
 }
-Calling logHiToFriends produces an error:
+Calling logHiToFriends produces an error: why ?
 
 > jane.logHiToFriends()
+TypeError: Cannot read property 'name' of undefined
 
+Ans :
+ jane.logHiToFriends() runs like 
+ 
+ var callback = function (friend) {
+            // `this` is undefined here
+            console.log(this.name+' says hi to '+friend);
+        }
+	
+ var jane = {
+    name: 'Jane',
+    friends: [ 'Tarzan', 'Cheeta' ],
+    logHiToFriends: function () {
+        'use strict';
+        this.friends.forEach(callback);
+    }
+}
+
+as callback funs like callback() i.e without any context , this points to global object i.e window
 ```
 
 ### Call,Apply,Bind
