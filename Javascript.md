@@ -22,7 +22,29 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
 Primitive Values Versus Objects
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 
+- **Truthy values**
+https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 
+- **Binary Logical Operators**
+http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
+And (&&)
+If the first operand is falsy, return it. Otherwise, return the second operand:
+
+```javascript
+> NaN && 'abc'
+NaN
+> 123 && 'abc'
+'abc'
+Or (||)
+If the first operand is truthy, return it. Otherwise, return the second operand:
+
+> 'abc' || 123
+'abc'
+> '' || 123
+123
+
+```
 
 - **Chapter 2. Variable Scope**
 
@@ -73,10 +95,6 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4
 - **Item 3: Beware of Implicit Coercions**
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch01.html#ch01lev1sec3)
 
-
-- **Truthy values**
-https://developer.mozilla.org/en-US/docs/Glossary/Truthy
-http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
@@ -197,6 +215,73 @@ arr.constructor === Array; // false
 #### IIFE
 
 - **Using IIFEs in JavaScript to control variable scope**
+
+http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
+http://speakingjs.com/es5/ch16.html#iife
+
+```javascript
+function f() {
+    if (condition) {
+        var tmp = ...;
+        ...
+    }
+    // tmp still exists here
+    // => not what we want
+}
+
+```
+If you want to introduce a new scope for the then block, you can define a function and immediately invoke it. 
+This is a workaround, a simulation of block scoping:
+
+```javascript
+function f() {
+    if (condition) {
+        (function () {  // open block
+            var tmp = ...;
+            ...
+        }());  // close block
+    }
+}
+```
+
+IIFE Variation: An IIFE with Parameters
+You can use parameters to define variables for the inside of the IIFE:
+
+```javascript
+var x = 23;
+(function (twice) {
+    console.log(twice);
+}(x * 2));
+This is similar to:
+
+var x = 23;
+(function () {
+    var twice = x * 2;
+    console.log(twice);
+}());
+```
+
+IIFE use case: inadvertent sharing via closures
+Closures keep their connections to outer variables, which is sometimes not what you want:
+
+```javascript
+var result = [];
+for (var i=0; i < 5; i++) {
+    result.push(function () { return i });  // (1)
+}
+console.log(result[1]()); // 5 (not 1)
+console.log(result[3]()); // 5 (not 3)
+The value returned in line (1) is always the current value of i, not the value it had when the function was created. After the loop is finished, i has the value 5, which is why all functions in the array return that value. If you want the function in line (1) to receive a snapshot of the current value of i, you can use an IIFE:
+
+for (var i=0; i < 5; i++) {
+    (function () {
+        var i2 = i; // copy current i
+        result.push(function () { return i2 });
+    }());
+}
+
+```
+
 https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope)
 https://stackoverflow.com/questions/2421911/what-is-the-purpose-of-wrapping-whole-javascript-files-in-anonymous-functions-li
 https://stackoverflow.com/questions/13341698/javascript-plus-sign-in-front-of-function-name
@@ -207,9 +292,46 @@ https://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executi
  - **function arguments object**
 https://github.com/deenjohn/Javascript-revision/blob/master/General/3-%20function%20arguments%20object%20.md)
 
+http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
+ - ****Too Many or Too Few Arguments****
+function f(x, y) {
+    console.log(x, y);
+    return toArray(arguments);
+}
+Additional parameters will be ignored (except by arguments):
+
+> f('a', 'b', 'c')
+a b
+[ 'a', 'b', 'c' ]
+
+ - ****Optional Parameters****
+The following is a common pattern for assigning default values to parameters:
+
+function pair(x, y) {
+    x = x || 0;  // (1)
+    y = y || 0;
+    return [ x, y ];
+}
+In line (1), the || operator returns x if it is truthy (not null, undefined, etc.). Otherwise, it returns the second operand:
+
+> pair()
+[ 0, 0 ]
+> pair(3)
+[ 3, 0 ]
+> pair(3, 5)
+[ 3, 5 ]
 
  - **Function length vs arguments**
 https://github.com/deenjohn/Javascript-revision/blob/master/General/Function%20length%20vs%20arguments)
+Enforcing an Arity
+If you want to enforce an arity (a specific number of parameters), you can check arguments.length:
+
+function pair(x, y) {
+    if (arguments.length !== 2) {
+        throw new Error('Need exactly 2 arguments');
+    }
+    ...
+}
 
 
 ### Call,Apply,Bind
@@ -888,6 +1010,11 @@ var arrayLike = { 0: "a", 1: "b", 2: "c", length: 3 };
 var result = Array.prototype.map.call(arrayLike, function(s) {
 return s.toUpperCase();
 }); // ["A", "B", "C"]
+
+
+function toArray(arrayLikeObject) {
+    return Array.prototype.slice.call(arrayLikeObject);
+}
 
 ```
 Strings act like immutable arrays, too, since they can be indexed
