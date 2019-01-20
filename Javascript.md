@@ -19,6 +19,9 @@ https://stackoverflow.com/questions/12703214/javascript-difference-between-a-sta
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#values--types
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
 
+Primitive Values Versus Objects
+http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
+
 
 - **Borrowing Methods in JavaScript**
 http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article)
@@ -288,9 +291,65 @@ https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
+typeof : It returns a string describing the “type” of value.
+
+
+```javascript
+> typeof true
+'boolean'
+> typeof 'abc'
+'string'
+> typeof {} // empty object literal
+'object'
+> typeof [] // empty array literal
+'object'
+
+typeof undefined
+'undefined'
+
+typeof null
+'object'
+
+```
+
+practical use :
+in Jquery https://code.jquery.com/jquery-3.3.1.js
+
+```javascript
+function isArrayLike( obj ) {
+
+	// Support: real iOS 8.2 only (not reproducible in simulator)
+	// `in` check used to prevent JIT error (gh-2145)
+	// hasOwn isn't used here due to false negatives
+	// regarding Nodelist length in IE
+	var length = !!obj && "length" in obj && obj.length,
+		type = toType( obj );
+
+	if ( isFunction( obj ) || isWindow( obj ) ) {
+		return false;
+	}
+
+	return type === "array" || length === 0 ||
+		typeof length === "number" && length > 0 && ( length - 1 ) in obj;
+}
+
+```
 
 - **instanceof**
+
+http://perfectionkills.com/instanceof-considered-harmful-or-how-to-write-a-robust-isarray/
+
 https://javascript.info/instanceof
+
+instanceof operator essentially checks whether anything from left-hand object’s prototype chain is the same object as what’s referenced by prototype property of right-hand object.
+var arr = [];
+arr instanceof Array; // true
+This statement returns `true` because Array.prototype (being a prototype property of a right-hand object) references the same object as an internal [[Prototype]] of left-hand object ([[Prototype]] is “visible” via arr.__proto__ in clients that have __proto__ extension). An alternative constructor check, which I mentioned earlier, would usually look like:
+
+
+var arr = [];
+arr.constructor == Array; // true
+
 
 The instanceof operator tests the presence of constructor.prototype in object's prototype chain.
 
@@ -300,6 +359,49 @@ The instanceof operator takes a plain object as its left-hand operand and a func
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
 
+http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
+value instanceof Constr
+It returns true if value is an object that has been created by the constructor Constr (see Constructors: Factories for Objects). Here are some examples:
+
+
+```javascript
+> var b = new Bar();  // object created by constructor Bar
+> b instanceof Bar
+true
+
+> {} instanceof Object
+true
+> [] instanceof Array
+true
+> [] instanceof Object  // Array is a subconstructor of Object
+true
+
+> undefined instanceof Object
+false
+> null instanceof Object
+false
+
+```
+
+**Problem with instanceof**
+
+The problems arise when it comes to scripting in multi-frame DOM environments. In a nutshell, Array objects created within one iframe do not share [[Prototype]]’s with arrays created within another iframe. Their constructors are different objects and so both instanceof and constructor checks fail:
+
+
+```javascript
+var iframe = document.createElement('iframe');
+document.body.appendChild(iframe);
+xArray = window.frames[window.frames.length-1].Array;
+var arr = new xArray(1,2,3); // [1,2,3]
+
+// Boom!
+arr instanceof Array; // false
+
+// Boom!
+arr.constructor === Array; // false
+
+
+```
 
 ## functions
 
