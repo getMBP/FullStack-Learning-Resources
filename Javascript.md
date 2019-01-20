@@ -23,219 +23,7 @@ Primitive Values Versus Objects
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 
 
-- **Borrowing Methods in JavaScript**
-http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article)
 
-- **What is the Execution Context & Stack in JavaScript?**
-http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/#first-article)
-
-- **Identifier Resolution, Execution Contexts and scope chains**
-http://jibbering.com/faq/notes/closures/#clIRExSc)
-
-- **Identifier Resolution and Closures in the JavaScript Scope Chain**
-http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
-
-Note : 
- scope chain only works for fnctions inside functions and not functions inside object
- 
-```javascript
-      var StartStopCounter = {
-          counter : 0,
-          start : function(){
-                StartStopCounter.stopCounter = setInterval(function(){
-                    console.log(StartStopCounter.counter);
-                    //que : why only counter won't work ?
-                    StartStopCounter.counter=StartStopCounter.counter + 1 ;
-                },1000);
-
-          },
-          stop : function(){
-              clearInterval(StartStopCounter.stopCounter);
-
-          }
-      }
-
-
-```
-
-- **You Don't Know JS: Scope & Closures**
-https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#scope
-https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
-
-http://javascript.info/closure
-
-- **https://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js-ebook/dp/B00D624AQO**
-
-Sometimes encapsulation is used to restrict the visibility of
-certain elements, and this act is known as data hiding. JavaScript’s object system does
-not provide a way to hide data directly, so data is hidden using something called closures.
-
-By using functional techniques involving closures, you can achieve data hiding that is as effective 
-as the same capability offered by most object-oriented languages
-
-https://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript
-
-- **Practical use of closure examples**
-
-ex1 : Private variables
-
-```javascript
-
-      function Ninja() {                                            //#1
-
-        var feints = 0;                                             //#2
-
-        this.getFeints = function(){                                //#3
-          return feints;                                            //#3
-        };                                                          //#3
-
-        this.feint = function(){                                    //#4
-          feints++;                                                 //#4
-        };                                                          //#4
-      }
-
-      var ninja = new Ninja();                                      //#5
-
-      ninja.feint();                                                //#6
-
-      assert(ninja.feints === undefined,                            //#7
-          "And the private data is inaccessible to us." );          //#7
-
-      assert(ninja.getFeints() == 1,                                //#8
-             "We're able to access the internal feint count." );    //#8
-
-```
-ex2 :
-
-```javascript
-
-function animateIt(elementId) {
-
-    var elem = document.getElementById(elementId);              //#2
-    var tick = 0;                                               //#3
-
-    var timer = setInterval(function(){                         //#4
-      if (tick < 100) {
-        elem.style.left = elem.style.top = tick + "px";
-        tick++;
-      }
-      else {
-        clearInterval(timer);
-        assert(tick == 100,                                      //#5
-               "Tick accessed via a closure.");
-        assert(elem,
-               "Element also accessed via a closure.");
-        assert(timer,
-               "Timer reference also obtained via a closure." );
-      }
-    }, 10);
-
-  }
-
-  animateIt('box')
-
-```
-
-ex 3 :
-
-const createStore = (reducer) => {
-     let state;
-     let listeners = [];
-
-  const getState = () => state;
-
-  const dispatch = (action) => {
-    state = reducer(state, action)
-    listeners.forEach(listener => listener());
-  };
-
-  const subscribe = (listener) => {
-    listeners.push(listener);
-    return () => {
-      listeners = listeners.filter(l => l !== listener);
-    }
-  };
-
-  dispatch({}); // dummy dispatch
-
-  return { getState, dispatch, subscribe };
-
-};
-
-
-Closure use Example : Overloading functions
-
-```javascript
-
- var ninjas = {
-    values: ["Dean Edwards", "Sam Stephenson", "Alex Russell"]
- };
- 
-function addMethod(object, name, fn) {
- var old = object[name];
- object[name] = function(){
-   if (fn.length == arguments.length)
-      return fn.apply(this, arguments)
-   else if (typeof old == 'function')
-      return old.apply(this, arguments);
-  };
-}
-
- addMethod(ninjas, "find", function(){
-          return this.values;
- });
- 
- addMethod(ninjas, "find", function(name){
-      var ret = [];
-      for (var i = 0; i < this.values.length; i++)
-      if (this.values[i].indexOf(name) == 0)
-      ret.push(this.values[i]);
-      return ret;
- });
- 
- addMethod(ninjas, "find", function(first, last){
-      var ret = [];
-      for (var i = 0; i < this.values.length; i++)
-      if (this.values[i] == (first + " " + last))
-      ret.push(this.values[i]);
-      return ret;
- });
- 
- assert(ninjas.find().length == 3,
- "Found all ninjas");
- assert(ninjas.find("Sam").length == 1,
- "Found ninja by first name");
- assert(ninjas.find("Dean", "Edwards").length == 1,
- "Found ninja by first and last name");
- assert(ninjas.find("Alex", "Russell", "Jr") == 
- ,
- "Found nothing");
-
-```
-example 2 :
-CREATING A SELF-CONTAINED SCOPE
-
-Consider the following snippet:
-
-```javascript
-
-(function(){
- var numClicks = 0;
- document.addEventListener("click", function(){
- alert( ++numClicks );
- }, false);
-})();
-
-/*
-Because the immediate function is executed immediately (hence its name), the click
-handler is also bound right away. The important thing to note is that a closure is created
-for the handler that includes numClicks, allowing the numClicks variable to persist
-along with the handler, and be referenceable by the handler but nowhere else.
- This is one of the most common ways in which immediate functions are used: as
-simple, self-contained wrappers for functionality. The variables needed for the unit of
-functionality are trapped in the closure, but they aren’t visible anywhere else.
-*/
-```
 - **Chapter 2. Variable Scope**
 
 from book : Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript
@@ -742,6 +530,219 @@ reader.read("a,b,c\nd,e,f\n");
   ]
 ]
 
+- **Borrowing Methods in JavaScript**
+http://davidshariff.com/blog/borrowing-methods-in-javascript/#first-article)
+
+- **What is the Execution Context & Stack in JavaScript?**
+http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/#first-article)
+
+- **Identifier Resolution, Execution Contexts and scope chains**
+http://jibbering.com/faq/notes/closures/#clIRExSc)
+
+- **Identifier Resolution and Closures in the JavaScript Scope Chain**
+http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
+
+Note : 
+ scope chain only works for fnctions inside functions and not functions inside object
+ 
+```javascript
+      var StartStopCounter = {
+          counter : 0,
+          start : function(){
+                StartStopCounter.stopCounter = setInterval(function(){
+                    console.log(StartStopCounter.counter);
+                    //que : why only counter won't work ?
+                    StartStopCounter.counter=StartStopCounter.counter + 1 ;
+                },1000);
+
+          },
+          stop : function(){
+              clearInterval(StartStopCounter.stopCounter);
+
+          }
+      }
+
+
+```
+
+- **You Don't Know JS: Scope & Closures**
+https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#scope
+https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
+
+http://javascript.info/closure
+
+- **https://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js-ebook/dp/B00D624AQO**
+
+Sometimes encapsulation is used to restrict the visibility of
+certain elements, and this act is known as data hiding. JavaScript’s object system does
+not provide a way to hide data directly, so data is hidden using something called closures.
+
+By using functional techniques involving closures, you can achieve data hiding that is as effective 
+as the same capability offered by most object-oriented languages
+
+https://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript
+
+- **Practical use of closure examples**
+
+ex1 : Private variables
+
+```javascript
+
+      function Ninja() {                                            //#1
+
+        var feints = 0;                                             //#2
+
+        this.getFeints = function(){                                //#3
+          return feints;                                            //#3
+        };                                                          //#3
+
+        this.feint = function(){                                    //#4
+          feints++;                                                 //#4
+        };                                                          //#4
+      }
+
+      var ninja = new Ninja();                                      //#5
+
+      ninja.feint();                                                //#6
+
+      assert(ninja.feints === undefined,                            //#7
+          "And the private data is inaccessible to us." );          //#7
+
+      assert(ninja.getFeints() == 1,                                //#8
+             "We're able to access the internal feint count." );    //#8
+
+```
+ex2 :
+
+```javascript
+
+function animateIt(elementId) {
+
+    var elem = document.getElementById(elementId);              //#2
+    var tick = 0;                                               //#3
+
+    var timer = setInterval(function(){                         //#4
+      if (tick < 100) {
+        elem.style.left = elem.style.top = tick + "px";
+        tick++;
+      }
+      else {
+        clearInterval(timer);
+        assert(tick == 100,                                      //#5
+               "Tick accessed via a closure.");
+        assert(elem,
+               "Element also accessed via a closure.");
+        assert(timer,
+               "Timer reference also obtained via a closure." );
+      }
+    }, 10);
+
+  }
+
+  animateIt('box')
+
+```
+
+ex 3 :
+
+const createStore = (reducer) => {
+     let state;
+     let listeners = [];
+
+  const getState = () => state;
+
+  const dispatch = (action) => {
+    state = reducer(state, action)
+    listeners.forEach(listener => listener());
+  };
+
+  const subscribe = (listener) => {
+    listeners.push(listener);
+    return () => {
+      listeners = listeners.filter(l => l !== listener);
+    }
+  };
+
+  dispatch({}); // dummy dispatch
+
+  return { getState, dispatch, subscribe };
+
+};
+
+
+Closure use Example : Overloading functions
+
+```javascript
+
+ var ninjas = {
+    values: ["Dean Edwards", "Sam Stephenson", "Alex Russell"]
+ };
+ 
+function addMethod(object, name, fn) {
+ var old = object[name];
+ object[name] = function(){
+   if (fn.length == arguments.length)
+      return fn.apply(this, arguments)
+   else if (typeof old == 'function')
+      return old.apply(this, arguments);
+  };
+}
+
+ addMethod(ninjas, "find", function(){
+          return this.values;
+ });
+ 
+ addMethod(ninjas, "find", function(name){
+      var ret = [];
+      for (var i = 0; i < this.values.length; i++)
+      if (this.values[i].indexOf(name) == 0)
+      ret.push(this.values[i]);
+      return ret;
+ });
+ 
+ addMethod(ninjas, "find", function(first, last){
+      var ret = [];
+      for (var i = 0; i < this.values.length; i++)
+      if (this.values[i] == (first + " " + last))
+      ret.push(this.values[i]);
+      return ret;
+ });
+ 
+ assert(ninjas.find().length == 3,
+ "Found all ninjas");
+ assert(ninjas.find("Sam").length == 1,
+ "Found ninja by first name");
+ assert(ninjas.find("Dean", "Edwards").length == 1,
+ "Found ninja by first and last name");
+ assert(ninjas.find("Alex", "Russell", "Jr") == 
+ ,
+ "Found nothing");
+
+```
+example 2 :
+CREATING A SELF-CONTAINED SCOPE
+
+Consider the following snippet:
+
+```javascript
+
+(function(){
+ var numClicks = 0;
+ document.addEventListener("click", function(){
+ alert( ++numClicks );
+ }, false);
+})();
+
+/*
+Because the immediate function is executed immediately (hence its name), the click
+handler is also bound right away. The important thing to note is that a closure is created
+for the handler that includes numClicks, allowing the numClicks variable to persist
+along with the handler, and be referenceable by the handler but nowhere else.
+ This is one of the most common ways in which immediate functions are used: as
+simple, self-contained wrappers for functionality. The variables needed for the unit of
+functionality are trapped in the closure, but they aren’t visible anywhere else.
+*/
+```
 
 ## object
 
