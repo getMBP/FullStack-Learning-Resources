@@ -556,6 +556,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4
 
 ### Strict
 
+http://speakingjs.com/es5/ch07.html#strict_mode
 https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it)
 
 - **How to check for “undefined” in JavaScript?**
