@@ -24,6 +24,24 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
 Primitive Values Versus Objects
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 
+Manually Converting to Boolean
+There are three ways any value can be converted to a boolean:
+
+
+```javascript
+1)Boolean(value)
+
+(Invoked as a function, not as a constructor)
+
+2)value ? true : false
+
+3)!!value
+
+```
+
+A single “not” converts to negated boolean; use twice for the nonnegated conversion.
+
+
 - **Truthy values**
 https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
