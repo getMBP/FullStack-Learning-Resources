@@ -87,6 +87,7 @@ https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iterat
 
 Coercion 
 
+http://speakingjs.com/es5/ch09.html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 http://ecma-international.org/ecma-262/5.1/#sec-11.9.3)
 http://getify.github.io/coercions-grid/)
@@ -629,6 +630,7 @@ https://stackoverflow.com/questions/6736476/how-to-turn-nan-from-parseint-into-0
 https://stackoverflow.com/questions/34261938/what-is-the-difference-between-nan-nan-and-nan-nan
 https://stackoverflow.com/questions/20534887/break-on-nan-in-javascript
 https://stackoverflow.com/questions/26962341/number-isnan-doesnt-exist-in-ie
+http://speakingjs.com/es5/ch11.html#isNaN
 https://stackoverflow.com/questions/15176076/understanding-underscores-implementation-of-isnan
 
 I would recommend: typeof value === 'number' && !isNaN(value). Because typeof NaN === 'number'.
