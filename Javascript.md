@@ -401,7 +401,7 @@ logHiToFriends: function () {
     }, this);
 }
 
-```javascript
+```
 
 ### Call,Apply,Bind
 
