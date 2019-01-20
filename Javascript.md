@@ -106,6 +106,7 @@ https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iterat
 Coercion 
 
 http://speakingjs.com/es5/ch09.html
+http://speakingjs.com/es5/ch10.html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 http://ecma-international.org/ecma-262/5.1/#sec-11.9.3)
 http://getify.github.io/coercions-grid/)
