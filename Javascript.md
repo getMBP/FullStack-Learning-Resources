@@ -430,6 +430,15 @@ https://stackoverflow.com/questions/11121586/how-does-function-prototype-call-bi
 
 Call
 
+use of call :
+
+```javascript
+inArray: function( elem, arr, i ) {
+		return arr == null ? -1 : indexOf.call( arr, elem, i );
+	}
+
+```
+
 ```javascript
 var elems = {
    length: 0,
@@ -450,6 +459,8 @@ var elems = {
  
  console.log(elems.length == 2 && elems[1].nodeType,
  "Verify the other insertion"); 
+
+
 
 ```
 
