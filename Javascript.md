@@ -403,6 +403,37 @@ Apply
  
 ```
 
+Bind
+
+
+```javascript
+
+'use strict';
+var jane = {
+    name: 'Jane',
+
+    describe: function () {
+        return 'Person named '+this.name;
+    }
+};
+
+```
+
+We want to extract the method describe from jane, put it into a variable func, and call it. However, that doesn’t work:
+
+
+```javascript
+> var func = jane.describe;
+> func()
+TypeError: Cannot read property 'name' of undefined
+The solution is to use the method bind() that all functions have. It creates a new function whose this always has the given value:
+
+> var func2 = jane.describe.bind(jane);
+> func2()
+'Person named Jane'
+
+
+```
 
 - **How to delete a function**
 
