@@ -16,6 +16,8 @@ https://stackoverflow.com/questions/12703214/javascript-difference-between-a-sta
 
 
 - **Values & Types**
+
+http://speakingjs.com/es5/ch08.html
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#values--types
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
 
