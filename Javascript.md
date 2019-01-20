@@ -97,6 +97,32 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4
 - **Item 3: Beware of Implicit Coercions**
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch01.html#ch01lev1sec3)
 
+null becomes 0 if coerced to a number:
+> Number(null)
+0
+> 5 + null
+5
+
+
+> Number(undefined)
+NaN
+> 5 + undefined
+NaN
+
+> 3 + ' times'
+'3 times'
+
+> String(null)
+'null'
+> String(123.45)
+'123.45'
+> String(false)
+'false'
+
+
+> Number({})
+NaN ..why ?Algorithm: ToPrimitive()—Converting a Value to a Primitive. http://speakingjs.com/es5/ch08.html
+
 
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
