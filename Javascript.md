@@ -359,7 +359,7 @@ Calling logHiToFriends produces an error:
 
 ```
 
-###Call,Apply,Bind
+### Call,Apply,Bind
 
 https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
 
