@@ -288,6 +288,7 @@ https://www.safaribooksonline.com/library/view/effective-javascript-68/978013290
 
 - **Truthy values**
 https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
