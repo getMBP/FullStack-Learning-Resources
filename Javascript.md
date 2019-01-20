@@ -342,6 +342,8 @@ function pair(x, y) {
 
 -**Functions Inside a Method**
 
+```javascript
+
 var jane = {
     name: 'Jane',
     friends: [ 'Tarzan', 'Cheeta' ],
@@ -376,7 +378,30 @@ Ans :
 }
 
 as callback funs like callback() i.e without any context , this points to global object i.e window
+
 ```
+
+Let’s look at two ways of fixing this. First, we could store this in a different variable:
+
+```javascript
+
+logHiToFriends: function () {
+    'use strict';
+    var that = this;
+    this.friends.forEach(function (friend) {
+        console.log(that.name+' says hi to '+friend);
+    });
+}
+Or, forEach has a second parameter that allows you to provide a value for this:
+
+logHiToFriends: function () {
+    'use strict';
+    this.friends.forEach(function (friend) {
+        console.log(this.name+' says hi to '+friend);
+    }, this);
+}
+
+```javascript
 
 ### Call,Apply,Bind
 
