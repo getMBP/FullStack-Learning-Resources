@@ -294,6 +294,7 @@ https://github.com/deenjohn/Javascript-revision/blob/master/General/3-%20functio
 
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
  - ****Too Many or Too Few Arguments****
+ ```javascript
 function f(x, y) {
     console.log(x, y);
     return toArray(arguments);
@@ -304,9 +305,12 @@ Additional parameters will be ignored (except by arguments):
 a b
 [ 'a', 'b', 'c' ]
 
+```
+
  - ****Optional Parameters****
 The following is a common pattern for assigning default values to parameters:
 
+```javascript
 function pair(x, y) {
     x = x || 0;  // (1)
     y = y || 0;
@@ -320,21 +324,42 @@ In line (1), the || operator returns x if it is truthy (not null, undefined, etc
 [ 3, 0 ]
 > pair(3, 5)
 [ 3, 5 ]
+```
 
  - **Function length vs arguments**
 https://github.com/deenjohn/Javascript-revision/blob/master/General/Function%20length%20vs%20arguments)
 Enforcing an Arity
 If you want to enforce an arity (a specific number of parameters), you can check arguments.length:
 
+```javascript
 function pair(x, y) {
     if (arguments.length !== 2) {
         throw new Error('Need exactly 2 arguments');
     }
     ...
 }
+```
 
+-**Functions Inside a Method**
 
-### Call,Apply,Bind
+var jane = {
+    name: 'Jane',
+    friends: [ 'Tarzan', 'Cheeta' ],
+    logHiToFriends: function () {
+        'use strict';
+        this.friends.forEach(function (friend) {
+            // `this` is undefined here
+            console.log(this.name+' says hi to '+friend);
+        });
+    }
+}
+Calling logHiToFriends produces an error:
+
+> jane.logHiToFriends()
+
+```
+
+###Call,Apply,Bind
 
 https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
 
