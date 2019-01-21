@@ -196,7 +196,8 @@ NaN
 NaN ..why ?Algorithm: ToPrimitive()—Converting a Value to a Primitive. http://speakingjs.com/es5/ch08.html
 
 
-### typeof vs instanceof
+### typeof vs instanceof vs {}.toString
+https://javascript.info/instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
 
 
@@ -250,21 +251,27 @@ http://perfectionkills.com/instanceof-considered-harmful-or-how-to-write-a-robus
 
 https://javascript.info/instanceof
 
-instanceof operator essentially checks whether anything from left-hand object’s prototype chain is the same object as what’s referenced by prototype property of right-hand object.
+instanceof operator essentially checks whether anything from left-hand object’s prototype chain is
+the same object as what’s referenced by prototype property of right-hand object.
+
 var arr = [];
 arr instanceof Array; // true
-This statement returns `true` because Array.prototype (being a prototype property of a right-hand object) references the same object as an internal [[Prototype]] of left-hand object ([[Prototype]] is “visible” via arr.__proto__ in clients that have __proto__ extension). An alternative constructor check, which I mentioned earlier, would usually look like:
+This statement returns `true` because Array.prototype (being a prototype property of a right-hand object)
+references the same object as an internal [[Prototype]] of left-hand object ([[Prototype]] 
+is “visible” via arr.__proto__ in clients that have __proto__ extension). 
+An alternative constructor check, which I mentioned earlier, would usually look like:
 
 
 var arr = [];
 arr.constructor == Array; // true
 
 
-The instanceof operator tests the presence of constructor.prototype in object's prototype chain.
+The instanceof operator tests the presence of constructor.prototype i.e Array.prototype in object's prototype chain.
 
 a instanceof Foo; // true
 
-The instanceof operator takes a plain object as its left-hand operand and a function as its right-hand operand. The question instanceof answers is: in the entire [[Prototype]] chain of a, does the object arbitrarily pointed to by Foo.prototype ever appear?
+The instanceof operator takes a plain object as its left-hand operand and a function as its right-hand operand. 
+The question instanceof answers is: in the entire [[Prototype]] i.e __proto__ chain of a, does the object arbitrarily pointed to by Foo.prototype ever appear?
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
 
@@ -295,13 +302,16 @@ false
 **Problem with instanceof**
 
 case1 :
+
+```javascript
 function Rabbit() {}
 let rabbit = new Rabbit();
 
 // changed the prototype
 Rabbit.prototype = {};
 rabbit instanceof Rabbit //false
-
+```
+That’s one of the reasons to avoid changing prototype. Just to keep safe.
 
 case 2 :
 The problems arise when it comes to scripting in multi-frame DOM environments. In a nutshell, Array objects created within one iframe do not share [[Prototype]]’s with arrays created within another iframe. Their constructors are different objects and so both instanceof and constructor checks fail:
@@ -321,6 +331,30 @@ arr.constructor === Array; // false
 
 
 ```
+
+- **{}.toString**
+
+Object toString for the type
+// copy toString method into a variable for convenience
+
+```javascript
+
+let objectToString = Object.prototype.toString;
+
+// what type is this?
+let arr = [];
+
+alert( objectToString.call(arr) ); // [object Array]
+
+```
+For a number, it will be [object Number]
+For a boolean, it will be [object Boolean]
+For null: [object Null]
+For undefined: [object Undefined]
+For arrays: [object Array]
+…etc (customizable).
+
+As we can see, {}.toString is technically a “more advanced” typeof.
 
 ## functions
 
