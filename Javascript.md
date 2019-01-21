@@ -931,6 +931,8 @@ http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/#first-
 - **Identifier Resolution, Execution Contexts and scope chains**
 http://jibbering.com/faq/notes/closures/#clIRExSc)
 
+### Closures
+
 - **Identifier Resolution and Closures in the JavaScript Scope Chain**
 http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
 
@@ -958,6 +960,7 @@ Note :
 ```
 
 - **You Don't Know JS: Scope & Closures**
+
 https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md#scope
 https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
