@@ -198,7 +198,9 @@ NaN ..why ?Algorithm: ToPrimitive()—Converting a Value to a Primitive. http://
 
 ### typeof vs instanceof
 https://stackoverflow.com/questions/899574/which-is-best-to-use-typeof-or-instanceof)
-typeof : It returns a string describing the “type” of value.
+
+
+****typeof : It returns a string describing the “type” of value.****
 
 
 ```javascript
@@ -292,6 +294,16 @@ false
 
 **Problem with instanceof**
 
+case1 :
+function Rabbit() {}
+let rabbit = new Rabbit();
+
+// changed the prototype
+Rabbit.prototype = {};
+rabbit instanceof Rabbit //false
+
+
+case 2 :
 The problems arise when it comes to scripting in multi-frame DOM environments. In a nutshell, Array objects created within one iframe do not share [[Prototype]]’s with arrays created within another iframe. Their constructors are different objects and so both instanceof and constructor checks fail:
 
 
