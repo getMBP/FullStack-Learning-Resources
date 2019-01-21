@@ -150,6 +150,8 @@ if (wrapped.valueOf() === 'abc')
 
 ***How is this experssion evaluated ? x < y****
 The Algorithm (http://speakingjs.com/es5/ch08.html#toprimitive)
+https://javascript.info/object-toprimitive
+
 You evaluate a comparison:
 
 ```javascript
