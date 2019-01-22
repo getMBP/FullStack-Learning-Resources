@@ -1758,7 +1758,7 @@ taught by Kyle Simpson .... enough said
 
 - **JavaScript: Events**
 https://www.lynda.com/JavaScript-tutorials/JavaScript-Events/140780-2.html)
-
+https://www.sitepoint.com/javascript-custom-events/
 
 - **JavaScript: Enhancing the DOM**
 https://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html)
