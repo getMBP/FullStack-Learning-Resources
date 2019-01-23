@@ -1179,6 +1179,13 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - **What is the most efficient way to deep clone an object in JavaScript?**
 https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1)
 
+Copying an Object
+To create an identical copy of an object, you need to get two things right:
+
+The copy must have the same prototype (see Layer 2: The Prototype Relationship Between Objects) as the original.
+The copy must have the same properties, with the same attributes as the original
+
+
 - **Length of a JavaScript object**
 https://stackoverflow.com/questions/5223/length-of-a-javascript-object?rq=1)
 
