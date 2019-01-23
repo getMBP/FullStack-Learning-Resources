@@ -1273,6 +1273,26 @@ dict.hasOwnProperty("valueOf"); // false
 
 ```
 
+
+**Manually simulating an apply() for constructors**
+
+1) Pass the arguments to Date via a method call (they are not in an array—yet):
+
+new (Date.bind(null, 2011, 11, 24))
+
+The preceding code uses bind() to create a constructor without parameters and invokes it via new.
+
+2)
+Use apply() to hand an array to bind(). Because bind() is a method call, we can use apply():
+
+new (Function.prototype.bind.apply(
+         Date, [null, 2011, 11, 24]))
+The preceding array contains null, followed by the elements of arr. We can use concat() to create it by prepending null to arr:
+
+var arr = [2011, 11, 24];
+new (Function.prototype.bind.apply(
+         Date, [null].concat(arr)))
+
 Effective Javascript - chapter 4 
 
 ## Arrays 
