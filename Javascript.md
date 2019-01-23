@@ -1184,6 +1184,33 @@ To create an identical copy of an object, you need to get two things right:
 
 The copy must have the same prototype (see Layer 2: The Prototype Relationship Between Objects) as the original.
 The copy must have the same properties, with the same attributes as the original
+The following function performs such a copy:
+
+function copyObject(orig) {
+    // 1. copy has same prototype as orig
+    var copy = Object.create(Object.getPrototypeOf(orig));
+
+    // 2. copy has all of orig’s properties
+    copyOwnPropertiesFrom(copy, orig);
+
+    return copy;
+}
+The properties are copied from orig to copy via this function:
+
+function copyOwnPropertiesFrom(target, source) {
+    Object.getOwnPropertyNames(source)  // (1)
+    .forEach(function(propKey) {  // (2)
+        var desc = Object.getOwnPropertyDescriptor(source, propKey); // (3)
+        Object.defineProperty(target, propKey, desc);  // (4)
+    });
+    return target;
+};
+These are the steps involved:
+
+Get an array with the keys of all own properties of source.
+Iterate over those keys.
+Retrieve a property descriptor.
+Use that property descriptor to create an own property in target
 
 
 - **Length of a JavaScript object**
