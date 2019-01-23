@@ -633,6 +633,35 @@ Apply
 
 Bind
 
+Manually simulating an apply() for constructors
+We can simulate apply() in two steps.
+
+Step 1
+Pass the arguments to Date via a method call (they are not in an array—yet):
+
+```javascript
+     new (Date.bind(null, 2011, 11, 24))
+```
+
+The preceding code uses bind() to create a constructor without parameters and invokes it via new.
+
+Step 2
+Use apply() to hand an array to bind(). Because bind() is a method call, we can use apply():
+
+```javascript
+new (Function.prototype.bind.apply(
+         Date, [null, 2011, 11, 24]))
+	
+```
+	 
+The preceding array contains null, followed by the elements of arr. We can use concat() to create it by prepending null to arr:
+
+
+```javascript
+var arr = [2011, 11, 24];
+new (Function.prototype.bind.apply(
+         Date, [null].concat(arr)))
+```
 
 ```javascript
 
