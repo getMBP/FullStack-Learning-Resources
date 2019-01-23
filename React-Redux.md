@@ -192,6 +192,10 @@
     https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e
     
     
+   - **What every front-end developer should know about change detection in Angular and React**
+   https://medium.freecodecamp.org/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react-508f83f58c6a
+    
+    
 ### React Patterns
     
 - **React Patterns**
