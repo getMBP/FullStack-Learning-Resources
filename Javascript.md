@@ -1141,6 +1141,7 @@ functionality are trapped in the closure, but they aren’t visible anywhere els
 
 ## object
 
+http://speakingjs.com/es5/ch17.html
 https://stackoverflow.com/questions/tagged/javascript+object
 
 - **MDN : Object**
@@ -1180,6 +1181,23 @@ https://stackoverflow.com/questions/1098040/checking-if-a-key-exists-in-a-javasc
 
 - **How do I remove a property from a JavaScript object?**
 https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?noredirect=1&lq=1)
+
+If you delete the property, its key is gone, too:
+
+> delete obj.foo
+true
+> Object.keys(obj)
+[ 'bar' ]
+delete affects only the direct (“own,” noninherited) properties of an object. Its prototypes are not touched 
+
+
+- **If you merely set a property to undefined, the property still exists and the object still contains its key**
+
+> var obj = { foo: 'a', bar: 'b' };
+
+> obj.foo = undefined;
+> Object.keys(obj)
+[ 'foo', 'bar' ]
 
 - **Parse JSON in JavaScript?**
 https://stackoverflow.com/questions/4935632/parse-json-in-javascript)
