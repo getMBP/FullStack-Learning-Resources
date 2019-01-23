@@ -1471,9 +1471,11 @@ https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace?source=pla
 
   Let’s Make a Monad – Drew Tipson – Medium
 
-  Currying versus partial application (with JavaScript code)
+ ****Currying versus partial application (with JavaScript code)***
+  
 http://2ality.com/2011/09/currying-vs-part-eval.html
 https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8
+https://javascript.info/currying-partials
 
 example from secrets of Javascript book -ed1 , chapter 5
 
