@@ -188,6 +188,8 @@
     
     https://medium.freecodecamp.org/conditional-rendering-in-react-using-ternaries-and-logical-and-7807f53b6935?source=search_post
     
+    - **Inside Fiber: in-depth overview of the new reconciliation algorithm in React**
+    https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e
     
     
 ### React Patterns
