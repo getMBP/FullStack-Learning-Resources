@@ -1500,7 +1500,13 @@ Ans :
     // your code
     
  ```
-
+ 
+ - **Live collections**
+ 
+ All methods "getElementsBy*" return a live collection. Such collections always reflect the current state of the document 
+ and “auto-update” when it changes
+ 
+http://javascript.info/searching-elements-dom#live-collections
 
 - **The Basics of DOM Manipulation in Vanilla JavaScript (No jQuery)**
 https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/)
