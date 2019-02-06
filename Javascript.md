@@ -1483,7 +1483,8 @@ https://www.sitepoint.com/dom-tips-techniques-parent-child-siblings/)
 
 Que :http://javascript.info/task/select-diagonal-cells
 Ans :
-<script>
+
+```javascript
     
     var tr = Array.from(document.querySelectorAll('tr'));
     for(var i =0 ;i<tr.length ;i++){
@@ -1497,7 +1498,8 @@ Ans :
     }
 
     // your code
-  </script>
+    
+ ```
 
 
 - **The Basics of DOM Manipulation in Vanilla JavaScript (No jQuery)**
