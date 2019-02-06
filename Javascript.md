@@ -1481,6 +1481,25 @@ https://ponyfoo.com/articles/uncovering-the-native-dom-api)
 - **DOM Tips and Techniques: Parent, Child, and Siblings**
 https://www.sitepoint.com/dom-tips-techniques-parent-child-siblings/)
 
+Que :http://javascript.info/task/select-diagonal-cells
+Ans :
+<script>
+    
+    var tr = Array.from(document.querySelectorAll('tr'));
+    for(var i =0 ;i<tr.length ;i++){
+       for(var j =0 ;j<tr.length ;j++){
+         if(i ==j){
+           console.log("i ",i ,j);
+           console.log((Array.from(tr[i].querySelectorAll('td'))[i]).style.background ='red');
+           console.log('.......')
+         }      
+       }
+    }
+
+    // your code
+  </script>
+
+
 - **The Basics of DOM Manipulation in Vanilla JavaScript (No jQuery)**
 https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/)
 
@@ -1526,9 +1545,6 @@ https://www.w3schools.com/jsref/prop_node_textcontent.asp
 textContent gets the content of all elements, including <script> and <style> elements, innerText does not
 
 innerText is aware of style and will not return the text of hidden elements, whereas textContent will.
-
-
-
 
 https://know-it-all.io/)
 
