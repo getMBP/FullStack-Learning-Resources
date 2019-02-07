@@ -1946,6 +1946,12 @@ https://frontendmasters.com/courses/asynchronous-javascript/)
 https://frontendmasters.com/courses/advanced-async-js/)
 
 
+- **style.cssText**
+
+http://javascript.info/styles-and-classes
+we can set special style flags like "important" here
+
+
 ## ES6 Course	
 
 - **Rapid ES6 Training**
