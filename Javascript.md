@@ -1863,6 +1863,11 @@ The only REGEX course that really taught me Regex , it's free too
 https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-
 hard-as-it-looks-617b55cf787)
 
+# You dont need a framework
+https://medium.freecodecamp.org/do-we-still-need-javascript-frameworks-42576735949b
+
+
+
 
 # Video Courses :
 
