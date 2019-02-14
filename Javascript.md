@@ -1544,6 +1544,15 @@ https://segmentfault.com/q/1010000002870710
 
 https://github.com/krasimir/EventBus
 
+
+- **HTML DOM Events**
+https://www.w3schools.com/jsref/dom_obj_event.asp
+https://www.w3schools.com/jsref/obj_events.asp
+
+
+- **Create your own long press event in JS** 
+https://stackoverflow.com/questions/2625210/long-press-in-javascript
+
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
