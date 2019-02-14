@@ -1552,6 +1552,7 @@ https://www.w3schools.com/jsref/obj_events.asp
 
 - **Create your own long press event in JS** 
 https://stackoverflow.com/questions/2625210/long-press-in-javascript
+https://github.com/john-doherty/long-press-event/blob/master/src/long-press-event.js
 
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
