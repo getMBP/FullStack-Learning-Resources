@@ -1557,6 +1557,10 @@ https://github.com/john-doherty/long-press-event/blob/master/src/long-press-even
 - **mouseleave**
 https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 
+
+- **clientX vs PageX vs ScreenX**
+https://heeestorys.tistory.com/778
+
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
