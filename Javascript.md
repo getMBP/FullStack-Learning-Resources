@@ -1557,6 +1557,8 @@ https://github.com/john-doherty/long-press-event/blob/master/src/long-press-even
 - **mouseleave**
 https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 
+- **preventDefault**
+https://bugzilla.mozilla.org/show_bug.cgi?id=653009
 
 - **clientX vs PageX vs ScreenX**
 https://heeestorys.tistory.com/778
