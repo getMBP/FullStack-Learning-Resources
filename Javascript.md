@@ -1549,6 +1549,7 @@ https://github.com/krasimir/EventBus
 https://www.w3schools.com/jsref/dom_obj_event.asp
 https://www.w3schools.com/jsref/obj_events.asp
 
+http://javascriptkit.com/javatutors/touchevents.shtml
 
 - **Create your own long press event in JS** 
 https://stackoverflow.com/questions/2625210/long-press-in-javascript
@@ -1568,6 +1569,7 @@ Safari 4, Android 2.2 WebKit, and Opera Mobile 11 all have the following behavio
 3) preventDefault on the touchend event does NOT prevent scrolling or mouse events.
 
 4) None of these will prevent pinch zooming.  Safari implements a separate "gesturechange" event that is fired for pinch gestures and can be used to prevent zooming.  This event is not implemented by Android or Opera.
+
 
 
 - **clientX vs PageX vs ScreenX**
