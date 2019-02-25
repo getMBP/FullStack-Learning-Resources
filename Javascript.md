@@ -1559,6 +1559,16 @@ https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 
 - **preventDefault**
 https://bugzilla.mozilla.org/show_bug.cgi?id=653009
+Safari 4, Android 2.2 WebKit, and Opera Mobile 11 all have the following behavior:
+
+1) preventDefault on the touchstart event prevents scrolling, double-tap zooming, and mouseup/mousedown/click events.
+
+2) preventDefault on the touchmove event prevents scrolling.
+
+3) preventDefault on the touchend event does NOT prevent scrolling or mouse events.
+
+4) None of these will prevent pinch zooming.  Safari implements a separate "gesturechange" event that is fired for pinch gestures and can be used to prevent zooming.  This event is not implemented by Android or Opera.
+
 
 - **clientX vs PageX vs ScreenX**
 https://heeestorys.tistory.com/778
