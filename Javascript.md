@@ -1540,6 +1540,7 @@ https://www.w3schools.com/jsref/event_cancelable.asp
 https://javascript.info/default-browser-action
 https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html
 
+- **What is the difference between targetTouches, touches, and changedTouches in TouchEvent?**
 https://segmentfault.com/q/1010000002870710
 
 https://github.com/krasimir/EventBus
