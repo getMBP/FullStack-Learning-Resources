@@ -1576,6 +1576,7 @@ https://stackoverflow.com/questions/3413683/disabling-the-context-menu-on-long-t
 
 - **clientX vs PageX vs ScreenX**
 https://heeestorys.tistory.com/778
+https://stackoverflow.com/questions/9262741/what-is-the-difference-between-pagex-y-clientx-y-screenx-y-in-javascript/17705548
 
 - **order of events**
 https://www.html5rocks.com/en/mobile/touchandmouse/
