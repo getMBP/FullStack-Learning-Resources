@@ -1553,6 +1553,8 @@ https://www.w3schools.com/jsref/obj_events.asp
 
 http://javascriptkit.com/javatutors/touchevents.shtml
 
+https://stackoverflow.com/questions/31865416/what-is-the-difference-between-event-target-event-toelement-and-event-srcelemen
+
 - **Create your own long press event in JS** 
 https://stackoverflow.com/questions/2625210/long-press-in-javascript
 https://github.com/john-doherty/long-press-event/blob/master/src/long-press-event.js
