@@ -1523,6 +1523,8 @@ good for quick look at all events in javascript
 
 https://www.w3schools.com/jsref/obj_event.asp
 
+https://www.w3.org/TR/uievents/#widl-MouseEvent-relatedTarget
+
 - **The Event() constructor**
 https://developer.mozilla.org/en-US/docs/Web/API/Event/Event)
 
