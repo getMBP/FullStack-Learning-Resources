@@ -1521,6 +1521,7 @@ https://www.w3schools.com/js/js_events.asp)
 
 good for quick look at all events in javascript
 
+https://www.w3schools.com/jsref/obj_event.asp
 
 - **The Event() constructor**
 https://developer.mozilla.org/en-US/docs/Web/API/Event/Event)
