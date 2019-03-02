@@ -562,6 +562,7 @@ arr.constructor === Array; // false
 ```
 
 - **{}.toString**
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch3.md#internal-class
 
 Object toString for the type
 // copy toString method into a variable for convenience
@@ -574,6 +575,10 @@ let objectToString = Object.prototype.toString;
 let arr = [];
 
 alert( objectToString.call(arr) ); // [object Array]
+
+Object.prototype.toString.call( [1,2,3] );
+Object.prototype.toString.call( null );			// "[object Null]"
+Object.prototype.toString.call( undefined );	// "[object Undefined]"
 
 ```
 For a number, it will be [object Number]
