@@ -264,6 +264,8 @@ There are situations when parseInt/parseFloat will return NaN. It happens when n
  
 - **Binary Logical Operators**
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md#operators--and-
+
 And (&&)
 If the first operand is falsy, return it. Otherwise, return the second operand:
 
@@ -279,6 +281,16 @@ If the first operand is truthy, return it. Otherwise, return the second operand:
 'abc'
 > '' || 123
 123
+
+var a = 42;
+var b = "abc";
+var c = null;
+
+a || b;		// 42
+a && b;		// "abc"
+
+c || b;		// "abc"
+c && b;		// null
 
 ```
 - **operators**
