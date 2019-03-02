@@ -292,6 +292,14 @@ a && b;		// "abc"
 c || b;		// "abc"
 c && b;		// null
 
+a || b;
+// roughly equivalent to:
+a ? a : b;
+
+a && b;
+// roughly equivalent to:
+a ? b : a;
+
 ```
 - **operators**
 https://javascript.info/operators
