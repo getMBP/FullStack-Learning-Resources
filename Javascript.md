@@ -1546,7 +1546,44 @@ Effective Javascript - chapter 4
 
 ## Arrays 
 
+https://javascript.info/array-methods
+http://speakingjs.com/es5/ch18.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 https://stackoverflow.com/questions/tagged/arrays+javascript
+
+***Splice***
+https://javascript.info/array-methods#splice
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+```javascript
+
+array.splice(start[, deleteCount[, item1[, item2[, ...]]]]) //deletecount is no of element to delete
+
+1)
+let arr = ["I", "study", "JavaScript"];
+
+arr.splice(1, 1); // from index 1 remove 1 element
+
+alert( arr ); // ["I", "JavaScript"]
+
+2)
+let arr = ["I", "study", "JavaScript", "right", "now"];
+
+// remove 3 first elements and replace them with another
+arr.splice(0, 3, "Let's", "dance");
+
+alert( arr ) // now ["Let's", "dance", "right", "now"]
+
+3)
+let arr = ["I", "study", "JavaScript"];
+
+// from index 2
+// delete 0
+// then insert "complex" and "language"
+arr.splice(2, 0, "complex", "language");
+
+alert( arr ); // "I", "study", "complex", "language", "JavaScript"
+```
 
 - **Remove duplicates from an array of objects in JavaScript**
 https://stackoverflow.com/questions/tagged/javascript+arrays)
