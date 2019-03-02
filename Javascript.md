@@ -1710,6 +1710,17 @@ bindClick(function(){
 
 https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
 
+https://youtu.be/u1kqx6AenYw?list=PL37ZVnwpeshG2YXJkun_lyNTtM-Qb3MKa
+https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
+
+https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/
+http://sculove.github.io/blog/2018/01/18/javascriptflow/
+https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+http://bazyd.com/event-queue-in-browser/
+https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec
+
+https://gitissue.com/issues/5b764a6f725e4a4219fbf874
+https://itw01.com/NR6AE4C.html
 
 ### Async-Await /Promises
 
