@@ -113,7 +113,7 @@ If you simply want to determine whether or not a value is of the number type, ev
 typeof 'RAWRRR' === 'number' // false
 
 
-- **null vs undefined
+- **null vs undefined**
 https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
 
 Something hasn't been initialized : undefined.
