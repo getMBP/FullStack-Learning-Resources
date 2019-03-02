@@ -46,6 +46,142 @@ A single “not” converts to negated boolean; use twice for the nonnegated con
 https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 
+- **How to check for “undefined” in JavaScript?**
+
+https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
+
+https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property)
+
+
+- **JavaScript data types and data structures**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+
+
+- **What is the difference between parseInt() and Number()?**
+https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parseint-and-number
+
+Well, they are semantically different, the Number constructor called 
+as a function performs type conversion and parseInt performs parsing.
+
+But in real life we often have values in units, like "100px" or "12pt" in CSS. Also in many countries the currency symbol goes after the amount, so we have "19€" and would like to extract a numeric value out of that.
+
+That’s what parseInt and parseFloat are for.
+
+They “read” a number from a string until they can’t. In case of an error, the gathered number is returned.
+The function parseInt returns an integer, whilst parseFloat will return a floating-point number:
+
+ alert( parseInt('100px') ); // 100
+alert( parseFloat('12.5em') ); // 12.5
+
+alert( Number("   123   ") ); // 123
+alert( Number("123z") );      // NaN (error reading a number at "z")
+alert( Number(true) );        // 1
+alert( Number(false) );       // 0
+
+- **Master the JavaScript Interview: What is Function Composition?**
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
+
+- **How do you check that a number is NaN in JavaScript?**
+https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascripthttps://stackoverflow.com/questions/825402/why-does-isnan-equal-falsehttps://stackoverflow.com/questions/8965364/comparing-nan-values-for-equality-in-javascript
+https://stackoverflow.com/questions/6736476/how-to-turn-nan-from-parseint-into-0-for-an-empty-string
+https://stackoverflow.com/questions/34261938/what-is-the-difference-between-nan-nan-and-nan-nan
+https://stackoverflow.com/questions/20534887/break-on-nan-in-javascript
+https://stackoverflow.com/questions/26962341/number-isnan-doesnt-exist-in-ie
+http://speakingjs.com/es5/ch11.html#isNaN
+https://stackoverflow.com/questions/15176076/understanding-underscores-implementation-of-isnan
+
+I would recommend: typeof value === 'number' && !isNaN(value). Because typeof NaN === 'number'.
+
+- **Is Number.IsNaN() more broken than isNaN()**
+https://stackoverflow.com/questions/25176459/is-number-isnan-more-broken-than-isnan
+
+isNaN() and Number.isNaN() both test if a value is (or, in the case of isNaN(), can be converted to a number-type value that represents) the NaN value. In other words, "NaN" does not simply mean "this value is not a number", it specifically means "this value is a numeric Not-a-Number value according to IEEE-754".
+
+The reason all your tests above return false is because all of the given values can be converted to a numeric value that is not NaN:
+
+```javascript
+Number('')    // 0
+Number('   ') // 0
+Number(true)  // 1
+Number(false) // 0
+Number([0])   // 0
+```
+The reason isNaN() is "broken" is because, ostensibly, type conversions aren't supposed to happen when testing values. That is the issue Number.isNaN() is designed to address. In particular,  Number.isNaN() will only attempt to compare a value to NaN if the value is a number-type value. Any other type will return false, even if they are literally "not a number", because the type of the value NaN is number. See the respective MDN docs for isNaN() and Number.isNaN().
+
+If you simply want to determine whether or not a value is of the number type, even if that value is NaN, use typeof instead:
+
+typeof 'RAWRRR' === 'number' // false
+
+
+- **null vs undefined
+https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
+
+Something hasn't been initialized : undefined.
+Something is currently unavailable: null.
+
+- **Why is null an object and what's the difference between null and undefined?**
+https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined)
+https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1)
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
+https://stackoverflow.com/questions/2559318/how-to-check-for-an-undefined-or-null-variable-in-javascript
+https://stackoverflow.com/questions/5515310/is-there-a-standard-function-to-check-for-null-undefined-or-blank-variables-in
+https://stackoverflow.com/questions/2647867/how-to-determine-if-variable-is-undefined-or-null
+https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property?noredirect=1&lq=1
+https://stackoverflow.com/questions/4186906/check-if-object-exists-in-javascript
+https://stackoverflow.com/questions/16672743/javascript-null-check
+https://stackoverflow.com/questions/5716976/javascript-undefined-vs-void-0
+https://stackoverflow.com/questions/385960/javascript-identify-whether-a-property-is-defined-and-set-to-undefined-or-u
+
+- **Test null**
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
+
+If you want to test for a null value using its type, you need a compound condition:
+```javascript
+var a = null;
+
+(!a && typeof a === "object"); // true
+
+When you’re trying to identify null, use triple equals so that you can correctly identify the type.
+ex : console.log(undefined == null); // true
+console.log(undefined === null); // false
+```
+null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
+
+Pitfall: typeof null
+Unfortunately, typeof null is 'object'. This is considered a bug (null is not a member of the internal type Object), but it can’t be fixed, because doing so would break existing code. You thus have to be wary of null. For example, the following function checks whether value is an object:
+
+function isObject(value) {
+    return (value !== null
+       && (typeof value === 'object'
+           || typeof value === 'function'));
+
+
+
+- **Use of null in prototype**
+Use null Prototypes to Prevent Prototype Pollution
+
+```javascript
+
+function C() { }
+C.prototype = null;
+But instantiating this constructor still results in instances of Object:
+var o = new C();
+Object.getPrototypeOf(o) === null; // false
+Object.getPrototypeOf(o) === Object.prototype; // true
+
+```
+
+-**ToBoolean**
+https://javascript.info/type-conversions#toboolean
+
+- **parseInt and parseFloat
+
+Numeric conversion using a plus + or Number() is strict. If a value is not exactly a number, it fails:
+alert( +"100px" ); // NaN
+
+There are situations when parseInt/parseFloat will return NaN. It happens when no digits could be read:
+
+ alert( parseInt('a123') ); // NaN, the first symbol stops the process
 - **Binary Logical Operators**
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 And (&&)
@@ -753,139 +889,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4
 http://speakingjs.com/es5/ch07.html#strict_mode
 https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it)
 
-- **How to check for “undefined” in JavaScript?**
 
-https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
-
-https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property)
-
-
-- **JavaScript data types and data structures**
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-
-
-- **What is the difference between parseInt() and Number()?**
-https://stackoverflow.com/questions/4090518/what-is-the-difference-between-parseint-and-number
-
-Well, they are semantically different, the Number constructor called 
-as a function performs type conversion and parseInt performs parsing.
-
-But in real life we often have values in units, like "100px" or "12pt" in CSS. Also in many countries the currency symbol goes after the amount, so we have "19€" and would like to extract a numeric value out of that.
-
-That’s what parseInt and parseFloat are for.
-
-They “read” a number from a string until they can’t. In case of an error, the gathered number is returned.
-The function parseInt returns an integer, whilst parseFloat will return a floating-point number:
-
- alert( parseInt('100px') ); // 100
-alert( parseFloat('12.5em') ); // 12.5
-
-alert( Number("   123   ") ); // 123
-alert( Number("123z") );      // NaN (error reading a number at "z")
-alert( Number(true) );        // 1
-alert( Number(false) );       // 0
-
-- **Master the JavaScript Interview: What is Function Composition?**
-https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
-
-- **How do you check that a number is NaN in JavaScript?**
-https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascripthttps://stackoverflow.com/questions/825402/why-does-isnan-equal-falsehttps://stackoverflow.com/questions/8965364/comparing-nan-values-for-equality-in-javascript
-https://stackoverflow.com/questions/6736476/how-to-turn-nan-from-parseint-into-0-for-an-empty-string
-https://stackoverflow.com/questions/34261938/what-is-the-difference-between-nan-nan-and-nan-nan
-https://stackoverflow.com/questions/20534887/break-on-nan-in-javascript
-https://stackoverflow.com/questions/26962341/number-isnan-doesnt-exist-in-ie
-http://speakingjs.com/es5/ch11.html#isNaN
-https://stackoverflow.com/questions/15176076/understanding-underscores-implementation-of-isnan
-
-I would recommend: typeof value === 'number' && !isNaN(value). Because typeof NaN === 'number'.
-
-- **Is Number.IsNaN() more broken than isNaN()**
-https://stackoverflow.com/questions/25176459/is-number-isnan-more-broken-than-isnan
-
-isNaN() and Number.isNaN() both test if a value is (or, in the case of isNaN(), can be converted to a number-type value that represents) the NaN value. In other words, "NaN" does not simply mean "this value is not a number", it specifically means "this value is a numeric Not-a-Number value according to IEEE-754".
-
-The reason all your tests above return false is because all of the given values can be converted to a numeric value that is not NaN:
-
-```javascript
-Number('')    // 0
-Number('   ') // 0
-Number(true)  // 1
-Number(false) // 0
-Number([0])   // 0
-```
-The reason isNaN() is "broken" is because, ostensibly, type conversions aren't supposed to happen when testing values. That is the issue Number.isNaN() is designed to address. In particular,  Number.isNaN() will only attempt to compare a value to NaN if the value is a number-type value. Any other type will return false, even if they are literally "not a number", because the type of the value NaN is number. See the respective MDN docs for isNaN() and Number.isNaN().
-
-If you simply want to determine whether or not a value is of the number type, even if that value is NaN, use typeof instead:
-
-typeof 'RAWRRR' === 'number' // false
-
-
-- **null vs undefined
-https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
-
-Something hasn't been initialized : undefined.
-Something is currently unavailable: null.
-
-- **Why is null an object and what's the difference between null and undefined?**
-https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined)
-https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript?noredirect=1&lq=1)
-https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
-https://stackoverflow.com/questions/2559318/how-to-check-for-an-undefined-or-null-variable-in-javascript
-https://stackoverflow.com/questions/5515310/is-there-a-standard-function-to-check-for-null-undefined-or-blank-variables-in
-https://stackoverflow.com/questions/2647867/how-to-determine-if-variable-is-undefined-or-null
-https://stackoverflow.com/questions/27509/detecting-an-undefined-object-property?noredirect=1&lq=1
-https://stackoverflow.com/questions/4186906/check-if-object-exists-in-javascript
-https://stackoverflow.com/questions/16672743/javascript-null-check
-https://stackoverflow.com/questions/5716976/javascript-undefined-vs-void-0
-https://stackoverflow.com/questions/385960/javascript-identify-whether-a-property-is-defined-and-set-to-undefined-or-u
-
-- **Test null**
-https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md)
-
-If you want to test for a null value using its type, you need a compound condition:
-```javascript
-var a = null;
-
-(!a && typeof a === "object"); // true
-
-When you’re trying to identify null, use triple equals so that you can correctly identify the type.
-ex : console.log(undefined == null); // true
-console.log(undefined === null); // false
-```
-null is the only primitive value that is "falsy" (aka false-like; see Chapter 4) but that also returns "object" from the typeof check.
-
-Pitfall: typeof null
-Unfortunately, typeof null is 'object'. This is considered a bug (null is not a member of the internal type Object), but it can’t be fixed, because doing so would break existing code. You thus have to be wary of null. For example, the following function checks whether value is an object:
-
-function isObject(value) {
-    return (value !== null
-       && (typeof value === 'object'
-           || typeof value === 'function'));
-
-
-
-- **Use of null in prototype**
-Use null Prototypes to Prevent Prototype Pollution
-
-```javascript
-
-function C() { }
-C.prototype = null;
-But instantiating this constructor still results in instances of Object:
-var o = new C();
-Object.getPrototypeOf(o) === null; // false
-Object.getPrototypeOf(o) === Object.prototype; // true
-
-```
-
-- **parseInt and parseFloat
-
-Numeric conversion using a plus + or Number() is strict. If a value is not exactly a number, it fails:
-alert( +"100px" ); // NaN
-
-There are situations when parseInt/parseFloat will return NaN. It happens when no digits could be read:
-
- alert( parseInt('a123') ); // NaN, the first symbol stops the process
 
 ## This in Object
 
