@@ -1547,7 +1547,7 @@ https://developer.apple.com/library/archive/documentation/AppleApplications/Refe
 https://segmentfault.com/q/1010000002870710
 
 https://github.com/krasimir/EventBus
-
+https://stackoverflow.com/questions/2863547/javascript-scroll-event-for-iphone-ipad
 
 - **HTML DOM Events**
 https://www.w3schools.com/jsref/dom_obj_event.asp
