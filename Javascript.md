@@ -202,10 +202,11 @@ If the first operand is truthy, return it. Otherwise, return the second operand:
 123
 
 ```
+- **operators**
+https://javascript.info/operators
 
 - **String concatenation, binary + **
 https://javascript.info/operators#string-concatenation-binary
-
 
 - **Chapter 2. Variable Scope**
 
