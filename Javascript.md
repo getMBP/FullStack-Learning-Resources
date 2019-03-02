@@ -208,6 +208,22 @@ If the first operand is truthy, return it. Otherwise, return the second operand:
 - **operators**
 https://javascript.info/operators
 
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch2.md#testing-for-integers
+42.3 % 1 is in decimal but 42 % 1 is 0
+Number.isInteger( 42 );		// true
+Number.isInteger( 42.000 );	// true
+Number.isInteger( 42.3 );	// false
+
+this behaviour can be use in :  
+To polyfill Number.isInteger(..) for pre-ES6:
+
+if (!Number.isInteger) {
+	Number.isInteger = function(num) {
+		return typeof num == "number" && num % 1 == 0;
+	};
+}
+
 - **String concatenation, binary + **
 https://javascript.info/operators#string-concatenation-binary
 
