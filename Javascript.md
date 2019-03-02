@@ -170,6 +170,8 @@ Object.getPrototypeOf(o) === null; // false
 Object.getPrototypeOf(o) === Object.prototype; // true
 
 ```
+- **null vs zero**
+https://javascript.info/comparison#strange-result-null-vs-0
 
 - **ToBoolean**
 https://javascript.info/type-conversions#toboolean
