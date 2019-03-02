@@ -408,6 +408,37 @@ if (wrapped.valueOf() === 'abc')
 
 ```
 
+```javascript
+var a = "42";
+
+// bad (will fail!):
+if (a == true) {
+	// ..
+}
+
+// also bad (will fail!):
+if (a === true) {
+	// ..
+}
+
+// good enough (works implicitly):
+if (a) {
+	// ..
+}
+
+// better (works explicitly):
+if (!!a) {
+	// ..
+}
+
+// also great (works explicitly):
+if (Boolean( a )) {
+	// ..
+}
+
+```
+
+
 ***How is this experssion evaluated ? x < y****
 The Algorithm (http://speakingjs.com/es5/ch08.html#toprimitive)
 https://javascript.info/object-toprimitive
