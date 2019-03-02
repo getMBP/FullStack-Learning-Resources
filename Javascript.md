@@ -1588,6 +1588,10 @@ https://blog.csdn.net/lzding/article/details/45437707
 https://www.html5rocks.com/en/mobile/touchandmouse/
 https://www.w3.org/TR/uievents/#events-mouseevent-event-order
 
+- **MOUSEOUT VS MOUSELEAVE**
+https://gameinformation.mgsops.net/Game/ModuleDetails/10025
+
+
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
