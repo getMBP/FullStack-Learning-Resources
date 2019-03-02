@@ -41,6 +41,25 @@ There are three ways any value can be converted to a boolean:
 
 A single “not” converts to negated boolean; use twice for the nonnegated conversion.
 
+```javascript
+var a = "0";
+var b = [];
+var c = {};
+
+var d = "";
+var e = 0;
+var f = null;
+var g;
+
+!!a;	// true
+!!b;	// true
+!!c;	// true
+
+!!d;	// false
+!!e;	// false
+!!f;	// false
+!!g;	// false
+```
 
 - **Truthy values**
 https://developer.mozilla.org/en-US/docs/Glossary/Truthy
