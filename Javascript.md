@@ -84,15 +84,70 @@ alert( Number(false) );       // 0
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
 
 - **How do you check that a number is NaN in JavaScript?**
+http://speakingjs.com/es5/ch11.html#isNaN  best
+
 https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascripthttps://stackoverflow.com/questions/825402/why-does-isnan-equal-falsehttps://stackoverflow.com/questions/8965364/comparing-nan-values-for-equality-in-javascript
 https://stackoverflow.com/questions/6736476/how-to-turn-nan-from-parseint-into-0-for-an-empty-string
 https://stackoverflow.com/questions/34261938/what-is-the-difference-between-nan-nan-and-nan-nan
 https://stackoverflow.com/questions/20534887/break-on-nan-in-javascript
 https://stackoverflow.com/questions/26962341/number-isnan-doesnt-exist-in-ie
-http://speakingjs.com/es5/ch11.html#isNaN
 https://stackoverflow.com/questions/15176076/understanding-underscores-implementation-of-isnan
 
 I would recommend: typeof value === 'number' && !isNaN(value). Because typeof NaN === 'number'.
+
+NaN is the only value that is not equal to itself:
+
+```javascript
+
+> NaN === NaN
+false
+
+```
+So we can use If you want to check whether a value is NaN, you have to use the global function isNaN():
+
+
+```javascript
+> isNaN(NaN)
+true
+> isNaN(33)
+false
+
+
+```
+
+But :
+ isNaN does not work properly with nonnumbers, because it first converts those to numbers. That conversion can produce NaN and then the function incorrectly returns true:
+
+
+```javascript
+
+> isNaN('xyz')
+true
+
+
+```
+
+Thus, it is best to combine isNaN with a type check:
+
+
+```javascript
+function myIsNaN(value) {
+    return typeof value === 'number' && isNaN(value);
+}
+
+
+```
+
+Alternatively, you can check whether the value is unequal to itself (as NaN is the only value with this trait). But that is less self-explanatory:
+
+
+```javascript
+function myIsNaN(value) {
+    return value !== value;
+}
+
+```
+
 
 - **Is Number.IsNaN() more broken than isNaN()**
 https://stackoverflow.com/questions/25176459/is-number-isnan-more-broken-than-isnan
