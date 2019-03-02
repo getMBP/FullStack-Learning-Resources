@@ -115,6 +115,7 @@ typeof 'RAWRRR' === 'number' // false
 
 - **null vs undefined**
 https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#Loose_equality_using
 
 Something hasn't been initialized : undefined.
 Something is currently unavailable: null.
