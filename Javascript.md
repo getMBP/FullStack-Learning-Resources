@@ -171,10 +171,10 @@ Object.getPrototypeOf(o) === Object.prototype; // true
 
 ```
 
--**ToBoolean**
+- **ToBoolean**
 https://javascript.info/type-conversions#toboolean
 
-- **parseInt and parseFloat
+- **parseInt and parseFloat**
 
 Numeric conversion using a plus + or Number() is strict. If a value is not exactly a number, it fails:
 alert( +"100px" ); // NaN
@@ -182,6 +182,7 @@ alert( +"100px" ); // NaN
 There are situations when parseInt/parseFloat will return NaN. It happens when no digits could be read:
 
  alert( parseInt('a123') ); // NaN, the first symbol stops the process
+ 
 - **Binary Logical Operators**
 http://speakingjs.com/es5/ch01.html#basic_prim_vs_obj
 And (&&)
@@ -201,6 +202,10 @@ If the first operand is truthy, return it. Otherwise, return the second operand:
 123
 
 ```
+
+- **String concatenation, binary + **
+https://javascript.info/operators#string-concatenation-binary
+
 
 - **Chapter 2. Variable Scope**
 
