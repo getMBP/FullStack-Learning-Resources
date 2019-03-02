@@ -70,6 +70,7 @@ That’s what parseInt and parseFloat are for.
 They “read” a number from a string until they can’t. In case of an error, the gathered number is returned.
 The function parseInt returns an integer, whilst parseFloat will return a floating-point number:
 
+```javascript
  alert( parseInt('100px') ); // 100
 alert( parseFloat('12.5em') ); // 12.5
 
@@ -77,6 +78,7 @@ alert( Number("   123   ") ); // 123
 alert( Number("123z") );      // NaN (error reading a number at "z")
 alert( Number(true) );        // 1
 alert( Number(false) );       // 0
+```
 
 - **Master the JavaScript Interview: What is Function Composition?**
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
@@ -211,6 +213,8 @@ https://javascript.info/operators
 
 https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch2.md#testing-for-integers
 42.3 % 1 is in decimal but 42 % 1 is 0
+
+```javascript
 Number.isInteger( 42 );		// true
 Number.isInteger( 42.000 );	// true
 Number.isInteger( 42.3 );	// false
@@ -224,6 +228,7 @@ if (!Number.isInteger) {
 	};
 }
 
+```
 - **String concatenation, binary + **
 https://javascript.info/operators#string-concatenation-binary
 
