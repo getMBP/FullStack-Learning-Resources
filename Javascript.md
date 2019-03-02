@@ -222,6 +222,12 @@ typeof undefined
 typeof null
 'object'
 
+var a = null;
+
+(!a && typeof a === "object"); // true
+null is the only primitive value that is "falsy" 
+but that also returns "object" from the typeof check.
+
 ```
 
 practical use :
