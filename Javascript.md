@@ -408,6 +408,8 @@ if (wrapped.valueOf() === 'abc')
 
 ```
 
+https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md#comparing-strings-to-numbers
+
 ```javascript
 var a = "42";
 
