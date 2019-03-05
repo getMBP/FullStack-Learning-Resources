@@ -1546,6 +1546,9 @@ Effective Javascript - chapter 4
 
 
 ***Problem with using default constructor***
+
+http://raganwald.com/2014/07/09/javascript-constructor-problem.html
+
 https://javascript.info/function-prototype
 
 ```javascript
