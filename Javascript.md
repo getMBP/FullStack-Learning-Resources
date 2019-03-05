@@ -1544,6 +1544,75 @@ new (Function.prototype.bind.apply(
 
 Effective Javascript - chapter 4 
 
+
+***Problem with using default constructor***
+https://javascript.info/function-prototype
+
+```javascript
+
+function Rabbit() {}
+
+/* default prototype
+Rabbit.prototype = { constructor: Rabbit };
+*/
+
+```
+
+```javascript
+
+function Rabbit() {}
+// by default:
+// Rabbit.prototype = { constructor: Rabbit }
+
+alert( Rabbit.prototype.constructor == Rabbit ); // true
+
+```
+
+…JavaScript itself does not ensure the right "constructor" value.
+
+Yes, it exists in the default "prototype" for functions, but that’s all. What happens with it later – is totally on us.
+
+In particular, if we replace the default prototype as a whole, then there will be no "constructor" in it.
+
+For instance:
+
+```javascript
+function Rabbit() {}
+Rabbit.prototype = {
+  jumps: true
+};
+
+let rabbit = new Rabbit();
+alert(rabbit.constructor === Rabbit); // false
+
+```
+
+So, to keep the right "constructor" we can choose to add/remove properties to the default "prototype" instead of overwriting it as a whole:
+
+
+```javascript
+function Rabbit() {}
+```
+
+// Not overwrite Rabbit.prototype totally
+// just add to it
+
+```javascript
+Rabbit.prototype.jumps = true
+```
+
+// the default Rabbit.prototype.constructor is preserved
+Or, alternatively, recreate the constructor property manually:
+
+```javascript
+Rabbit.prototype = {
+  jumps: true,
+  constructor: Rabbit
+};
+```
+// now constructor is also correct, because we added it
+
+
 ## Arrays 
 
 https://javascript.info/array-methods
