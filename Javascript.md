@@ -1522,6 +1522,40 @@ dict.hasOwnProperty("valueOf"); // false
 
 ```
 
+***Getting all properties***
+
+https://javascript.info/getting-all-properties
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+
+The Object.values() method returns an array of a given object's own enumerable property values, 
+in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates
+properties in the prototype chain as well).
+
+Object.keys(obj) / Object.values(obj) / Object.entries(obj) 
+These methods only list enumerable properties, and those that have strings as keys.
+1)Object.keys(Object.prototype)
+
+[]
+The Object.keys() method returns an array of a given object's own property names, 
+in the same order as we get with a normal loop.
+
+2)Object.getOwnPropertyNames(Object.prototype)
+– returns an array of all own string property names
+If we want non-enumerable properties:
+
+	(12) ["constructor", "__defineGetter__", "__defineSetter__", "hasOwnProperty", "__lookupGetter__", "__lookupSetter__", "isPrototypeOf", "propertyIsEnumerable", "toString", "valueOf", "__proto__", "toLocaleString"]
+
+
+3)Reflect.ownKeys(Object.prototype)
+(12) ["constructor", "__defineGetter__", "__defineSetter__", "hasOwnProperty", "__lookupGetter__", "__lookupSetter__", "isPrototypeOf", "propertyIsEnumerable", "toString", "valueOf", "__proto__", "toLocaleString"]
+
+
+https://stackoverflow.com/questions/15283720/why-are-for-in-faster-than-for-loops-when-looping-through-an-array
+A for loop will search for properties on the [[Prototype]] chain too if they aren't found on the array. E.g. a for loop over [0,,2] will search for 1 all the way to Object.prototype[[Prototype]]
+
+don't use for..in to loop arrays. Not. Ever
 
 **Manually simulating an apply() for constructors**
 
