@@ -1924,7 +1924,7 @@ https://gameinformation.mgsops.net/Game/ModuleDetails/10025
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
-- **innerText vs innerHTML vs textContent
+- **innerText vs innerHTML vs textContent**
 https://www.w3schools.com/jsref/prop_node_textcontent.asp
 
 textContent gets the content of all elements, including <script> and <style> elements, innerText does not
@@ -1947,7 +1947,7 @@ https://stackoverflow.com/questions/6073505/what-is-the-difference-between-scree
 ## ES6 ,functional
 
 
-- **Decorators **
+- **Decorators**
 https://www.youtube.com/watch?v=_8wOde1fmEM
 
 - **Annotated Underscore.js source code**
@@ -2139,13 +2139,13 @@ https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the
 
 https://github.com/deenjohn/Design-Patterns
 
-- **Dependency injection in JavaScript
+- **Dependency injection in JavaScript**
 http://krasimirtsonev.com/blog/article/Dependency-injection-in-JavaScript
 
-- **The MVC Design Pattern in Vanilla JavaScript
+- **The MVC Design Pattern in Vanilla JavaScript**
 https://www.sitepoint.com/mvc-design-pattern-javascript/
 
-- **Observer pattern
+- **Observer pattern**
 https://github.com/deenjohn/Design-Patterns/tree/master/Observer%20Pattern
 
 
@@ -2163,7 +2163,7 @@ The only book that covers events & HTML Form inner details in depth.
 An awesome coverage on Objects,prototypes,all the inheritance patterns
 
 
-- **You Don't Know JS series: 
+- **You Don't Know JS series**: 
 https://github.com/getify/You-Dont-Know-JS)
 
 
@@ -2199,7 +2199,7 @@ This book will change the way you think in Javascript
 
 - **Learning JavaScript Design Patterns Addy Osmani**
 
-- **High Performance JavaScript - Nicholas C. Zakas **
+- **High Performance JavaScript - Nicholas C. Zakas**
 
 ## ES6 Reading 
 
