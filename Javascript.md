@@ -1878,6 +1878,9 @@ https://segmentfault.com/q/1010000002870710
 https://github.com/krasimir/EventBus
 https://stackoverflow.com/questions/2863547/javascript-scroll-event-for-iphone-ipad
 
+- **Differentiate click vs mousedown/mouseup**
+https://stackoverflow.com/questions/12572644/differentiate-click-vs-mousedown-mouseup?noredirect=1&lq=1
+
 - **HTML DOM Events**
 https://www.w3schools.com/jsref/dom_obj_event.asp
 https://www.w3schools.com/jsref/obj_events.asp
