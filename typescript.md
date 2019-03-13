@@ -6,7 +6,6 @@ https://www.typescriptlang.org/docs/handbook/decorators.html
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch3.md#enumerable
 
 ```javascript
-
 var __decorate = (this && this.__decorate) || function __decorate(decorators, target, key, desc) {
     console.log("desc passed ", desc)
     var c = arguments.length, reflect = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -21,6 +20,7 @@ var __decorate = (this && this.__decorate) || function __decorate(decorators, ta
     reflect;
 }
 ;
+
 function enumerable(value) {
     console.log("enumerable")
     return function enumerableReturn(target, propertyKey, descriptor) {
@@ -32,21 +32,25 @@ function enumerable(value) {
     }
     ;
 }
-var Greeter = /** @class */
-(function() {
+var Greeter = /** @class */ (function () {
     function Greeter(message) {
         this.greeting = message;
     }
-    Greeter.prototype.greet = function() {
-        return "Hello, " + this.greeting;
-    }
-    ;
-    __decorate([enumerable(false)], Greeter.prototype, "greet", null);
+    Greeter.prototype.greet1 = function () {
+        return "Hello greet1, " + this.greeting;
+    };
+    Greeter.prototype.greet2 = function () {
+        return "Hello greet2, " + this.greeting;
+    };
+    __decorate([
+        enumerable(false)
+    ], Greeter.prototype, "greet1", null);
     return Greeter;
 }());
-var res = new Greeter("deen");
-Object.getOwnPropertyDescriptor(res.__proto__, "greet" );
 
+var res = new Greeter("deen");
+Object.getOwnPropertyDescriptor(res.__proto__, "greet1" )
+Object.getOwnPropertyDescriptor(res.__proto__, "greet2" )
 ```
 
 //decorators, target, key, desc
