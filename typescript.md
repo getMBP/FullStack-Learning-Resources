@@ -43,7 +43,8 @@ var Greeter = /** @class */
     __decorate([enumerable(false)], Greeter.prototype, "greet", null);
     return Greeter;
 }());
-new Greeter("deen");
+var res = new Greeter("deen");
+Object.getOwnPropertyDescriptor(res.__proto__, "greet" );
 
 ```
 
