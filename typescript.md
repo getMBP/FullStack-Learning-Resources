@@ -50,7 +50,14 @@ var Greeter = /** @class */ (function () {
 
 var res = new Greeter("deen");
 Object.getOwnPropertyDescriptor(res.__proto__, "greet1" )
-Object.getOwnPropertyDescriptor(res.__proto__, "greet2" )
+Object.getOwnPropertyDescriptor(res.__proto__, "greet2" );
+
+console.log("enumerate ");
+
+for (var property1 in res.__proto__) {
+  console.log(res[property1]);
+}
+
 ```
 
 //decorators, target, key, desc
