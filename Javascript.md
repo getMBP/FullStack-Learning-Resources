@@ -1896,6 +1896,9 @@ https://stackoverflow.com/questions/31865416/what-is-the-difference-between-even
 https://stackoverflow.com/questions/2625210/long-press-in-javascript
 https://github.com/john-doherty/long-press-event/blob/master/src/long-press-event.js
 
+- **What is the difference between visibility:hidden and display:none?**
+https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone
+
 - **mouseleave**
 https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 
