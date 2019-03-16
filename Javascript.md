@@ -1918,6 +1918,7 @@ https://stackoverflow.com/questions/3413683/disabling-the-context-menu-on-long-t
 https://heeestorys.tistory.com/778
 https://stackoverflow.com/questions/9262741/what-is-the-difference-between-pagex-y-clientx-y-screenx-y-in-javascript/17705548
 https://blog.csdn.net/lzding/article/details/45437707
+https://heeestorys.tistory.com/778
 
 - **order of events**
 https://www.html5rocks.com/en/mobile/touchandmouse/
