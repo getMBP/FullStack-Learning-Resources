@@ -1916,6 +1916,8 @@ Safari 4, Android 2.2 WebKit, and Opera Mobile 11 all have the following behavio
 
 - **Stopping Event Propagation**
 https://css-tricks.com/dangers-stopping-event-propagation/
+http://jsfiddle.net/tedp/aL7Xe/1/
+
 
 - **Disabling the context menu on long taps on Android**
 https://stackoverflow.com/questions/3413683/disabling-the-context-menu-on-long-taps-on-android?noredirect=1&lq=1
