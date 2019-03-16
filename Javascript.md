@@ -1918,6 +1918,23 @@ Safari 4, Android 2.2 WebKit, and Opera Mobile 11 all have the following behavio
 https://css-tricks.com/dangers-stopping-event-propagation/
 http://jsfiddle.net/tedp/aL7Xe/1/
 
+Element.closest()
+
+```javascript
+
+$(document).on('click', function(event) {
+  if (!$(event.target).closest('#menucontainer').length) {
+    // Hide the menus.
+  }
+});
+
+```
+The above handler listens for clicks on the document and checks to see if the event target 
+is #menucontainer or has #menucontainer as a parent. If it doesn't, you know the click originated
+from outside of #menucontainer, and thus you can hide the menus if they're visible.
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
+
 
 - **Disabling the context menu on long taps on Android**
 https://stackoverflow.com/questions/3413683/disabling-the-context-menu-on-long-taps-on-android?noredirect=1&lq=1
