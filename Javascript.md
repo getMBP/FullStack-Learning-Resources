@@ -1843,6 +1843,8 @@ https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/)
 - **An Introduction To DOM Events — Smashing Magazine**
 https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
 
+- **CSS Layout - The display Property**
+https://www.w3schools.com/css/css_display_visibility.asp
 
 - **JavaScript Events - w3school**
 https://www.w3schools.com/js/js_events.asp)
