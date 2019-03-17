@@ -30,7 +30,9 @@ https://www.udemy.com/css-the-complete-guide-incl-flexbox-grid-sass/
 #### Selectors :
 
  https://www.w3schools.com/cssref/css_selectors.asp
+ https://www.w3schools.com/cssref/trysel.asp
 https://www.safaribooksonline.com/library/view/css-the-definitive/9781449325053/ch02.html#selectors_comma_specificity_comma_an
+https://css-tricks.com/child-and-sibling-selectors/
 
 #### Box model:
   
