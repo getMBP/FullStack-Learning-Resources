@@ -1899,6 +1899,20 @@ https://github.com/john-doherty/long-press-event/blob/master/src/long-press-even
 - **What is the difference between visibility:hidden and display:none?**
 https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone
 
+https://javascript.info/task/sliding-tree
+<script>
+var el = document.getElementById('tree');
+console.log(el);
+el.addEventListener("click", handler);
+
+function handler(e){
+  if(e.target.children.length == 1){
+    e.target.children[0].hidden = !e.target.children[0].hidden;
+  }
+}
+  
+</script>
+
 - **mouseleave**
 https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 
