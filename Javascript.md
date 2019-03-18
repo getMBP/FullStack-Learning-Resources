@@ -6,6 +6,7 @@
 
 - **MDN**
 https://developer.mozilla.org/bm/docs/Web/JavaScript)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 - **Expressions and operators**
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
