@@ -1,3 +1,4 @@
+
 # Master Javascript
 
 [Fork,StarThe GITHub link](https://github.com/deenjohn/FullStack-Learning-Resources/edit/master/Javascript.md)
@@ -1965,8 +1966,11 @@ https://blog.csdn.net/lzding/article/details/45437707
 https://heeestorys.tistory.com/778
 
 - **order of events**
+events orders :
+
 https://www.html5rocks.com/en/mobile/touchandmouse/
 https://www.w3.org/TR/uievents/#events-mouseevent-event-order
+https://www.w3.org/TR/uievents
 
 - **MOUSEOUT VS MOUSELEAVE**
 https://gameinformation.mgsops.net/Game/ModuleDetails/10025
