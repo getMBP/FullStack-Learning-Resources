@@ -1973,9 +1973,9 @@ https://www.w3.org/TR/uievents/#events-mouseevent-event-order
 https://www.w3.org/TR/uievents
 
 - **MOUSEOUT VS MOUSELEAVE**
-https://gameinformation.mgsops.net/Game/ModuleDetails/10025
+https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
-
+https://www.w3.org/TR/uievents
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
