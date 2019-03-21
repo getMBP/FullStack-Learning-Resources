@@ -1874,7 +1874,6 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 
 https://www.w3schools.com/jsref/event_cancelable.asp
 
-https://javascript.info/default-browser-action
 https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html
 
 - **What is the difference between targetTouches, touches, and changedTouches in TouchEvent?**
@@ -1923,6 +1922,7 @@ function handler(e){
 https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 
 - **preventDefault**
+https://javascript.info/default-browser-action
 https://bugzilla.mozilla.org/show_bug.cgi?id=653009
 Safari 4, Android 2.2 WebKit, and Opera Mobile 11 all have the following behavior:
 
