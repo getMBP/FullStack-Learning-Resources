@@ -1972,6 +1972,10 @@ https://www.html5rocks.com/en/mobile/touchandmouse/
 https://www.w3.org/TR/uievents/#events-mouseevent-event-order
 https://www.w3.org/TR/uievents
 
+Focus event :
+Before Focus event is fired , mousedown event is fired.
+Mousedown > Focus 
+
 - **MOUSEOUT VS MOUSELEAVE**
 https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
