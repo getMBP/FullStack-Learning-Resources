@@ -1934,6 +1934,10 @@ Safari 4, Android 2.2 WebKit, and Opera Mobile 11 all have the following behavio
 
 4) None of these will prevent pinch zooming.  Safari implements a separate "gesturechange" event that is fired for pinch gestures and can be used to prevent zooming.  This event is not implemented by Android or Opera.
 
+passive handler
+https://javascript.info/default-browser-action#the-passive-handler-option
+
+
 - **Stopping Event Propagation**
 https://css-tricks.com/dangers-stopping-event-propagation/
 http://jsfiddle.net/tedp/aL7Xe/1/
