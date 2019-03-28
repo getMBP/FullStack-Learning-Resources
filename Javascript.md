@@ -1984,6 +1984,11 @@ Mousedown > Focus
 https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
 https://www.w3.org/TR/uievents
+
+
+- **Pointer events IE**
+https://msdn.microsoft.com/en-us/windows/dn304886(v=vs.71)
+
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
