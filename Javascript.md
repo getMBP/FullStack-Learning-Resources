@@ -1924,6 +1924,8 @@ https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 - **preventDefault**
 https://javascript.info/default-browser-action
 https://bugzilla.mozilla.org/show_bug.cgi?id=653009
+https://stackoverflow.com/questions/30426523/why-does-preventdefault-on-checkbox-click-event-returns-true-for-the-checked-att
+
 Safari 4, Android 2.2 WebKit, and Opera Mobile 11 all have the following behavior:
 
 1) preventDefault on the touchstart event prevents scrolling, double-tap zooming, and mouseup/mousedown/click events.
