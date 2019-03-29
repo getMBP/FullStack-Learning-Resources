@@ -1989,6 +1989,9 @@ https://www.w3.org/TR/uievents
 - **Pointer events IE**
 https://msdn.microsoft.com/en-us/windows/dn304886(v=vs.71)
 
+- **What is a viewport ?**
+https://www.kirupa.com/html5/viewport_device_document_size.htm
+
 - **DOM in depth -1 -MyNotes**
 https://github.com/deenjohn/Javascript-revision/tree/master/DOM%20in%20depth%20-1)
 
