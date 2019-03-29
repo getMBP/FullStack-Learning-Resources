@@ -1976,6 +1976,9 @@ e.preventDefault()
 
 ```
 
+In above example , events order is mousedown > mouseup > click 
+preventdefault only works on click
+
 
 passive handler
 https://javascript.info/default-browser-action#the-passive-handler-option
