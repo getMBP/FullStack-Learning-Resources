@@ -1978,6 +1978,36 @@ e.preventDefault()
 
 ```
 
+```html
+
+<body>
+
+<p>This example uses the addEventListener() method to attach a "mousedown" and "mouseup" event to a p element.</p>
+
+<p id="demo">Click me.</p>
+
+<script>
+document.getElementById("demo").addEventListener("mousedown", mouseDown);
+document.getElementById("demo").addEventListener("mouseup", mouseUp);
+
+function mouseDown(e) {
+e.preventDefault();
+//return false ;
+ // document.getElementById("demo").innerHTML = "The mouse button is held down.";
+}
+
+function mouseUp(e) {
+e.preventDefault();
+//return false
+  //document.getElementById("demo").innerHTML = "You released the mouse button.";
+}
+</script>
+
+</body>
+
+```
+
+
 In above example , events order is mousedown > mouseup > click 
 preventdefault only works on click
 
