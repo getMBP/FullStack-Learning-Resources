@@ -2013,6 +2013,7 @@ In above example , events order is mousedown > mouseup > click
 preventdefault only works on click
 
 
+
 passive handler
 https://javascript.info/default-browser-action#the-passive-handler-option
 
@@ -2038,6 +2039,45 @@ from outside of #menucontainer, and thus you can hide the menus if they're visib
 
 https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
 
+cancelbubble
+if the bubbles attribute is set to false, the bubble phase will be skipped
+
+
+```html
+
+<body>
+
+<p>Click the button to find out if the onclick event is a bubbling event.</p>
+
+<button id ='button'>Try it</button>
+
+<p id="demo"></p>
+
+<script>
+
+document.addEventListener("click", myFunction1);
+button.addEventListener("click", myFunction1);
+button.addEventListener("click", myFunction2);
+
+function myFunction1() {
+  console.log(event.cancelBubble);
+  console.log('event ',  event.currentTarget)
+  event.cancelBubble=true;
+  document.getElementById("demo").innerHTML = event.cancelBubble;
+}
+
+function myFunction2(event) { 
+
+  console.log('event ',  event.currentTarget)
+  console.log(event.cancelBubble);
+  
+  document.getElementById("demo").innerHTML = event.cancelBubble;
+}
+</script>
+
+</body>
+
+```
 
 - **Disabling the context menu on long taps on Android**
 https://stackoverflow.com/questions/3413683/disabling-the-context-menu-on-long-taps-on-android?noredirect=1&lq=1
