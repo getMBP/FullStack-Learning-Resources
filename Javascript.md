@@ -2105,6 +2105,8 @@ https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
 https://www.w3.org/TR/uievents
 
+- **creating your own visibilitychangeEvent**
+https://www.html5rocks.com/en/tutorials/pagevisibility/intro/
 
 - **Pointer events IE**
 https://msdn.microsoft.com/en-us/windows/dn304886(v=vs.71)
