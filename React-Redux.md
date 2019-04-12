@@ -6,6 +6,7 @@
 - **Curated tutorial and resource links by markerikson**
  
  [react-redux link by mark erikson](https://github.com/markerikson/react-redux-links)
+ https://github.com/xgrommx/awesome-reduxhttps://github.com/xgrommx/awesome-redux
  
  - **A collection of awesome things regarding React ecosystem**
  https://github.com/enaqx/awesome-react
