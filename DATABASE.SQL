@@ -1,3 +1,6 @@
+book reference 
+https://www.amazon.in/Database-Systems-Concepts-Sixth-Silberschatz/dp/0071325220
+
 .................
 
 JOINS
