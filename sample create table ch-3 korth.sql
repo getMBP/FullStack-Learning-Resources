@@ -45,3 +45,10 @@ year numeric (4,0),
 primary key (ID, course_id, sec_id, semester, year),
 foreign key (course_id, sec_id, semester, year) references section(course_id,sec_id,semester,year),
 foreign key (ID) references instructor(ID));
+
+                                       
+                                       
+  https://www.dofactory.com/sql/having
+                                       
+                                       
+                                       
