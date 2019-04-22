@@ -45,10 +45,36 @@ year numeric (4,0),
 primary key (ID, course_id, sec_id, semester, year),
 foreign key (course_id, sec_id, semester, year) references section(course_id,sec_id,semester,year),
 foreign key (ID) references instructor(ID));
+           
+                            ###correlated subquery
+Find all the employees who earn more than the average salary in their department.   
+                                       
+                                       
+SELECT last_name, salary, department_id
+   FROM employees as outer
+ WHERE salary >
+                (SELECT AVG(salary)
+                   FROM employees
+                 WHERE 
+                   department_id = outer.department_id);    
+                                       
+    calculate average salary of the dept that the emplyee belong to , 
+                                       
+    then select all those employee whose salary is greater than that
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
 
                                        
                                        
+                                       
   https://www.dofactory.com/sql/having
+                                       
+  
                                        
                                        
                                        
