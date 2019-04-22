@@ -1897,6 +1897,21 @@ https://stackoverflow.com/questions/31865416/what-is-the-difference-between-even
 https://stackoverflow.com/questions/2625210/long-press-in-javascript
 https://github.com/john-doherty/long-press-event/blob/master/src/long-press-event.js
 
+var pressTimer;
+document.getElementById("demo").addEventListener("mousedown", mouseDown);
+document.getElementById("demo").addEventListener("mouseup", mouseUp);
+
+function mouseDown() {
+  pressTimer = window.setTimeout(function() { 
+     document.getElementById("demo").innerHTML = "The mouse button is held down.";
+  },1000);
+  
+}
+
+function mouseUp() {
+   clearTimeout(pressTimer);
+}
+
 - **What is the difference between visibility:hidden and display:none?**
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/hidden
 https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
