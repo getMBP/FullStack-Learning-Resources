@@ -1,0 +1,46 @@
+
+USE test
+
+CREATE TABLE RS (
+    ID int ,
+    COL2 VARCHAR(12)
+);
+
+CREATE TABLE LS (
+    ID int ,
+    COL4 VARCHAR(12)
+);
+
+
+INSERT INTO LS (ID ,COL4)
+VALUES (2 ,'MMM');
+
+INSERT INTO RS (ID ,COL2)
+VALUES (3 ,'EEE');
+
+SELECT * FROM LS ;
+
+SELECT * FROM RS ;
+
+
+SELECT 
+	IFNULL(RS.ID ,0) as 'RS.ID' ,
+	LS.ID as 'LS.ID' ,
+    LS.COL4 as 'LS.COL4' ,
+    RS.COL2 as 'RS.COL2'
+   
+from LS 
+LEFT JOIN RS
+   ON LS.ID = RS.ID ;
+
+
+SELECT 
+	*
+    IFNULL(LS.ID, 500) as LS.ID
+from LS 
+LEFT JOIN RS
+   ON LS.ID = RS.ID ;
+
+
+SELECT IFNULL(NULL,10);
+
