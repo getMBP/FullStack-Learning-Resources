@@ -12,5 +12,6 @@ https://www.youtube.com/watch?v=D6xkbGLQesk&t=54s
 
 https://www.interviewcake.com/article/java/logarithms?
 
+https://www.youtube.com/watch?v=1U3Uwct45IY&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=5
 
 
