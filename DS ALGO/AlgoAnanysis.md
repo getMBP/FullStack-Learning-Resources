@@ -16,3 +16,6 @@ https://www.youtube.com/watch?v=1U3Uwct45IY&list=PLDN4rrl48XKpZkf03iYFl-O29szjTr
 
 
 https://www.geeksforgeeks.org/algorithms-gq/analysis-of-algorithms-gq/
+
+
+https://www.youtube.com/watch?v=Ee0HzlnIYWQ&t=397s
