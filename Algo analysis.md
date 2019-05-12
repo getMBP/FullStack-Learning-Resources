@@ -9,4 +9,6 @@
 
 ##### https://justin.abrah.ms/computer-science/how-to-calculate-big-o.html
 
+https://www.youtube.com/watch?v=Ee0HzlnIYWQ&t=397s
+
 
