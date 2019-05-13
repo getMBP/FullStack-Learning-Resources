@@ -19,3 +19,7 @@ https://www.geeksforgeeks.org/algorithms-gq/analysis-of-algorithms-gq/
 
 
 https://www.youtube.com/watch?v=Ee0HzlnIYWQ&t=397s
+
+https://www.youtube.com/watch?v=v4cd1O4zkGw&t=2s
+
+https://www.youtube.com/watch?v=kS_gr2_-ws8
