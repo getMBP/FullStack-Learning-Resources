@@ -114,6 +114,8 @@ alert( Number(false) );       // 0
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.i84zm53fb)
 
 - **How do you check that a number is NaN in JavaScript?**
+https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascript
+
 http://speakingjs.com/es5/ch11.html#isNaN  best
 
 https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascripthttps://stackoverflow.com/questions/825402/why-does-isnan-equal-falsehttps://stackoverflow.com/questions/8965364/comparing-nan-values-for-equality-in-javascript
