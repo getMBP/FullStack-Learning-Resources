@@ -453,6 +453,8 @@ if (Boolean( a )) {
 
 ```
 
+
+
 ***Object.is***
 https://javascript.info/number
 
@@ -476,7 +478,7 @@ The other ordering operators are handled similarly
 
 - **Chapter 4: Coercion**
 https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
-
+https://stackoverflow.com/questions/154059/how-to-check-empty-undefined-null-string-in-javascript
 
 - **Item 3: Beware of Implicit Coercions**
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch01.html#ch01lev1sec3)
