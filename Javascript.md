@@ -39,6 +39,14 @@ There are three ways any value can be converted to a boolean:
 
 3)!!value
 https://stackoverflow.com/questions/10467475/double-negation-in-javascript-what-is-the-purpose
+var x = "somevalue"
+var isNotEmpty = !!x.length;
+Let's break it to pieces:
+
+x.length   // 9
+!x.length  // false
+!!x.length // true
+So it's used convert a "truethy" \"falsy" value to a boolean.
 
 ```
 
