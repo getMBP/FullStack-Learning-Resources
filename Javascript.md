@@ -38,6 +38,7 @@ There are three ways any value can be converted to a boolean:
 2)value ? true : false
 
 3)!!value
+https://stackoverflow.com/questions/10467475/double-negation-in-javascript-what-is-the-purpose
 
 ```
 
