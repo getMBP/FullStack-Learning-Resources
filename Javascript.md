@@ -1548,10 +1548,10 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 https://medium.freecodecamp.org/lets-explore-objects-in-javascript-4a4ad76af798
 
 
-- **Object to primitive conversion
+- **Object to primitive conversion**
 http://javascript.info/object-toprimitive
 
-- **Prototypes
+- **Prototypes**
 
 ```javascript
 
