@@ -1711,6 +1711,30 @@ Rabbit.prototype = {
 // now constructor is also correct, because we added it
 
 
+```javascript
+	function Person(){
+
+	}
+
+	var friend = new Person();
+
+	Person.prototype = {
+	 name : "Nicholas",
+	 age : 29,
+	 job : "Software Engineer",
+	 sayName : function () {
+	    console.log(this.name);
+	   }
+	};
+
+
+Constructor is Object Constructor
+(new Person()).constructor
+ƒ Object() { [native code] }
+
+```
+
+
 ## Arrays 
 
 https://javascript.info/array-methods
