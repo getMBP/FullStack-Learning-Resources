@@ -928,6 +928,20 @@ https://github.com/deenjohn/Javascript-revision/blob/master/General/1-%20bind%20
 
 ### Call,Apply,Bind - Learn even more
 
+- **http://davidshariff.com/blog/borrowing-methods-in-javascript/**
+
+var score = Function.prototype.call.bind(scoreCalculator.getScore);  //binding call to scoreCalculator.getScore
+score(player1);
+
+is doing this
+
+```javascript
+scoreCalculator.getScore.call(player1)
+
+```
+
+and that you can borrowing the `call` method from anywhere, in this case from the Function.prototype, but it doesn’t matter where and binding it to the getScore function.
+
 - **Use call to Call Methods with a Custom Receiver**
 https://www.safaribooksonline.com/library/view/effective-javascript-68/9780132902281/ch03.html#ch03lev1sec3)
 
