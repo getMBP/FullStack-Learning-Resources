@@ -1006,6 +1006,10 @@ Pass the arguments to Date via a method call (they are not in an array—yet):
 
 ```javascript
      new (Date.bind(null, 2011, 11, 24))
+     
+     or 
+     new (Date.bind.call(Date,null, 2011, 11, 24))
+     
 ```
 
 The preceding code uses bind() to create a constructor without parameters and invokes it via new.
