@@ -754,6 +754,46 @@ for (var i=0; i < 5; i++) {
 }
 
 ```
+How can you correct this function ?
+
+
+```javascript
+
+var myAlerts = [];
+
+for (var i = 0; i < 5; i++) {
+    myAlerts.push(
+        function inner() {
+            alert(i);
+        }
+    );
+}
+
+myAlerts[0](); // 5
+myAlerts[1](); // 5
+myAlerts[2](); // 5
+myAlerts[3](); // 5
+myAlerts[4](); // 5
+
+
+Answer :
+
+var myAlerts = [];
+
+for (var i = 0; i < 5; i++) {
+    myAlerts.push(
+       (function iife(){
+         var j = i ;
+         return function inner() {
+            console.log(j);
+          }
+       })()
+        
+    );
+}
+myAlerts[1]()
+
+```
 
 https://content.myemma.com/emmatech/using-iifes-in-javascript-to-control-variable-scope)
 https://stackoverflow.com/questions/2421911/what-is-the-purpose-of-wrapping-whole-javascript-files-in-anonymous-functions-li
