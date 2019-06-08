@@ -5,6 +5,8 @@
 
 ### Fundamentals Javascript Reading:
 
+http://dmitrysoshnikov.com/category/ecmascript/
+
 - **MDN**
 https://developer.mozilla.org/bm/docs/Web/JavaScript)
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
