@@ -1553,6 +1553,51 @@ http://javascript.info/object-toprimitive
 
 - **Prototypes
 
+```javascript
+
+function SuperType(name){
+ this.name = name;
+ this.colors = ["red","green"];
+}
+
+SuperType.prototype.sayName = function(){
+ console.log(this.name);
+};
+
+function SubType(name, age){
+
+ //inherit properties
+ SuperType.call(this, name);
+
+ this.age = age;
+}
+
+//inherit methods
+SubType.prototype = new SuperType();  // problem as this creates color property on prototype 
+
+SubType.prototype.sayAge = function(){
+ console.log(this.age);
+};
+
+var instance1 = new SubType("Nicholas", 29);
+
+
+problems with this :
+
+console.log(instance1) > color property on prototype 
+
+SubType {name: "Nicholas", colors: Array(2), age: 29}
+	age: 29
+	colors: (2) ["red", "green"]
+	name: "Nicholas"
+	__proto__: SuperType
+		colors: (2) ["red", "green"]
+		name: undefined
+		sayAge: ƒ ()
+		__proto__: Object
+
+```
+
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch5.md)
 https://stackoverflow.com/questions/310870/use-of-prototype-vs-this-in-javascript
 https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch6.md
