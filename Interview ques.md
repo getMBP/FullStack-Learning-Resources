@@ -64,6 +64,9 @@ Relative
 ```
 
 
+4) explain box model , box sizing 
+5) diff between inline and inline-block
+
 # JS
 
 
