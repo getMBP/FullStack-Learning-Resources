@@ -11,6 +11,8 @@
 
 Absolute 
 
+```css
+
  #box_1 { 
 	position: absolute;
 	width: 200px;
@@ -59,7 +61,7 @@ Relative
 	background: #b7d84b;
 }
 
-
+```
 
 
 # JS
