@@ -66,6 +66,8 @@ Relative
 
 4) explain box model , box sizing 
 5) diff between inline and inline-block
+6) what is fixed positioning : what happens to width and height if you apply the fixed positioning on some element.
+
 
 # JS
 
