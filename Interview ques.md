@@ -88,6 +88,9 @@ Relative
 
 # React
 
+que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
+  // API - https://jsonplaceholder.typicode.com/users
+// API - https://jsonplaceholder.typicode.com/posts
 
 
 
