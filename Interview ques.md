@@ -68,7 +68,7 @@ Relative
 5) diff between inline and inline-block
 6) what is fixed positioning : what happens to width and height if you apply the fixed positioning on some element.
 
-```css
+```html
 <body>
         <div class="parent">
             <div class="child-1">Navigation Bar</div>
