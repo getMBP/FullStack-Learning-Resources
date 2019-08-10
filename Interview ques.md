@@ -83,7 +83,13 @@ Relative
 
 # JS
 
+que1 
+// Function to remove two adjacent duplicate characters from a string.
+// let str = 'abbbbaca';
+// output: 'ca'
 
+que 2:
+Singleton pattern
 
 
 # React
