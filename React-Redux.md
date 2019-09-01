@@ -383,7 +383,7 @@ https://codepen.io/deen_john/pen/xPdyMx
 - **Getting Started with Redux**   
 https://egghead.io/courses/getting-started-with-redux
 https://medium.com/@justin3737/getting-started-with-redux-dded45556673
-
+https://github.com/tayiorbeii/egghead.io_redux_course_notes
 https://learnreduxwithdanabramov.com/
   
 - **Simple Redux
