@@ -393,6 +393,7 @@ https://learnreduxwithdanabramov.com/
 https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
     
  - **React-redux "connect" explained**
+ 
   https://www.sohamkamani.com/blog/2017/03/31/react-redux-connect-explained/
     
  https://github.com/gaearon/redux-thunk
