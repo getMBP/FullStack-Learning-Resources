@@ -92,6 +92,10 @@ que 2:
 Singleton pattern
 
 
+que 3 :
+
+explain the diff between promise and observable
+
 # React
 
 que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
