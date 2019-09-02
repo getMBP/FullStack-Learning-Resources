@@ -2401,7 +2401,11 @@ https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-
 https://gitissue.com/issues/5b764a6f725e4a4219fbf874
 https://itw01.com/NR6AE4C.html
 
-### Async-Await /Promises
+### Async-Await /Promises /OBSERVABLES
+
+https://www.youtube.com/watch?v=jgWnccjXR4I&t=959s
+Callbacks vs Promises vs RxJs Observables vs async/ await
+
 
 - **Promises and Asynchronous Programming**
 https://github.com/nzakas/understandinges6/blob/master/manuscript/11-Promises.md)
@@ -2911,4 +2915,7 @@ https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibi
 
 http://dfsq.info/site/read/writing-your-own-jquery
 https://learnquery.infinum.co/
+
+SPA :https://www.youtube.com/watch?v=F_BYg2QGsC0
+
 
