@@ -2917,5 +2917,6 @@ http://dfsq.info/site/read/writing-your-own-jquery
 https://learnquery.infinum.co/
 
 SPA :https://www.youtube.com/watch?v=F_BYg2QGsC0
-
+https://www.youtube.com/watch?v=qvHecQOiu8g
+How Single Page Applications WorkHow Single Page Applications Work
 
