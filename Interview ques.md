@@ -6,7 +6,7 @@
 
 que : how would you make this at the bottom?using relative,height of body
 
-
+~~~html
 <style>
 
 body{
@@ -36,6 +36,8 @@ div.relative {
 This div element has position: relative;
 </div>
 
+	
+~~~
 
 2) 4 div in row , swap 3rd and 4th 
 
