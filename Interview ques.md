@@ -152,6 +152,17 @@ que :
 
 flat a nested array 
 
+que :
+
+obj = {
+  i = 0 ;
+toString:function(){
+     obj.i++
+   }
+}
+
+obj == 1 , obj == 2 , obj ==3
+
 # React
 
 que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
