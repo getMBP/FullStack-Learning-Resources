@@ -2815,10 +2815,17 @@ https://toddmotto.com/rxjs-observables-observers-operators
 ## Performance 
 
 https://developers.google.com/web/fundamentals/performance/get-started/
+https://csstriggers.com/align-content
+
+The Only 2 CSS Properties You Should Animate
+https://www.youtube.com/watch?v=N5EW4HnF6FU
+
+
 
 
 ## Jquery Annotated source
 https://robflaherty.github.io/jquery-annotated-source/
+
 
 
 ## CSS
