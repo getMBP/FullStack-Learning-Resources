@@ -1,0 +1,84 @@
+	https://stackoverflow.com/questions/39062930/what-is-the-difference-between-declarations-providers-and-import-in-ngmodule
+	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/01-say-hello-world-to-angular?from-embed
+template syntax	https://angular.io/guide/template-syntax
+ref	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-fy3z3
+events	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/04-control-angular-2-events-with-event-and-event-handlers?from-embed
+$event	https://stackoverflow.com/questions/37944199/what-exactly-event-object-do-in-angular-2
+Share Services and Data with Angular 2 Dependency Injection	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/05-share-services-and-data-with-angular-2-dependency-injection?from-embed
+inject	https://angular.io/api/core/Inject
+Provide and Share Values	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/06-provide-and-share-values-with-angular-2-dependency-injection?from-embed
+ngfor	https://angular.io/api/common/NgForOf
+ngfor	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-cii1j
+ngfor	https://alligator.io/angular/ngfor-directive/
+	https://blog.angular-university.io/angular-2-ngfor/
+Class selector	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-g920g
+Attribue selector	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-4r3uv
+Highlight directive	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-osn6l
+Structural Directive	https://angular.io/guide/structural-directives
+ng container	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-9wud5
+ng container	https://alligator.io/angular/ng-container-element/
+writing a structural directive	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-9wud5
+@Input	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/08-pass-values-into-angular-2-components-with-input?from-embed
+	https://angular.io/api/core/Input
+2 way binding	https://codesandbox.io/s/09syncvaluesfrominputswithangular2sngmodeltwowaybinding-n5io3
+2 way binding	https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html
+CSS Inside of Angular 2 	https://codesandbox.io/s/11writecssinsideofangular2components-godcd
+ngclass	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-0wrhw
+provide in angular	https://itnext.io/understanding-provider-scope-in-angular-4c2589de5bc
+factory provider	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
+providers	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-itc1e
+providers vs providein	https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f
+providein	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
+types of directive	https://angular.io/guide/attribute-directives
+	https://blog.angular-university.io/angular-components-and-directives-for-beginners/
+passing input to child	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-vmkhh
+input on component	https://codesandbox.io/s/angularwebpackdevserver-lkc7g
+input on directive	https://codesandbox.io/s/angularwebpackdevserver-4rfhx
+hostlistner	https://codesandbox.io/s/angularwebpackdevserver-ckshb
+template	https://codesandbox.io/s/angularwebpackdevserver-vee5p
+ElementRef, TemplateRef, ViewContainerRef ,ng-container	https://blog.angularindepth.com/exploring-angular-dom-abstractions-80b3ebcfc02
+	https://angular.io/api/core/ViewContainerRef
+	https://angular.io/api/core/TemplateRef
+Ng-template	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-5yx3o
+ngTemplateOutlet	https://codesandbox.io/s/angularwebpackdevserver-93vnx
+ngTemplateOutlet	https://angular.io/api/common/NgTemplateOutlet
+Structural Directive	https://codesandbox.io/s/angularwebpackdevserver-esj5q
+Structural Directive Data Binding with Context in Angular	https://codesandbox.io/s/angularwebpackdevserver-prttg
+Angular lifecycle	https://codesandbox.io/s/08passvaluesintoangular2componentswithinput-riwj8
+	https://angular.io/guide/lifecycle-hooks
+ngdoCheck	https://blog.angularindepth.com/if-you-think-ngdocheck-means-your-component-is-being-checked-read-this-article-36ce63a3f3e5
+Thoughtram on change detection	https://blog.angular-university.io/how-does-angular-2-change-detection-really-work/
+Angular change detection	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-lir9h
+change detection , on push and zones	https://www.youtube.com/watch?v=CUxD91DWkGM
+	https://www.youtube.com/watch?v=jvKGQSFQf10&t=192s
+	https://www.youtube.com/watch?v=CMkKzQmOnyg
+Angular idempotent rule	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-3344t
+Angular ngmodel	https://stackoverflow.com/questions/38465931/cannot-find-module-angular-forms
+	https://stackoverflow.com/questions/38892771/cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input
+	https://angular.io/api/forms/NgModel
+ngmodel	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-7bo3z
+ngmodel	https://codesandbox.io/s/angularwebpackdevserver-cnu9i
+ngform	https://codesandbox.io/s/angular2lessons-76otz
+nginvalid ngtouched	https://codesandbox.io/s/angular2lessons-4zd88
+	https://angular.io/guide/form-validation
+meaning of ngtouch,ngpristine etc	https://angular.io/api/forms/AbstractControlDirective#properties
+Angular 2 States of Inputs: Pristine and Untouched	https://codesandbox.io/s/angular2lessons-bhopv
+RxJS Streams with Angular 2 Forms	https://codesandbox.io/s/angular2lessons-v0pb8
+radio button	https://codesandbox.io/s/angular2lessons-fckw0
+dropdown	https://codesandbox.io/s/angular2lessons-l6tm9
+formgroup	https://angular.io/api/forms/FormGroup
+dynamic form	https://codesandbox.io/s/angular-1guxu
+	https://codesandbox.io/s/angular-8ph3z
+Dynamic Select Boxes	
+	https://stackoverflow.com/questions/39623000/2-0-0-version-cant-bind-to-ngif-since-it-isnt-a-known-property-of-div
+shared components	https://codesandbox.io/s/angular-kozt1
+Create Shareable Angular 2 Components	https://codesandbox.io/s/angular-kozt1
+	
+Routing	https://www.youtube.com/watch?v=QLns6s02O48
+	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-qmelc
+Adding not found routes	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-qzl5e
+adding redirect	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-fosqh
+adding button to redirect in sub component	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-dn7jl
+adding a routing module	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-4oi78
+	https://angular.io/guide/router#milestone-2-routing-module
+Organize the app and routes into feature areas using modules	
