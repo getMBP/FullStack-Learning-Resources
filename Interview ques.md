@@ -127,6 +127,11 @@ que : selectors :
 
 difference btw .class1 .class2 and .class1.class2 
 
+
+que inline vs external vs internal css
+https://www.w3schools.com/css/css_howto.asp
+
+
 # JS
 
 que1 
