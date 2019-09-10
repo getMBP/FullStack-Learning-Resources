@@ -133,6 +133,29 @@ que inline vs external vs internal css
 https://www.w3schools.com/css/css_howto.asp
 
 
+que : how to centre a div inside another div
+https://www.youtube.com/watch?v=ZohZS6xLYE4&list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh&index=3
+https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute
+
+```css
+div.relative {
+ 
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+```
+
 # JS
 
 que1 
