@@ -137,15 +137,23 @@ que : how to centre a div inside another div
 https://www.youtube.com/watch?v=ZohZS6xLYE4&list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh&index=3
 https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute
 
+
+```html
+<div class="parent">This div element has position: relative;
+  <div class="child">This div element has position: absolute;</div>
+</div>
+```
+
 ```css
-div.relative {
+
+div.parent {
  
   width: 400px;
   height: 200px;
   border: 3px solid #73AD21;
 } 
 
-div.absolute {
+div.child {
   
   top: 80px;
   right: 0;
