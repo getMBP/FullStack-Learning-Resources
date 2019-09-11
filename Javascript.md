@@ -1124,7 +1124,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/6efd08c9db8e9808a9046204c719c99c
 
 ## let,const arrow function
 https://github.com/nzakas/understandinges6/blob/master/manuscript/01-Block-Bindings.md
-
+https://www.w3schools.com/js/js_arrow_function.asp
 
 ## json.stringify
 
