@@ -167,6 +167,10 @@ div.child {
 ### que : semantic html elements and their order 
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
+### que : lazy loading images
+https://app.pluralsight.com/player?course=responsive-web-design-images-sliders&author=paul-cheney&name=responsive-web-design-images-sliders-m8&clip=0&mode=live
+
+
 
 # JS
 
