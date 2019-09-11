@@ -374,6 +374,8 @@ https://www.w3schools.com/jsref/jsref_forin.asp
 https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-a-bad-idea
 
 
+
+
 ## Coercion 
 
 - **Equality comparisons and sameness**
@@ -1119,6 +1121,9 @@ much cleaner, approach to [[Prototype]] reflection is:
 Notice that in this case, we don't really care about (or even need) Foo, we just need an object (in our case, arbitrarily labeled Foo.prototype) to test against another object. The question isPrototypeOf(..) answers is: in the entire [[Prototype]] chain of a, does Foo.prototype ever appear?
 
 https://github.com/getify/You-Dont-Know-JS/blob/6efd08c9db8e9808a9046204c719c99cb4702c18/this%20%26%20object%20prototypes/ch5.md#L487)
+
+## let,const arrow function
+https://github.com/nzakas/understandinges6/blob/master/manuscript/01-Block-Bindings.md
 
 
 ## json.stringify
@@ -2254,7 +2259,7 @@ https://www.w3.org/TR/uievents/#events-mouseevent-event-order
 https://www.w3.org/TR/uievents
 
 Focus event :
-Before Focus event is fired , mousedown event is fired.
+Before Focus event is fired , mousedown event is fired.let
 Mousedown > Focus 
 
 - **MOUSEOUT VS MOUSELEAVE**
