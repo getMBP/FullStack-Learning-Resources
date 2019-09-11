@@ -203,6 +203,8 @@ toString:function(){
 obj == 1 , obj == 2 , obj ==3
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce#Flatten_an_array_of_arrays
+https://medium.com/dailyjs/flatten-array-using-array-flat-in-javascript-ee4d0b2423e5
+https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays
 
 
 ### que : session storage vs local storage
