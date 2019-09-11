@@ -2407,6 +2407,8 @@ https://gitissue.com/issues/5b764a6f725e4a4219fbf874
 https://itw01.com/NR6AE4C.html
 
 ### Async-Await /Promises /OBSERVABLES
+https://github.com/jawache/async-javascript-workshop
+
 
 https://www.youtube.com/watch?v=jgWnccjXR4I&t=959s
 Callbacks vs Promises vs RxJs Observables vs async/ await
@@ -2507,7 +2509,8 @@ https://www.sitepoint.com/mvc-design-pattern-javascript/
 - **Observer pattern**
 https://github.com/deenjohn/Design-Patterns/tree/master/Observer%20Pattern
 
-
+- **The Comprehensive Guide to JavaScript Design Patterns**
+https://www.toptal.com/javascript/comprehensive-guide-javascript-design-patterns
 
 # Books :
 (only mentioning the books i read & found helpful)
