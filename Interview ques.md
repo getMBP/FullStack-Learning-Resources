@@ -171,15 +171,15 @@ que1
 // let str = 'abbbbaca';
 // output: 'ca'
 
-que 2:
+### que 2:
 Singleton pattern
 
 
-que 3 :
+### que 3 :
 
 explain the diff between promise and observable
 
-que :
+### que :
  merge two arrays , remove duplicates and all positive ids only and in sorting order
  
  arr1 = [{id:1},{id:4},{id:2},{id:6}]
@@ -187,7 +187,7 @@ que :
 
 use this : https://reactgo.com/removeduplicateobjects/
 
-que : 
+### que : 
 
 flat a nested array 
 
@@ -202,14 +202,21 @@ toString:function(){
 
 obj == 1 , obj == 2 , obj ==3
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce#Flatten_an_array_of_arrays
+
+
+### que : session storage vs local storage
+https://javascript.info/localstorage
+
+
 # React
 
-que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
+### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
   // API - https://jsonplaceholder.typicode.com/users
 // API - https://jsonplaceholder.typicode.com/posts
 
 
-que : What is a valid return from react render function?
+### que : What is a valid return from react render function?
 false , string , number 
 
 
