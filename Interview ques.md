@@ -164,6 +164,10 @@ div.child {
 
 ```
 
+### que : semantic html elements and their order 
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+
 # JS
 
 que1 
