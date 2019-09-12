@@ -231,6 +231,7 @@ false , string , number
 https://reactjs.org/docs/jsx-in-depth.html#booleans-null-and-undefined-are-ignored
 
 
+que : is redux unidirectional or bidirectional
 
 
 # Angular
