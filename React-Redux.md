@@ -391,6 +391,9 @@ https://learnreduxwithdanabramov.com/
   
 - **Simple Redux
  https://bumbu.me/simple-redux/
+ 
+- **why bind action creators
+ https://stackoverflow.com/questions/41754489/when-would-bindactioncreators-be-used-in-react-redux
   
 - **Building React Applications with Idiomatic Redux**
 https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
@@ -409,6 +412,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  ### Thunk & middlewares
  
+ https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
  https://daveceddia.com/what-is-a-thunk/ 
  https://alligator.io/redux/redux-thunk/
  https://github.com/tylerlong/hello-async
