@@ -219,6 +219,10 @@ https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays
 ### que : session storage vs local storage
 https://javascript.info/localstorage
 
+### que : how to compare two objects
+
+### que : how does json.stringify works
+
 
 # React
 
