@@ -31,3 +31,8 @@ https://egghead.io/lessons/rxjs-an-observable-execution-may-only-have-one-observ
  streams  > Observables > Subject > Observer1 , Observer 2
  
  
+courses 
+
+https://app.pluralsight.com/library/courses/rxjs-big-picture/table-of-contents
+
+https://app.pluralsight.com/library/courses/rxjs-getting-started/table-of-contents
