@@ -4,6 +4,7 @@
 
 1) Absolute vs Relative in depth
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position2
+https://www.w3.org/TR/CSS2/visuren.html
 
 que : how would you make this at the bottom?using relative,height of body
 
