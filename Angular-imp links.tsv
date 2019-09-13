@@ -20,28 +20,29 @@ ng container	https://alligator.io/angular/ng-container-element/
 writing a structural directive	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-9wud5
 @Input	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/08-pass-values-into-angular-2-components-with-input?from-embed
 	https://angular.io/api/core/Input
+ output	https://codesandbox.io/s/10-pass-events-from-angular-2-components-with-output-1ugku
 2 way binding	https://codesandbox.io/s/09syncvaluesfrominputswithangular2sngmodeltwowaybinding-n5io3
 2 way binding	https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html
 CSS Inside of Angular 2 	https://codesandbox.io/s/11writecssinsideofangular2components-godcd
 ngclass	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-0wrhw
-provide in angular	https://itnext.io/understanding-provider-scope-in-angular-4c2589de5bc
-factory provider	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
-providers	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-itc1e
-providers vs providein	https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f
-providein	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
 types of directive	https://angular.io/guide/attribute-directives
 	https://blog.angular-university.io/angular-components-and-directives-for-beginners/
 passing input to child	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-vmkhh
 input on component	https://codesandbox.io/s/angularwebpackdevserver-lkc7g
-input on directive	https://codesandbox.io/s/angularwebpackdevserver-4rfhx
-hostlistner	https://codesandbox.io/s/angularwebpackdevserver-ckshb
+input on directive	https://stackblitz.com/edit/angular-3gsu7j
+hostlistner	https://stackblitz.com/edit/angular-k6qnuc?file=src/app/app.component.ts
+hostlistner	https://stackblitz.com/edit/angular-zcyo1x?file=src/app/app.component.ts    , https://stackblitz.com/edit/angular-jnnahp?file=src/app/app.component.ts
 template	https://codesandbox.io/s/angularwebpackdevserver-vee5p
 ElementRef, TemplateRef, ViewContainerRef ,ng-container	https://blog.angularindepth.com/exploring-angular-dom-abstractions-80b3ebcfc02
 	https://angular.io/api/core/ViewContainerRef
 	https://angular.io/api/core/TemplateRef
 Ng-template	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-5yx3o
+Use Template Elements in Angular:viewchild	https://stackblitz.com/edit/angular-kgnozp?file=src/app/app.component.ts
 ngTemplateOutlet	https://codesandbox.io/s/angularwebpackdevserver-93vnx
 ngTemplateOutlet	https://angular.io/api/common/NgTemplateOutlet
+Write a Structural Directive in Angular-part1	https://stackblitz.com/edit/angular-wde692?file=src/app/app.component.ts
+Write a Structural Directive in Angular-part2	https://stackblitz.com/edit/angular-ylhqwk?file=src/app/app.component.ts
+Write a Structural Directive in Angular-part3	https://stackblitz.com/edit/angular-5h6omj?file=src/app/app.component.ts
 Structural Directive	https://codesandbox.io/s/angularwebpackdevserver-esj5q
 Structural Directive Data Binding with Context in Angular	https://codesandbox.io/s/angularwebpackdevserver-prttg
 Angular lifecycle	https://codesandbox.io/s/08passvaluesintoangular2componentswithinput-riwj8
@@ -82,3 +83,27 @@ adding button to redirect in sub component	https://codesandbox.io/s/07loopthroug
 adding a routing module	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-4oi78
 	https://angular.io/guide/router#milestone-2-routing-module
 Organize the app and routes into feature areas using modules	
+	
+projection	https://angular-2-training-book.rangle.io/components/projection
+view encapsulation	https://codesandbox.io/s/11-write-css-inside-of-angular-2-components-yfzu3
+view encapsulation	https://blog.angular-university.io/angular-host-context/
+	
+	
+Dependency injection	
+	
+basic	https://stackblitz.com/edit/angular-sh1xby?file=src%2Fapp%2Fapp.module.ts
+	
+provide in angular	https://itnext.io/understanding-provider-scope-in-angular-4c2589de5bc
+factory provider	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
+Dependency Providers	https://angular.io/guide/dependency-injection-providers
+providers	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-itc1e
+providers vs providein	https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f
+providein	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
+	
+	
+All about module	https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407
+	https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
+Shareable Module	https://stackblitz.com/edit/angular-kawkxa?file=src/app/app.module.ts
+	https://stackblitz.com/edit/angular-jeb4mf?file=src/home/home.component.ts
+	
+	https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
