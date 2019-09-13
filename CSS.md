@@ -5,7 +5,7 @@
 https://css-tricks.com/almanac/
 
 https://www.udemy.com/css-the-complete-guide-incl-flexbox-grid-sass/
-
+https://www.w3.org/TR/CSS2/visuren.html
 #### Inheritance
 
   ##### width and height are inherited but can be overiden by % or px
