@@ -228,6 +228,8 @@ https://javascript.info/localstorage
 
 
 ### que : cors
+udemy lecture javascript-advanced/learn/lecture/4673524#announcements
+
 https://www.youtube.com/watch?v=NzEEIiDytBI
 https://www.youtube.com/watch?v=zoSJ3bNGPp0
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
@@ -235,6 +237,9 @@ https://www.youtube.com/watch?v=tcLW5d0KAYE
 https://fetch.spec.whatwg.org/#http-cors-protocol
 
 ```Javascript
+
+
+//get request Origin: http://localhost:3000
 
 fetch("http://localhost:3000/api/person/:1") 
 	.then((resp) => resp.json()) // Transform the data into json
@@ -245,6 +250,8 @@ fetch("http://localhost:3000/api/person/:1")
         })
 
 //gives cors error , unless you allow it on server
+//Origin: http://localhost:3000
+
 fetch("http://localhost:4000/api/person/:1") //http://localhost:4000/api/person/:1
 	.then((resp) => resp.json()) // Transform the data into json
 	.then(function(data) {
