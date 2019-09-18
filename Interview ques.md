@@ -229,7 +229,39 @@ https://javascript.info/localstorage
 
 ### que : cors
 https://www.youtube.com/watch?v=NzEEIiDytBI
+https://www.youtube.com/watch?v=zoSJ3bNGPp0
 
+```Javascript
+
+fetch("http://localhost:3000/api/person/:1") 
+	.then((resp) => resp.json()) // Transform the data into json
+	.then(function(data) {
+					
+	   console.log(data)
+
+        })
+
+//gives cors error , unless you allow it on server
+fetch("http://localhost:4000/api/person/:1") //http://localhost:4000/api/person/:1
+	.then((resp) => resp.json()) // Transform the data into json
+	.then(function(data) {
+					
+	   console.log(data)
+
+	})
+	
+//to allow the cors on server
+ 
+ app.get('/api/person/:id', function(req, res) {
+
+    //allow cors
+    res.header('Access-Control-Allow-Origin','*');
+    res.header('Access-Control-Allow-Headers','X-Custom-Header,Origin,X-Requested-With,ContentType,Accept')
+	// get that data from database
+	res.json({ firstname: 'John', lastname: 'Doe' });
+});
+				
+```
 
 ### fetch api
 https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
