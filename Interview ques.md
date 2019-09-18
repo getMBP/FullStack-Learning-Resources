@@ -230,6 +230,9 @@ https://javascript.info/localstorage
 ### que : cors
 https://www.youtube.com/watch?v=NzEEIiDytBI
 https://www.youtube.com/watch?v=zoSJ3bNGPp0
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+https://www.youtube.com/watch?v=tcLW5d0KAYE
+https://fetch.spec.whatwg.org/#http-cors-protocol
 
 ```Javascript
 
@@ -265,6 +268,17 @@ fetch("http://localhost:4000/api/person/:1") //http://localhost:4000/api/person/
 
 ### fetch api
 https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+
+### que : http headers
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+
+
+### que :async vs defer
+https://www.youtube.com/watch?v=IrHmpdORLu8&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0&index=11
+
+
+### que : types in javascript and how to test them
+
 
 # React
 
