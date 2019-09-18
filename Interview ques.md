@@ -231,6 +231,9 @@ https://javascript.info/localstorage
 https://www.youtube.com/watch?v=NzEEIiDytBI
 
 
+### fetch api
+https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
