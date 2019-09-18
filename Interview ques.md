@@ -228,6 +228,10 @@ https://javascript.info/localstorage
 
 
 ### que : cors
+
+https://www.test-cors.org/
+
+
 udemy lecture javascript-advanced/learn/lecture/4673524#announcements
 
 https://www.youtube.com/watch?v=NzEEIiDytBI
