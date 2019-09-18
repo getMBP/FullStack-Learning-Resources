@@ -280,6 +280,7 @@ https://www.youtube.com/watch?v=IrHmpdORLu8&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZG
 ### que : types in javascript and how to test them
 
 
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
@@ -296,3 +297,11 @@ que : is redux unidirectional or bidirectional
 
 
 # Angular
+
+
+
+# Node
+
+
+# Backend architecture
+https://www.youtube.com/watch?v=G_VMsORzbls
