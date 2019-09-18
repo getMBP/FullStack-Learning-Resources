@@ -172,6 +172,9 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
 https://app.pluralsight.com/player?course=responsive-web-design-images-sliders&author=paul-cheney&name=responsive-web-design-images-sliders-m8&clip=0&mode=live
 
 
+### css psuedo elements
+https://www.w3schools.com/css/css_pseudo_elements.asp
+
 
 # JS
 
