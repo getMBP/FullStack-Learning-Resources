@@ -227,6 +227,10 @@ https://javascript.info/localstorage
 ### que : how does json.stringify works
 
 
+### que : cors
+https://www.youtube.com/watch?v=NzEEIiDytBI
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
