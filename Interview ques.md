@@ -221,6 +221,8 @@ https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays
 
 ### que : session storage vs local storage
 https://javascript.info/localstorage
+https://www.youtube.com/watch?v=MOd5cTJ6kaA
+
 
 ### que : how to compare two objects
 
