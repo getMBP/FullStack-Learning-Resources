@@ -102,6 +102,8 @@ Relative
 
 
 4) explain box model , box sizing 
+https://www.w3schools.com/css/css3_box-sizing.asp
+https://www.w3schools.com/css/css_boxmodel.asp
 
 <div> <div>
 	
