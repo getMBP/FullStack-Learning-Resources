@@ -292,7 +292,32 @@ https://www.youtube.com/watch?v=IrHmpdORLu8&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZG
 
 ### que : types in javascript and how to test them
 
+### Que :InstanceOf
+https://javascript.info/instanceof
 
+obj instanceOf Class checks whether Class.prototype equals to one of prototypes in the obj prototype chain.
+In other words, compare one after another:
+
+```Javascript
+obj.__proto__ === Class.prototype?
+obj.__proto__.__proto__ === Class.prototype?
+obj.__proto__.__proto__.__proto__ === Class.prototype?
+
+```
+
+#### Problem with instanceof
+
+```Javascript
+function Rabbit() {}
+let rabbit = new Rabbit();
+
+// changed the prototype
+Rabbit.prototype = {};
+
+// ...not a rabbit any more!
+alert( rabbit instanceof Rabbit ); // false
+
+```
 
 # React
 
