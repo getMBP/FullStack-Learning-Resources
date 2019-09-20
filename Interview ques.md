@@ -353,6 +353,11 @@ https://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javasc
 https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascript
 
 
+
+### que : sort in javascript
+https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
