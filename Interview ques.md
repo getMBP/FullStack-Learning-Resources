@@ -177,6 +177,7 @@ https://www.w3schools.com/css/css_pseudo_elements.asp
 
 ### que : view port units
 https://www.youtube.com/watch?v=_sgF8I-Q1Gs
+https://www.youtube.com/watch?v=JANETBQZJ8E
 
 # JS
 
