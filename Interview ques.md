@@ -116,6 +116,8 @@ div {
 
 
 5) diff between inline and inline-block
+https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_span1
+
 6) what is fixed positioning : what happens to width and height if you apply the fixed positioning on some element.
 
 ```html
