@@ -179,6 +179,11 @@ https://www.w3schools.com/css/css_pseudo_elements.asp
 https://www.youtube.com/watch?v=_sgF8I-Q1Gs
 https://www.youtube.com/watch?v=JANETBQZJ8E
 
+
+### que : css visibility
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_visibility
+
+
 # JS
 
 que1 
