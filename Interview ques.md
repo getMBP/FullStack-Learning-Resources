@@ -344,6 +344,10 @@ https://reactjs.org/docs/jsx-in-depth.html#booleans-null-and-undefined-are-ignor
 que : is redux unidirectional or bidirectional
 
 
+### que : lazy loading in Javascript
+https://www.youtube.com/watch?v=vx5-fQ67yDA
+
+
 # Angular
 
 
