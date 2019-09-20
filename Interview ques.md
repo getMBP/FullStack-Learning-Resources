@@ -193,6 +193,9 @@ https://www.w3schools.com/cssref/tryit.asp?filename=trycss_visibility
 ### que : what is css flexbox
 https://www.w3schools.com/css/css3_flexbox.asp
 
+### que : css display
+https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=table
+
 
 # JS
 
