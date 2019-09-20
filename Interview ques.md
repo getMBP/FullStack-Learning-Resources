@@ -190,6 +190,10 @@ https://www.w3schools.com/cssref/tryit.asp?filename=trycss_visibility
 
 ### que : what is css reset
 
+### que : what is css flexbox
+https://www.w3schools.com/css/css3_flexbox.asp
+
+
 # JS
 
 que1 
