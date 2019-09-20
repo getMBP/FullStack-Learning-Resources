@@ -373,7 +373,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20pro
 https://www.w3schools.com/jsref/jsref_forin.asp
 https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-a-bad-idea
 
-
+http://adripofjavascript.com/blog/drips/the-problem-with-for-in-and-javascript-arrays.html
 
 
 ## Coercion 
