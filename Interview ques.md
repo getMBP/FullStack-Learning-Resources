@@ -322,6 +322,9 @@ alert( rabbit instanceof Rabbit ); // false
 ### Que : types and typeof
 https://javascript.info/types
 
+### Que :currying
+https://javascript.info/currying-partials
+
 
 # React
 
