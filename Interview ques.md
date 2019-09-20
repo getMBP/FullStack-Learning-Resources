@@ -319,6 +319,10 @@ alert( rabbit instanceof Rabbit ); // false
 
 ```
 
+### Que : types and typeof
+https://javascript.info/types
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
