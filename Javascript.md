@@ -2083,6 +2083,10 @@ function handler(e){
 - **mouseleave**
 https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave
 
+mouseleave vs mouseover
+https://codepen.io/deen_john/pen/jONJwJz?editors=0010
+https://www.youtube.com/watch?v=pzT4hAY82q4
+
 - **preventDefault**
 https://javascript.info/default-browser-action
 https://bugzilla.mozilla.org/show_bug.cgi?id=653009
