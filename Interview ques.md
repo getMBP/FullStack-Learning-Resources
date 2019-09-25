@@ -105,7 +105,7 @@ Relative
 https://www.w3schools.com/css/css3_box-sizing.asp
 https://www.w3schools.com/css/css_boxmodel.asp
 https://www.w3schools.com/jsref/prop_style_boxsizing.asp
-
+https://learn.javascript.ru/box-sizing
 
 <div> <div>
 	
