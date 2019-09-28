@@ -412,15 +412,16 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  ### Thunk & middlewares
  
+ https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux?noredirect=1&lq=1
  https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
+ 
+ 
  https://daveceddia.com/what-is-a-thunk/ 
  https://alligator.io/redux/redux-thunk/
  https://github.com/tylerlong/hello-async
  
  https://github.com/reactjs/redux/blob/master/src/applyMiddleware.js
  https://github.com/gaearon/redux-thunk/blob/master/src/index.js
- https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux
- https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
  
  https://github.com/reactjs/redux/issues/1088
  
