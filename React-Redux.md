@@ -343,13 +343,17 @@ https://www.youtube.com/watch?v=llRpC--KA_8
 
 https://codepen.io/deen_john/pen/NwXXgY?editors=0010
 
-
-- **Routing in React, the uncomplicated way**
-https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
+- **simple-react-router-v4-tutorial**
+https://blog.pshrmn.com/simple-react-router-v4-tutorial/
 
 - **Build your own React Router v4**  
     https://tylermcginnis.com/build-your-own-react-router-v4/
         
+
+- **Routing in React, the uncomplicated way**
+https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
+
+
     - **The Haiku Of React Routing Principles**
     http://jamesknelson.com/the-haiku-of-react-routing-principles/
     
