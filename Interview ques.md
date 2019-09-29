@@ -199,6 +199,10 @@ https://www.w3schools.com/css/css3_flexbox.asp
 https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=table
 
 
+### que : what is css variable 
+https://www.youtube.com/watch?v=xeMMAx7hWYQ&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=29
+
+
 # JS
 
 que1 
