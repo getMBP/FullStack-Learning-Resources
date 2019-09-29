@@ -136,9 +136,9 @@ que : selectors :
 difference btw .class1 .class2 and .class1.class2 
 
 
-que inline vs external vs internal css
+que inline vs external,embedded vs internal css 
 https://www.w3schools.com/css/css_howto.asp
-
+https://www.youtube.com/watch?v=PigxOyVDIQg&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=2
 
 que : how to centre a div inside another div
 https://www.youtube.com/watch?v=ZohZS6xLYE4&list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh&index=3
