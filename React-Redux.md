@@ -350,6 +350,9 @@ https://blog.pshrmn.com/simple-react-router-v4-tutorial/
     https://tylermcginnis.com/build-your-own-react-router-v4/
     https://www.youtube.com/watch?v=ABllxOcsPsc    
 
+- **nested routes**
+https://tylermcginnis.com/react-router-nested-routes/
+
 - **Routing in React, the uncomplicated way**
 https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997
 
