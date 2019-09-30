@@ -143,6 +143,8 @@ inline wins among all styles
 
 https://www.w3schools.com/css/css_howto.asp
 https://www.youtube.com/watch?v=PigxOyVDIQg&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=2
+https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_multiple
+
 
 que : how to centre a div inside another div
 https://www.youtube.com/watch?v=ZohZS6xLYE4&list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh&index=3
