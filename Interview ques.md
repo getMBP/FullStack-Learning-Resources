@@ -5,6 +5,8 @@
 1) Absolute vs Relative vs fixed in depth
 
 Both the "absolute" and "fixed" value take the element the value is applied to out of the document flow. 
+https://webplatform.github.io/docs/tutorials/absolute_and_fixed_positioning/
+
 
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position2
 https://www.w3.org/TR/CSS2/visuren.html
