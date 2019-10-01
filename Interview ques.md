@@ -2,9 +2,13 @@
 
 # CSS 
 
-1) Absolute vs Relative in depth
+1) Absolute vs Relative vs fixed in depth
+
+Both the "absolute" and "fixed" value take the element the value is applied to out of the document flow. 
+
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position2
 https://www.w3.org/TR/CSS2/visuren.html
+
 
 que : how would you make this at the bottom?using relative,height of body
 
