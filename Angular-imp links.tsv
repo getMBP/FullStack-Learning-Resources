@@ -5,6 +5,9 @@ ref	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-fy3z3
 events	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/04-control-angular-2-events-with-event-and-event-handlers?from-embed
 $event	https://stackoverflow.com/questions/37944199/what-exactly-event-object-do-in-angular-2
 Share Services and Data with Angular 2 Dependency Injection	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/05-share-services-and-data-with-angular-2-dependency-injection?from-embed
+	https://blog.nrwl.io/essential-angular-dependency-injection-a6b9dcca1761
+	https://blog.angularindepth.com/angular-dependency-injection-and-tree-shakeable-tokens-4588a8f70d5d
+	https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f
 inject	https://angular.io/api/core/Inject
 Provide and Share Values	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/06-provide-and-share-values-with-angular-2-dependency-injection?from-embed
 ngfor	https://angular.io/api/common/NgForOf
@@ -87,23 +90,3 @@ Organize the app and routes into feature areas using modules
 projection	https://angular-2-training-book.rangle.io/components/projection
 view encapsulation	https://codesandbox.io/s/11-write-css-inside-of-angular-2-components-yfzu3
 view encapsulation	https://blog.angular-university.io/angular-host-context/
-	
-	
-Dependency injection	
-	
-basic	https://stackblitz.com/edit/angular-sh1xby?file=src%2Fapp%2Fapp.module.ts
-	
-provide in angular	https://itnext.io/understanding-provider-scope-in-angular-4c2589de5bc
-factory provider	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
-Dependency Providers	https://angular.io/guide/dependency-injection-providers
-providers	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-itc1e
-providers vs providein	https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f
-providein	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
-	
-	
-All about module	https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407
-	https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
-Shareable Module	https://stackblitz.com/edit/angular-kawkxa?file=src/app/app.module.ts
-	https://stackblitz.com/edit/angular-jeb4mf?file=src/home/home.component.ts
-	
-	https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
