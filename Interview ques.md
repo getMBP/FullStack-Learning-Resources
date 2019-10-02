@@ -1,6 +1,8 @@
 
 
 # CSS 
+https://www.youtube.com/playlist?list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe
+
 
 1) Absolute vs Relative vs fixed in depth
 
