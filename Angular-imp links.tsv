@@ -51,6 +51,8 @@ Structural Directive Data Binding with Context in Angular	https://codesandbox.io
 Angular lifecycle	https://codesandbox.io/s/08passvaluesintoangular2componentswithinput-riwj8
 	https://angular.io/guide/lifecycle-hooks
 ngdoCheck	https://blog.angularindepth.com/if-you-think-ngdocheck-means-your-component-is-being-checked-read-this-article-36ce63a3f3e5
+	https://blog.angularindepth.com/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react-508f83f58c6a
+	https://blog.angularindepth.com/a-gentle-introduction-into-change-detection-in-angular-33f9ffff6f10
 Thoughtram on change detection	https://blog.angular-university.io/how-does-angular-2-change-detection-really-work/
 Angular change detection	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-lir9h
 change detection , on push and zones	https://www.youtube.com/watch?v=CUxD91DWkGM
@@ -90,3 +92,23 @@ Organize the app and routes into feature areas using modules
 projection	https://angular-2-training-book.rangle.io/components/projection
 view encapsulation	https://codesandbox.io/s/11-write-css-inside-of-angular-2-components-yfzu3
 view encapsulation	https://blog.angular-university.io/angular-host-context/
+	
+	
+Dependency injection	
+	
+basic	https://stackblitz.com/edit/angular-sh1xby?file=src%2Fapp%2Fapp.module.ts
+	
+provide in angular	https://itnext.io/understanding-provider-scope-in-angular-4c2589de5bc
+factory provider	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
+Dependency Providers	https://angular.io/guide/dependency-injection-providers
+providers	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-itc1e
+providers vs providein	https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f
+providein	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-qnbe0
+	
+	
+All about module	https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407
+	https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
+Shareable Module	https://stackblitz.com/edit/angular-kawkxa?file=src/app/app.module.ts
+	https://stackblitz.com/edit/angular-jeb4mf?file=src/home/home.component.ts
+	
+	https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
