@@ -5,9 +5,6 @@ ref	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-fy3z3
 events	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/04-control-angular-2-events-with-event-and-event-handlers?from-embed
 $event	https://stackoverflow.com/questions/37944199/what-exactly-event-object-do-in-angular-2
 Share Services and Data with Angular 2 Dependency Injection	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/05-share-services-and-data-with-angular-2-dependency-injection?from-embed
-https://blog.angularindepth.com/angular-dependency-injection-and-tree-shakeable-tokens-4588a8f70d5d
-https://medium.com/@tomastrajan/total-guide-to-angular-6-dependency-injection-providedin-vs-providers-85b7a347b59f
-
 inject	https://angular.io/api/core/Inject
 Provide and Share Values	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/06-provide-and-share-values-with-angular-2-dependency-injection?from-embed
 ngfor	https://angular.io/api/common/NgForOf
