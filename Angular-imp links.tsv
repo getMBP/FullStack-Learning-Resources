@@ -41,6 +41,7 @@ ElementRef, TemplateRef, ViewContainerRef ,ng-container	https://blog.angularin
 	https://angular.io/api/core/ViewContainerRef
 	https://angular.io/api/core/TemplateRef
 Ng-template	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-5yx3o
+ngTemplateOutlet 	https://codesandbox.io/s/ngtemplateoutlet-os529
 Use Template Elements in Angular:viewchild	https://stackblitz.com/edit/angular-kgnozp?file=src/app/app.component.ts
 ngTemplateOutlet	https://codesandbox.io/s/angularwebpackdevserver-93vnx
 ngTemplateOutlet	https://angular.io/api/common/NgTemplateOutlet
@@ -111,6 +112,6 @@ tree shakeable	https://codesandbox.io/s/tree-shakable-providers-wvgit
 All about module	https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407
 	https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
 Shareable Module	https://stackblitz.com/edit/angular-kawkxa?file=src/app/app.module.ts
-	https://stackblitz.com/edit/angular-jeb4mf?file=src/home/home.component.ts
-	
+public component in a public component	https://stackblitz.com/edit/angular-jeb4mf?file=src/home/home.component.ts
+private component in a public module	https://stackblitz.com/edit/angular-mhu4bi?file=src%2Fapp%2Fapp.component.ts
 	https://www.freelancermap.com/freelancer-tips/12255-forroot-forchild-angular
