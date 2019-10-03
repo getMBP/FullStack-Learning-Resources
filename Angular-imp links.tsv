@@ -40,6 +40,7 @@ template	https://codesandbox.io/s/angularwebpackdevserver-vee5p
 ElementRef, TemplateRef, ViewContainerRef ,ng-container	https://blog.angularindepth.com/exploring-angular-dom-abstractions-80b3ebcfc02
 	https://angular.io/api/core/ViewContainerRef
 	https://angular.io/api/core/TemplateRef
+	https://egghead.io/courses/building-angular-components
 Ng-template	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-5yx3o
 ngTemplateOutlet 	https://codesandbox.io/s/ngtemplateoutlet-os529
 Use Template Elements in Angular:viewchild	https://stackblitz.com/edit/angular-kgnozp?file=src/app/app.component.ts
@@ -81,6 +82,10 @@ Dynamic Select Boxes
 	https://stackoverflow.com/questions/39623000/2-0-0-version-cant-bind-to-ngif-since-it-isnt-a-known-property-of-div
 shared components	https://codesandbox.io/s/angular-kozt1
 Create Shareable Angular 2 Components	https://codesandbox.io/s/angular-kozt1
+projection	https://angular-2-training-book.rangle.io/components/projection
+view encapsulation	https://codesandbox.io/s/11-write-css-inside-of-angular-2-components-yfzu3
+view encapsulation	https://blog.angular-university.io/angular-host-context/
+	
 	
 Routing	https://www.youtube.com/watch?v=QLns6s02O48
 	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-qmelc
@@ -90,10 +95,6 @@ adding button to redirect in sub component	https://codesandbox.io/s/07loopthroug
 adding a routing module	https://codesandbox.io/s/07loopthroughangular2componentswithngfor-4oi78
 	https://angular.io/guide/router#milestone-2-routing-module
 Organize the app and routes into feature areas using modules	
-	
-projection	https://angular-2-training-book.rangle.io/components/projection
-view encapsulation	https://codesandbox.io/s/11-write-css-inside-of-angular-2-components-yfzu3
-view encapsulation	https://blog.angular-university.io/angular-host-context/
 	
 	
 Dependency injection	
