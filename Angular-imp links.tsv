@@ -1,5 +1,7 @@
 	https://stackoverflow.com/questions/39062930/what-is-the-difference-between-declarations-providers-and-import-in-ngmodule
 	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/01-say-hello-world-to-angular?from-embed
+Interpolation {{}}	converts bound expression to string value
+property binding	
 template syntax	https://angular.io/guide/template-syntax
 ref	https://codesandbox.io/s/03manageangular2elementswitheventsandrefs-fy3z3
 events	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/04-control-angular-2-events-with-event-and-event-handlers?from-embed
@@ -16,6 +18,7 @@ ngfor	https://alligator.io/angular/ngfor-directive/
 	https://blog.angular-university.io/angular-2-ngfor/
 Class selector	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-g920g
 First directive	https://codesandbox.io/s/first-directive-oknnv
+Trim input directive	https://codesandbox.io/s/trim-input-directive-76otz
 Attribute selector - It's the brackets ([]) that make it an attribute selector	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-4r3uv
 Highlight directive	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-osn6l
 Structural Directive	https://angular.io/guide/structural-directives
@@ -24,6 +27,11 @@ ng container	https://alligator.io/angular/ng-container-element/
 writing a structural directive	https://codesandbox.io/s/04controlangular2eventswitheventandeventhandlers-9wud5
 @Input	https://codesandbox.io/s/github/eggheadio-projects/angular2-fundamentals/tree/master/08-pass-values-into-angular-2-components-with-input?from-embed
 	https://angular.io/api/core/Input
+ngOnchanges problem	https://codesandbox.io/s/ngonchanges-problem-1zk0u
+ngOnchanges -solution1	https://codesandbox.io/s/ngonchanges-solution-1-9w0tu
+ngOnchanges -solution2	https://codesandbox.io/s/ngonchanges-solution-2-igfgl
+ngOnchanges -solution3	https://codesandbox.io/s/ngonchanges-solution-2-50dp1
+ngOnchanges -solution4 (this works)	https://codesandbox.io/s/ngonchanges-solution-3-s07ou
  output	https://codesandbox.io/s/10-pass-events-from-angular-2-components-with-output-1ugku
 2 way binding	https://codesandbox.io/s/09syncvaluesfrominputswithangular2sngmodeltwowaybinding-n5io3
 2 way binding	https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html
