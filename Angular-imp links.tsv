@@ -32,9 +32,20 @@ ngOnchanges -solution1	https://codesandbox.io/s/ngonchanges-solution-1-9w0tu
 ngOnchanges -solution2	https://codesandbox.io/s/ngonchanges-solution-2-igfgl
 ngOnchanges -solution3	https://codesandbox.io/s/ngonchanges-solution-2-50dp1
 ngOnchanges -solution4 (this works)	https://codesandbox.io/s/ngonchanges-solution-3-s07ou
+ngonchanges vs ngonit	https://stackoverflow.com/questions/50753628/what-is-the-difference-between-angular-ngoninit-and-ngonchanges
  output	https://codesandbox.io/s/10-pass-events-from-angular-2-components-with-output-1ugku
 2 way binding	https://codesandbox.io/s/09syncvaluesfrominputswithangular2sngmodeltwowaybinding-n5io3
 2 way binding	https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html
+change detection -on push problem	https://codesandbox.io/s/change-detection-onpush-no-change-detection-phtud
+change detection -on push solution	https://codesandbox.io/s/change-detection-onpush-solution-for-no-change-detection-zwyg7
+https://alligator.io/angular/change-detection-strategy/#changedetectorref	https://codesandbox.io/s/change-detection-onpush-solution-for-no-change-detection-zpqlm
+	
+Change detection -best	https://blog.angularindepth.com/a-gentle-introduction-into-change-detection-in-angular-33f9ffff6f10
+Change detection	https://blog.angular-university.io/how-does-angular-2-change-detection-really-work/
+Change detection	https://alligator.io/angular/change-detection-strategy/
+Change detection -best	https://www.toptal.com/angular/angular-change-detection
+Change detection	https://blog.thoughtram.io/angular/2016/02/22/angular-2-change-detection-explained.html
+Change detection	https://blog.ninja-squad.com/2018/09/27/angular-performances-part-4/
 CSS Inside of Angular 2 	https://codesandbox.io/s/11writecssinsideofangular2components-godcd
 ngclass	https://codesandbox.io/s/12applycssclassesconditionallywithangular2sngclass-0wrhw
 types of directive	https://angular.io/guide/attribute-directives
