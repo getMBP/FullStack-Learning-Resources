@@ -107,6 +107,8 @@
   https://www.lynda.com/React-js-tutorials/React-Lifecycles/592509-2.html
  
  - **How does shallow compare work in react**
+ 
+  https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/core/shallowEqual.js#L39-L67
   https://stackoverflow.com/questions/36084515/how-does-shallow-compare-work-in-react 
   https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/update/using_should_component_update.html
   https://codepen.io/deen_john/pen/GOLjqK
