@@ -406,3 +406,15 @@ https://www.youtube.com/watch?v=vx5-fQ67yDA
 
 # Backend architecture
 https://www.youtube.com/watch?v=G_VMsORzbls
+
+
+
+To learn : 
+
+HTTP https://developer.mozilla.org/en-US/docs/Web/HTTP
+JWT  https://auth0.com/learn/json-web-tokens/
+
+
+
+
+
