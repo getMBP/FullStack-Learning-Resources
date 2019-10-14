@@ -344,12 +344,14 @@ https://www.youtube.com/watch?v=llRpC--KA_8
   #### Routing
 
 https://codepen.io/deen_john/pen/NwXXgY?editors=0010
+https://codepen.io/deen_john/pen/dyyGwmM?editors=0011
 
 - **simple-react-router-v4-tutorial**
 https://blog.pshrmn.com/simple-react-router-v4-tutorial/
 
 - **Build your own React Router v4**  
     https://tylermcginnis.com/build-your-own-react-router-v4/
+    https://codepen.io/deen_john/pen/JLppZr?editors=0010
     https://www.youtube.com/watch?v=ABllxOcsPsc    
 
 - **nested routes**
