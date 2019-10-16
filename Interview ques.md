@@ -380,11 +380,16 @@ https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11
 
 ```javascript
 
-arr.sort((a,b)=> {console.log(a,b) ; return a-b })  //if you do only return -1 , it won't work properly 
-VM1617:1 3 1   
-VM1617:1 4 3
-VM1617:1 5 4
-VM1617:1 7 5
+arr = [5,3,7,1,4]
+
+arr.sort((a,b)=> { console.log(`a is ${a} , b is ${b} `) ;return a-b})
+VM817:1 a is 3 , b is 5 
+VM817:1 a is 7 , b is 3 
+VM817:1 a is 7 , b is 5 
+VM817:1 a is 1 , b is 5 
+VM817:1 a is 1 , b is 3 
+VM817:1 a is 4 , b is 5 
+VM817:1 a is 4 , b is 3 
 
 ```
 
