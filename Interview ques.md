@@ -233,6 +233,7 @@ Singleton pattern
 ### que 3 :
 
 explain the diff between promise and observable
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 
 ### que :
  merge two arrays , remove duplicates and all positive ids only and in sorting order
