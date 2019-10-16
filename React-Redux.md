@@ -412,7 +412,8 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  - **React-redux "connect" explained**
  
   https://www.sohamkamani.com/blog/2017/03/31/react-redux-connect-explained/
-    
+  https://blog.logrocket.com/react-redux-connect-when-and-how-to-use-it-f2a1edab2013/
+  
  https://github.com/gaearon/redux-thunk
  https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
  
