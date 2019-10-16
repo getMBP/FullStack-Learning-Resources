@@ -375,9 +375,18 @@ https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-na
 
 
 
-### que : sort in javascript
+### que : sort in javascript and how it works internally
 https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11
 
+```javascript
+
+arr.sort((a,b)=> {console.log(a,b) ; return a-b })  //if you do only return -1 , it won't work properly 
+VM1617:1 3 1   
+VM1617:1 4 3
+VM1617:1 5 4
+VM1617:1 7 5
+
+```
 
 # React
 
