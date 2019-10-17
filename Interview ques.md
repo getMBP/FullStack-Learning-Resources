@@ -424,11 +424,22 @@ https://www.youtube.com/watch?v=G_VMsORzbls
 
 
 
-To learn : 
+# To learn : 
 
 HTTP https://developer.mozilla.org/en-US/docs/Web/HTTP
 JWT  https://auth0.com/learn/json-web-tokens/
      https://github.com/dwyl/learn-json-web-tokens
+     
+CI CD https://www.youtube.com/watch?v=HjXTSbXG1k8
+      https://derivco.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10485288#overview
+      https://derivco.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11436632#overview
+      
+
+AWS
+
+DS-ALGO
+
+
 
 
 
