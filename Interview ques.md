@@ -400,7 +400,7 @@ que :
 
 const arrObj = [ { x: 3 }, { x: 9 }, { x: 5 }]
 
-sortAndPrint(2, arrObj)
+
 
 /* should print
 3
@@ -408,22 +408,23 @@ sortAndPrint(2, arrObj)
 9
 */
 
-const sortAndPrint = (n, arrObj) => {
+const sortAndPrint = async (n, arrObj) => {
 
 var t = n ;
 
 arrObj.sort( (a,b)=>a.x - b.x  );
- 
 
-arrObj.forEach( x => {
-
-setTimeout( ()=> console.log(x),t);
-t = t+
-
-})
-
-
+for(let i =0 ;i< arrObj.length ; i++){
+    var promise = new Promise((resolve) => resolve(arrObj[i]));
+    var res = await promise ;
+    console.log(res);
+ }
+  
 }
+
+sortAndPrint(2, arrObj)
+
+
 
 ```
 # React
