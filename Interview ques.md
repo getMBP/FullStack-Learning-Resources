@@ -393,6 +393,39 @@ VM817:1 a is 4 , b is 3
 
 ```
 
+
+que :
+
+```javascript
+
+const arrObj = [ { x: 3 }, { x: 9 }, { x: 5 }]
+
+sortAndPrint(2, arrObj)
+
+/* should print
+3
+5
+9
+*/
+
+const sortAndPrint = (n, arrObj) => {
+
+var t = n ;
+
+arrObj.sort( (a,b)=>a.x - b.x  );
+ 
+
+arrObj.forEach( x => {
+
+setTimeout( ()=> console.log(x),t);
+t = t+
+
+})
+
+
+}
+
+```
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
