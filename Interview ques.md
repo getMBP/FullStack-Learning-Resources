@@ -403,6 +403,7 @@ const arrObj = [ { x: 3 }, { x: 9 }, { x: 5 }]
 
 
 /* should print
+wait 2 sec then print ist num then wait 2 sec then print next number in array
 3
 5
 9
@@ -415,7 +416,7 @@ var t = n ;
 arrObj.sort( (a,b)=>a.x - b.x  );
 
 for(let i =0 ;i< arrObj.length ; i++){
-    var promise = new Promise((resolve) => resolve(arrObj[i]));
+    var promise = new Promise((resolve) => setTimeout(()=>resolve(arrObj[i],t)));
     var res = await promise ;
     console.log(res);
  }
