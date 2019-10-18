@@ -451,6 +451,8 @@ https://gist.github.com/fokusferit/e4558d384e4e9cab95d04e5f35d4f913
 https://www.youtube.com/watch?v=vx5-fQ67yDA
 
 
+### que : how to pass child reference to parent  
+
 # Angular
 
 
@@ -465,6 +467,7 @@ https://www.youtube.com/watch?v=G_VMsORzbls
 
 # To learn : 
 
+React testing 
 HTTP https://developer.mozilla.org/en-US/docs/Web/HTTP
 JWT  https://auth0.com/learn/json-web-tokens/
      https://github.com/dwyl/learn-json-web-tokens
