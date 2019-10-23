@@ -467,6 +467,11 @@ ComponentWillUpdate
 https://stackoverflow.com/questions/33075063/what-is-the-exact-usage-of-componentwillupdate-in-reactjs/33075514#33075514
 
 
+Testing :
+https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
+
+
+
 # Angular
 
 
