@@ -463,14 +463,15 @@ Till react < version 16 : https://medium.com/@baphemot/understanding-reactjs-com
 
 React > v16              https://www.w3schools.com/react/react_lifecycle.asp
 
-ComponentWillUpdate
+### ComponentWillUpdate
 https://stackoverflow.com/questions/33075063/what-is-the-exact-usage-of-componentwillupdate-in-reactjs/33075514#33075514
 
 
-Testing :
+### Testing :
 https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
 
-
+### que : callback refs
+https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-ref-callback-and-the-ref-myinput-in-reac
 
 # Angular
 
