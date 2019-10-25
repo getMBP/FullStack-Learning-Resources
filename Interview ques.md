@@ -469,6 +469,8 @@ https://stackoverflow.com/questions/33075063/what-is-the-exact-usage-of-componen
 
 ### Testing :
 https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
+https://stackoverflow.com/questions/38710309/when-should-you-use-render-and-shallow-in-enzyme-react-tests
+
 
 ### que : callback refs
 https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-ref-callback-and-the-ref-myinput-in-reac
