@@ -432,6 +432,12 @@ sortAndPrint(2, arrObj)
 
 
 ```
+
+
+### que : how to merge two objects 
+https://flaviocopes.com/how-to-merge-objects-javascript/
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
