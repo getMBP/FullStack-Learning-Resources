@@ -216,6 +216,10 @@ https://www.w3schools.com/css/css3_flexbox.asp
 ### que : css display
 https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=table
 
+## que : display and hidden
+https://alistapart.com/article/now-you-see-me/
+https://www.w3schools.com/css/css_display_visibility.asp
+https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone
 
 ### que : what is css variable 
 https://www.youtube.com/watch?v=xeMMAx7hWYQ&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=29
