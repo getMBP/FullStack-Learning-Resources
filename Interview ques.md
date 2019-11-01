@@ -2,6 +2,7 @@
 
 # CSS 
 
+https://www.w3.org/TR/
 https://way2tutorial.com/css/tutorial.php
 https://www.youtube.com/playlist?list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe
 
@@ -223,6 +224,9 @@ https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibi
 
 ### que : what is css variable 
 https://www.youtube.com/watch?v=xeMMAx7hWYQ&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=29
+
+### Que : Media queries
+https://www.w3.org/TR/mediaqueries-4/
 
 
 # JS
