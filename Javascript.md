@@ -1991,6 +1991,7 @@ https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/)
 
 - **An Introduction To DOM Events — Smashing Magazine**
 https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
+https://eloquentjavascript.net/15_event.html
 
 - **CSS Layout - The display Property**
 https://www.w3schools.com/css/css_display_visibility.asp
