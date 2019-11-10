@@ -127,6 +127,10 @@
  #### React Component Children
    https://github.com/markerikson/react-redux-links/edit/master/react-component-patterns.md
 
+#### forwardRefs 
+https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-of-react-api/
+
+
 - **7 Reasons to Outlaw React’s Functional Components**
  https://medium.freecodecamp.org/7-reasons-to-outlaw-reacts-functional-components-ff5b5ae09b7c
  
