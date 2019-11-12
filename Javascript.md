@@ -2464,6 +2464,10 @@ https://www.safaribooksonline.com/library/view/effective-javascript-68/978013290
 
 ## V8
 
+- **The Journey of JavaScript: from Downloading Scripts to Execution - Part II**
+https://www.telerik.com/blogs/journey-of-javascript-downloading-scripts-to-execution-part-i
+https://www.telerik.com/blogs/journey-of-javascript-downloading-scripts-to-execution-part-ii
+
 - **How JavaScript works: an overview of the engine, the runtime, and the call stack**
 
 https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
