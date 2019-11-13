@@ -404,10 +404,10 @@ https://medium.com/@justin3737/getting-started-with-redux-dded45556673
 https://github.com/tayiorbeii/egghead.io_redux_course_notes
 https://learnreduxwithdanabramov.com/
   
--**Simple Redux**
+- **Simple Redux**
  https://bumbu.me/simple-redux/
  
--**why bind action creators**
+- **why bind action creators**
  https://stackoverflow.com/questions/41754489/when-would-bindactioncreators-be-used-in-react-redux
   
 - **Building React Applications with Idiomatic Redux**
