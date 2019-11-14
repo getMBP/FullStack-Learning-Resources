@@ -452,6 +452,7 @@ sortAndPrint(2, arrObj)
 ### que : how to merge two objects 
 https://flaviocopes.com/how-to-merge-objects-javascript/
 
+### que : types of error in Javascript
 
 # React
 
