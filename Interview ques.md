@@ -391,6 +391,10 @@ https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-na
 ### que : sort in javascript and how it works internally
 https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11
 
+### que : microtask queue 
+https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
+
+
 ```javascript
 
 arr = [5,3,7,1,4]
