@@ -491,6 +491,7 @@ Till react < version 16 : https://medium.com/@baphemot/understanding-reactjs-com
 
 
 React > v16              https://www.w3schools.com/react/react_lifecycle.asp
+https://reactjs.org/docs/react-component.html#componentdidupdate
 
 ### ComponentWillUpdate
 https://stackoverflow.com/questions/33075063/what-is-the-exact-usage-of-componentwillupdate-in-reactjs/33075514#33075514
