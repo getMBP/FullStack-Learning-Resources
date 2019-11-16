@@ -507,6 +507,8 @@ https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-r
 #### forwardRefs 
 https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-of-react-api/
 
+#### que : inline images
+https://developers.google.com/speed/pagespeed/service/InlineSmallResources#InlineImages
 
 # Angular
 
