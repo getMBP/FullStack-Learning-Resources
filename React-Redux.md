@@ -203,6 +203,10 @@ https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-o
    https://medium.freecodecamp.org/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react-508f83f58c6a
     
     
+     - **jsx**
+    https://reacttraining.com/blog/jsx-the-confusing-parts/
+    
+    
 ### React Patterns
     
 - **React Patterns**
