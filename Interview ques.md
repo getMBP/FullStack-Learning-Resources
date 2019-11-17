@@ -511,6 +511,10 @@ https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-o
 #### que : inline images
 https://developers.google.com/speed/pagespeed/service/InlineSmallResources#InlineImages
 
+ - **problem with pure component**
+ https://reacttraining.com/blog/react-inline-functions-and-performance/
+
+
 # Angular
 
 
