@@ -509,6 +509,9 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
 
  https://blog.rangle.io/touch-and-mouse-together/
  
+ - **problem with pure component**
+ https://reacttraining.com/blog/react-inline-functions-and-performance/
+ 
  
  ## React Courses
  
