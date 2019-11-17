@@ -350,10 +350,10 @@ https://www.youtube.com/watch?v=llRpC--KA_8
    https://overreacted.io/a-complete-guide-to-useeffect/
    https://www.robinwieruch.de/react-hooks-fetch-data
    
-   
    https://overreacted.io/how-are-function-components-different-from-classes/
    
-
+- **useMemo vs useCallback**
+https://kentcdodds.com/blog/usememo-and-usecallback
  
   #### Routing
 
