@@ -461,6 +461,11 @@ https://flaviocopes.com/how-to-merge-objects-javascript/
 
 ### que : types of error in Javascript
 
+
+### que : how persistent is local storage 
+https://stackoverflow.com/questions/9948284/how-persistent-is-localstorage
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
