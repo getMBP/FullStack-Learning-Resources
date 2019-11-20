@@ -466,6 +466,11 @@ https://flaviocopes.com/how-to-merge-objects-javascript/
 https://stackoverflow.com/questions/9948284/how-persistent-is-localstorage
 
 
+### que : describe prototypal inheritance 
+https://javascript.info/prototype-inheritance
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
