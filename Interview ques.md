@@ -471,6 +471,10 @@ https://javascript.info/prototype-inheritance
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
 
 
+### que : types of javascript errors 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
