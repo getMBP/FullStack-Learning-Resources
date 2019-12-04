@@ -529,6 +529,10 @@ https://developers.google.com/speed/pagespeed/service/InlineSmallResources#Inlin
  https://reacttraining.com/blog/react-inline-functions-and-performance/
 
 
+#### que : where to fetch data and why ####
+https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
+
+
 # Angular
 
 
