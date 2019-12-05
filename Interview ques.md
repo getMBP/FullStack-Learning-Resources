@@ -520,6 +520,7 @@ https://stackoverflow.com/questions/38710309/when-should-you-use-render-and-shal
 https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-ref-callback-and-the-ref-myinput-in-reac
 
 #### forwardRefs 
+https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/
 https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-of-react-api/
 
 #### que : inline images
