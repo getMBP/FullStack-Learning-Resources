@@ -128,8 +128,8 @@ div {
 
 5) diff between inline and inline-block
 
-Height and width won't work for inlin but border is respected
-Also, with display: inline, top and bottom margins & paddings are not respected, 
+Height and width won't work for display:inline but border,padding are respected
+Also, with display: inline, top and bottom margins are not respected, 
 
 and with display: inline-block they are.
 
