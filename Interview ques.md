@@ -523,6 +523,10 @@ https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-r
 https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/
 https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-of-react-api/
 
+### useEffect
+https://overreacted.io/a-complete-guide-to-useeffect/
+https://codepen.io/deen_john/pen/eYmNdMy?editors=0011
+
 #### que : inline images
 https://developers.google.com/speed/pagespeed/service/InlineSmallResources#InlineImages
 
