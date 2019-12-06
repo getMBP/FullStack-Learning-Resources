@@ -478,6 +478,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 ### que : Inheritance in Javascript
 https://tylermcginnis.com/javascript-inheritance-and-the-prototype-chain/
 
+### public vs private field
+https://tylermcginnis.com/javascript-private-and-public-class-fields/
 
 # React
 
