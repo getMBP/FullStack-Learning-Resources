@@ -475,6 +475,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
 
 
+### que : Inheritance in Javascript
+https://tylermcginnis.com/javascript-inheritance-and-the-prototype-chain/
+
+
 # React
 
 ### que 1 : https://codepen.io/deen_john/pen/qeoGLN?editors=0010
