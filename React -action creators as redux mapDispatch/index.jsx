@@ -1,3 +1,6 @@
+var { BrowserRouter  , Route, NavLink  ,Link:RouterLink, Switch, Redirect ,useParams } = ReactRouterDOM  ;
+
+
 const todo = (state, action) => {
   switch (action.type) {
     case 'ADD_TODO':
@@ -145,73 +148,39 @@ const { Component } = React;
 const { Provider, connect } = ReactRedux;
 const { createStore,bindActionCreators } = Redux;
 
-const Link = ({
-  active,
-  children,
-  onClick,
-  filter
-}) => {
-  if (active) {
-    return <span>{children}</span>;
-  }
+const FilterLink = ({ filter, children }) => (
+  <NavLink
+      exact
+      to={'/' + (filter === 'all' ? '' : filter)}
+      activeStyle={{
+          textDecoration: 'none',
+          color: 'black',
+      }}
+  >
+      {children} 
+  </NavLink>
+);
 
-  console.log("filter props ",filter)
-  return (
-    <a href='#'
-       onClick={e => {
-         e.preventDefault();
-         onClick();
-       }}
-    >
-      {children}
-    </a>
-  );
-};
+// <FilterLink filter='SHOW_ALL'>
 
-const mapStateToLinkProps = (
-  state,
-  ownProps
-) => {
-  return {
-    active:
-      ownProps.filter ===
-      state.visibilityFilter
-  };
-};
-const mapDispatchToLinkProps = (
-  dispatch,
-  ownProps  //FilterLink filter='SHOW_ALL
-) => {
-  return {
-    onClick: () => {
-      dispatch(
-        setVisibilityFilter(ownProps.filter)
-      );
-      dispatch(showNotificationWithTimeout("'You just logged in.'"))
-    }
-  };
-}
-const FilterLink = connect(
-  mapStateToLinkProps,
-  mapDispatchToLinkProps
-)(Link);
+//{children}  are :     All ,Active
 
 const Footer = () => (
   <p>
-    Show:
-    {' '}
-    <FilterLink filter='SHOW_ALL'>
-      All
-    </FilterLink>
-    {', '}
-    <FilterLink filter='SHOW_ACTIVE'>
-      Active
-    </FilterLink>
-    {', '}
-    <FilterLink filter='SHOW_COMPLETED'>
-      Completed
-    </FilterLink>
-  </p>
+  Show:
+  {" "}
+  <FilterLink filter="all">
+    All
+  </FilterLink>
+  {", "}
+  <FilterLink filter="active">
+    Active
+  </FilterLink>
+  {", "}
+  <FilterLink filter="completed">
+    Completed
+  </FilterLink>
+</p>
 );
 
 const Todo = ({
@@ -294,37 +263,26 @@ dispatch => {
 })(AddTodo);
 
 
-const getVisibleTodos = (
-  todos,
-  filter
-) => {
+const getVisibleTodos = (todos, filter) => {
   switch (filter) {
-    case 'SHOW_ALL':
+    case 'all':
       return todos;
-    case 'SHOW_COMPLETED':
-      return todos.filter(
-        t => t.completed
-      );
-    case 'SHOW_ACTIVE':
-      return todos.filter(
-        t => !t.completed
-      );
+    case 'completed':
+      return todos.filter(t => t.completed);
+    case 'active':
+      return todos.filter(t => !t.completed);
+    default:
+      throw new Error(`Unknown filter: ${filter}.`);
   }
-}
-
-
-const mapStateToTodoListProps = (
-  state ,ownProps
-) => {
-  console.log("ownProps ",ownProps); //  <VisibleTodoList name ="deen"/>
-  return {
-    todos: getVisibleTodos(
-      state.todos,
-      state.visibilityFilter
-    )
-  };
 };
 
+//  filter= {match.params.filter || 'all'}
+
+const mapStateToTodoListProps = (state, ownProps) => ({
+  todos: getVisibleTodos(
+    state.todos,
+    ownProps.filter || 'all'),
+});
 
 const mapDispatchToTodoListProps = (
   dispatch
@@ -335,6 +293,7 @@ const mapDispatchToTodoListProps = (
     }
   };
 };
+
 const VisibleTodoList = connect(
   mapStateToTodoListProps,
   mapDispatchToTodoListProps
@@ -356,13 +315,17 @@ const VisibleTodoList = connect(
 
 */
 
-const TodoApp = () => (
+const TodoApp = ({match}) => {
+  console.log("match () ",match.params)
+  return (
   <div>
     <AddTodo />
-    <VisibleTodoList name ="deen"/>
+    <VisibleTodoList
+      filter= {match.params.filter || 'all'}
+    />
     <Footer />
   </div>
-);
+)};
 
 /*
 without Provider
@@ -393,13 +356,12 @@ store.subscribe(()=>{
 })
 
 
-var { BrowserRouter  , Route, Link :RouterLink , Switch, Redirect } = ReactRouterDOM  ;
 
 
 ReactDOM.render(
   <Provider store={store}>
      <BrowserRouter>
-        <Route path="/" component={TodoApp} />
+       <Route path="/:filter?" component={TodoApp} />
      </BrowserRouter>
   </Provider>,
   document.getElementById('root')
