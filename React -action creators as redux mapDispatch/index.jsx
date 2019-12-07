@@ -1,4 +1,4 @@
-var { BrowserRouter  , Route, NavLink  ,Link:RouterLink, Switch, Redirect ,useParams } = ReactRouterDOM  ;
+var { BrowserRouter ,withRouter , Route, NavLink  ,Link:RouterLink, Switch, Redirect ,useParams } = ReactRouterDOM  ;
 
 
 const todo = (state, action) => {
@@ -281,23 +281,26 @@ const getVisibleTodos = (todos, filter) => {
 const mapStateToTodoListProps = (state, ownProps) => ({
   todos: getVisibleTodos(
     state.todos,
-    ownProps.filter || 'all'),
+    ownProps.match.params.filter || 'all'),
 });
 
 const mapDispatchToTodoListProps = (
   dispatch
 ) => {
-  return {
+  return { 
     onTodoClick: (id) => {
       dispatch(toggleTodo(id));
     }
   };
 };
 
-const VisibleTodoList = connect(
+
+//https://reacttraining.com/react-router/web/api/withRouter
+
+const VisibleTodoList = withRouter(connect(
   mapStateToTodoListProps,
   mapDispatchToTodoListProps
-)(TodoList); //wrapped component
+)(TodoList)); //wrapped component
 
 
 ////mapDispatchToTodoListProps is called at  VisibleTodoList rendering time
@@ -320,9 +323,7 @@ const TodoApp = ({match}) => {
   return (
   <div>
     <AddTodo />
-    <VisibleTodoList
-      filter= {match.params.filter || 'all'}
-    />
+    <VisibleTodoList />
     <Footer />
   </div>
 )};
