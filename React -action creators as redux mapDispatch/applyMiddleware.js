@@ -8,7 +8,8 @@ function compose(...funcs) {
       return funcs[0]
     }
   
-    return funcs.reduce((a, b) => (...args) => a(b(...args)))
+    return funcs.reduce((a, b) => (...args) => a(b(...args)));
+    //compose(...chain)
   }
 
 function applyMiddleware(...middlewares) {
@@ -26,7 +27,7 @@ function applyMiddleware(...middlewares) {
         dispatch: (...args) => dispatch(...args)
       }
       const chain = middlewares.map(middleware => middleware(middlewareAPI))
-      dispatch = compose(...chain)(store.dispatch)
+      dispatch = compose(...chain)(store.dispatch)  //passing dispatch function to each middleware function
   
       return {
         ...store,
