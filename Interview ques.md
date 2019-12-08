@@ -234,6 +234,8 @@ https://www.youtube.com/watch?v=xeMMAx7hWYQ&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoI
 
 ### Que : Media queries
 https://www.w3.org/TR/mediaqueries-4/
+https://responsivebreakpoints.com/
+
 
 
 ### Que : css units
