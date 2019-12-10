@@ -553,6 +553,10 @@ https://developers.google.com/speed/pagespeed/service/InlineSmallResources#Inlin
 https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 
+#### when should you use state ,when to choose redux
+
+#### authorization vs authentication
+
 # Angular
 
 
