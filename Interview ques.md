@@ -557,6 +557,9 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 #### authorization vs authentication
 
+#### que : how many redux store object can you have 
+
+
 # Angular
 
 
