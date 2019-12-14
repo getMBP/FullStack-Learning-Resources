@@ -483,6 +483,50 @@ https://tylermcginnis.com/javascript-inheritance-and-the-prototype-chain/
 ### public vs private field
 https://tylermcginnis.com/javascript-private-and-public-class-fields/
 
+### how to fetch data correctly using proise or async await
+
+```javascript
+
+var planetsURL = 'https://swapi.co/api/planets';
+
+ var getDetails = async name => {
+    const res = await fetch(`${planetsURL}/?search=${name}`)
+    const { results = [] } = await res.json();
+    console.log(results)
+    return results ;
+  }
+
+
+   function test(){
+     const res =  getDetails("Tatooine");
+     res.then((x)=>{
+         console.log(x)
+     })
+  }
+
+  test()
+  
+  //test version 2
+  
+     async function test(){
+        const res =  await getDetails("Tatooine");
+        console.log(res);    
+  }
+
+  test()
+  
+  //wrong version
+  
+     function test(){
+     const res =  getDetails("Tatooine");  //remember ,async function always resturns a promise
+    console.log(res)
+  }
+
+  test()
+
+```
+
+
 # React
 
 
