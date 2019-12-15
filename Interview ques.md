@@ -627,6 +627,10 @@ https://www.youtube.com/watch?v=G_VMsORzbls
 
 
 
+### Testing
+https://kentcdodds.com/blog/how-to-know-what-to-test
+
+
 # To learn : 
 
 React testing 
