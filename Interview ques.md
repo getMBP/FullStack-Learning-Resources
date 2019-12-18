@@ -616,6 +616,9 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 #### que : how browser loads , how does it render css and how many times it will re-render
 
+#### controlled vs uncontrolled 
+
+
 # Angular
 
 
