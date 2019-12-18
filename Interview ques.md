@@ -252,7 +252,7 @@ que : if you use header 5 times, what will happen ?
 
 
 
-# JS
+# Javascript
 
 que1 
 // Function to remove two adjacent duplicate characters from a string.
@@ -536,6 +536,9 @@ var planetsURL = 'https://swapi.co/api/planets';
   test()
 
 ```
+
+
+### Que : multiple inheritance in Javscript
 
 
 # React
