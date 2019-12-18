@@ -614,6 +614,7 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 #### que : how many redux store object can you have 
 
+#### que : how browser loads , how does it render css and how many times it will re-render
 
 # Angular
 
