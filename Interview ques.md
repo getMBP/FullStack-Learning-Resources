@@ -618,6 +618,9 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 #### controlled vs uncontrolled 
 
+## Hooks 
+
+https://dmitripavlutin.com/use-react-memo-wisely/
 
 # Angular
 
