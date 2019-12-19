@@ -362,6 +362,7 @@ https://www.youtube.com/watch?v=llRpC--KA_8
 - **useMemo vs useCallback**
 https://kentcdodds.com/blog/usememo-and-usecallback
  https://dmitripavlutin.com/use-react-memo-wisely/
+ https://flaviocopes.com/react-hook-usecallback/
  
   #### Routing
 
