@@ -621,6 +621,10 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 #### controlled vs uncontrolled 
 
+
+#### React events
+https://medium.com/trabe/react-syntheticevent-reuse-889cd52981b6
+
 ## Hooks 
 
 https://dmitripavlutin.com/use-react-memo-wisely/
