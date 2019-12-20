@@ -625,6 +625,22 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 https://dmitripavlutin.com/use-react-memo-wisely/
 
+
+#### Pure Component
+https://code.tutsplus.com/tutorials/stateful-vs-stateless-functional-components-in-react--cms-29541
+
+Class components can be pure too as long as their props and state are immutable. If you have a component with a 'deep' immutable set of props and state, React API has something called PureComponent. React.PureComponent is similar to React.Component, but it implements the ShouldComponentUpdate() method a bit differently. ShouldComponentUpdate() is invoked before something is rerendered. The default behaviour is that it returns true so that any change to the state or the props rerenders the component.
+
+```jsx
+shouldComponentUpdate(nextProps, nextState) {
+  return true;
+}
+
+```
+
+However, with PureComponent, it performs a shallow comparison of objects.
+
+
 # Angular
 
 
