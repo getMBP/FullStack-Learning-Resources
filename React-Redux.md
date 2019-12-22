@@ -215,6 +215,9 @@ https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-o
   https://codepen.io/collection/nRpWYd/8/
   https://codepen.io/collection/nRpWYd/
   https://www.jakewiesler.com/blog/compound-component-basics/
+  https://react.semantic-ui.com/collections/form/
+  https://kentcdodds.com/blog/compound-components-with-react-hooks
+  
   
 - **React revision**
   https://codepen.io/collection/AGzYYG/
