@@ -645,6 +645,9 @@ shouldComponentUpdate(nextProps, nextState) {
 However, with PureComponent, it performs a shallow comparison of objects.
 
 
+### Rendering performance 
+
+
 # Angular
 
 
@@ -663,40 +666,36 @@ https://kentcdodds.com/blog/how-to-know-what-to-test
 
 # To learn : 
 
-React testing 
-HTTP https://developer.mozilla.org/en-US/docs/Web/HTTP
+### React testing 
+### HTTP https://developer.mozilla.org/en-US/docs/Web/HTTP
 
 
-JWT  https://auth0.com/learn/json-web-tokens/
+### JWT  https://auth0.com/learn/json-web-tokens/
      https://github.com/dwyl/learn-json-web-tokens
      
      
      
-CI CD https://www.youtube.com/watch?v=HjXTSbXG1k8
+### CI CD https://www.youtube.com/watch?v=HjXTSbXG1k8
       https://derivco.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10485288#overview
       https://derivco.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11436632#overview
       
 
-AWS
+### AWS
 
-DS-ALGO
-
+### DS-ALGO
 
 https://github.com/jwasham/coding-interview-university
 
 
-React native
+### React native
 
-SQL 
+### SQL 
 
-learn from react libraries source code
+### learn from react libraries source code
   React-Bootstrap
   https://github.com/chenglou/react-treeview
   https://github.com/brillout/awesome-react-components
-  
-
-
-
+  https://github.com/Semantic-Org/Semantic-UI-React/blob/master/src/collections/Form/Form.js
 
 
 
