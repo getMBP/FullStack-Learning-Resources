@@ -626,6 +626,9 @@ var planetsURL = 'https://swapi.co/api/planets';
 
 ### Que : multiple inheritance in Javscript
 
+
+### Que : decide which one is the winner 
+
 ```javascript
 
 que :
