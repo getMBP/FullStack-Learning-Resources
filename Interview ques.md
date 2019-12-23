@@ -432,6 +432,13 @@ VM817:1 a is 4 , b is 3
 
 ```
 
+If compareFunction(a, b) returns less than 0, sort a to an index lower than b (i.e. a comes first).
+
+If compareFunction(a, b) returns 0, leave a and b unchanged with respect to each other, 
+but sorted with respect to all different elements. Note: the ECMAscript standard does not 
+guarantee this behavior, thus, not all browsers (e.g. Mozilla versions dating back to at least 2003) respect this.
+
+If compareFunction(a, b) returns greater than 0, sort b to an index lower than a (i.e. b comes first).
 
 
 ### que : microtask queue 
