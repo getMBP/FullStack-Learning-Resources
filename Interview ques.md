@@ -494,13 +494,32 @@ var promises = [];
      setTimeout(() => { 
        //channels.push(elm); console.log(channels)
        resolve(elm);
-     },  5000)
+     },  5000)  //setimeout is simulating operation like fetch
    }))
 
  });console.log("done")
  
  Promise.all(promises).then(() =>promises[0].then((x)=> console.log(x))) 
  
+ ```
+
+Without fetch like operation
+
+```javascript
+
+var promises = [];
+
+ [1, 2, 3, 4, 5].forEach((elm, i) => {
+
+   promises.push(new Promise((resolve) => {
+       resolve(elm);
+   }))
+
+ });
+ 
+ console.log("done")
+ 
+ Promise.all(promises).then(() =>promises[0].then((x)=> console.log(x))) 
  ```
  
 ### que : how to merge two objects 
