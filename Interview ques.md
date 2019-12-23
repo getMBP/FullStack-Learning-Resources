@@ -417,10 +417,6 @@ then comparing their sequences of UTF-16 code units values
 https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
-### que : microtask queue 
-https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
-
-
 ```javascript
 
 arr = [5,3,7,1,4]
@@ -437,7 +433,12 @@ VM817:1 a is 4 , b is 3
 ```
 
 
-que :
+
+### que : microtask queue 
+https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
+
+
+### que :
 
 ```javascript
 https://javascript.info/async-await
