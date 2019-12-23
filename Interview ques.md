@@ -626,6 +626,45 @@ var planetsURL = 'https://swapi.co/api/planets';
 
 ### Que : multiple inheritance in Javscript
 
+```javascript
+
+que :
+
+var arr = ['red','green','red','green','yellow','red','green','yellow','red','blue','red','blue'];
+var max = -1 ;
+var winner = null ;
+
+function reducer(acc, c){
+
+    if(!acc[c]){
+        acc[c] = 1 ;
+    }else{
+        acc[c] = acc[c] +1 ;
+    }
+    
+    if(acc[c] > max){
+        max = acc[c];
+        winner = c ;
+    }
+    
+  return acc ;
+}
+
+var res = arr.reduce(reducer , {});
+console.log(winner);
+
+// var max = -1 ;
+// var winner = null ;
+
+// for (p in res){
+//     if(res[p] > max){
+//         max = res[p];
+//         winner = p ;
+//     } 
+// }
+
+```
+
 
 # React
 
