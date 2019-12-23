@@ -491,6 +491,7 @@ var promises = [];
  
 ### que : how to merge two objects 
 https://flaviocopes.com/how-to-merge-objects-javascript/
+https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically
 
 ### que : types of error in Javascript
 
