@@ -468,7 +468,27 @@ sortAndPrint(2, arrObj)
 
 ```
 
+### Que : Promise in a loop
 
+```javascript
+var promises = [];
+ //let channels =[];
+
+ [1, 2, 3, 4, 5].forEach((elm, i) => {
+
+   promises.push(new Promise((resolve) => {
+     setTimeout(() => { 
+       //channels.push(elm); console.log(channels)
+       resolve(elm);
+     },  5000)
+   }))
+
+ });console.log("done")
+ 
+ Promise.all(promises).then(() =>promises[0].then((x)=> console.log(x))) 
+ 
+ ```
+ 
 ### que : how to merge two objects 
 https://flaviocopes.com/how-to-merge-objects-javascript/
 
