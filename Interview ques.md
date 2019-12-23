@@ -493,6 +493,38 @@ var promises = [];
 https://flaviocopes.com/how-to-merge-objects-javascript/
 https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically
 
+### que : shallow merge vs deep merge 
+
+shallow
+```javascript
+
+var obj = { name : "deen" , address : ["delhi"] }
+var obj2 = { name : "deen2" , address : ["delhi2"] }
+
+var res = Object.assign({} , obj,obj2 ); //shallow merge 
+obj2.address[0] = "new city"
+
+res is also changed. This is the problem with shallow merge
+
+```
+
+deep
+
+```javascript
+
+var obj = { name : "deen" , address : ["delhi"] }
+var obj2 = { name : "deen2" , address : ["delhi2"] }
+
+var res = Object.assign({} , JSON.parse(JSON.stringify(obj)),JSON.parse(JSON.stringify(obj2)) )
+
+obj2.address[0] = "new city"
+
+res is not changed
+
+```
+
+
+
 ### que : types of error in Javascript
 
 
