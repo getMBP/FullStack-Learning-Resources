@@ -409,7 +409,13 @@ https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-na
 
 
 ### que : sort in javascript and how it works internally
+
+The sort() method sorts the elements of an array in place and returns the sorted array. 
+The default sort order is ascending, built upon converting the elements into strings, 
+then comparing their sequences of UTF-16 code units values
+
 https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
 ### que : microtask queue 
 https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
