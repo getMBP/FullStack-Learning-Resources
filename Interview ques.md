@@ -715,6 +715,7 @@ https://stackoverflow.com/questions/33075063/what-is-the-exact-usage-of-componen
 
 ### shouldComponentUpdate()
 https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/update/using_should_component_update.html
+what is equivalent of shouldComponentUpdate in hooks
 
 ### Testing :
 https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
@@ -726,6 +727,7 @@ https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-r
 
 ### hooks
 https://reactjs.org/docs/hooks-reference.html
+https://dmitripavlutin.com/use-react-memo-wisely/
 
 #### forwardRefs 
 https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/
@@ -763,11 +765,6 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 https://medium.com/trabe/react-syntheticevent-reuse-889cd52981b6
 
 #### que : context vs Redux .When to choose which and why ?
-
-## Hooks 
-
-https://dmitripavlutin.com/use-react-memo-wisely/
-
 
 #### Pure Component
 https://code.tutsplus.com/tutorials/stateful-vs-stateless-functional-components-in-react--cms-29541
