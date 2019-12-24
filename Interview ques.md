@@ -695,9 +695,12 @@ https://gist.github.com/fokusferit/e4558d384e4e9cab95d04e5f35d4f913
 ### que : lazy loading in Javascript
 https://www.youtube.com/watch?v=vx5-fQ67yDA
 
+### que : diff between function and class components 
 
 ### que : how to pass child reference to parent  
 
+
+### que : how to change parent state from child  
 
 ### que : React lifecycles
 Till react < version 16 : https://medium.com/@baphemot/understanding-reactjs-component-life-cycle-823a640b3e8d
