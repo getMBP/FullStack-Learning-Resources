@@ -716,15 +716,40 @@ Till react < version 16 : https://medium.com/@baphemot/understanding-reactjs-com
 React > v16              https://www.w3schools.com/react/react_lifecycle.asp
 https://reactjs.org/docs/react-component.html#componentdidupdate
 
+
+### Lifecycle visualizer https://github.com/Oblosys/react-lifecycle-visualizer#readme
+
 ### render and didMount order 
 https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
 
-### ComponentWillUpdate
+### getDerivedStateFromProps()
+if one of state depends on props , like state "direction" up or down based on some props , then this method can be used
+another ex : https://twitter.com/dan_abramov/status/953612246634188800?lang=en
+
+```jsx
+getDerivedStateFromProps(props, state) {
+  const { currentRowIndex } = props;
+  const { lastRowIndex } = state;
+  if (currentRowIndex === lastRowIndex) {
+    return null;
+  }
+  return {
+    lastRowIndex: currentRowIndex,
+    isScrollingDown: lastRowIndex > currentRowIndex
+  };
+}
+
+```
+
+### ComponentWillUpdate (deprecated in react 16)
 https://stackoverflow.com/questions/33075063/what-is-the-exact-usage-of-componentwillupdate-in-reactjs/33075514#33075514
 
 ### shouldComponentUpdate()
 https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/update/using_should_component_update.html
 what is equivalent of shouldComponentUpdate in hooks
+
+### ComponenetDidUpdate
+to perform a side effect (for example, data fetching or an animation) in response to a change in props
 
 ### Testing :
 https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
