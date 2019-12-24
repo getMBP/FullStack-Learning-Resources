@@ -710,11 +710,14 @@ https://www.youtube.com/watch?v=vx5-fQ67yDA
 
 ### que : React lifecycles
 Till react < version 16 : https://medium.com/@baphemot/understanding-reactjs-component-life-cycle-823a640b3e8d
-                         https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/introduction.html
-
+                          https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/introduction.html
+                          https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
 
 React > v16              https://www.w3schools.com/react/react_lifecycle.asp
 https://reactjs.org/docs/react-component.html#componentdidupdate
+
+### render and didMount order 
+https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
 
 ### ComponentWillUpdate
 https://stackoverflow.com/questions/33075063/what-is-the-exact-usage-of-componentwillupdate-in-reactjs/33075514#33075514
