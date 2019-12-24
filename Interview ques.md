@@ -629,13 +629,16 @@ var planetsURL = 'https://swapi.co/api/planets';
 ### Que : multiple inheritance in Javscript
 
 
-### Que : decide which one is the winner 
+### Que : decide which one is the winner i.e which color got max votes 
 
 ```javascript
 
-que :
 
+Given array :
 var arr = ['red','green','red','green','yellow','red','green','yellow','red','blue','red','blue'];
+
+Solution 
+
 var max = -1 ;
 var winner = null ;
 
