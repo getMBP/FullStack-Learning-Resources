@@ -366,6 +366,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 ### que :async vs defer
 https://www.youtube.com/watch?v=IrHmpdORLu8&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0&index=11
 
+### que : can we return a closure from closure 
+
 
 ### que : types in javascript and how to test them
 
