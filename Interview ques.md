@@ -671,6 +671,9 @@ console.log(winner);
 ```
 
 
+### Javascript Codepen ( to code ) 
+https://codepen.io/collection/Dggdem
+
 # React
 
 
@@ -799,6 +802,14 @@ https://www.youtube.com/watch?v=G_VMsORzbls
 ### Testing
 https://kentcdodds.com/blog/how-to-know-what-to-test
 
+
+### react Codepen links 
+1) https://codepen.io/collection/nMJEKN  (Egghead begineer React)
+2) https://codepen.io/collection/XdNJVb   (Random react)
+3) https://codepen.io/collection/DzeGvW   (React Router 4)
+4) https://codepen.io/collection/nRpWYd    (React patterns)
+5) https://codepen.io/collection/nxEPJx    (React projects)
+6) https://codepen.io/collection/nqzamv    (Redux )
 
 # To learn : 
 
