@@ -755,6 +755,8 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 #### React events
 https://medium.com/trabe/react-syntheticevent-reuse-889cd52981b6
 
+#### que : context vs Redux .When to choose which and why ?
+
 ## Hooks 
 
 https://dmitripavlutin.com/use-react-memo-wisely/
