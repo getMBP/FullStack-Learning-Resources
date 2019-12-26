@@ -601,6 +601,22 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
   
   
   
+  ## projects 
   
+https://github.com/brookton/rick-and-morty-react
+
+https://rickandmortyapp.herokuapp.com/
+
+https://github.com/skberg/React.RickandMorty
+
+https://github.com/missating/react-hooks-gallery
+
+https://github.com/afuh/rick-and-morty-api
+
+https://github.com/Shmakov/Rick-and-Morty-Characters
+
+https://github.com/afuh/rick-and-morty-api-site
+
+https://github.com/gigo6000/rickfinder
   
 
