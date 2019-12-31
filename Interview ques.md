@@ -880,6 +880,8 @@ https://github.com/jwasham/coding-interview-university
 ## Lead Role questions
 
 
+### Frontend questions
+https://www.glassdoor.co.in/Interview/front-end-developer-interview-questions-SRCH_KO0,19.htm
 
 ## Companies in NCR
 
@@ -901,6 +903,15 @@ https://github.com/jwasham/coding-interview-university
 16) Expedia
 17) Amazon
 18) 
+
+
+## Sapient questions
+
+Make a React based ATM machine 
+https://github.com/awiles808/react-atm/tree/master/src
+
+Make a chess board in React
+
 
 
 
