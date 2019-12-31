@@ -878,3 +878,14 @@ https://github.com/jwasham/coding-interview-university
 
 
 
+Companies in NCR
+
+1) Nagaaro
+2) Sapient
+3) Quovantis
+4) MakeMyTrip
+5) Xebia
+6) R Systems
+7) IRIS Software
+8)
+
