@@ -906,28 +906,5 @@ https://github.com/jwasham/coding-interview-university
 
 ## MakeMyTrip React job desc
 
-What you’ll be doing:
-You’ll take broad, conceptual ideas and smoothly turn them into congruent scenarios, usable flows, and simple, intuitive interfaces with finesse.
-You’ll create wireframes, storyboards, user flows and process flows to effectively communicate interaction and design ideas.
-You’ll apply user-focused design processes to create high quality user experiences on our mobile platform for users.
-You’ll understand the user experience strategy for the product and drive the overall design solutions based on usability, consistency, business goals, time to market and customer experience.
-What you’ll bring to the team:
-You’ll bring critical experience and skills in visual design, UX design, research, micro-interactions and be cognisant about the constraints of front-end coding.
-You’ll bring the demonstrated ability to build webpages for mobile and desktop from scratch using React JS.
-You’ll bring an understanding of design patterns across web and mobile platforms like the Flux design Pattern or one of the libraries it inspired (i.e. Redux).
-You’ll bring the required experience in understanding of asynchronous request handling, partial page updates, and AJAX.
-Mastery and wizardry in Photoshop, Illustrator, Sketch, Invision, Pixate, Framer or other visual design and wire-framing tools.
-Interview Process & Prep Notes
-Coding Assessment
-React JS, Redux, Javascript, OOPs,AngularJSWe will start by understanding more about your skills and knowledge in Javascript frameworks like ReactJS, AngularJS, NextJS, VueJS, Redux and libraries like Redux-Saga. You will also be tested on OOPS, design patterns and API Connections.
-
-
-Data Structure And Problem Solving
-
-Array,LinkedList, Stack, Binary Tree, Hash Tables, HeapLike every invention has a necessity, engineering at MMT also has one. Data structures and Algorithms have stood the test of time and have helped us solve our daily engineering problems. Binary Tree,Linked List, Algorithm Design, Dynamic Programming,Graphs are our best friends.
-
-Design & Architecture
-
-Design patterns, System Design & Architecture ReviewBe prepared to answer some simulation-based questions during our interviews. From system design for an e-commerce platform to component interaction.
-Team Fitment
+https://careers.makemytrip.com/opportunity/18841/react-js
 
