@@ -855,7 +855,7 @@ https://kentcdodds.com/blog/how-to-know-what-to-test
 
 ### JWT  https://auth0.com/learn/json-web-tokens/
      https://github.com/dwyl/learn-json-web-tokens
-     
+     https://www.youtube.com/watch?v=mbsmsi7l3r4
      
      
 ### CI CD https://www.youtube.com/watch?v=HjXTSbXG1k8
