@@ -674,8 +674,8 @@ console.log(winner);
 ```
 ### Jwt
 https://www.youtube.com/watch?v=soGRyl9ztjI
-
-
+https://www.youtube.com/watch?v=DPrhem174Ws
+https://www.youtube.com/watch?v=7Q17ubqLfaM&t=2s
 
 
 ### Javascript Codepen ( to code ) 
