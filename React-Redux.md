@@ -246,6 +246,10 @@ https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-o
   Ten useful patterns for working with React components, including data flow, techniques for working with inputs, controlling CSS usage, switching between components, and more.
   
   
+ ### React source code
+  https://www.youtube.com/watch?v=Z7ysKNFrMqo
+  
+  
 ### Styling
 
 - **Styling React Components**
