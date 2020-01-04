@@ -883,6 +883,12 @@ https://github.com/jwasham/coding-interview-university
 
 ## Lead Role questions
 
+soap vs rest
+context vs redux vs local state
+node vs java
+
+
+
 
 ### Frontend questions
 https://www.glassdoor.co.in/Interview/front-end-developer-interview-questions-SRCH_KO0,19.htm
