@@ -103,7 +103,7 @@ https://github.com/sahat/hackathon-starter?utm_source=mybridge&utm_medium=blog&u
 https://github.com/mrvautin/expressCart/compare?expand=1
 
 
-
+https://dev.to/khaosdoctor/node-js-under-the-hood-1-getting-to-know-our-tools-1465
 
 
 
@@ -193,6 +193,13 @@ https://github.com/mrvautin/expressCart/compare?expand=1
 
 - **Netflix JavaScript Talks - Debugging Node.js in Production**
     
+open source code
+
+https://medium.mybridge.co/45-amazing-node-js-open-source-for-the-past-year-v-2019-c774d750e925
+https://github.com/expressjs/express/blob/master/lib/express.js
+https://github.com/nodejs/node/blob/master/lib/events.js
+https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f
+
 
 
 
