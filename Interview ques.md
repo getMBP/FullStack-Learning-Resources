@@ -886,6 +886,10 @@ https://github.com/jwasham/coding-interview-university
 soap vs rest
 context vs redux vs local state
 node vs java
+system design : youtube , dropbox
+scrum , agile etc
+
+
 
 
 
