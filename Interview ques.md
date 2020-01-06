@@ -889,7 +889,15 @@ node vs java
 system design : youtube , dropbox
 scrum , agile etc
 
+SRUM https://www.youtube.com/watch?v=oTZd2vo3FQU
+Agile https://www.youtube.com/watch?v=NpCEjtKAa20
 
+
+SOAP https://www.youtube.com/watch?v=mKjvKPlb1rA&list=PLqq-6Pq4lTTZTYpk_1DOowOGWJMIH5T39
+
+SOAP vs Rest https://www.youtube.com/watch?v=PbIT0yppvW8
+
+Rest  https://www.youtube.com/watch?v=qVTAB8Z2VmA
 
 
 
