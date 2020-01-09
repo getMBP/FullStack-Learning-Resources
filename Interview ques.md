@@ -883,6 +883,8 @@ https://github.com/jwasham/coding-interview-university
   https://github.com/Autodesk/react-base-table
   https://github.com/glittershark/reactable
   https://github.com/atkawa7/rb-datepicker
+  https://github.com/andreypopp/react-textarea-autosize/blob/master/src/index.js
+
 
 ## Lead Role questions
 
