@@ -2528,8 +2528,8 @@ https://www.toptal.com/javascript/comprehensive-guide-javascript-design-patterns
 
 https://developers.google.com/web/updates/2018/09/inside-browser-part1
 https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/
-
-
+https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y/edit#slide=id.g60f92a5151_40_0
+https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the-networking-layer-f6efaf7bfcf4)
 
 # Books :
 (only mentioning the books i read & found helpful)
