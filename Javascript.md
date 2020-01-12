@@ -2523,6 +2523,14 @@ https://github.com/deenjohn/Design-Patterns/tree/master/Observer%20Pattern
 - **The Comprehensive Guide to JavaScript Design Patterns**
 https://www.toptal.com/javascript/comprehensive-guide-javascript-design-patterns
 
+
+## Browsers inner working
+
+https://developers.google.com/web/updates/2018/09/inside-browser-part1
+https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/
+
+
+
 # Books :
 (only mentioning the books i read & found helpful)
 
