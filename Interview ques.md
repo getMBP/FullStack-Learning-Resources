@@ -886,6 +886,12 @@ https://github.com/jwasham/coding-interview-university
   https://github.com/andreypopp/react-textarea-autosize/blob/master/src/index.js
 
 
+### HTTP
+https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+
+POST VS GET VS PUT
+
+
 ## Lead Role questions
 
 soap vs rest
