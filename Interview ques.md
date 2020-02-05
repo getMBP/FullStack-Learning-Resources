@@ -875,17 +875,6 @@ https://github.com/jwasham/coding-interview-university
 
 ### SQL 
 
-### learn from react libraries source code
-  React-Bootstrap
-  https://github.com/chenglou/react-treeview
-  https://github.com/brillout/awesome-react-components
-  https://github.com/Semantic-Org/Semantic-UI-React/blob/master/src/collections/Form/Form.js
-  https://github.com/ianwitherow/react-filterable-table
-  https://github.com/Autodesk/react-base-table
-  https://github.com/glittershark/reactable
-  https://github.com/atkawa7/rb-datepicker
-  https://github.com/andreypopp/react-textarea-autosize/blob/master/src/index.js
-
 
 ### HTTP
 https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
@@ -985,3 +974,14 @@ XORIANT
 
 16. Write a function which fill return all primitive values
 
+### learn from react libraries open source code
+  React-Bootstrap
+  https://github.com/chenglou/react-treeview
+  https://github.com/brillout/awesome-react-components
+  https://github.com/Semantic-Org/Semantic-UI-React/blob/master/src/collections/Form/Form.js
+  https://github.com/ianwitherow/react-filterable-table
+  https://github.com/Autodesk/react-base-table
+  https://github.com/glittershark/reactable
+  https://github.com/atkawa7/rb-datepicker
+  https://github.com/andreypopp/react-textarea-autosize/blob/master/src/index.js
+  https://react-bootstrap.github.io/components/alerts/
