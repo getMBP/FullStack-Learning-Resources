@@ -35,9 +35,11 @@
   https://www.robinwieruch.de/react-ref-attribute-dom-node/  
   An explanation of the `ref` property, how to use it to access real DOM nodes, and when you should use it. 
    
- - **ref Component** 
+ - **ref and useref Component** 
   https://codepen.io/deen_john/pen/jYmjZM?editors=0010
   https://codepen.io/deen_john/pen/PEmKMQ
+  
+  https://www.codebeast.dev/usestate-vs-useref-re-render-or-not/
   
  - **debounce react set state**
   https://codepen.io/deen_john/pen/RxVOrP
@@ -367,6 +369,9 @@ https://www.youtube.com/watch?v=llRpC--KA_8
    
    https://overreacted.io/how-are-function-components-different-from-classes/
    
+   - **use ref**
+   https://www.codebeast.dev/usestate-vs-useref-re-render-or-not/
+
 - **useMemo vs useCallback**
 https://kentcdodds.com/blog/usememo-and-usecallback
  https://dmitripavlutin.com/use-react-memo-wisely/
