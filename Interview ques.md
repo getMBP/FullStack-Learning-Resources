@@ -992,3 +992,6 @@ XORIANT
   https://github.com/atkawa7/rb-datepicker
   https://github.com/andreypopp/react-textarea-autosize/blob/master/src/index.js
   https://react-bootstrap.github.io/components/alerts/
+  
+  ### To learn how to config babel
+  https://github.com/Semantic-Org/Semantic-UI-React/blob/master/.babel-preset.js
