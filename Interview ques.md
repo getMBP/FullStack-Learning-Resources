@@ -773,6 +773,7 @@ https://dmitripavlutin.com/use-react-memo-wisely/
 
 #### use ref 
 https://www.codebeast.dev/usestate-vs-useref-re-render-or-not/
+https://www.codebeast.dev/react-memoize-hooks-useRef-useCallback-useMemo/
 
 #### forwardRefs 
 https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/
