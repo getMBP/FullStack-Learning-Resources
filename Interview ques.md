@@ -756,6 +756,9 @@ what is equivalent of shouldComponentUpdate in hooks
 ### ComponenetDidUpdate
 to perform a side effect (for example, data fetching or an animation) in response to a change in props
 
+### Controlled and uncontrolled form
+https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/
+
 ### Testing :
 https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
 https://stackoverflow.com/questions/38710309/when-should-you-use-render-and-shallow-in-enzyme-react-tests
