@@ -782,6 +782,9 @@ https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-o
 https://overreacted.io/a-complete-guide-to-useeffect/
 https://codepen.io/deen_john/pen/eYmNdMy?editors=0011
 
+### pure component
+https://www.codebeast.dev/react-memoize-hooks-useRef-useCallback-useMemo/
+
 ### Que : what is the equivalent of shouldComponentUpdate() in hooks 
 
 #### que : inline images
