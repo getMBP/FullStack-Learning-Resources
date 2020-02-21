@@ -768,6 +768,9 @@ https://stackoverflow.com/questions/38710309/when-should-you-use-render-and-shal
 https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-ref-callback-and-the-ref-myinput-in-reac
 
 ### hooks
+
+https://codesandbox.io/s/z3ow32rk43
+
 https://reactjs.org/docs/hooks-reference.html
 https://dmitripavlutin.com/use-react-memo-wisely/
 
