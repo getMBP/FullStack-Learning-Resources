@@ -768,6 +768,9 @@ https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-r
 https://reactjs.org/docs/hooks-reference.html
 https://dmitripavlutin.com/use-react-memo-wisely/
 
+#### use ref 
+https://www.codebeast.dev/usestate-vs-useref-re-render-or-not/
+
 #### forwardRefs 
 https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/
 https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-of-react-api/
