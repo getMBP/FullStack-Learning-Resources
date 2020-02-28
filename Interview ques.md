@@ -940,8 +940,59 @@ https://www.glassdoor.co.in/Interview/front-end-developer-interview-questions-SR
 14) Siemens
 15) American express
 16) Expedia
-17) Amazon
-18) 
+
+High paying companies in NCR
+
+OYO
+Amazon
+TRC (Tower Research Capital)
+Paytm
+Adobe
+Guavus
+Thoughtworks
+Koovs
+UHG
+American Express
+Policy Bazar
+RBS
+blackrock
+g4s
+seimens
+airtel
+MMT
+Yatra
+Healthcart
+fiserv
+markit
+digismart
+Nagarro
+fis
+bank of america
+macquarie bank
+Expedia
+commdel
+amazon
+limeroad
+reliance jio
+polaris
+snapdeal/freecharge
+mobikwik
+shuttle
+hughe systique
+oyo rooms
+aricent
+nextag
+ixigo
+goibiobo
+proptiger
+1 mg
+grey orange
+earnst young
+rivigo
+accenture
+indiabull
+Sprinklr
+indifi
 
 
 ## Sapient questions
