@@ -682,7 +682,7 @@ https://www.youtube.com/watch?v=7Q17ubqLfaM&t=2s
 https://codepen.io/collection/Dggdem
 
 # React
-
+https://kentcdodds.com/blog/?q=react
 https://github.com/sudheerj/reactjs-interview-questions
 
 ### https://codepen.io/collection/nMJEKN?grid_type=list
