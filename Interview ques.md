@@ -860,7 +860,7 @@ https://www.youtube.com/watch?v=G_VMsORzbls
 ### Testing
 https://kentcdodds.com/blog/how-to-know-what-to-test
 
-
+for testing wes bos has videos in his course : Full Stack Advanced React + GraphQL
 
 # To learn : 
 
