@@ -127,6 +127,7 @@ https://www.youtube.com/watch?v=Gn3JOE6qMuE
 
 
 ### CSS Flexbox
+https://medium.com/@js_tut/the-complete-css-flex-box-tutorial-d17971950bdc
 
 ### CSS reference
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
