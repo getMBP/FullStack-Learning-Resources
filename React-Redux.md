@@ -460,6 +460,8 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
  ### Thunk & middlewares
  
+ https://medium.com/fullstack-academy/thunks-in-redux-the-basics-85e538a3fe60
+ 
  https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux?noredirect=1&lq=1
  https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559
  
