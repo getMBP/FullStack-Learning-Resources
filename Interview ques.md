@@ -1053,3 +1053,9 @@ XORIANT
   
   ### To learn how to config babel
   https://github.com/Semantic-Org/Semantic-UI-React/blob/master/.babel-preset.js
+  
+  
+  ### HTML Spec :
+  
+  https://html.spec.whatwg.org/multipage/rendering.html#introduction-16
+  
