@@ -254,6 +254,8 @@ que : if you use header 5 times, what will happen ?
 
 # Javascript
 
+### https://www.ecma-international.org/ecma-262/10.0/index.html#sec-intro (Javascript spec)
+
 que1 
 // Function to remove two adjacent duplicate characters from a string.
 // let str = 'abbbbaca';
