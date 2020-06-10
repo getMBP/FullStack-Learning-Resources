@@ -2768,6 +2768,8 @@ https://frontendmasters.com/courses/debugging-javascript/)
 - **Fixing Common JavaScript Bugs**  
 https://app.pluralsight.com/library/courses/fixing-common-javascript-bugs/table-of-contents)
 
+Performance
+https://james-priest.github.io/udacity-nanodegree-mws/course-notes/browser-rendering-optimization.html
 
 
 ### Testing 
