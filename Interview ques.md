@@ -686,6 +686,8 @@ https://codepen.io/collection/Dggdem
 Frontend Interview Questions 2019
 https://www.youtube.com/watch?v=Zo-6_qx8uxg&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0
 
+https://www.youtube.com/playlist?list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh
+
 # React
 https://kentcdodds.com/blog/?q=react
 https://github.com/sudheerj/reactjs-interview-questions
