@@ -683,6 +683,9 @@ https://www.youtube.com/watch?v=7Q17ubqLfaM&t=2s
 ### Javascript Codepen ( to code ) 
 https://codepen.io/collection/Dggdem
 
+Frontend Interview Questions 2019
+https://www.youtube.com/watch?v=Zo-6_qx8uxg&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0
+
 # React
 https://kentcdodds.com/blog/?q=react
 https://github.com/sudheerj/reactjs-interview-questions
