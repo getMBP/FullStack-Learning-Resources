@@ -269,6 +269,14 @@ setTimeout(()=>{
 
 ```
 
+###Promises
+
+```javascript
+
+var p = new Promise((resolve, reject) => setTimeout(() => { resolve(1); resolve(2) }, 1000))
+p.then((val) => console.log("asynchronous logging has val:",val))
+
+```
 que1 
 // Function to remove two adjacent duplicate characters from a string.
 // let str = 'abbbbaca';
