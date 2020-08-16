@@ -256,6 +256,19 @@ que : if you use header 5 times, what will happen ?
 
 ### https://www.ecma-international.org/ecma-262/10.0/index.html#sec-intro (Javascript spec)
 
+###event loop
+```javascript
+
+setTimeout(()=>{
+    console.log('1')
+},4000)
+
+setTimeout(()=>{
+    console.log('2')
+},1000)
+
+```
+
 que1 
 // Function to remove two adjacent duplicate characters from a string.
 // let str = 'abbbbaca';
