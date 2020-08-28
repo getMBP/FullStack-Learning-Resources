@@ -248,8 +248,8 @@ https://www.youtube.com/watch?v=unj9nAeYU1Q
 
 que : if you use header 5 times, what will happen ?
 
-
-
+## quirk mode
+https://www.quirksmode.org/css/quirksmode.html
 
 
 # Javascript
