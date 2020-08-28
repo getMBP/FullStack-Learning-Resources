@@ -2340,9 +2340,9 @@ http://2ality.com/2011/09/currying-vs-part-eval.html
 https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8
 https://javascript.info/currying-partials
 
-##Mixin
+### Mixin
 
-``javascript
+```javascript
 
 function mix(BaseClass, ...Mixins) {
 return Mixins.reduce((accumulator, current) => current(accumulator), BaseClass);
