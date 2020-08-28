@@ -256,7 +256,7 @@ https://www.quirksmode.org/css/quirksmode.html
 
 ### https://www.ecma-international.org/ecma-262/10.0/index.html#sec-intro (Javascript spec)
 
-###event loop
+### event loop
 ```javascript
 
 setTimeout(()=>{
