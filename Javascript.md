@@ -2408,6 +2408,7 @@ bindClick(function(){
 
 - **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
 
+
 https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
 
 https://youtu.be/u1kqx6AenYw?list=PL37ZVnwpeshG2YXJkun_lyNTtM-Qb3MKa
@@ -2423,6 +2424,7 @@ https://gitissue.com/issues/5b764a6f725e4a4219fbf874
 https://itw01.com/NR6AE4C.html
 
 ### Promises
+
 https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
 https://danlevy.net/javascript-promises-quiz/
 https://github.com/mariusschulz/egghead-javascript-promises
@@ -2452,6 +2454,7 @@ https://medium.com/@bluepnume/even-with-async-await-you-probably-still-need-prom
 
 ### Level 1
  
+ 
 - **Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014**
 https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
@@ -2470,7 +2473,7 @@ https://www.youtube.com/watch?v=cCOL7MC4Pl0&t=8s)
 
 - **lesson : The Internals of Node**
 https://www.udemy.com/advanced-node-for-developers/)
-
+http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/
 
 ## Concurrency :
 
