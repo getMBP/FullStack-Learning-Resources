@@ -2454,6 +2454,7 @@ https://medium.com/@bluepnume/even-with-async-await-you-probably-still-need-prom
 
 ### Level 1
  
+ https://thetechsolo.wordpress.com/2016/02/29/scalable-io-events-vs-multithreading-based/
  
 - **Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014**
 https://www.youtube.com/watch?v=8aGhZQkoFbQ)
