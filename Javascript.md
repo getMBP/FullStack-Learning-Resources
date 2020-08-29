@@ -2422,6 +2422,11 @@ https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-
 https://gitissue.com/issues/5b764a6f725e4a4219fbf874
 https://itw01.com/NR6AE4C.html
 
+### Promises
+https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
+https://danlevy.net/javascript-promises-quiz/
+https://github.com/mariusschulz/egghead-javascript-promises
+
 ### Async-Await /Promises /OBSERVABLES
 https://github.com/jawache/async-javascript-workshop
 
