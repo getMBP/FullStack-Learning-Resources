@@ -13,6 +13,9 @@
 
 - **React Documentation**
     [react docs](https://reactjs.org/)
+    [old docs]( https://zhenyong.github.io/react/tips/inline-styles.html)
+    
+   
     
     http://blog.vjeux.com/
 
