@@ -444,6 +444,9 @@ https://learnreduxwithdanabramov.com/
  
 - **why bind action creators**
  https://stackoverflow.com/questions/41754489/when-would-bindactioncreators-be-used-in-react-redux
+ 
+ Cory house has given a great explaination of why use bind action creator and when in his course 
+ Building Applications with React and Redux in ES6 - pluralsight 
   
 - **Building React Applications with Idiomatic Redux**
 https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
