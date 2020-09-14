@@ -27,6 +27,9 @@ https://app.pluralsight.com/library/courses/javascript-development-environment/t
 - **Understanding Jest Mocks**
 https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c
 
+- **Sinon.js quick tip: How to stub/mock complex objects, such as DOM objects**
+https://codeutopia.net/blog/2016/05/23/sinon-js-quick-tip-how-to-stubmock-complex-objects-such-as-dom-objects/
+
 https://blog.kentcdodds.com/but-really-what-is-a-javascript-mock-10d060966f7d?source=bookmarks---------19----------------
 
 https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3
