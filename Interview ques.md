@@ -7,6 +7,7 @@ https://way2tutorial.com/css/tutorial.php
 https://www.youtube.com/playlist?list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe
 
 
+
 1) Absolute vs Relative vs fixed in depth
 
 Both the "absolute" and "fixed" value take the element the value is applied to out of the document flow. 
@@ -241,6 +242,8 @@ https://responsivebreakpoints.com/
 ### Que : css units
 https://www.youtube.com/watch?v=unj9nAeYU1Q
 
+### Que : how many ways to center a div
+https://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally
 
 
 
