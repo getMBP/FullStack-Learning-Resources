@@ -702,6 +702,9 @@ console.log(winner);
 // }
 
 ```
+### object equality 
+https://stackoverflow.com/questions/201183/how-to-determine-equality-for-two-javascript-objects
+
 ### Jwt
 https://www.youtube.com/watch?v=soGRyl9ztjI
 https://www.youtube.com/watch?v=DPrhem174Ws
