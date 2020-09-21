@@ -805,6 +805,9 @@ https://stackoverflow.com/questions/38710309/when-should-you-use-render-and-shal
 ### que : callback refs
 https://stackoverflow.com/questions/41467146/what-is-the-different-between-the-ref-callback-and-the-ref-myinput-in-reac
 
+### HOC
+https://www.robinwieruch.de/react-higher-order-components
+
 ### hooks
 
 https://codesandbox.io/s/z3ow32rk43
