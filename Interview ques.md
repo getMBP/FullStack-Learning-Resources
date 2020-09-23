@@ -9,6 +9,7 @@ https://www.youtube.com/playlist?list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe
 
 
 1) Absolute vs Relative vs fixed in depth
+https://www.youtube.com/watch?v=jx5jmI0UlXU
 
 Both the "absolute" and "fixed" value take the element the value is applied to out of the document flow. 
 https://webplatform.github.io/docs/tutorials/absolute_and_fixed_positioning/
