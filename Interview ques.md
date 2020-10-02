@@ -250,6 +250,8 @@ https://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-ve
 
 ## HTML5
 
+https://html.spec.whatwg.org/
+
 que : if you use header 5 times, what will happen ?
 
 ## quirk mode
