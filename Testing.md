@@ -2,6 +2,9 @@
 
 ### Testing 
 
+setup testing env
+https://levelup.gitconnected.com/set-up-a-simple-javascript-unit-test-environment-from-zero-ab8c053050ac
+
 
 - **Testing Clientside JavaScript**
 https://app.pluralsight.com/library/courses/testing-javascript
