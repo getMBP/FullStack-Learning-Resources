@@ -386,6 +386,10 @@ https://kentcdodds.com/blog/usememo-and-usecallback
  https://dmitripavlutin.com/use-react-memo-wisely/
  https://flaviocopes.com/react-hook-usecallback/
  
+ 
+ - **How is getSnapshotBeforeUpdate implemented with Hooks**
+ https://blog.logrocket.com/how-is-getsnapshotbeforeupdate-implemented-with-hooks/
+ 
   #### Routing
 
 https://codepen.io/deen_john/pen/NwXXgY?editors=0010
