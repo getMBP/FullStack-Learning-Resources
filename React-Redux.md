@@ -305,6 +305,14 @@ https://app.pluralsight.com/library/courses/react-styling-components/table-of-co
 https://medium.com/@guigonc/refactoring-moving-api-calls-to-a-higher-order-component-53062c086cb
 Shows how to progressively refactor fetching logic out of a component and move it into a parent component, then make that parent component reusable.
 
+
+- **React hooks**
+
+- ***getDerivedStateFromProps - actual implementation***
+https://github.com/reactjs/react-transition-group/blob/master/src/SwitchTransition.js
+
+
+
 - **The React + Redux Container Pattern**
 https://dev.to/sophiedebenedetto/the-react--redux-container-pattern-bmk
 An excellent explanation of what "container components" and "presentational components" are, with discussion of how they fit together and a good sample project implementing the ideas.
