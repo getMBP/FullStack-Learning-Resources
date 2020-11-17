@@ -562,6 +562,8 @@ https://flaviocopes.com/how-to-merge-objects-javascript/
 https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically
 
 ### que : shallow merge vs deep merge 
+https://dmitripavlutin.com/how-to-compare-objects-in-javascript/
+
 
 shallow
 ```javascript
