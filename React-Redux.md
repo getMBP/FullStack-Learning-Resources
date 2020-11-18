@@ -494,6 +494,10 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3?source=search_post
  http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
  
+  ### Redux saga 
+ https://www.youtube.com/watch?v=o3A9EvMspig
+ 
+ 
  ### Testing
     
  - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
