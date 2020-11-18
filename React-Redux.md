@@ -495,6 +495,28 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
  
   ### Redux saga 
+  
+  ``js
+  // https://www.youtube.com/watch?v=o3A9EvMspig
+
+function request() {
+   var p = fetch("https://rickandmortyapi.com/api/character//?name=Rick");
+   p.then((res) => res.json())
+   .then((x)=>{
+     it.next(x)
+   });
+
+}
+
+function* main(){
+  var res = yield request();
+  console.log(res);
+}
+
+var it = main(); //start
+it.next();
+
+  ``
  https://www.youtube.com/watch?v=o3A9EvMspig
  
  
