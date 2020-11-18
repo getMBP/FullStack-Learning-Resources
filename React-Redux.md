@@ -496,7 +496,7 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  
   ### Redux saga 
   
-  ``js
+  ```js
   // https://www.youtube.com/watch?v=o3A9EvMspig
 
 function request() {
@@ -516,7 +516,7 @@ function* main(){
 var it = main(); //start
 it.next();
 
-  ``
+  ```
  https://www.youtube.com/watch?v=o3A9EvMspig
  
  
