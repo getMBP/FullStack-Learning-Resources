@@ -7,3 +7,13 @@
 6) storybook
 7) formik
 8) Responsive images : https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+
+to learn
+
+oauth , jwt in depth
+rest api in depth - benefits over other methods
+ds-algo
+next.js
+bench marking/ optimization in depth
+
+
