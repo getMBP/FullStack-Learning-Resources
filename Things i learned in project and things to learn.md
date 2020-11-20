@@ -10,10 +10,10 @@
 
 to learn
 
-oauth , jwt in depth
-rest api in depth - benefits over other methods
-ds-algo
-next.js
-bench marking/ optimization in depth
+1) Oauth , JWT in depth
+2) rest api in depth
+3) ds-algo
+4) next.js
+5) benchmarking / optimization
 
 
