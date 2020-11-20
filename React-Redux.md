@@ -267,6 +267,8 @@ https://app.pluralsight.com/library/courses/react-styling-components/table-of-co
 
  - **React Higher Order Components in depth – franleplant – Medium**  
    https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e
+   
+   
  
   - **Top 5 Recompose HOCs – Abhi Aiyer – Medium**  
    https://medium.com/@abhiaiyer/top-5-recompose-hocs-1a4c9cc4566
