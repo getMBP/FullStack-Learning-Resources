@@ -299,6 +299,7 @@ https://app.pluralsight.com/library/courses/react-styling-components/table-of-co
 - **Higher Order With Context**
    https://dev.to/kayis/higher-order-with-context
    https://dev.to/kayis/higher-order-components-and-context-example 
+   https://gist.github.com/sebmarkbage/ef0bf1f338a7182b6775
    
   Examples of using Higher Order Components to pass data to nested components using context
   
