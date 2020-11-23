@@ -725,6 +725,10 @@ https://www.youtube.com/watch?v=Zo-6_qx8uxg&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZG
 https://www.youtube.com/playlist?list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh
 
 # React
+
+### browser rendering - how ot works
+https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/
+
 https://kentcdodds.com/blog/?q=react
 https://github.com/sudheerj/reactjs-interview-questions
 
