@@ -15,5 +15,9 @@ to learn
 3) ds-algo
 4) next.js
 5) benchmarking / optimization
+6) AWS
+7) NEXT.JS IN DEPTH
+8) System design
+9) ML
 
 
