@@ -854,6 +854,33 @@ https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 #### when should you use state ,when to choose redux
 
+####  PAYTM interview :
+
+- ** Create a deep clone** 
+problem with json.parse(json.stringify(obj))
+
+- ** create a OTP input , complete below code**
+
+```jsx
+class App extends Component {
+  state = { otp: '' };
+
+  handleChange = otp => this.setState({ otp });
+
+  render() {
+    return (
+      <OtpInput
+        value={this.state.otp}
+        onChange={this.handleChange}
+        numInputs={6}
+        separator={<span>-</span>}
+      />
+    );
+  }
+}
+
+```
+
 #### authorization vs authentication
 https://www.geeksforgeeks.org/difference-between-authentication-and-authorization/
 
