@@ -388,7 +388,20 @@ fetch("http://localhost:4000/api/person/:1") //http://localhost:4000/api/person/
 });
 				
 ```
+```javascript 
 
+// output in what order, after how many sec
+ alert('hello')
+
+ setTimeout(()=>{
+ console.log('1000')
+ },1000)
+
+  setTimeout(()=>{
+     console.log('5000')
+ },5000)
+ 
+ ```
 ### fetch api
 https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
 
