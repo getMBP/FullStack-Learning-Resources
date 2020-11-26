@@ -1022,6 +1022,7 @@ High paying companies in NCR
 
 Nagaaro
 Sapient
+Paytm
 Expedia
 Zomato
 Myntra
@@ -1029,7 +1030,6 @@ MakeMyTrip
 OYO
 Amazon
 TRC (Tower Research Capital)
-Paytm
 Adobe
 Guavus
 Thoughtworks
