@@ -1020,6 +1020,12 @@ https://www.glassdoor.co.in/Interview/front-end-developer-interview-questions-SR
 
 High paying companies in NCR
 
+Nagaaro
+Sapient
+Expedia
+Zomato
+Myntra
+MakeMyTrip
 OYO
 Amazon
 TRC (Tower Research Capital)
@@ -1042,7 +1048,7 @@ Healthcart
 fiserv
 markit
 digismart
-Nagarro
+
 fis
 bank of america
 macquarie bank
