@@ -7,6 +7,9 @@
 6) storybook
 7) formik
 8) Responsive images : https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+9) react virtualized
+10) lazy loading images
+11) hooks in depth
 
 to learn
 
@@ -19,5 +22,10 @@ to learn
 7) NEXT.JS IN DEPTH
 8) System design
 9) ML
+10) write your own lodash methods
+11) read more open source react lib code
+12) when to use cookies , cookies in depth
+13) integrate rest with spring 
+
 
 
