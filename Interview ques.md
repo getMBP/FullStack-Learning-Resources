@@ -247,6 +247,9 @@ https://www.youtube.com/watch?v=unj9nAeYU1Q
 https://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally
 
 
+### visibility:hidden vs display:none vs opacity:0
+
+https://stackoverflow.com/questions/14731049/visibilityhidden-vs-displaynone-vs-opacity0
 
 ## HTML5
 
