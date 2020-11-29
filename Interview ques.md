@@ -238,6 +238,8 @@ https://www.youtube.com/watch?v=xeMMAx7hWYQ&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoI
 https://www.w3.org/TR/mediaqueries-4/
 https://responsivebreakpoints.com/
 
+are media queries enough to make page responsive 
+
 
 
 ### Que : css units
