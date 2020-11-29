@@ -115,6 +115,8 @@ Relative
 
 
 4) explain box model , box sizing 
+
+https://www.bitdegree.org/learn/css-box-sizing#:~:text=Sizing%3A%20Useful%20Tips-,CSS%20Box%2DSizing%3A%20Main%20Tips,by%20using%20the%20resize%20property.
 https://www.w3schools.com/css/css3_box-sizing.asp
 https://www.w3schools.com/css/css_boxmodel.asp
 https://www.w3schools.com/jsref/prop_style_boxsizing.asp
