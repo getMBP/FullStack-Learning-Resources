@@ -1098,6 +1098,10 @@ for (var i = 0; i < animals.length; i++) {
 }
 ```
 
+- **function composition**
+https://www.youtube.com/watch?v=mth5WpEc4Qs
+
+
 - **where instanceof fails**
 
 If you have two arbitrary objects, say a and b, and want to find out if the objects are related to each other through a [[Prototype]] chain, instanceof alone can't help.
