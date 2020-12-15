@@ -295,6 +295,24 @@ p.then((val) => console.log("asynchronous logging has val:",val))
 
 ```
 
+```javascript
+console.log(10)
+setTimeout(fn(console.log(20), 1000)
+
+settimeout(fn(){console.log(30)}, 10)
+
+console.log(40)
+
+var promise = fetch('twitter/tweets/1')
+proise.then(fn(console.log(50)))
+
+for(){// runs for 300ms} //before loop what is in the event queue ? what will the output if the delay is removed ?
+
+console.log(60)
+
+
+```
+
 ### que : microtask queue 
 https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
 
