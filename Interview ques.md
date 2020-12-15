@@ -296,19 +296,30 @@ p.then((val) => console.log("asynchronous logging has val:",val))
 ```
 
 ```javascript
+
+
+
 console.log(10)
-setTimeout(fn(console.log(20), 1000)
+setTimeout(()=>{console.log(20)}, 1000)
 
-settimeout(fn(){console.log(30)}, 10)
+setTimeout(()=>{console.log(30)}, 10)
 
-console.log(40)
+console.log(40);
 
-var promise = fetch('twitter/tweets/1')
-proise.then(fn(console.log(50)))
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log('json ',json))
 
-for(){// runs for 300ms} //before loop what is in the event queue ? what will the output if the delay is removed ?
-
-console.log(60)
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+sleep(30000);
+console.log(60);
 
 
 ```
