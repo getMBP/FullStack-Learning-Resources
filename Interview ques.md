@@ -558,6 +558,26 @@ https://javascript.info/types
 ### Que :currying (advance currying)
 https://javascript.info/currying-partials
 
+```js
+
+function curry(func) {
+
+  return function curried(...args) {
+    if (args.length >= func.length) {
+      return func.apply(this, args); //what if i pass null or undefined in this case
+    } else {
+      return function(...args2) {
+        return curried.apply(this, args.concat(args2));
+      }
+    }
+  };
+
+}
+
+
+
+```
+
 ### que : check for NaN and undefined value in javascript
 https://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript
 https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascript
