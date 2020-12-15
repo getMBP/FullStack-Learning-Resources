@@ -294,6 +294,89 @@ var p = new Promise((resolve, reject) => setTimeout(() => { resolve(1); resolve(
 p.then((val) => console.log("asynchronous logging has val:",val))
 
 ```
+
+### que : microtask queue 
+https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
+
+
+### que :
+
+```javascript
+https://javascript.info/async-await
+
+
+const arrObj = [ { x: 3 }, { x: 9 }, { x: 5 }]
+
+
+
+/* should print
+wait 2 sec then print ist num then wait 2 sec then print next number in array
+3
+5
+9
+*/
+
+const sortAndPrint = async (n, arrObj) => {
+
+var t = n ;
+
+arrObj.sort( (a,b)=>a.x - b.x  );
+
+for(let i =0 ;i< arrObj.length ; i++){
+    var promise = new Promise((resolve) => setTimeout(()=>resolve(arrObj[i],t)));
+    var res = await promise ;
+    console.log(res);
+ }
+  
+}
+
+sortAndPrint(2, arrObj)
+
+
+
+```
+
+### Que : Promise in a loop
+
+```javascript
+var promises = [];
+ //let channels =[];
+
+ [1, 2, 3, 4, 5].forEach((elm, i) => {
+
+   promises.push(new Promise((resolve) => {
+     setTimeout(() => { 
+       //channels.push(elm); console.log(channels)
+       resolve(elm);
+     },  5000)  //setimeout is simulating operation like fetch
+   }))
+
+ });console.log("done")
+ 
+ Promise.all(promises).then(() =>promises[0].then((x)=> console.log(x))) 
+ 
+ ```
+
+Without fetch like operation
+
+```javascript
+
+var promises = [];
+
+ [1, 2, 3, 4, 5].forEach((elm, i) => {
+
+   promises.push(new Promise((resolve) => {
+       resolve(elm);
+   }))
+
+ });
+ 
+ console.log("done")
+ 
+ Promise.all(promises).then(() =>promises[0].then((x)=> console.log(x))) 
+ ```
+
+
 que1 
 // Function to remove two adjacent duplicate characters from a string.
 // let str = 'abbbbaca';
@@ -454,7 +537,7 @@ alert( rabbit instanceof Rabbit ); // false
 ### Que : types and typeof
 https://javascript.info/types
 
-### Que :currying
+### Que :currying (advance currying)
 https://javascript.info/currying-partials
 
 ### que : check for NaN and undefined value in javascript
@@ -496,86 +579,7 @@ guarantee this behavior, thus, not all browsers (e.g. Mozilla versions dating ba
 If compareFunction(a, b) returns greater than 0, sort b to an index lower than a (i.e. b comes first).
 
 
-### que : microtask queue 
-https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/
 
-
-### que :
-
-```javascript
-https://javascript.info/async-await
-
-
-const arrObj = [ { x: 3 }, { x: 9 }, { x: 5 }]
-
-
-
-/* should print
-wait 2 sec then print ist num then wait 2 sec then print next number in array
-3
-5
-9
-*/
-
-const sortAndPrint = async (n, arrObj) => {
-
-var t = n ;
-
-arrObj.sort( (a,b)=>a.x - b.x  );
-
-for(let i =0 ;i< arrObj.length ; i++){
-    var promise = new Promise((resolve) => setTimeout(()=>resolve(arrObj[i],t)));
-    var res = await promise ;
-    console.log(res);
- }
-  
-}
-
-sortAndPrint(2, arrObj)
-
-
-
-```
-
-### Que : Promise in a loop
-
-```javascript
-var promises = [];
- //let channels =[];
-
- [1, 2, 3, 4, 5].forEach((elm, i) => {
-
-   promises.push(new Promise((resolve) => {
-     setTimeout(() => { 
-       //channels.push(elm); console.log(channels)
-       resolve(elm);
-     },  5000)  //setimeout is simulating operation like fetch
-   }))
-
- });console.log("done")
- 
- Promise.all(promises).then(() =>promises[0].then((x)=> console.log(x))) 
- 
- ```
-
-Without fetch like operation
-
-```javascript
-
-var promises = [];
-
- [1, 2, 3, 4, 5].forEach((elm, i) => {
-
-   promises.push(new Promise((resolve) => {
-       resolve(elm);
-   }))
-
- });
- 
- console.log("done")
- 
- Promise.all(promises).then(() =>promises[0].then((x)=> console.log(x))) 
- ```
  
 ### que : how to merge two objects 
 https://flaviocopes.com/how-to-merge-objects-javascript/
