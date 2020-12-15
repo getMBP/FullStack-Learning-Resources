@@ -559,12 +559,13 @@ https://javascript.info/types
 https://javascript.info/currying-partials
 
 ```js
+// "use strict"
 
 function curry(func) {
 
   return function curried(...args) {
     if (args.length >= func.length) {
-      return func.apply(this, args); //what if i pass null or undefined in this case
+      return func.apply(this, args); //what if i pass null or undefined in this case , what if i use "use strict"
     } else {
       return function(...args2) {
         return curried.apply(this, args.concat(args2));
