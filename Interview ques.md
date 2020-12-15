@@ -282,7 +282,7 @@ setTimeout(()=>{
 
 ```
 
-###Promises
+### Promises
 https://danlevy.net/javascript-promises-quiz/
 https://levelup.gitconnected.com/javascript-interview-questions-promises-400c51805cbe
 https://medium.com/javascript-in-plain-english/6-interview-questions-that-combine-promise-and-settimeout-34c430fc297e
@@ -297,20 +297,22 @@ p.then((val) => console.log("asynchronous logging has val:",val))
 
 ```javascript
 
-
-
 console.log(10)
+
 setTimeout(()=>{console.log(20)}, 1000)
 
 setTimeout(()=>{console.log(30)}, 10)
 
 console.log(40);
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-  .then(response => response.json())
-  .then(json => console.log('json ',json))
+// could be fetch which resolve as per delay
 
-function sleep(milliseconds) {
+new Promise((res,reject)=>{
+  setTimeout(()=> res('done'),25)  // only 25 delay
+})
+  .then(res => console.log('res ',res))
+
+function delay(milliseconds) {
   var start = new Date().getTime();
   for (var i = 0; i < 1e7; i++) {
     if ((new Date().getTime() - start) > milliseconds){
@@ -318,9 +320,11 @@ function sleep(milliseconds) {
     }
   }
 }
-sleep(30000);
-console.log(60);
 
+
+delay(3000);  // what is the output if we remove the delay
+
+console.log(60);
 
 ```
 
