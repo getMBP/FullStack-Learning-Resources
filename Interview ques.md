@@ -270,6 +270,20 @@ https://www.quirksmode.org/css/quirksmode.html
 
 ### https://www.ecma-international.org/ecma-262/10.0/index.html#sec-intro (Javascript spec)
 
+```javascript
+
+function findMyType() {
+  let a = b = 0;
+  a++;
+  return a;
+}
+
+findMyType();
+typeof a; 
+typeof b
+
+```
+
 ### event loop
 ```javascript
 
@@ -852,6 +866,48 @@ Till react < version 16 : https://medium.com/@baphemot/understanding-reactjs-com
 React > v16              https://www.w3schools.com/react/react_lifecycle.asp
 https://reactjs.org/docs/react-component.html#componentdidupdate
 
+### que : in what order console statements are printed 
+
+```jsx
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      x: 5
+    };
+    console.log("HI");
+  }
+
+  componentDidMount() {
+    console.log("p ->  ", this.state.x);
+
+    this.setState(
+      {
+        x: 7
+      },
+      () => {
+        console.log("q ->  ", this.state.x);
+        this.setState(
+          {
+            x: 6
+          },
+          () => {
+            console.log("b ->  ", this.state.x);
+          }
+        );
+      }
+    );
+  }
+  render() {
+    console.log("a -> ", this.state.x);
+    return <div className="App">{this.state.x}</div>;
+  }
+}
+
+export default App;
+
+```
 
 ### Lifecycle visualizer https://github.com/Oblosys/react-lifecycle-visualizer#readme
 
