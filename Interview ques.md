@@ -283,6 +283,35 @@ typeof a;
 typeof b
 
 ```
+### deep compare two objects
+
+```javascript
+
+let obj = {here: {is: "an"}, object: 2};
+let obj2 = {here: {is: "DD"}, object: 3};
+
+
+function deepCompare(obj1,obj2){
+   let res ;
+  Object.keys(obj1).forEach((key)=>{
+    if(obj1[key]!==obj2[key] ){
+          res = false;
+         return ;
+       } else if(typeof obj1[key] ==='object' ) {
+         
+      return deepCompare(obj1[key], obj2[key]);
+    } else {
+      res = true;
+    }
+  })
+  
+  return res;
+ 
+}
+
+console.log(deepCompare(obj,obj));
+
+```
 
 ### event loop
 ```javascript
