@@ -385,6 +385,8 @@ https://github.com/reactjs/react-transition-group/blob/master/src/SwitchTransiti
    https://www.codebeast.dev/usestate-vs-useref-re-render-or-not/
 
 - **useMemo vs useCallback**
+
+https://medium.com/@jan.hesters/usecallback-vs-usememo-c23ad1dc60
 https://kentcdodds.com/blog/usememo-and-usecallback
  https://dmitripavlutin.com/use-react-memo-wisely/
  https://flaviocopes.com/react-hook-usecallback/
