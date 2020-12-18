@@ -659,7 +659,27 @@ it.next();
    https://www.pluralsight.com/courses/client-side-react-router-4
   
   
+  ## open source lib to learn from 
   
+  https://github.com/kentcdodds/use-deep-compare-effect
+  
+  React-Bootstrap https://github.com/chenglou/react-treeview
+  
+  https://github.com/brillout/awesome-react-components 
+  
+  https://github.com/Semantic-Org/Semantic-UI-React/blob/master/src/collections/Form/Form.js 
+  
+  https://github.com/ianwitherow/react-filterable-table 
+  
+  https://github.com/Autodesk/react-base-table
+  
+  https://github.com/glittershark/reactable 
+  
+  https://github.com/atkawa7/rb-datepicker 
+  
+  https://github.com/andreypopp/react-textarea-autosize/blob/master/src/index.js 
+  
+  https://react-bootstrap.github.io/components/alerts/
   
   ## projects 
   
