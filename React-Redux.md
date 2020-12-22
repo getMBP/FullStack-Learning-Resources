@@ -165,6 +165,9 @@ https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-o
   http://mxstbr.blog/2017/02/react-children-deepdive/  
   An in-depth look at the power and capabilities of React's `children` prop, and how children can be reused and modified.  Includes several examples and demos.
   
+  - **controlled components**
+  https://www.robinwieruch.de/react-controlled-components
+  
 - **The "Forwarded Refs" pattern**  
   https://github.com/reactjs/react-redux/pull/270#issuecomment-175217424  
   An example of the "forwarded refs" pattern, where a parent component passes a callback through one or more layers of children, it's used as a `ref` callback, and the parent receives the nested DOM element reference directly.
