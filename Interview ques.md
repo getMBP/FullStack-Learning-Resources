@@ -283,6 +283,23 @@ typeof a;
 typeof b
 
 ```
+## hoisting 
+
+```js
+ console.log(parent());
+
+ function parent() {
+    var sample = "I am a variable";
+
+    function sample() {
+        return "Im a function";
+    }
+    return sample(); // "Im a function"
+ }
+ 
+```
+
+
 ### deep compare two objects
 
 ```javascript
