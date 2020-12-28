@@ -2530,6 +2530,13 @@ https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-o
 
 https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the-networking-layer-f6efaf7bfcf4)
 
+## Performance 
+
+Lazy Loading vs Eager Loading
+
+https://www.youtube.com/watch?v=U8wffcXm-TM
+
+
 ## Design Patterns
 
 https://github.com/deenjohn/Design-Patterns
