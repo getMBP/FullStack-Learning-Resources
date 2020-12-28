@@ -2536,6 +2536,7 @@ Lazy Loading vs Eager Loading
 
 https://www.youtube.com/watch?v=U8wffcXm-TM
 
+https://engineering.linkedin.com/blog/2019/03/feature-highlight--scaling-autoplay-videos-for-hundreds-of-milli
 
 ## Design Patterns
 
