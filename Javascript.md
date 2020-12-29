@@ -2532,11 +2532,15 @@ https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the
 
 ## Performance 
 
-Lazy Loading vs Eager Loading
+### Lazy Loading vs Eager Loading
 
 https://www.youtube.com/watch?v=U8wffcXm-TM
 
 https://engineering.linkedin.com/blog/2019/03/feature-highlight--scaling-autoplay-videos-for-hundreds-of-milli
+
+### Preloading and Prefetching
+
+https://www.youtube.com/watch?v=R_D0rL094F4
 
 ## Design Patterns
 
