@@ -1185,49 +1185,18 @@ Rest  https://www.youtube.com/watch?v=qVTAB8Z2VmA
 ### Frontend questions
 https://www.glassdoor.co.in/Interview/front-end-developer-interview-questions-SRCH_KO0,19.htm
 
-## Companies in NCR
 
-1) Nagaaro
-2) Sapient
-3) Quovantis
-4) MakeMyTrip
-5) Xebia
-6) R Systems
-7) IRIS Software
-8) Paisa bazaar
-9) Myntra
-10) Policy bazaar
-11) Xoriant
-12) Zomato
-13) Amdocs
-14) Siemens
-15) American express
-16) Expedia
-
-High paying companies in NCR
+High paying service companies in NCR
 
 Nagaaro
 Sapient
-Paytm
-Expedia
-Zomato
-Myntra
-MakeMyTrip
-OYO
-Amazon
-TRC (Tower Research Capital)
-Adobe
-Guavus
-Thoughtworks
-Koovs
-UHG
-American Express
-Policy Bazar
+
+
 RBS
 blackrock
 g4s
 seimens
-airtel
+
 MMT
 Yatra
 Healthcart
@@ -1238,9 +1207,9 @@ digismart
 fis
 bank of america
 macquarie bank
-Expedia
+
 commdel
-amazon
+
 limeroad
 reliance jio
 polaris
@@ -1248,13 +1217,13 @@ snapdeal/freecharge
 mobikwik
 shuttle
 hughe systique
-oyo rooms
+
 aricent
 nextag
 ixigo
-goibiobo
+
 proptiger
-1 mg
+
 grey orange
 earnst young
 rivigo
@@ -1262,6 +1231,27 @@ accenture
 indiabull
 Sprinklr
 indifi
+
+High Paying produce companies 
+
+1 mg
+goibiobo
+amazon
+Expedia
+Informatica
+Adobe
+Thoughtworks
+Paytm
+Zomato
+Myntra
+MakeMyTrip
+TRC (Tower Research Capital)
+American Express
+Policy Bazar
+airtel
+TSYCS
+FERNS N PETALS
+Wallmart
 
 
 ## Sapient questions
