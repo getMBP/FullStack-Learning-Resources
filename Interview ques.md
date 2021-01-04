@@ -1252,7 +1252,10 @@ airtel
 TSYCS
 FERNS N PETALS
 Wallmart
-
+Swiggy
+Zomato
+Zeta 
+Hike
 
 ## Sapient questions
 
