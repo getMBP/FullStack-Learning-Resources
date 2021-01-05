@@ -530,6 +530,16 @@ it.next();
  https://www.youtube.com/watch?v=ByQknrU42mY
  
  
+ 
+ ### server side rendering
+ 
+ #### CDN Caching, Static Site Generation, and Server Side Rendering (best)
+ https://www.youtube.com/watch?v=bfLFHp7Sbkg
+ 
+ #### Tech Talk: Client Side vs. Server Sider Rendering
+ https://www.youtube.com/watch?v=Y2spCNZDt84&t=1s
+ 
+ 
  ### Testing
     
  - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
