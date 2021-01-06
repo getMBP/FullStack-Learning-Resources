@@ -349,6 +349,11 @@ https://levelup.gitconnected.com/javascript-interview-questions-promises-400c518
 https://medium.com/javascript-in-plain-english/6-interview-questions-that-combine-promise-and-settimeout-34c430fc297e
 https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
 
+### que: Promise all : what would happen if one of promise fail
+### can you wrote polyfill for promise all
+
+
+
 ```javascript
 
 var p = new Promise((resolve, reject) => setTimeout(() => { resolve(1); resolve(2) }, 1000))
@@ -899,9 +904,6 @@ https://www.youtube.com/playlist?list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh
  2)How react improve this critical path issue
  
  3) Read react reconcilliation
- 
- 
- 
  
  
 ### browser rendering - how ot works
