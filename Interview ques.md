@@ -356,6 +356,8 @@ p.then((val) => console.log("asynchronous logging has val:",val))
 
 ```
 
+### que : output in below code
+
 ```javascript
 
 console.log(10)
@@ -387,6 +389,27 @@ delay(3000);  // what is the output if we remove the delay
 
 console.log(60);
 
+```
+
+### que : output in below code
+
+```js
+
+function test() {
+
+    console.log(x);
+    console.log(y);
+
+  // setTimeout(()=> {
+  //   console.log(x);
+  //   console.log(y);
+  // }, 1000);
+
+  var x = 2;
+  let y = 3;
+}
+
+test();
 ```
 
 ### que : microtask queue 
@@ -425,8 +448,6 @@ for(let i =0 ;i< arrObj.length ; i++){
 }
 
 sortAndPrint(2, arrObj)
-
-
 
 ```
 
