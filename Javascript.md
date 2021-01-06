@@ -205,6 +205,8 @@ typeof 'RAWRRR' === 'number' // false
 
 
 - **null vs undefined**
+
+https://dmitripavlutin.com/7-tips-to-handle-undefined-in-javascript/
 https://basarat.gitbooks.io/typescript/docs/javascript/null-undefined.html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#Loose_equality_using
 
@@ -379,6 +381,9 @@ http://adripofjavascript.com/blog/drips/the-problem-with-for-in-and-javascript-a
 ## Coercion 
 
 - **Equality comparisons and sameness**
+
+https://dmitripavlutin.com/the-legend-of-javascript-equality-operator/
+
 
 Coercion 
 
