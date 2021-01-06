@@ -300,6 +300,10 @@ typeof b
 ```
 
 
+### what is difference between debounce and throttle 
+
+### write debounce code
+
 ### deep compare two objects
 
 ```javascript
