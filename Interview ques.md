@@ -1140,6 +1140,9 @@ However, with PureComponent, it performs a shallow comparison of objects.
 ### React Rendering performance and how can you improve it 
 
 
+### http vs http2
+
+
 ### react Codepen links 
 1) https://codepen.io/collection/nMJEKN  (Egghead begineer React)
 2) https://codepen.io/collection/XdNJVb   (Random react)
