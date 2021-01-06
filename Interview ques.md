@@ -870,6 +870,19 @@ https://www.youtube.com/playlist?list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh
 
 # React
 
+
+ ### for product base companies :
+ 
+ 1)Read how browser rendering works
+ 
+ 2)How react improve this critical path issue
+ 
+ 3) Read react reconcilliation
+ 
+ 
+ 
+ 
+ 
 ### browser rendering - how ot works
 https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/
 
