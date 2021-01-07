@@ -539,6 +539,16 @@ it.next();
  #### Tech Talk: Client Side vs. Server Sider Rendering
  https://www.youtube.com/watch?v=Y2spCNZDt84&t=1s
  
+ https://www.youtube.com/watch?v=GQzn7XRdzxY&t=1s
+ https://www.youtube.com/watch?v=Y2spCNZDt84&t=437s
+ https://www.youtube.com/watch?v=bfLFHp7Sbkg&t=2s
+ https://www.youtube.com/watch?v=xTsYYxf2Ut0&t=371s
+ https://www.youtube.com/watch?v=8_RzRQXSHcg
+ https://www.youtube.com/watch?v=GiFpyyU6Odc
+ https://www.youtube.com/watch?v=obtd9TYS1Zc
+ https://www.youtube.com/watch?v=lRSnBSuPeK8
+ 
+ 
  
  ### Testing
     
