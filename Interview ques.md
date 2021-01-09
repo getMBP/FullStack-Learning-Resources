@@ -304,6 +304,19 @@ typeof b
 
 ### write debounce code
 
+###  arrow function
+
+```js
+
+var obj = {
+    name : 'deen' , 
+    greet: () =>{console.log(this .name) 
+}}
+
+obj.greet()
+
+```
+
 ### deep compare two objects
 
 ```javascript
