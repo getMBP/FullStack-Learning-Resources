@@ -11,6 +11,12 @@
 10) lazy loading images
 11) hooks in depth
 
+webpack in depth (loaders, plugins, multiple entery points)
+
+https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webpack/table-of-contents
+https://app.pluralsight.com/library/courses/javascript-module-fundamentals/table-of-contents
+
+
 to learn
 
 1) Oauth , JWT in depth
