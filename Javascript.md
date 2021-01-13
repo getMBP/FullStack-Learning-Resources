@@ -2473,11 +2473,12 @@ https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-bey
 
 - **Understanding the Node.js Event Loop**
 https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
+https://html.spec.whatwg.org/multipage/webappapis.html#task-queue
 
 
 - **Jake Archibald: In The Loop**
 https://www.youtube.com/watch?v=cCOL7MC4Pl0&t=8s)
-
+https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
 
 ### Level 3 : master level  
 
