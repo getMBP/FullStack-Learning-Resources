@@ -45,6 +45,8 @@ https://medium.com/webpack/webpack-bits-learn-and-debug-webpack-with-chrome-dev-
 
 https://bitsofco.de/what-is-tree-shaking/
 
+https://engineering.wingify.com/posts/demystifying-split-chunks-plugin/
+
 ### npm
 
 **Introduction to npm as a Build Tool**
