@@ -43,6 +43,8 @@ https://www.sitepoint.com/beginners-guide-to-webpack-2-and-module-bundling/
 
 https://medium.com/webpack/webpack-bits-learn-and-debug-webpack-with-chrome-dev-tools-da1c5b19554
 
+https://bitsofco.de/what-is-tree-shaking/
+
 ### npm
 
 **Introduction to npm as a Build Tool**
