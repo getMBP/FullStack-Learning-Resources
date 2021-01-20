@@ -3,7 +3,7 @@
 
 ### Master React
 
-- ***React Internals**
+- **React Internals**
 https://www.youtube.com/watch?v=f2mMOiCSj5c
 
 
