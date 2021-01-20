@@ -6,6 +6,8 @@
 - **React Internals**
 https://www.youtube.com/watch?v=f2mMOiCSj5c
 
+https://www.youtube.com/watch?v=Z7ysKNFrMqo
+
 
 - **Curated tutorial and resource links by markerikson**
  
