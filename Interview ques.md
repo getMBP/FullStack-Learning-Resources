@@ -702,7 +702,17 @@ function curry(func) {
 https://stackoverflow.com/questions/3390396/how-to-check-for-undefined-in-javascript
 https://stackoverflow.com/questions/2652319/how-do-you-check-that-a-number-is-nan-in-javascript
 
+```js
 
+var a =10;
+if(true){
+
+let a = 20;
+}
+const a = 30;
+console.log(a);
+
+````
 
 ### que : sort in javascript and how it works internally
 
