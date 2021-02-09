@@ -1323,6 +1323,10 @@ Zomato
 Zeta 
 Hike
 
+High paying remote companies
+
+1) Sangam (shaadi.com)
+
 ## Sapient questions
 
 Make a React based ATM machine 
