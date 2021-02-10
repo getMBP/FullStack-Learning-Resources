@@ -1196,6 +1196,15 @@ for testing wes bos has videos in his course : Full Stack Advanced React + Graph
 ### React testing 
 ### HTTP https://developer.mozilla.org/en-US/docs/Web/HTTP
 
+browser caching
+
+browser loading 
+
+headers details
+
+more on how request is sent and read
+
+security issues
 
 ### JWT  https://auth0.com/learn/json-web-tokens/
      https://github.com/dwyl/learn-json-web-tokens
@@ -1247,21 +1256,53 @@ Rest  https://www.youtube.com/watch?v=qVTAB8Z2VmA
 
 
 
+## To read 
 
 ### Frontend questions
 https://www.glassdoor.co.in/Interview/front-end-developer-interview-questions-SRCH_KO0,19.htm
 
 
-High paying service companies in NCR
+## High Paying product companies in NCR
+
+1 mg
+goibiobo
+amazon
+Microsoft
+Chegg
+Expedia
+Wallmart
+Swiggy
+Zomato
+Zeta 
+Hike
+Adobe
+Informatica
+Thoughtworks
+Paytm
+Zomato
+Myntra
+MakeMyTrip
+TRC (Tower Research Capital)
+American Express
+Policy Bazar
+airtel
+TSYCS
+FERNS N PETALS
+
+
+High paying remote companies
+
+1) Sangam (shaadi.com)
+
+
+## High paying service companies in NCR
 
 Nagaaro
 Sapient
+Xebia
+.........................................................
 
 
-RBS
-blackrock
-g4s
-seimens
 
 MMT
 Yatra
@@ -1298,34 +1339,7 @@ indiabull
 Sprinklr
 indifi
 
-High Paying produce companies 
 
-1 mg
-goibiobo
-amazon
-Expedia
-Informatica
-Adobe
-Thoughtworks
-Paytm
-Zomato
-Myntra
-MakeMyTrip
-TRC (Tower Research Capital)
-American Express
-Policy Bazar
-airtel
-TSYCS
-FERNS N PETALS
-Wallmart
-Swiggy
-Zomato
-Zeta 
-Hike
-
-High paying remote companies
-
-1) Sangam (shaadi.com)
 
 ## Sapient questions
 
