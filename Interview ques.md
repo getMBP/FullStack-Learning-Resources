@@ -1293,6 +1293,7 @@ FERNS N PETALS
 High paying remote companies
 
 1) Sangam (shaadi.com)
+2) VM Ware
 
 
 ## High paying service companies in NCR
