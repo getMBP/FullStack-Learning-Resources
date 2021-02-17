@@ -360,6 +360,14 @@ setTimeout(()=>{
 
 ```
 
+### for event loop refer
+
+https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+
+https://developer.ibm.com/languages/node-js/tutorials/learn-nodejs-the-event-loop/
+
+
+
 ### Promises
 https://danlevy.net/javascript-promises-quiz/
 https://levelup.gitconnected.com/javascript-interview-questions-promises-400c51805cbe
