@@ -1,4 +1,6 @@
 
+  DMI
+
 1) SVG to react icons
 2) styled components
 3) semantic react ui component
@@ -17,6 +19,8 @@ https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webp
 https://app.pluralsight.com/library/courses/javascript-module-fundamentals/table-of-contents
 
 
+Timesprime
+
 to learn
 
 1) Oauth , JWT in depth
@@ -32,6 +36,7 @@ to learn
 11) read more open source react lib code
 12) when to use cookies , cookies in depth
 13) integrate rest with spring 
+14) cors
 
 
 
