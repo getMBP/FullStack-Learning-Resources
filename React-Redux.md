@@ -509,6 +509,8 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
  
   ### Redux saga 
+  https://medium.com/agency04/the-redux-saga-continues-implementing-your-own-redux-saga-like-middleware-f93a23ed840
+  
   
   ```js
   // https://www.youtube.com/watch?v=o3A9EvMspig
