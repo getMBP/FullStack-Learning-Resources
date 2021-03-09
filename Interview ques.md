@@ -1252,6 +1252,7 @@ POST VS GET VS PUT
 
 soap vs rest
 POST VS PUT
+server side - why ? client side only -why ?
 CORS
 context vs redux vs local state
 node vs java
