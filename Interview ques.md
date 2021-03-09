@@ -1251,6 +1251,8 @@ POST VS GET VS PUT
 ## Lead Role questions
 
 soap vs rest
+POST VS PUT
+CORS
 context vs redux vs local state
 node vs java
 system design : youtube , dropbox
