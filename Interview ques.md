@@ -798,7 +798,7 @@ https://medium.com/@pmzubar/why-json-parse-json-stringify-is-a-bad-practice-to-c
 
 https://abdulapopoola.com/2017/02/27/what-you-didnt-know-about-json-stringify/
 
-
+The JSON.stringify(..) utility will automatically omit undefined, function, and symbol values when it comes across them. If such a value is found in an array, that value is replaced by null (so that the array position information isn't altered). If found as a property of an object, that property will simply be excluded.
 
 ### que : types of error in Javascript
 
