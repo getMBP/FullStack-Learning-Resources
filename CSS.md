@@ -95,6 +95,11 @@ https://www.safaribooksonline.com/library/view/designing-with-css/9780321668660/
 https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/
 
 
+### positioning
+
+position absolute takes the element out from its container and the height of container collapse
+
+
 ### Advance
 
 
