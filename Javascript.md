@@ -2538,6 +2538,9 @@ https://blog.sessionstack.com/how-modern-web-browsers-accelerate-performance-the
 
 ## Performance 
 
+### Repaints and Reflows: Manipulating the DOM responsibly
+https://sites.google.com/site/getsnippet/javascript/dom/repaints-and-reflows-manipulating-the-dom-responsibly
+
 ### Lazy Loading vs Eager Loading
 
 https://www.youtube.com/watch?v=U8wffcXm-TM
