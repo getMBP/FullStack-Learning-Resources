@@ -1176,6 +1176,9 @@ However, with PureComponent, it performs a shallow comparison of objects.
 
 ### React Rendering performance and how can you improve it 
 
+### what image format is best
+
+### lazy load a function / file
 
 ### http vs http2
 
@@ -1242,11 +1245,13 @@ https://github.com/jwasham/coding-interview-university
 ### SQL 
 
 
-### HTTP
+### HTTP / HTTP2
 https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
 
 POST VS GET VS PUT
 
+
+How to check if a request to page is using http2 ?
 
 ## Lead Role questions
 
