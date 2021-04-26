@@ -466,6 +466,9 @@ https://medium.com/@justin3737/getting-started-with-redux-dded45556673
 https://github.com/tayiorbeii/egghead.io_redux_course_notes
 https://learnreduxwithdanabramov.com/
   
+ - **good tutorial**
+  https://github.com/happypoulp/redux-tutorial
+  
 - **Simple Redux**
  https://bumbu.me/simple-redux/
  
