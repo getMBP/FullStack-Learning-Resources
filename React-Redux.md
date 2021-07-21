@@ -543,6 +543,13 @@ it.next();
  
  https://www.youtube.com/watch?v=ByQknrU42mY
  
+https://flaviocopes.com/redux-saga/
+
+https://medium.com/agency04/the-redux-saga-continues-implementing-your-own-redux-saga-like-middleware-f93a23ed840
+
+https://medium.com/takeaway-tech/getting-started-with-redux-saga-54af359e84ff
+
+https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-an-asynchronous-flow-90a0e9d7d8e8
  
  
  ### server side rendering
