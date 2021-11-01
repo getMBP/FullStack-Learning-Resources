@@ -946,6 +946,7 @@ https://www.youtube.com/playlist?list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh
  
  3) Read react reconcilliation
  
+benefits of styled components
  
 ### browser rendering - how ot works
 https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/
