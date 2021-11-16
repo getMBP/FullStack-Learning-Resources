@@ -2567,6 +2567,8 @@ https://github.com/deenjohn/Design-Patterns/tree/master/Observer%20Pattern
 - **The Comprehensive Guide to JavaScript Design Patterns**
 https://www.toptal.com/javascript/comprehensive-guide-javascript-design-patterns
 
+https://enmascript.com/articles/2019/03/09/diving-into-the-great-observer-pattern-in-javascript
+https://enmascript.com/articles/2018/10/05/javascript-factory-pattern
 
 ## Browsers inner working
 
