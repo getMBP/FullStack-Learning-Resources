@@ -108,7 +108,7 @@ https://github.com/mrvautin/expressCart/compare?expand=1
 https://dev.to/khaosdoctor/node-js-under-the-hood-1-getting-to-know-our-tools-1465
 https://itnext.io/using-node-js-to-read-really-really-large-files-pt-1-d2057fe76b33
 
-
+https://medium.com/@sararavi14/node-js-threading-model-badf7bb5fffa
 
 ## Talks 
 
