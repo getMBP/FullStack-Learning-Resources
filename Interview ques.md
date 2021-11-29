@@ -1424,6 +1424,141 @@ XORIANT
   ### To learn how to config babel
   https://github.com/Semantic-Org/Semantic-UI-React/blob/master/.babel-preset.js
   
+	
+	Rippling interview questions :
+
+// // Create a function that is restricted to invoking passed function only once.
+// // Repeated calls to the function should return the first time invokation value (i.e. cached value)
+
+// const times10 = (n) => n*10; 
+
+// function memoizeOnce(fn) {
+//   // add code here
+//   let cb = fn;
+//   let cacheValue = null;
+  
+//   return (c) =>{
+//   //  if(!c){
+//   //    return 'Please send a number'
+//   //  }
+  
+  
+//     if(cacheValue){
+//       return cacheValue
+//     }else {
+//       cacheValue=  fn.call(c);
+//       return cacheValue;
+//     }
+  
+//   }
+// }
+
+// const memoizeOnceTimes10 = memoizeOnce(times10);
+// // console.log(memoizeOnceTimes10(undefined)) // 100
+// // console.log(memoizeOnceTimes10(20)) // 100
+// // console.log(memoizeOnceTimes10(30)) // 100
+
+// const person = {
+//   name: 'Ankit',
+//   introduce: function() {
+//     return `Hi this is ${this.name}`;
+//   }
+// };
+
+// let personIntroduce = memoizeOnce(person.introduce)
+
+// console.log(personIntroduce.call(person)) // 100
+// console.log(personIntroduce.call(person)) // 100
+// console.log(personIntroduce.call(person)) // 100
+
+
+//// ---------------
+
+// Implement the function that can be called in the following manner (last parameter to be passed as null/undefined indicating there are no more calls)
+// sum(1)(2)(3)(4)() // expected o/p - 10
+
+// function sum() {
+//  let sumResult = null;
+
+// const innerSum = ()=>{
+  
+// }
+
+// return sumResult;
+  
+  
+// }
+
+// console.log(sum(1)(2)(3)(4)());
+
+
+/// ---------------------
+
+// Promisify functions that accept the last argument as the callback fn.
+
+// function sumThree (a,b,c, callback) {
+// 	setTimeout(()=>{
+//     callback(null, a+b+c)
+//   },1000)
+// }
+
+// function promisify(func) {
+//   // add code here
+  
+//   return (...ar){
+//     return new Promise((res,rej){
+      
+//       let result = func(...ar);
+//       if(result)
+//     })
+//   }
+// }
+
+// const sumThreePromisifed = promisify(sumThree);
+
+// sumThreePromisifed(1, 2, 3)
+//   .then((sum) => console.log(' sum is ', sum))
+//   .catch((err) => console.log(' err is', err));
+
+
+// ----------
+
+// How would you place an icon on the top-right corner of a container 
+// such that the center of the icon is coinciding with the corner of the container
+https://i.stack.imgur.com/AY8ka.png
+						        |-----|
+--------------------|     |
+|     						  |-----|
+|							         |
+|							         |
+|							         |
+|______________________|
+
+.rectangle {
+  position: relative;
+  z-index: 0;
+}
+.icon {
+  position: absolute;
+  top: 0;
+   right: 0;
+  z-index: 1;
+  transform: translateX(50%);
+  transform: translateY(-50%);
+  
+}
+
+<rectangle>
+  <icon/>
+  ...
+</rectangle>
+
+
+  
+  
+  
+
+
   
   ### HTML Spec :
   
