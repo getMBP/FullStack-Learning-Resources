@@ -127,7 +127,10 @@ https://medium.com/@mr_sharpoblunto
 https://jakearchibald.com/2019/f1-perf/
 
 ## caching
+
 https://almanac.httparchive.org/en/2019/caching
+
+https://csswizardry.com/2019/03/cache-control-for-civilians/
 
 ## code splitting
 https://www.youtube.com/watch?v=YJGCZCaIZkQ
