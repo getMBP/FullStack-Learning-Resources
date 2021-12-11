@@ -112,6 +112,8 @@ https://web.dev/long-tasks-devtools/
 
 https://pomb.us/build-your-own-react/
 
+https://addyosmani.com/blog/react-window/
+
 
 ## web perf checklist
 
@@ -120,10 +122,17 @@ https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-che
 ## per case study
 https://medium.com/@mr_sharpoblunto
 
+https://jakearchibald.com/2019/f1-perf/
+
 ## caching
 https://almanac.httparchive.org/en/2019/caching
 
+## code splitting
+https://www.youtube.com/watch?v=YJGCZCaIZkQ
 
+## v8 perf
+
+https://v8.dev/blog/code-caching-for-devs
 
 
 
