@@ -174,6 +174,8 @@ Paint paints the elements with colors, backgrounds, shadows, etc.
 best
 https://www.youtube.com/watch?v=n1cKlKM3jYI&t=8s
 
+https://vuejsdevelopers.com/2017/07/24/critical-css-webpack/
+
 https://www.digitalocean.com/community/tutorials/browser-rendering-optimizations-for-front-end-development
 
 https://github.com/vasanthk/browser-rendering-optimization
@@ -232,6 +234,8 @@ https://www.youtube.com/watch?v=WxYpdw5ELrU
 https://www.youtube.com/watch?v=5b7qNYCrHWg&t=134s
 
 
+## preload 
+https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/
 
 
 
