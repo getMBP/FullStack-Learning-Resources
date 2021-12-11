@@ -15,6 +15,8 @@ https://addyosmani.com/blog/infinite-scroll-without-layout-shifts/
 
 https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/
 
+https://web.dev/fast/#prioritize-resources
+
 
 ##  case study
 https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/
@@ -86,6 +88,9 @@ https://developer.chrome.com/blog/new-in-devtools-83/
 
 https://t.co/Q9ayhT0YBT
 
+## fetch
+
+https://wicg.github.io/priority-hints/
 
 ## JavaScript modules
 https://v8.dev/features/modules
@@ -132,12 +137,43 @@ https://almanac.httparchive.org/en/2019/caching
 
 https://csswizardry.com/2019/03/cache-control-for-civilians/
 
+https://calendar.perfplanet.com/2016/a-tale-of-four-caches/
+
+https://datatracker.ietf.org/doc/html/rfc7234
+
 ## code splitting
 https://www.youtube.com/watch?v=YJGCZCaIZkQ
 
 ## v8 perf
 
 https://v8.dev/blog/code-caching-for-devs
+
+## browser render 
+
+```
+HTML Parsing: HTML Text -> Tokenization -> DOM Tree
+CSS Parsing: CSS Text -> Tokenization -> CSSOM Tree
+DOM and CSSOM are merged to form a Render Tree
+Render Tree has all the information required to mark and paint the screen.
+Render Tree -> Layout -> Paint
+The layout does the maths for placing the elements
+Paint paints the elements with colors, backgrounds, shadows, etc.
+
+```
+
+https://www.digitalocean.com/community/tutorials/browser-rendering-optimizations-for-front-end-development
+
+https://github.com/vasanthk/browser-rendering-optimization
+
+https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+
+https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp
+
+https://www.udacity.com/course/website-performance-optimization--ud884
+
+https://developers.google.com/web/updates/2018/09/inside-browser-part1
+
+https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/
 
 
 
