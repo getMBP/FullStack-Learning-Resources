@@ -19,6 +19,8 @@ https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/
 ##  case study
 https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/
 
+https://blog.logrocket.com/rendering-large-lists-with-react-virtualized-82741907a6b3/
+
 ## preload image 
 https://addyosmani.com/blog/preload-hero-images/
 https://web.dev/preload-responsive-images/
