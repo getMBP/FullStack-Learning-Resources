@@ -23,6 +23,8 @@ https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/
 
 https://blog.logrocket.com/rendering-large-lists-with-react-virtualized-82741907a6b3/
 
+https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9
+
 ## preload image 
 https://addyosmani.com/blog/preload-hero-images/
 https://web.dev/preload-responsive-images/
@@ -54,12 +56,20 @@ https://web.dev/fcp/
 
 https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 
+https://www.youtube.com/watch?v=0nY065KK7gQ
+
+
+
 ## css
 https://3perf.com/blog/notion/
 
 ## react
 
 https://addyosmani.com/blog/profiling-react-js/
+
+https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
+
+https://philipwalton.com/articles/idle-until-urgent/
 
 
 ## git
@@ -161,6 +171,9 @@ Paint paints the elements with colors, backgrounds, shadows, etc.
 
 ```
 
+best
+https://www.youtube.com/watch?v=n1cKlKM3jYI&t=8s
+
 https://www.digitalocean.com/community/tutorials/browser-rendering-optimizations-for-front-end-development
 
 https://github.com/vasanthk/browser-rendering-optimization
@@ -174,6 +187,52 @@ https://www.udacity.com/course/website-performance-optimization--ud884
 https://developers.google.com/web/updates/2018/09/inside-browser-part1
 
 https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/
+
+https://egghead.io/courses/javascript-performance-d980
+
+https://frontendmasters.com/courses/web-perf/
+
+
+(best)
+https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/
+
+
+https://calendar.perfplanet.com/2018/all-about-prefetching/
+
+critical render path
+https://www.youtube.com/watch?v=PkOBnYxqj3k&t=96s
+
+Introduction to Web Performance
+https://www.youtube.com/watch?v=qT4qA_OJt4g
+
+Web Performance Trivia - Lydia Hallie
+https://www.youtube.com/watch?v=8dB_TpSM8ak
+
+Deep Dive into Web Performance in 2018
+https://www.youtube.com/watch?v=1sxWrTACUO4&t=692s
+
+Web Performance: Basics - JavaScript Marathon
+https://www.youtube.com/watch?v=kBK7TobCcFg
+https://www.youtube.com/watch?v=Yk2Iy6Y5dik
+
+Delivering 60 FPS in the browser - Crash course on web performance (Fluent 2013)
+https://www.youtube.com/watch?v=rpNXWxMyzHQ&t=4s
+
+Nik Molnar - Tracking Real World Web Performance
+https://www.youtube.com/watch?v=G-wUivcsPss
+
+https://www.youtube.com/watch?v=WxYpdw5ELrU
+https://www.youtube.com/watch?v=SIdzhrynNbM
+
+https://www.youtube.com/watch?v=WxYpdw5ELrU
+
+
+## https
+
+https://www.youtube.com/watch?v=5b7qNYCrHWg&t=134s
+
+
+
 
 
 
