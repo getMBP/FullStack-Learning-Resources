@@ -9,7 +9,10 @@ https://dev.to/lydiahallie/cs-visualized-cors-5b8h
 
 ## layout shift
 https://web.dev/debug-layout-shifts/
+
 https://addyosmani.com/blog/infinite-scroll-without-layout-shifts/
+
+https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/
 
 
 ##  case study
@@ -38,8 +41,29 @@ https://web.dev/shows/web-dev-live-day-1/t8YBZLjL-KU/
 
 https://web.dev/shows/web-dev-live-day-1/
 
+https://web.dev/optimize-lcp/
+
+https://t.co/PuWQxnKqci
+
 ## css
 https://3perf.com/blog/notion/
+
+## react
+
+https://addyosmani.com/blog/profiling-react-js/
+
+
+## git
+
+https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+
+
+## security
+https://web.stanford.edu/class/cs253/
+
+
+
+
 
 
 
