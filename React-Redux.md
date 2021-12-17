@@ -569,7 +569,8 @@ https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-
  https://www.youtube.com/watch?v=obtd9TYS1Zc
  https://www.youtube.com/watch?v=lRSnBSuPeK8
  
- 
+ ## React virtualised concept
+ https://bvaughn.github.io/forward-js-2017/#/16/0
  
  ### Testing
     
