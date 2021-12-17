@@ -572,6 +572,10 @@ https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-
  ## React virtualised concept
  https://bvaughn.github.io/forward-js-2017/#/16/0
  
+ 
+ ## redux vs context api
+ https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
+ 
  ### Testing
     
  - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
