@@ -1148,6 +1148,8 @@ class App extends Component {
 #### authorization vs authentication
 https://www.geeksforgeeks.org/difference-between-authentication-and-authorization/
 
+## how do you encode password 
+## https://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication
 #### que : how many redux store object can you have 
 
 #### que : how browser loads , how does it render css and how many times it will re-render
@@ -1223,9 +1225,11 @@ headers details
 
 more on how request is sent and read
 
-security issues
+## security issues
 
-### JWT  https://auth0.com/learn/json-web-tokens/
+## authenticate vs authorize
+	
+## JWT  https://auth0.com/learn/json-web-tokens/
      https://github.com/dwyl/learn-json-web-tokens
      https://www.youtube.com/watch?v=mbsmsi7l3r4
      
