@@ -1174,6 +1174,7 @@ shouldComponentUpdate(nextProps, nextState) {
 
 However, with PureComponent, it performs a shallow comparison of objects.
 
+	## react theme
 
 ### React Rendering performance and how can you improve it 
 
