@@ -1144,6 +1144,8 @@ class App extends Component {
 }
 
 ```
+## write reusable buttons
+https://codesandbox.io/s/beautiful-frog-hvlrc?file=/src/App.js
 
 #### authorization vs authentication
 https://www.geeksforgeeks.org/difference-between-authentication-and-authorization/
