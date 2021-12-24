@@ -63,6 +63,7 @@ https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock
 https://github.com/kentcdodds/js-mocking-fundamentals
 
 ## https://codesandbox.io/s/github/kentcdodds/testing-react-apps
+https://codesandbox.io/s/github/kentcdodds/testing-react-apps
 
 
 https://github.com/kentcdodds/testing-node-apps
