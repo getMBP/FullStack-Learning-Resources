@@ -59,3 +59,5 @@ https://learn.co/lessons/javascript-spies
 ## what is a mock
 https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock
 
+## understanding mocking 
+https://github.com/kentcdodds/js-mocking-fundamentals
