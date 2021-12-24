@@ -339,6 +339,8 @@ console.log(deepCompare(obj,obj));
 
 ```
 
+#### All microtasks are completed before any other event handling or rendering or any other macrotask takes place.
+
 ### event loop
 ```javascript
 
