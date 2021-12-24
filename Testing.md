@@ -56,5 +56,6 @@ https://abdulapopoola.com/2016/04/11/how-function-spies-work-in-javascript/
 
 https://learn.co/lessons/javascript-spies
 
-
+## what is a mock
+https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock
 
