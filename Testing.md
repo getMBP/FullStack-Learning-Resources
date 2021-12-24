@@ -66,3 +66,5 @@ https://github.com/kentcdodds/js-mocking-fundamentals
 
 
 https://github.com/kentcdodds/testing-node-apps
+
+https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples?file=/src/__tests__/on-change.js
