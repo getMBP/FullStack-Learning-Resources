@@ -1,6 +1,6 @@
 
 
-# CSS 
+#  CSS 
 
 https://www.w3.org/TR/
 https://way2tutorial.com/css/tutorial.php
@@ -8,18 +8,17 @@ https://www.youtube.com/playlist?list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe
 
 
 
-1) Absolute vs Relative vs fixed in depth
+**1) Absolute vs Relative vs fixed in depth**
 https://www.youtube.com/watch?v=jx5jmI0UlXU
 
 Both the "absolute" and "fixed" value take the element the value is applied to out of the document flow. 
 https://webplatform.github.io/docs/tutorials/absolute_and_fixed_positioning/
 
-
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position2
 https://www.w3.org/TR/CSS2/visuren.html
 
 
-que : how would you make this at the bottom?using relative,height of body
+**Que : How Would You Make This At The Bottom?Using Relative,Height Of Body**
 
 ~~~html
 <style>
@@ -54,13 +53,13 @@ This div element has position: relative;
 	
 ~~~
 
-2) 4 div in row , swap 3rd and 4th 
+**2) 4 div in row , swap 3rd and 4th **
 
-3) diff btw 3 div with relative and 3 div with absolute
+**3) diff btw 3 div with relative and 3 div with absolute**
 
 
-Absolute 
-
+**Absolute 
+**
 ```css
 
  #box_1 { 
@@ -114,7 +113,7 @@ Relative
 ```
 
 
-4) explain box model , box sizing 
+**4) explain box model , box sizing **
 
 https://www.bitdegree.org/learn/css-box-sizing#:~:text=Sizing%3A%20Useful%20Tips-,CSS%20Box%2DSizing%3A%20Main%20Tips,by%20using%20the%20resize%20property.
 https://www.w3schools.com/css/css3_box-sizing.asp
@@ -122,15 +121,8 @@ https://www.w3schools.com/css/css_boxmodel.asp
 https://www.w3schools.com/jsref/prop_style_boxsizing.asp
 https://learn.javascript.ru/box-sizing
 
-<div> <div>
-	
-div {
 
-}
-	
-
-
-5) diff between inline and inline-block
+**5) diff between inline and inline-block**
 
 Height and width won't work for display:inline but border,padding are respected
 Also, with display: inline, top and bottom margins are not respected, 
@@ -140,7 +132,7 @@ and with display: inline-block they are.
 https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_span1
 https://www.w3schools.com/cssref/pr_class_display.asp
 
-6) what is fixed positioning : what happens to width and height if you apply the fixed positioning on some element.
+**6) what is fixed positioning : what happens to width and height if you apply the fixed positioning on some element.**
 
 ```html
 <body>
@@ -153,13 +145,13 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 
 ```
 
-que : selectors :
+**que : selectors :**
 
 difference btw .class1 .class2 and .class1.class2 
 
 
-que : inline vs external,embedded vs internal css 
-between external vs embedded css, whichever comes later in html page will overide the css property 
+**que : inline vs external,embedded vs internal css 
+between external vs embedded css, whichever comes later in html page will overide the css property **
 
 inline wins among all styles
 
@@ -168,7 +160,7 @@ https://www.youtube.com/watch?v=PigxOyVDIQg&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoI
 https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_multiple
 
 
-que : how to centre a div inside another div
+**que : how to centre a div inside another div**
 https://www.youtube.com/watch?v=ZohZS6xLYE4&list=PL7pEw9n3GkoWn5TcqAdmSzXcvC3d_tfAh&index=3
 https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute
 
@@ -201,43 +193,43 @@ div.child {
 
 ```
 
-### que : semantic html elements and their order 
+####  que : semantic html elements and their order 
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
-### que : lazy loading images
+#### que : lazy loading images que : lazy loading images
 https://app.pluralsight.com/player?course=responsive-web-design-images-sliders&author=paul-cheney&name=responsive-web-design-images-sliders-m8&clip=0&mode=live
 
 
-### css psuedo classes and psuedo elements
+#### css psuedo classes and psuedo elements
 https://www.w3schools.com/css/css_pseudo_classes.asp
 https://www.w3schools.com/css/css_pseudo_elements.asp
 
-### que : view port units
+#### que : view port units
 https://www.youtube.com/watch?v=_sgF8I-Q1Gs
 https://www.youtube.com/watch?v=JANETBQZJ8E
 
 
-### que : css visibility vs display none
+#### que : css visibility vs display none
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_visibility
 
 
-### que : what is css reset
+#### que : what is css reset
 
-### que : what is css flexbox
+#### que : what is css flexbox
 https://www.w3schools.com/css/css3_flexbox.asp
 
-### que : css display
+#### que : css display
 https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=table
 
-## que : display and hidden
+#### que : display and hidden
 https://alistapart.com/article/now-you-see-me/
 https://www.w3schools.com/css/css_display_visibility.asp
 https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone
 
-### que : what is css variable 
+#### que : what is css variable 
 https://www.youtube.com/watch?v=xeMMAx7hWYQ&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=29
 
-### Que : Media queries
+#### Que : Media queries
 https://www.w3.org/TR/mediaqueries-4/
 https://responsivebreakpoints.com/
 
@@ -245,18 +237,18 @@ are media queries enough to make page responsive
 
 
 
-### Que : css units
+#### Que : css units
 https://www.youtube.com/watch?v=unj9nAeYU1Q
 
-### Que : how many ways to center a div
+#### Que : how many ways to center a div
 https://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally
 
 
-### visibility:hidden vs display:none vs opacity:0
+#### visibility:hidden vs display:none vs opacity:0
 
 https://stackoverflow.com/questions/14731049/visibilityhidden-vs-displaynone-vs-opacity0
 
-## HTML5
+# HTML5
 
 https://html.spec.whatwg.org/
 
@@ -522,21 +514,21 @@ var promises = [];
  ```
 
 
-que1 
+#### que1 
 // Function to remove two adjacent duplicate characters from a string.
 // let str = 'abbbbaca';
 // output: 'ca'
 
-### que 2:
+#### que 2:
 Singleton pattern
 
 
-### que 3 :
+#### que 3 :
 
 explain the diff between promise and observable
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 
-### que :
+#### que :
  merge two arrays , remove duplicates and all positive ids only and in sorting order
  
  arr1 = [{id:1},{id:4},{id:2},{id:6}]
@@ -544,7 +536,7 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pr
 
 use this : https://reactgo.com/removeduplicateobjects/
 
-### que : 
+#### que : 
 
 flat a nested array 
 
@@ -564,17 +556,17 @@ https://medium.com/dailyjs/flatten-array-using-array-flat-in-javascript-ee4d0b24
 https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays
 
 
-### que : session storage vs local storage
+#### que : session storage vs local storage
 https://javascript.info/localstorage
 https://www.youtube.com/watch?v=MOd5cTJ6kaA
 
 
-### que : how to compare two objects
+#### que : how to compare two objects
 
-### que : how does json.stringify works
+#### que : how does json.stringify works
 
 
-### que : cors
+#### que : cors
 
 https://www.test-cors.org/
 
@@ -592,14 +584,13 @@ https://fetch.spec.whatwg.org/#http-cors-protocol
 
 //get request Origin: http://localhost:3000
 
-fetch("http://localhost:3000/api/person/:1") 
-	.then((resp) => resp.json()) // Transform the data into json
-	.then(function(data) {
-					
-	   console.log(data)
-
-        })
-
+```js
+    fetch("http://localhost:3000/api/person/:1") 
+    .then((resp) => resp.json()) // Transform the data into json
+    .then(function(data) {
+     console.log(data)
+         })
+```
 //gives cors error , unless you allow it on server
 //Origin: http://localhost:3000
 
@@ -637,22 +628,22 @@ fetch("http://localhost:4000/api/person/:1") //http://localhost:4000/api/person/
  },5000)
  
  ```
-### fetch api
+#### fetch api
 https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
 
-### que : http headers
+#### que : http headers
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 
-### que :async vs defer
+#### que :async vs defer
 https://www.youtube.com/watch?v=IrHmpdORLu8&list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0&index=11
 
-### que : can we return a closure from closure 
+#### que : can we return a closure from closure 
 
 
-### que : types in javascript and how to test them
+#### que : types in javascript and how to test them
 
-### Que :InstanceOf
+#### Que :InstanceOf
 https://javascript.info/instanceof
 
 obj instanceOf Class checks whether Class.prototype equals to one of prototypes in the obj prototype chain.
@@ -679,10 +670,10 @@ alert( rabbit instanceof Rabbit ); // false
 
 ```
 
-### Que : types and typeof
+#### Que : types and typeof
 https://javascript.info/types
 
-### Que :currying (advance currying)
+#### Que :currying (advance currying)
 https://javascript.info/currying-partials
 
 ```js
@@ -722,7 +713,7 @@ console.log(a);
 
 ````
 
-### que : sort in javascript and how it works internally
+#### que : sort in javascript and how it works internally
 
 The sort() method sorts the elements of an array in place and returns the sorted array. 
 The default sort order is ascending, built upon converting the elements into strings, 
@@ -757,11 +748,11 @@ If compareFunction(a, b) returns greater than 0, sort b to an index lower than a
 
 
  
-### que : how to merge two objects 
+#### que : how to merge two objects 
 https://flaviocopes.com/how-to-merge-objects-javascript/
 https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically
 
-### que : shallow merge vs deep merge 
+#### que : shallow merge vs deep merge 
 https://dmitripavlutin.com/how-to-compare-objects-in-javascript/
 
 
@@ -800,29 +791,29 @@ https://abdulapopoola.com/2017/02/27/what-you-didnt-know-about-json-stringify/
 
 The JSON.stringify(..) utility will automatically omit undefined, function, and symbol values when it comes across them. If such a value is found in an array, that value is replaced by null (so that the array position information isn't altered). If found as a property of an object, that property will simply be excluded.
 
-### que : types of error in Javascript
+#### que : types of error in Javascript
 
 
-### que : how persistent is local storage 
+#### que : how persistent is local storage 
 https://stackoverflow.com/questions/9948284/how-persistent-is-localstorage
 
 
-### que : describe prototypal inheritance 
+#### que : describe prototypal inheritance 
 https://javascript.info/prototype-inheritance
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
 
 
-### que : types of javascript errors 
+#### que : types of javascript errors 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
 
 
-### que : Inheritance in Javascript
+#### que : Inheritance in Javascript
 https://tylermcginnis.com/javascript-inheritance-and-the-prototype-chain/
 
-### public vs private field
+#### public vs private field
 https://tylermcginnis.com/javascript-private-and-public-class-fields/
 
-### how to fetch data correctly using proise or async await
+#### how to fetch data correctly using proise or async await
 
 ```javascript
 
