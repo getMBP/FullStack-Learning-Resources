@@ -61,3 +61,6 @@ for (var property1 in res.__proto__) {
 ```
 
 //decorators, target, key, desc
+
+## dependency injection
+https://levelup.gitconnected.com/dependency-injection-in-typescript-5fd1f6207f2
