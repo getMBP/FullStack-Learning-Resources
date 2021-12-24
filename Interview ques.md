@@ -378,14 +378,22 @@ console.log("macro [8] end");
 
 ```js
 
+// output : b , c ,a
 
 setTimeout(()=>{
 
- console.log('hello')
+ console.log('a')
 
 },0)
 
-Promise.resolve('success').then(()=>console.log('promise'))
+Promise.resolve('success').then(()=>console.log('b'))
+
+new Promise((res,rej)=>{
+    res('c')
+})
+.then((response)=>{
+    console.log(response)
+})
 
 ```
 
