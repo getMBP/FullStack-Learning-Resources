@@ -357,6 +357,18 @@ setTimeout(()=>{
 ### event loop
 ```javascript
 
+/*
+
+a > end >
+  d > h > d > h > d > h > 
+    newP > newP >newP
+     b > 
+       e > c > e >
+          g> 
+	    f>f>f
+
+*/
+
 console.log('stack [1] a');
 setTimeout(() => console.log("macro [2] b"), 0);
 setTimeout(() => console.log("macro [3] c"), 1);
@@ -364,17 +376,34 @@ setTimeout(() => console.log("macro [3] c"), 1);
 const resolvedPromise = Promise.resolve();
 for(let i = 0; i < 3; i++) {
     resolvedPromise.then(() => {
-        console.log('stack [4] d')
+        console.log('stack [4] d');
+	
+	//micro
+        new Promise((res,rej)=>{
+            res('newP')
+        })
+        .then((response)=>{
+            console.log(response)
+        });
+	
         setTimeout(() => {
-            console.log('stack [5] e')
-            setTimeout(() => console.log("macro [5] f"), 0);
-            p.then(() => console.log('micro [6] g'));
+            console.log('stack [5] e') //stack
+            setTimeout(() => console.log("macro [5] f"), 0); //macro
+            resolvedPromise.then(() => console.log('micro [6] g')); //micro
         }, 0);
+	
        console.log("stack [7] h");
   });
 }
 
-console.log("macro [8] end");
+console.log("macro [8] end")
+
+/*
+   stack : a , end 
+   [           ] microtask
+   [           ] macrotask
+
+*/
 
 ```
 
