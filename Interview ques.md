@@ -352,6 +352,43 @@ setTimeout(()=>{
 
 ```
 
+### event loop
+```javascript
+
+console.log('stack [1] a');
+setTimeout(() => console.log("macro [2] b"), 0);
+setTimeout(() => console.log("macro [3] c"), 1);
+
+const resolvedPromise = Promise.resolve();
+for(let i = 0; i < 3; i++) {
+    resolvedPromise.then(() => {
+        console.log('stack [4] d')
+        setTimeout(() => {
+            console.log('stack [5] e')
+            setTimeout(() => console.log("macro [5] f"), 0);
+            p.then(() => console.log('micro [6] g'));
+        }, 0);
+       console.log("stack [7] h");
+  });
+}
+
+console.log("macro [8] end");
+
+```
+
+```js
+
+
+setTimeout(()=>{
+
+ console.log('hello')
+
+},0)
+
+Promise.resolve('success').then(()=>console.log('promise'))
+
+```
+
 ### for event loop refer
 
 https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
