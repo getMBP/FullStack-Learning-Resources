@@ -230,6 +230,14 @@ https://www.youtube.com/watch?v=SIdzhrynNbM
 
 https://www.youtube.com/watch?v=WxYpdw5ELrU
 
+https://medium.com/@Fcmam5/im-learning-front-end-development-again-part-1-browser-rendering-optimization-c8359ee90c40
+
+https://hacks.mozilla.org/2017/05/quantum-up-close-what-is-a-browser-engine/ (best)
+
+https://uxdesign.cc/the-amazing-world-of-browser-performance-how-to-be-performant-44f8749b3617
+
+###### Analyzing Critical Rendering Path Performance 
+https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp
 
 ## https
 
@@ -252,7 +260,9 @@ https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/
 https://seosly.com/tools-to-measure-core-web-vitals/
 
 
+#### web push notification
 
+https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d
 
 
 
