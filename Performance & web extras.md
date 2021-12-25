@@ -236,6 +236,14 @@ https://hacks.mozilla.org/2017/05/quantum-up-close-what-is-a-browser-engine/ (be
 
 https://uxdesign.cc/the-amazing-world-of-browser-performance-how-to-be-performant-44f8749b3617
 
+https://hpbn.co/optimizing-application-delivery/
+
+https://www.aosabook.org/en/posa/high-performance-networking-in-chrome.html
+
+https://www.oscprofessionals.com/blog/how-to-reduce-the-number-of-dom-elements/
+
+
+
 ###### Analyzing Critical Rendering Path Performance 
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp
 
@@ -264,6 +272,15 @@ https://seosly.com/tools-to-measure-core-web-vitals/
 
 https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d
 
+https://developers.google.com/web/fundamentals/push-notifications/how-push-works
+
+#### DNS 
+
+https://www.cloudflare.com/en-in/learning/dns/what-is-dns/
+
+https://www.imperva.com/learn/performance/prefetching/
+
+http://www.7loops.com/dns-prefetch-vs-preconnect/
 
 
 
