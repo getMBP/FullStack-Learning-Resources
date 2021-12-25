@@ -172,6 +172,7 @@ Paint paints the elements with colors, backgrounds, shadows, etc.
 ```
 
 best
+
 https://www.youtube.com/watch?v=n1cKlKM3jYI&t=8s
 
 https://vuejsdevelopers.com/2017/07/24/critical-css-webpack/
@@ -194,6 +195,7 @@ https://egghead.io/courses/javascript-performance-d980
 
 https://frontendmasters.com/courses/web-perf/
 
+https://www.toptal.com/web/website-performance-critical-rendering-path
 
 (best)
 https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/
@@ -236,6 +238,21 @@ https://www.youtube.com/watch?v=5b7qNYCrHWg&t=134s
 
 ## preload 
 https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/
+
+## web core vital
+
+https://akshayranganath.github.io/Understanding-And-Using-Core-Web-Vitals/
+
+https://web.dev/vitals/
+
+https://builtvisible.com/googles-page-experience-update-and-core-web-vitals-everything-you-need-to-know/ (best)
+
+https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/
+
+https://seosly.com/tools-to-measure-core-web-vitals/
+
+
+
 
 
 
