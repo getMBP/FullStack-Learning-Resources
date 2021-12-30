@@ -257,6 +257,7 @@ https://www.youtube.com/watch?v=5b7qNYCrHWg&t=134s
 ## preload 
 https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/
 https://engineering.sift.com/preloading-javascript-split-files/
+https://addyosmani.com/blog/preload-hero-images/
 
 ## preconnect, prefetch, preload
 https://www.youtube.com/watch?v=S0LuakIy65Y
