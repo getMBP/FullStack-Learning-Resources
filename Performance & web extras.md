@@ -246,6 +246,8 @@ https://www.oscprofessionals.com/blog/how-to-reduce-the-number-of-dom-elements/
 
 https://github.com/charliegerard/dev-notes/blob/master/frontEnd/CriticalRenderingPath.md
 
+https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a
+
 
 
 ###### Analyzing Critical Rendering Path Performance 
