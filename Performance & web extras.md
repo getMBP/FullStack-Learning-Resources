@@ -262,6 +262,8 @@ https://www.youtube.com/watch?v=S0LuakIy65Y
 
 https://stackoverflow.com/questions/47273743/preconnect-vs-dns-prefetch-resource-hints
 
+https://stackoverflow.com/questions/39629343/how-do-you-test-the-effects-of-dns-prefetch-and-preconnect
+
 ## web core vital
 
 https://akshayranganath.github.io/Understanding-And-Using-Core-Web-Vitals/
