@@ -291,5 +291,6 @@ https://www.imperva.com/learn/performance/prefetching/
 
 http://www.7loops.com/dns-prefetch-vs-preconnect/
 
-
+## next.js vs react
+https://www.youtube.com/watch?v=_otTkX0RApI&list=PLYxzS__5yYQmtffOzMwP-GSB8PIW_ASGj
 
