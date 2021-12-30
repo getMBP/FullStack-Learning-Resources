@@ -270,6 +270,10 @@ https://developpaper.com/asynchronous-loading-and-preloading-for-depth-analysis/
 
 https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
 
+https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/
+https://www.debugbear.com/blog/resource-hints-rel-preload-prefetch-preconnect
+
+
 ## web core vital
 
 https://akshayranganath.github.io/Understanding-And-Using-Core-Web-Vitals/
