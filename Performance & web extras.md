@@ -158,8 +158,7 @@ https://www.youtube.com/watch?v=YJGCZCaIZkQ
 
 https://v8.dev/blog/code-caching-for-devs
 
-## preconnect, prefetch, preload
-https://www.youtube.com/watch?v=S0LuakIy65Y
+
 
 ## browser render 
 
@@ -257,6 +256,11 @@ https://www.youtube.com/watch?v=5b7qNYCrHWg&t=134s
 
 ## preload 
 https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/
+
+## preconnect, prefetch, preload
+https://www.youtube.com/watch?v=S0LuakIy65Y
+
+https://stackoverflow.com/questions/47273743/preconnect-vs-dns-prefetch-resource-hints
 
 ## web core vital
 
