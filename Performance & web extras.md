@@ -266,6 +266,10 @@ https://stackoverflow.com/questions/47273743/preconnect-vs-dns-prefetch-resource
 
 https://stackoverflow.com/questions/39629343/how-do-you-test-the-effects-of-dns-prefetch-and-preconnect
 
+https://developpaper.com/asynchronous-loading-and-preloading-for-depth-analysis/
+
+https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
+
 ## web core vital
 
 https://akshayranganath.github.io/Understanding-And-Using-Core-Web-Vitals/
