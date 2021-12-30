@@ -158,6 +158,9 @@ https://www.youtube.com/watch?v=YJGCZCaIZkQ
 
 https://v8.dev/blog/code-caching-for-devs
 
+## preconnect, prefetch, preload
+https://www.youtube.com/watch?v=S0LuakIy65Y
+
 ## browser render 
 
 ```
