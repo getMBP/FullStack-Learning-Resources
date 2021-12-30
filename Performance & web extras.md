@@ -244,6 +244,8 @@ https://www.aosabook.org/en/posa/high-performance-networking-in-chrome.html
 
 https://www.oscprofessionals.com/blog/how-to-reduce-the-number-of-dom-elements/
 
+https://github.com/charliegerard/dev-notes/blob/master/frontEnd/CriticalRenderingPath.md
+
 
 
 ###### Analyzing Critical Rendering Path Performance 
