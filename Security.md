@@ -10,6 +10,7 @@ https://medium.com/@ttcphilips/securing-your-php-web-application-using-synchroni
 ## XSS
 
 https://www.cyberpunk.rs/cross-site-scripting-xss-explanation-details
+https://xss.pwnfunction.com/
 
 ## csp
 
