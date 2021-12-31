@@ -47,6 +47,10 @@ https://bitsofco.de/what-is-tree-shaking/
 
 https://engineering.wingify.com/posts/demystifying-split-chunks-plugin/
 
+## loaders vs plugin
+
+https://stackoverflow.com/questions/37452402/webpack-loaders-vs-plugins-whats-the-difference
+
 ### npm
 
 **Introduction to npm as a Build Tool**
