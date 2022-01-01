@@ -7,6 +7,8 @@ https://www.twilio.com/blog/2018/01/protect-your-node-js-app-from-cross-site-req
 
 https://medium.com/@ttcphilips/securing-your-php-web-application-using-synchronizer-token-pattern-6f66104fbe3f
 
+https://www.youtube.com/watch?v=AHV9ThkRT9w&list=PLJ18l2m4Gsa_d-WrmQYi6AcjQCxRZ0wG1&index=28
+
 ## XSS
 
 https://www.cyberpunk.rs/cross-site-scripting-xss-explanation-details
