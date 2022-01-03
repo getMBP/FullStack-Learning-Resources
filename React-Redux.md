@@ -592,7 +592,7 @@ https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-
  
  https://www.youtube.com/watch?v=2tJedF8I-8Q
  
- 
+ https://medium.com/@tannerlinsley/%EF%B8%8F-introducing-react-static-a-progressive-static-site-framework-for-react-3470d2a51ebc
  
  
  ### Testing
