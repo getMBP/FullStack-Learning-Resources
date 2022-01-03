@@ -576,6 +576,25 @@ https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-
  ## redux vs context api
  https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
  
+ 
+ ## react static 
+ 
+ https://developers.google.com/web/updates/2019/02/rendering-on-the-web
+ 
+ https://www.youtube.com/watch?v=KvlTVZPlmgs
+ https://www.youtube.com/watch?v=YzPDzWM_k_8
+ 
+ https://www.youtube.com/watch?v=pY0vWYLDDco
+ 
+ https://github.com/react-static/react-static
+ 
+ https://medium.com/@tannerlinsley/%EF%B8%8F-introducing-react-static-a-progressive-static-site-framework-for-react-3470d2a51ebc
+ 
+ https://www.youtube.com/watch?v=2tJedF8I-8Q
+ 
+ 
+ 
+ 
  ### Testing
     
  - **FrontendMasters Testing JavaScript Applications (feat. React and Redux)**
