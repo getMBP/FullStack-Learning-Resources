@@ -378,7 +378,7 @@ https://www.youtube.com/watch?v=llRpC--KA_8
    
    - ***hooks flow***
    https://github.com/donavon/hook-flow
-   
+   https://szaranger.medium.com/things-to-avoid-when-using-react-hooks-49dab7bf4ea
    
 - ***getDerivedStateFromProps - actual implementation***
 https://github.com/reactjs/react-transition-group/blob/master/src/SwitchTransition.js
@@ -576,6 +576,7 @@ https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-
  ## redux vs context api
  https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
  
+
  
  ## react static 
  
