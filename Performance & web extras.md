@@ -290,6 +290,8 @@ https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/
 
 https://seosly.com/tools-to-measure-core-web-vitals/
 
+https://www.woorank.com/en/core-web-vitals/first-input-delay-explained
+
 
 #### web push notification
 
