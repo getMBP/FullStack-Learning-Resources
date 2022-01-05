@@ -164,7 +164,7 @@ http://www.barelyfitz.com/screencast/html-training/css/positioning/
 
 
 
-Libraries source code to learn css
+## Libraries source code to learn css
 
 https://daneden.github.io/animate.css/
 https://github.com/daneden/animate.css
@@ -175,10 +175,12 @@ http://ianlunn.github.io/Hover/
 
 
 
-SCSS 
+## SCSS 
 https://css-tricks.com/the-sass-ampersand/
 
 
-
+## css examples 
+  https://www.w3schools.com/css/css_examples.asp
+  
 
 
