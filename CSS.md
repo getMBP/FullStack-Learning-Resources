@@ -183,4 +183,7 @@ https://css-tricks.com/the-sass-ampersand/
   https://www.w3schools.com/css/css_examples.asp
   
 
-
+## extras 
+  
+ ## css channel
+  https://www.youtube.com/kepowob
