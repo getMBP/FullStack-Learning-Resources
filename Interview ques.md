@@ -1653,6 +1653,7 @@ https://github.com/reactjs/react-modal/blob/master/src/components/ModalPortal.js
 ## write a emitter class
 https://codesandbox.io/s/romantic-forest-rpdkd?file=/src/index.js
 
+https://stackoverflow.com/questions/62502954/how-to-create-reusable-custom-modal-component-in-react
   
   ### HTML Spec :
   
