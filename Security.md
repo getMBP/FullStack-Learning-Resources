@@ -21,3 +21,7 @@ http://blog.opensecurityresearch.com/2011/12/evading-content-security-policy-wit
 
 https://medium.com/@bhaveshthakur2015/content-security-policy-csp-bypass-techniques-e3fa475bfe5d
 https://www.youtube.com/watch?v=J90t0h0AP1U
+
+https://web.dev/strict-csp/
+
+https://web.dev/security-headers/
