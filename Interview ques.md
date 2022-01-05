@@ -1641,6 +1641,18 @@ function promisify(func) {
 </rectangle>
 
 
+## react
+
+how would you implement a modal from scratch , what would be the props
+https://github.com/reactjs/react-modal/blob/master/src/components/ModalPortal.js
+
+
+
+## class 
+
+## write a emitter class
+https://codesandbox.io/s/romantic-forest-rpdkd?file=/src/index.js
+
   
   ### HTML Spec :
   
