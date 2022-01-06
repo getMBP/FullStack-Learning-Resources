@@ -576,7 +576,8 @@ https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-
  ## redux vs context api
  https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
  
-
+## react event emitter
+https://lolahef.medium.com/react-event-emitter-9a3bb0c719
  
  ## react static 
  
