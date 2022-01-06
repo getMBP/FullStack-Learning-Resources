@@ -1646,7 +1646,13 @@ function promisify(func) {
 how would you implement a modal from scratch , what would be the props
 https://github.com/reactjs/react-modal/blob/master/src/components/ModalPortal.js
 
+## how would you write a two way binding in vanilla js
 
+
+## integrating react with other library
+
+
+## design patterns in javascript
 
 ## class 
 
