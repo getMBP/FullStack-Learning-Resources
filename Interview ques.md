@@ -1664,8 +1664,14 @@ https://stackoverflow.com/questions/62502954/how-to-create-reusable-custom-modal
 
 ``js
 
-const input = [4,1,2,7,5,8,9,10,3,6]
-expected output = [[9,10],[7,8] , [5,6],[3,4],[1,2]]
+input = [4,1,2,7,5,8,9,10,3,6]
+expected output = [
+  [9, 10],
+  [7, 8],
+  [5, 6],
+  [3, 4],
+  [1, 2],
+]
 
 input.sort((x,y)=> x-y)
 const res = []
@@ -1676,6 +1682,7 @@ for(let i =0;i<input.length ; i=i+2){
 
 console.log(res)
 
+ 
 ``
   
   ### HTML Spec :
