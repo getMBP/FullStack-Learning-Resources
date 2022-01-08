@@ -301,6 +301,8 @@ https://seosly.com/tools-to-measure-core-web-vitals/
 
 https://www.woorank.com/en/core-web-vitals/first-input-delay-explained
 
+#### http2 vs http 1.1
+https://www.greenlanemarketing.com/resources/articles/seo-101-http-vs-http2/
 
 #### web push notification
 
