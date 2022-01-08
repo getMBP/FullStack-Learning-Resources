@@ -172,6 +172,15 @@ The layout does the maths for placing the elements
 Paint paints the elements with colors, backgrounds, shadows, etc.
 
 ```
+## responsive images
+
+https://cloudfour.com/thinks/responsive-images-101-part-3-srcset-display-density/
+
+## courses
+
+https://www.linkedin.com/learning/developing-for-web-performance/
+
+
 
 best
 
