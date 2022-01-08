@@ -165,6 +165,8 @@ https://v8.dev/blog/code-caching-for-devs
 
 ## browser render 
 
+https://www.slideshare.net/sanjay1909/react-internals-batching-write-operations-by-tree-traversal-214264321
+
 ```
 HTML Parsing: HTML Text -> Tokenization -> DOM Tree
 CSS Parsing: CSS Text -> Tokenization -> CSSOM Tree
