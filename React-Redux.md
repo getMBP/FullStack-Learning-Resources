@@ -4,9 +4,12 @@
 ### Master React
 
 - **React Internals**
+
 https://www.youtube.com/watch?v=f2mMOiCSj5c
 
 https://www.youtube.com/watch?v=Z7ysKNFrMqo
+
+https://www.youtube.com/watch?v=8XSs2GdhYsc&list=PLIJRjvch2ZlUHDQiMjs5CPHkials-gYtb&index=4 (good)
 
 
 - **Curated tutorial and resource links by markerikson**
