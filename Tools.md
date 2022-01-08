@@ -20,6 +20,16 @@ https://github.com/babel/example-node-server
 
 ### Webpack
 
+https://imranhsayed.medium.com/webpack-behind-the-scenes-85333a23c0f6
+
+https://www.youtube.com/watch?v=gEBUU6QfVzk
+
+https://www.youtube.com/watch?v=ITb8nfMXeEo
+
+https://www.youtube.com/watch?v=5IG4UmULyoA
+https://www.youtube.com/watch?v=3DVhJYN7lOA
+
+
 **Webpack 2: The Complete Developer's Guide | Udemy**
 https://www.udemy.com/webpack-2-the-complete-developers-guide/
 
