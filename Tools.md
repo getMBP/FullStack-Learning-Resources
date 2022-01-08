@@ -12,13 +12,32 @@ https://hackernoon.com/the-ultimate-list-of-javascript-tools-e0a5351b98e3
 **Babel: Get Started | Pluralsight**
 https://www.pluralsight.com/courses/babel-get-started 
 
+#### How to get polyfills with Babel 7 and Webpack
+https://www.youtube.com/watch?v=YXtQms2msZQ
+
 
 **Building a JavaScript Development Environment | Pluralsight**
 https://www.pluralsight.com/courses/javascript-development-environment
 
+#### How JavaScript works: The internals of classes and inheritance + transpiling in Babel and TypeScript
+https://blog.sessionstack.com/how-javascript-works-the-internals-of-classes-and-inheritance-transpiling-in-babel-and-113612cdc220
+
+#### Build Your Own Babel Plugin
+https://www.youtube.com/watch?v=aK6n0pYcOe8
+
 https://github.com/babel/example-node-server
 
-### Webpack
+## Webpack
+
+#### Webpack author Tobias Koppers: How Webpack works
+https://www.youtube.com/watch?v=CA-upQKYjYc&t=2202s
+
+## bundle analyzer
+https://www.youtube.com/watch?v=oAgHZ9zlmaY
+
+## Webpack Bundle Analyzer with Create React App without ejecting
+https://www.youtube.com/watch?v=l7MEgaGPjFc&t=362s
+
 
 https://www.youtube.com/playlist?list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8
 
