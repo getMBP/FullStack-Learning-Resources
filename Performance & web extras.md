@@ -306,6 +306,12 @@ https://www.greenlanemarketing.com/resources/articles/seo-101-http-vs-http2/
 
 https://factoryhr.medium.com/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
 
+https://www.wallarm.com/what/what-is-http-2-and-how-is-it-different-from-http-1
+
+https://faun.pub/http-2-spdy-and-http-3-quic-bae7d9a3d484
+
+https://building.lang.ai/our-journey-from-websockets-to-http-2-4d069c54effd
+
 #### web push notification
 
 https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d
