@@ -38,6 +38,14 @@ https://www.youtube.com/watch?v=oAgHZ9zlmaY
 ## Webpack Bundle Analyzer with Create React App without ejecting
 https://www.youtube.com/watch?v=l7MEgaGPjFc&t=362s
 
+#### Webpack — The Confusing Parts
+https://rajaraodv.medium.com/webpack-the-confusing-parts-58712f8fcad9
+
+#### hot module replacement
+https://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack
+
+#### loaders vs plugin
+https://stackoverflow.com/questions/37452402/webpack-loaders-vs-plugins-whats-the-difference
 
 https://www.youtube.com/playlist?list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8
 
