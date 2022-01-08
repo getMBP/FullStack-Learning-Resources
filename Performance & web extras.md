@@ -167,6 +167,10 @@ https://v8.dev/blog/code-caching-for-devs
 
 https://www.slideshare.net/sanjay1909/react-internals-batching-write-operations-by-tree-traversal-214264321
 
+#### Rendering on the Web: Performance Implications of Application Architecture
+https://www.youtube.com/watch?v=k-A2VfuUROg
+
+
 ```
 HTML Parsing: HTML Text -> Tokenization -> DOM Tree
 CSS Parsing: CSS Text -> Tokenization -> CSSOM Tree
