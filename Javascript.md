@@ -2460,6 +2460,11 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pr
 - **Even with async/await, raw promises are still key to writing optimal concurrent javascript**
 https://medium.com/@bluepnume/even-with-async-await-you-probably-still-need-promises-9b259854c161)
 
+#### interators and generators
+
+https://blog.sessionstack.com/how-javascript-works-iterators-tips-on-gaining-advanced-control-over-generators-41dc3eb3bc20
+	
+	
 
 ## Event Loop 
 
