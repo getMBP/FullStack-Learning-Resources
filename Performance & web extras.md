@@ -332,3 +332,9 @@ http://www.7loops.com/dns-prefetch-vs-preconnect/
 ## next.js vs react
 https://www.youtube.com/watch?v=_otTkX0RApI&list=PLYxzS__5yYQmtffOzMwP-GSB8PIW_ASGj
 
+
+#### v8
+
+https://www.youtube.com/watch?v=4lYDlrjUx48&list=PLIJRjvch2ZlUHDQiMjs5CPHkials-gYtb&index=6
+
+
