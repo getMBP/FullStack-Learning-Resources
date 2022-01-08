@@ -2417,6 +2417,8 @@ bindClick(function(){
 
 - **The event loop and the rise of Async programming + 5 ways to better coding with async/await**
 
+#### How JavaScript works: Event loop and the rise of Async programming + 5 ways to better coding with async/await
+https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
 
 https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
 
