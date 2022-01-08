@@ -304,6 +304,8 @@ https://www.woorank.com/en/core-web-vitals/first-input-delay-explained
 #### http2 vs http 1.1
 https://www.greenlanemarketing.com/resources/articles/seo-101-http-vs-http2/
 
+https://factoryhr.medium.com/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
+
 #### web push notification
 
 https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d
