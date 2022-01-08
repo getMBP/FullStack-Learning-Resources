@@ -280,6 +280,13 @@ https://engineering.sift.com/preloading-javascript-split-files/
 https://addyosmani.com/blog/preload-hero-images/
 
 ## preconnect, prefetch, preload
+
+#### dns prefetch
+https://www.ctrl.blog/entry/dns-prefetch-preconnect.html
+
+https://so-so.dev/web/index-html-1/
+
+
 https://www.youtube.com/watch?v=S0LuakIy65Y
 
 https://stackoverflow.com/questions/47273743/preconnect-vs-dns-prefetch-resource-hints
@@ -288,15 +295,43 @@ https://stackoverflow.com/questions/39629343/how-do-you-test-the-effects-of-dns-
 
 https://developpaper.com/asynchronous-loading-and-preloading-for-depth-analysis/
 
+#### preconnect, prefetch, prerender, preloading
+https://ymatuhin.ru/front-end/html5-link-prefetch/
+
+#### Preload, Prefetch And Priorities in Chrome (best)
 https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
+
+#### Preload critical assets to improve loading speed
+https://web.dev/preload-critical-assets/
+
+#### What are Preload Resource Hints?
+https://rigor.com/blog/what-are-preload-resource-hints/
+
+https://3perf.com/talks/web-perf-101
 
 https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/
 https://www.debugbear.com/blog/resource-hints-rel-preload-prefetch-preconnect
 
+#### Eliminating Roundtrips with Preconnect (great)
+https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/
 
 ## web core vital
 
+
+#### Understanding and using Core Web Vitals
 https://akshayranganath.github.io/Understanding-And-Using-Core-Web-Vitals/
+
+#### How to audit Core Web Vitals
+https://searchengineland.com/how-to-audit-core-web-vitals-346076
+
+#### Google’s Page Experience Update and Core Web Vitals: Everything you need to know
+https://builtvisible.com/googles-page-experience-update-and-core-web-vitals-everything-you-need-to-know/
+
+#### Core Web Vitals — ️A Google Initiative to measure performance
+https://yuvrajpy.medium.com/core-web-vitals-%EF%B8%8Fa-google-initiative-to-measure-performance-130a189cecfd
+
+#### How to improve your Google Core Web Vitals Scores?
+https://medium.com/techbeatly/how-to-improve-your-google-core-web-vitals-scores-a67b20639c98
 
 https://web.dev/vitals/
 
@@ -327,7 +362,14 @@ https://developers.google.com/web/fundamentals/push-notifications/how-push-works
 
 #### DNS 
 
+#### What is DNS? | How DNS works
 https://www.cloudflare.com/en-in/learning/dns/what-is-dns/
+
+#### Understanding Web Browser DNS Lookup
+https://www.ccnahub.com/ip-fundamentals/understanding-web-browser-dns-lookup/
+
+#### DNS Lookups Explained
+http://www.steves-internet-guide.com/dns-lookups/
 
 https://www.imperva.com/learn/performance/prefetching/
 
