@@ -1,3 +1,6 @@
+## web perf
+https://3perf.com/talks/web-perf-101
+
 ## memory leaks
 https://web.dev/detached-window-memory-leaks/
 https://t.co/NzwH8a6v6i
@@ -179,10 +182,11 @@ https://cloudfour.com/thinks/responsive-images-101-part-3-srcset-display-density
 ## courses
 
 https://www.linkedin.com/learning/developing-for-web-performance/
+https://www.udacity.com/course/website-performance-optimization--ud884
+https://frontendmasters.com/courses/web-perf/
 
 
-
-best
+#### best
 
 https://www.youtube.com/watch?v=n1cKlKM3jYI&t=8s
 
@@ -196,15 +200,12 @@ https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 
 https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp
 
-https://www.udacity.com/course/website-performance-optimization--ud884
-
 https://developers.google.com/web/updates/2018/09/inside-browser-part1
 
 https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/
 
 https://egghead.io/courses/javascript-performance-d980
 
-https://frontendmasters.com/courses/web-perf/
 
 https://www.toptal.com/web/website-performance-critical-rendering-path
 
