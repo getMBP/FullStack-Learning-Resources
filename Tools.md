@@ -58,6 +58,9 @@ https://www.youtube.com/watch?v=ITb8nfMXeEo
 https://www.youtube.com/watch?v=5IG4UmULyoA
 https://www.youtube.com/watch?v=3DVhJYN7lOA
 
+#### Webpack Tutorial: Understanding How it Works
+https://blog.ag-grid.com/webpack-tutorial-understanding-how-it-works/
+
 
 **Webpack 2: The Complete Developer's Guide | Udemy**
 https://www.udemy.com/webpack-2-the-complete-developers-guide/
