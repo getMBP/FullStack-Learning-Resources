@@ -8,6 +8,12 @@ https://github.com/WebDevSimplified/Learn-GraphQL
 #### graphql server 
 https://codesandbox.io/s/e3x06
 
+## learn from public api
+https://graphql.bitquery.io/ide/T5ccItmLLj
+
+https://github.com/APIs-guru/graphql-apis
+
+
 ## 
 https://hasura.io/learn/graphql/react/intro-to-graphql/1-architecture/
 
