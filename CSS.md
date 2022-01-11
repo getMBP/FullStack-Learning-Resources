@@ -110,7 +110,9 @@ https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/
 
 position absolute takes the element out from its container and the height of container collapse
 
-
+## css psuedo elements and classes 
+https://www.freecodecamp.org/news/explained-css-pseudo-classes-cef3c3177361/
+	
 ### Advance
 
 
