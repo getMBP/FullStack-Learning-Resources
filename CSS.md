@@ -194,3 +194,173 @@ https://css-tricks.com/the-sass-ampersand/
   
  ## css channel
   https://www.youtube.com/kepowob
+  
+  
+  ## css problems 
+  
+  
+  
+**Que : How Would You Make This At The Bottom?Using Relative,Height Of Body**
+
+~~~html
+<style>
+
+body{
+   height: 100%;
+}
+
+div.relative {
+  position: relative;
+  bottom: 0;
+  border: 3px solid #73AD21;
+}
+
+or 
+
+div.relative {
+  position: absolute;
+  bottom: 0;
+  border: 3px solid #73AD21;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="relative">
+This div element has position: relative;
+</div>
+
+	
+~~~
+  
+  
+**2) 4 div in row , swap 3rd and 4th **
+
+  
+ 
+**Absolute 
+**
+```css
+
+ #box_1 { 
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+    border : 2px solid black
+}
+
+#box_2 { 
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 { 
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+
+Relative
+
+
+  #box_1 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+    border : 2px solid black
+}
+
+#box_2 { 
+	position: relative;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box_3 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+```
+  
+  
+ 
+**6) what is fixed positioning : what happens to width and height if you apply the fixed positioning on some element.**
+
+```html
+<body>
+        <div class="parent">
+            <div class="child-1">Navigation Bar</div>
+            <div class="child-2">Background Image</div>
+            <div class="child-3">Features</div>
+        </div>
+    </body>
+
+```
+  
+**que : inline vs external,embedded vs internal css 
+between external vs embedded css, whichever comes later in html page will overide the css property **
+
+inline wins among all styles
+  
+  
+  
+#### css psuedo classes and psuedo elements
+https://www.w3schools.com/css/css_pseudo_classes.asp
+https://www.w3schools.com/css/css_pseudo_elements.asp
+
+#### que : view port units
+https://www.youtube.com/watch?v=_sgF8I-Q1Gs
+https://www.youtube.com/watch?v=JANETBQZJ8E
+  
+  
+  #### Que : Media queries
+https://www.w3.org/TR/mediaqueries-4/
+https://responsivebreakpoints.com/
+
+are media queries enough to make page responsive 
+
+  
+  ## How would you place an icon on the top-right corner of a container 
+## such that the center of the icon is coinciding with the corner of the container
+
+	https://i.stack.imgur.com/AY8ka.png
+						        |-----|
+--------------------|     |
+|     						  |-----|
+|							         |
+|							         |
+|							         |
+|______________________|
+
+.rectangle {
+  position: relative;
+  z-index: 0;
+}
+.icon {
+  position: absolute;
+  top: 0;
+   right: 0;
+  z-index: 1;
+  transform: translateX(50%);
+  transform: translateY(-50%);
+  
+}
+
+<rectangle>
+  <icon/>
+  ...
+</rectangle>
+  
+  
