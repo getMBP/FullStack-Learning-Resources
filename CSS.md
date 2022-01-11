@@ -298,11 +298,16 @@ Relative
  
 **6) what is fixed positioning : what happens to width and height if you apply the fixed positioning on some element.**
 
+element with position:fixed are always relative to the initial containing block.
+	
+just adding position fixed on child 2 takes it out of natural flow and then you can use top / bottom to place it respective to view port
+	
+	
 ```html
 <body>
         <div class="parent">
             <div class="child-1">Navigation Bar</div>
-            <div class="child-2">Background Image</div>
+            <div class="child-2">Background Image</div> 
             <div class="child-3">Features</div>
         </div>
     </body>
