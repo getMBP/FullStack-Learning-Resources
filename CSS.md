@@ -9,6 +9,10 @@ https://www.csssolid.com/css-structural-pseudo-class.html
 https://www.udemy.com/css-the-complete-guide-incl-flexbox-grid-sass/
 https://www.w3.org/TR/CSS2/visuren.html
 
+
+#### box model
+https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel_width
+
 ### em vs rem 
 
 practical example :
