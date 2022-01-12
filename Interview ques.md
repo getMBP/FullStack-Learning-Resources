@@ -1714,3 +1714,8 @@ console.log(res)
   
   https://html.spec.whatwg.org/multipage/rendering.html#introduction-16
   
+  #### css only toggle button
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch
+
+
+  
