@@ -25,3 +25,6 @@ https://www.youtube.com/watch?v=J90t0h0AP1U
 https://web.dev/strict-csp/
 
 https://web.dev/security-headers/
+
+## Security
+https://indepth.dev/posts/1382/localstorage-vs-cookies
