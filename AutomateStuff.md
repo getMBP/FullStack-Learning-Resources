@@ -75,3 +75,18 @@ for person in individuals_name:
 # print("Success") 
 
 ```
+
+
+
+### automate daily tasks 
+
+alias we=open_work_email 
+alias jb=open_jira_board 
+alias tmx=set_up_tmux 
+ 
+# And here's the important one 
+alias os='we ; jb ; tmx' 
+
+function open_work_email { 
+  open "https://mail.google.com/mail" # whatever your inbox is 
+} 
