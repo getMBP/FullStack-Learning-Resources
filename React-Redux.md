@@ -3,6 +3,7 @@
 https://indepth.dev/react
 
 
+
 ### Master React
 
 - **React Internals**
@@ -557,10 +558,13 @@ https://medium.com/takeaway-tech/getting-started-with-redux-saga-54af359e84ff
 https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-an-asynchronous-flow-90a0e9d7d8e8
  
  
- ### server side rendering
+ ### server side rendering SSR
  
  #### CDN Caching, Static Site Generation, and Server Side Rendering (best)
  https://www.youtube.com/watch?v=bfLFHp7Sbkg
+ 
+ ### hydration
+ https://indepth.dev/posts/1452/building-a-react-static-site-generator-with-partial-hydration-in-100-lines-of-code
  
  #### Tech Talk: Client Side vs. Server Sider Rendering
  https://www.youtube.com/watch?v=Y2spCNZDt84&t=1s
