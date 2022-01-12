@@ -1685,6 +1685,31 @@ console.log(res)
  
 ``
   
+ ### nofoolow vs Noreferrer
+ 
+ "nofollow" is used by Google, to specify that the Google search spider should not follow that link 
+ 
+ "Noreferrer": Specifies that the browser should not send a HTTP referrer header if the user follows the hyperlink
+  
+  
+ ### how to make browser not store cookie
+ https://html.com/resources/cookies-ultimate-guide/
+ https://www.valentinog.com/blog/cookies/
+ 
+ https://blog.bitsrc.io/web-authentication-cookies-vs-tokens-8e47d5a96d34
+ 
+ https://owasp.org/www-community/HttpOnly
+ 
+ https://www.bestproxyreviews.com/http-cookies/
+ 
+ 
+ 
+ ## how to measure application performance of a live app for every user
+ 
+ 
+  
+  
+  
   ### HTML Spec :
   
   https://html.spec.whatwg.org/multipage/rendering.html#introduction-16
