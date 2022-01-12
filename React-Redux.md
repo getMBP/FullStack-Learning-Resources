@@ -781,4 +781,11 @@ https://github.com/afuh/rick-and-morty-api-site
 
 https://github.com/gigo6000/rickfinder
   
+  
+  
+  ### some nice libraries
+  
+  https://indepth.dev/posts/1454/building-a-react-static-site-generator-in-20-lines-of-code-4-dependencies-and-no-transpilers
+  
+  
 
