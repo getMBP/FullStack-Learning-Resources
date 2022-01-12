@@ -204,6 +204,9 @@ https://vijayt.com/post/react-forwardref-example-and-why-it-should-not-be-part-o
   https://www.robinwieruch.de/react-provider-pattern-context/  
   Walks through the concepts and implementation of a "Provider" component that makes data available to deeply nested children, similar to the ones that come with Redux and MobX
   
+  #### context
+  https://indepth.dev/posts/1475/custom-react-hooks-why-do-we-need-a-context
+  
   - **React frequently faced problems**
   https://medium.com/@samerbuna/react-js-frequently-faced-problems-45e7060ef884?source=placement_card_footer_grid---------1-60
     
