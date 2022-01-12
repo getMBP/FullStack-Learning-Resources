@@ -373,4 +373,9 @@ are media queries enough to make page responsive
 </rectangle>
   
   
+#### css only toggle button
+	
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch
+	
+	
 	
