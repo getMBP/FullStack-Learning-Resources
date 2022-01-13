@@ -1718,4 +1718,14 @@ console.log(res)
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch
 
 
-  
+  #### what happen to your ajax call ifyou refresh page after making server request
+```md
+Assume your ajax request takes 2mins to get response while your refresh event happens in 1mins.
+
+Ajax request and Refresh event both will be happening at the same time even though its triggered one after another.
+
+Responce from the refresh event will disconnect all the http request for the session and load the fresh page. Also the server where the ajax is being made will check the client connection periodically . At some point the server where the ajax call being made will come to know that the client is listening no more(Response from the refresh event reloaded the page) and drop the request. At that time Ajax functionality in the server may or may not be completed. Hence its not good to call refresh event before finishing all your http requests(in your case it is Ajax).
+
+```
+#### what-will-happen-when-i-refresh-transaction-page
+
