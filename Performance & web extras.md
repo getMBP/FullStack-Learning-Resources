@@ -343,6 +343,31 @@ https://seosly.com/tools-to-measure-core-web-vitals/
 
 https://www.woorank.com/en/core-web-vitals/first-input-delay-explained
 
+https://www.semrush.com/blog/measure-core-web-vitals/?kw=&cmp=IN_SRCH_DSA_Blog_Core_BU_EN&label=dsa_pagefeed&Network=g&Device=c&utm_content=515715537033&kwid=dsa-1202477529803&cmpid=11773572684&agpid=119020488626&BU=Core&extid=203745429931&adpos=&gclid=CjwKCAiA24SPBhB0EiwAjBgkhh_QKUIBp7ucQW-6CO6Sr1b4pVaKlsd7gQnJIz51CrNx0U4nZRwkJhoCTpEQAvD_BwE
+
+https://neilpatel.com/blog/core-web-vitals/
+
+https://torquemag.io/2021/08/core-web-vitals/
+
+https://stablewp.com/the-ultimate-guide-to-core-web-vitals-how-to-boost-your-core-web-vitals-score/
+
+https://www.debugbear.com/docs/metrics/core-web-vitals
+
+
+https://maxket.com/introducing-core-web-vitals/
+
+
+https://seosly.com/core-web-vitals-guide/
+
+https://www.tezify.com/how-to/avoid-large-layout-shifts/
+
+https://docs.sentry.io/product/performance/web-vitals/
+
+
+
+
+
+
 #### http2 vs http 1.1
 https://www.greenlanemarketing.com/resources/articles/seo-101-http-vs-http2/
 
