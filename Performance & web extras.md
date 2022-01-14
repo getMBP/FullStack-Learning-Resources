@@ -363,7 +363,7 @@ https://www.tezify.com/how-to/avoid-large-layout-shifts/
 
 https://docs.sentry.io/product/performance/web-vitals/
 
-
+https://www.seobility.net/en/blog/core-web-vitals/
 
 
 
