@@ -317,6 +317,8 @@ https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/
 
 ## web core vital
 
+#### An In-Depth Guide To Measuring Core Web Vitals
+https://www.smashingmagazine.com/2021/04/complete-guide-measure-core-web-vitals/
 
 #### Understanding and using Core Web Vitals
 https://akshayranganath.github.io/Understanding-And-Using-Core-Web-Vitals/
@@ -338,6 +340,7 @@ https://web.dev/vitals/
 https://builtvisible.com/googles-page-experience-update-and-core-web-vitals-everything-you-need-to-know/ (best)
 
 https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/
+
 
 https://seosly.com/tools-to-measure-core-web-vitals/
 
