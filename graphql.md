@@ -3,7 +3,9 @@
 https://www.youtube.com/watch?v=ZQL7tL2S0oQ
 
 https://github.com/WebDevSimplified/Learn-GraphQL
+https://graphql.org/learn/queries/
 
+https://www.apollographql.com/docs/react/data/queries/#manual-execution-with-uselazyquery
 
 #### graphql server 
 https://codesandbox.io/s/e3x06
