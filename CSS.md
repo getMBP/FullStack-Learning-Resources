@@ -384,3 +384,8 @@ https://stackoverflow.com/questions/14731049/visibilityhidden-vs-displaynone-vs-
 	
 ## good links 
 https://www.interviewbit.com/css-interview-questions/
+	
+#### websites to learn css from page by R/D
+https://millipixels.com/
+	
+
