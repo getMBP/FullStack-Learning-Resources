@@ -39,6 +39,9 @@ https://web.dev/preload-responsive-images/
 https://wattenberger.com/blog/css-percents
 
 ## web vitals
+
+https://www.youtube.com/watch?v=AQqFZ5t8uNc (best)
+
 https://www.youtube.com/watch?v=2k1QbgLAFdI
 
 https://medium.com/ynap-tech/optimizing-cls-and-lcp-on-chloe-com-8280a036122a
