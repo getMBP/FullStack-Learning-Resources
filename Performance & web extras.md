@@ -11,7 +11,7 @@ https://nolanlawson.com/2020/02/19/fixing-memory-leaks-in-web-applications/
 https://jakearchibald.com/2021/cors/
 https://dev.to/lydiahallie/cs-visualized-cors-5b8h
 
-## layout shift
+## layout shift - cls
 https://web.dev/debug-layout-shifts/
 
 https://addyosmani.com/blog/infinite-scroll-without-layout-shifts/
@@ -19,6 +19,8 @@ https://addyosmani.com/blog/infinite-scroll-without-layout-shifts/
 https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/
 
 https://web.dev/fast/#prioritize-resources
+
+https://web.dev/optimize-cls/
 
 
 ##  case study
