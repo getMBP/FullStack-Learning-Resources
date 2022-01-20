@@ -368,6 +368,10 @@ https://docs.sentry.io/product/performance/web-vitals/
 
 https://www.seobility.net/en/blog/core-web-vitals/
 
+### cls 
+how cls is calculated
+https://www.woorank.com/en/core-web-vitals/improving-cumulative-layout-shift
+
 ### first byte vs first contentful paint
 https://newrelic.com/blog/how-to-relic/browser-first-paint-first-contentful-paint
 
