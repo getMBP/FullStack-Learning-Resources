@@ -42,6 +42,7 @@ https://wattenberger.com/blog/css-percents
 
 ## web vitals
 
+https://www.youtube.com/watch?v=b0iaocHSCNA (pretty good )
 https://www.youtube.com/watch?v=AQqFZ5t8uNc (best)
 
 https://www.youtube.com/watch?v=2k1QbgLAFdI
