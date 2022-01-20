@@ -369,7 +369,9 @@ https://docs.sentry.io/product/performance/web-vitals/
 https://www.seobility.net/en/blog/core-web-vitals/
 
 
+#### good youtube series 
 
+https://www.youtube.com/watch?v=SIdzhrynNbM&list=PLx9THvOL50-W3dkybv7tRUik0j33nFgct
 
 #### http2 vs http 1.1
 https://www.greenlanemarketing.com/resources/articles/seo-101-http-vs-http2/
