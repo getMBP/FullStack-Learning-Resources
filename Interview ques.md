@@ -1729,3 +1729,44 @@ Responce from the refresh event will disconnect all the http request for the ses
 ```
 #### what-will-happen-when-i-refresh-transaction-page
 
+#### coding que 
+
+```js 
+  const words = [ "test" , "cat", "hello"]
+
+  const string1 = "jckayht";
+
+function splitSortJoin(w) {
+  return w.split("").sort().join("")
+}
+  function test(words, str){
+   
+  let strContainsWord = false ;
+
+   for(let i = 0 ; i<words.length ; i++) {
+
+       // check if str includes word[i]
+        let word = splitSortJoin(words[i]) ;
+        let strNew = splitSortJoin(str);
+
+       for(let j = 0 ; j< word.length ; j++){
+         if(!strNew.includes(word[j])) {
+           break
+         }
+         strContainsWord = true;
+       }
+
+       if(strContainsWord) {
+           return word
+       }
+     
+   }
+
+   return "no match";
+
+  }
+
+  console.log(test(words , string1))
+
+```
+
