@@ -1770,3 +1770,5 @@ function splitSortJoin(w) {
 
 ```
 
+## in what order react useEffect runs in parent child grandchild order
+
