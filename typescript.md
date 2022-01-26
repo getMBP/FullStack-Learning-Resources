@@ -68,3 +68,5 @@ https://levelup.gitconnected.com/dependency-injection-in-typescript-5fd1f6207f2
 
 #### use of decorators
 https://indepth.dev/posts/1450/how-to-use-ts-decorators-to-add-caching-logic-to-api-calls
+
+https://www.sitepoint.com/javascript-decorators-what-they-are/
