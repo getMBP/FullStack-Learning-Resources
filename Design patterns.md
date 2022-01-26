@@ -15,3 +15,8 @@ https://www.dofactory.com/javascript/design-patterns/mediator
 #### depedency injection
 https://v4.angular.io/guide/dependency-injection
 https://blog.mgechev.com/2017/01/30/implementing-dependency-injection-react-angular-element-injectors/
+
+
+
+#### extras
+https://codesandbox.io/u/lydiahallie (has collection of design patterns)
