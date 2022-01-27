@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=ZQL7tL2S0oQ
 https://github.com/WebDevSimplified/Learn-GraphQL
 https://graphql.org/learn/queries/
 
+// https://github.com/eggheadio-projects/graphql-query-language-notes
+
 https://www.apollographql.com/docs/react/data/queries/#manual-execution-with-uselazyquery
 
 #### graphql server 
