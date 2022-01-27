@@ -41,7 +41,10 @@ to learn
 12) cookies in depth
 13) integrate rest with spring 
 14) cors in depth
-15) elastic search - https://www.udemy.com/course/elasticsearch-complete-guide/
+15) elastic search - 
+https://www.udemy.com/course/elasticsearch-complete-guide/ , 
+https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/
+16) 
 
 
 
