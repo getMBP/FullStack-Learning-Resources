@@ -23,7 +23,7 @@ https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webp
 https://app.pluralsight.com/library/courses/javascript-module-fundamentals/table-of-contents
 
 
-Timesprime
+
 
 to learn
 
@@ -33,7 +33,7 @@ to learn
 4) next.js
 5) benchmarking / optimization
 6) AWS
-7) NEXT.JS IN DEPTH - https://codedamn.com/learn/advanced-nextjs
+7) NEXT.JS IN DEPTH - https://codedamn.com/learn/advanced-nextjs , https://www.udemy.com/course/nextjs-react-the-complete-guide/,https://www.udemy.com/course/complete-nextjs-developer-zero-to-mastery/
 8) System design
 9) ML and data.js
 10) write your own lodash methods
@@ -45,7 +45,10 @@ to learn
 https://www.udemy.com/course/elasticsearch-complete-guide/ , 
 https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/,
 https://www.udemy.com/course/elasticsearch-masterclass/
-16) 
+16) networking and debugging - https://www.udemy.com/course/network-for-penetration-testers-fundamentals-attacks/
+17) nginx - https://www.udemy.com/course/linux-nginx-load-balance/ , https://www.udemy.com/course/nginx-fundamentals/
+18) http in depth
+19) 
 
 
 
