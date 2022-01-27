@@ -16,6 +16,7 @@
 13) next.js
 14) graphql
 15) csp - https://www.rahulpnath.com/blog/http-content-security-policy-csp/ , https://medium.com/@bhavesh_thakur/content-security-policy-csp-bypass-techniques-e3fa475bfe5d,
+https://www.udemy.com/course/web-security-du/
 
 
 webpack in depth (loaders, plugins, multiple entery points)
