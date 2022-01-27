@@ -1,5 +1,8 @@
 
 ```tsx
+
+/* session 1 */
+
 let myName = "Alice";
 myName = 12;
 
@@ -94,12 +97,19 @@ function testUnion(x : Hero | Villain) {
   if((x as Hero).heal()) {
      
   }
+  // you can also do 
+  
+  if((x as Hero).heal()) {
+     
+  }
 
   if((x as Villain).burn()) {
      
   }
 }
 
+
+/* session 2 */
 
 // ............................. readonly variables
 
@@ -229,5 +239,74 @@ function prettyPrint(size: ShirtSize) {
     }
 }
 
+/* session 3 */
+
+// types and interface 
+
+type Pet = IDog | ICat;
+
+interface IAnimal {
+  age: number;
+  eat(): void;
+  speak(): string;
+}
+
+function feedAnimal(animal: IAnimal) {
+  animal.eat();
+}
+
+class Animal implements IAnimal {
+  age = 0;
+
+  eat() {
+    console.log("nom..nom..");
+  }
+
+  speak() {
+    return "roar";
+  }
+}
+
+interface IDog {}
+interface ICat {}
+
+.............................................
+
+
+type Pet = {
+  pose(): void;
+};
+
+interface IFeline {
+  nightvision: boolean;
+}
+
+interface ICat extends IFeline, Pet {}
+
+type Cat = IFeline & Pet;
+
+class HouseCat implements IFeline, Pet {
+  pose(): void {
+    throw new Error("Method not implemented.");
+  }
+  nightvision: boolean;
+}
+
+
+...............................................
+
+#### types vs interface 
+
+type PetType = IDog | ICat;
+
+interface IPet extends PetType {} // error //
+
+class Pet implements PetType {} // error
+
+interface IDog {}
+interface ICat {}
+
 
 ```
+
+/* session 4 */
