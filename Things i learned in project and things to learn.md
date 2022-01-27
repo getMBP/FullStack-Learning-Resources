@@ -49,7 +49,8 @@ https://www.udemy.com/course/elasticsearch-masterclass/
 16) networking and debugging - https://www.udemy.com/course/network-for-penetration-testers-fundamentals-attacks/
 17) nginx - https://www.udemy.com/course/linux-nginx-load-balance/ , https://www.udemy.com/course/nginx-fundamentals/
 18) http in depth
-19) 
+19) web3
+20) blockchain
 
 
 
