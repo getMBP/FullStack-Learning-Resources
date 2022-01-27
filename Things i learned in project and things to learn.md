@@ -27,23 +27,24 @@ Timesprime
 
 to learn
 
-1) Oauth , JWT in depth
+1) Oauth , JWT in depth- https://www.udemy.com/course/api-and-web-service-introduction/ , 
 2) rest api in depth
 3) ds-algo
 4) next.js
 5) benchmarking / optimization
 6) AWS
-7) NEXT.JS IN DEPTH
+7) NEXT.JS IN DEPTH - https://codedamn.com/learn/advanced-nextjs
 8) System design
 9) ML and data.js
 10) write your own lodash methods
 11) read more open source react lib code
-12) cookies in depth
+12) cookies in depth - https://www.udemy.com/course/complete-web-application-hacking-penetration-testing/
 13) integrate rest with spring 
 14) cors in depth
 15) elastic search - 
 https://www.udemy.com/course/elasticsearch-complete-guide/ , 
-https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/
+https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/,
+https://www.udemy.com/course/elasticsearch-masterclass/
 16) 
 
 
