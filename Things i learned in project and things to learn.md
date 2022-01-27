@@ -7,7 +7,7 @@
 6) storybook
 7) formik
 8) Responsive images : https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
-9) react virtualized
+9) react virtualized / react window
 10) lazy loading images
 11) hooks in depth
 12) grafana tool
@@ -17,7 +17,9 @@
 https://www.udemy.com/course/web-security-du/
 16) new relic
 17) gcp
-18) ci cd
+18) ci cd - https://www.youtube.com/watch?v=l_lWfipUimk&list=PLhW3qG5bs-L8EU_Oocu6RkNPpYpaamtXX
+19) typescript
+
 
 
 webpack in depth (loaders, plugins, multiple entery points)
