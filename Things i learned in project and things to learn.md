@@ -1,6 +1,4 @@
 
-  DMI
-
 1) SVG to react icons
 2) styled components
 3) semantic react ui component
