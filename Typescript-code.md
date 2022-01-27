@@ -241,9 +241,8 @@ function prettyPrint(size: ShirtSize) {
 
 /* session 3 */
 
-// types and interface 
 
-type Pet = IDog | ICat;
+// interface 
 
 interface IAnimal {
   age: number;
@@ -266,12 +265,39 @@ class Animal implements IAnimal {
     return "roar";
   }
 }
+........................
+// types and interface ( ram and shyam of typescript) 
+
+//similarity 
+
+a)
+
+// structurally same 
+
+interface IAnimal {
+  age: number;
+  eat(): void;
+  speak(): string;
+}
+
+type AnimalTypeAlias = {
+  age: number;
+  eat(): void;
+  speak(): string;
+};
+
+
+b)
 
 interface IDog {}
 interface ICat {}
 
+type Pet = IDog | ICat; 
+
+
 .............................................
 
+c) interoperability
 
 type Pet = {
   pose(): void;
@@ -281,9 +307,12 @@ interface IFeline {
   nightvision: boolean;
 }
 
-interface ICat extends IFeline, Pet {}
+interface ICat extends IFeline, Pet {} // interface can extend interface and type
 
 type Cat = IFeline & Pet;
+
+
+// class can implement both interface and type
 
 class HouseCat implements IFeline, Pet {
   pose(): void {
@@ -294,6 +323,7 @@ class HouseCat implements IFeline, Pet {
 
 
 ...............................................
+d) intersection / differences 
 
 #### types vs interface 
 
@@ -301,7 +331,7 @@ type PetType = IDog | ICat;
 
 interface IPet extends PetType {} // error //
 
-class Pet implements PetType {} // error
+class Pet implements PetType {} // error // pet can only be of specific type , not general
 
 interface IDog {}
 interface ICat {}
