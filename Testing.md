@@ -5,6 +5,19 @@
 setup testing env
 https://levelup.gitconnected.com/set-up-a-simple-javascript-unit-test-environment-from-zero-ab8c053050ac
 
+#### Test React Components with Enzyme and Jest
+https://github.com/eggheadio-projects/test-react-components-with-enzyme-and-jest
+
+#### static testing
+https://github.com/eggheadio-projects/static-testing-tools
+
+#### js-testing-fundamentals
+
+https://github.com/eggheadio-projects/js-testing-fundamentals/tree/egghead-2018/lessons
+
+#### react testing cookbook
+https://github.com/eggheadio-projects/react-testing-cookbook
+
 
 - **Testing Clientside JavaScript**
 https://app.pluralsight.com/library/courses/testing-javascript
