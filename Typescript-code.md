@@ -112,7 +112,7 @@ function testUnion(x : Hero | Villain) {
 /* session 2 */
 
 // ............................. readonly variables
-
+a)
 interface User {
  readonly id: number ,
  name: string
@@ -126,6 +126,8 @@ const user:User =  {
 user.id++
 
 // ............................. readonly in class
+
+b)
 class User2 {
 
   readonly id: number ;
@@ -140,7 +142,28 @@ class User2 {
 }
 
 const user2 = new User2(1 , "deen");
-user2.id++ 
+user2.id++
+
+c) 
+
+// custom readonly 
+interface IPet {
+    name: string ;
+    age: number;
+}
+
+type ReadonlyPet = {
+   readonly [K in keyof IPet]: IPet[K];
+}
+
+const pet:IPet = { name: "deen" , age: 21 }
+const readonlyPet:ReadonlyPet = { name: "john" , age: 20 }
+
+
+pet.age = 34; // works
+
+readonlyPet.age = 3; // not working as readonly
+
 
 // ............................. readonly  array
 
@@ -158,6 +181,7 @@ weekdays1[0] = "test";
 
 
 // readonly [n: number]
+
 const weekdays2 :ReadonlyArray<string> = [
   "Sunday",
   "Monday"
