@@ -40,7 +40,6 @@ to learn
 6) AWS
 7) NEXT.JS IN DEPTH - https://codedamn.com/learn/advanced-nextjs , https://www.udemy.com/course/nextjs-react-the-complete-guide/,https://www.udemy.com/course/complete-nextjs-developer-zero-to-mastery/
 8) System design
-9) ML and data.js
 10) write your own lodash methods
 11) read more open source react lib code
 12) cookies in depth - https://www.udemy.com/course/complete-web-application-hacking-penetration-testing/
@@ -52,9 +51,10 @@ https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-
 https://www.udemy.com/course/elasticsearch-masterclass/
 16) networking and debugging - https://www.udemy.com/course/network-for-penetration-testers-fundamentals-attacks/
 17) nginx - https://www.udemy.com/course/linux-nginx-load-balance/ , https://www.udemy.com/course/nginx-fundamentals/
-18) http in depth
+18) http in depth - in depth knowledge of all headers and protocols 
 19) web3
 20) blockchain
+21) microservice architecture
 
 
 
