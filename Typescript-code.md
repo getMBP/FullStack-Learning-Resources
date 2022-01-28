@@ -1,4 +1,8 @@
 
+#### resource
+https://www.typescriptlang.org/
+
+
 ```tsx
 
 /* session 1 */
