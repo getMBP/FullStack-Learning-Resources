@@ -352,6 +352,7 @@ class HouseCat implements IFeline, Pet {
 
 ...............................................
 d) intersection / differences 
+// https://www.youtube.com/watch?v=crjIq7LEAYw
 
 #### types vs interface 
 
