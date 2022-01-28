@@ -375,3 +375,4 @@ https://stackoverflow.com/questions/70888122/why-is-the-class-property-not-getti
 
 https://www.youtube.com/watch?v=O6A-u_FoEX8
 
+https://www.youtube.com/watch?v=_8wOde1fmEM
