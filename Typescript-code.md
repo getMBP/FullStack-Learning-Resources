@@ -356,7 +356,7 @@ d) intersection / differences
 
 #### types vs interface 
 
-type PetType = IDog | ICat;
+type PetType = IDog | ICat; // types has union 
 
 interface IPet extends PetType {} // error //
 
