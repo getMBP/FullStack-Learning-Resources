@@ -128,6 +128,9 @@ https://medium.com/@sararavi14/node-js-threading-model-badf7bb5fffa
 
 - **Tech Talk- NodeJS and TCP-IP**
 
+- **https://www.youtube.com/watch?v=LbwUETu7Rgc**
+- https://www.youtube.com/watch?v=OCjvhCFFPTw
+
 ### EventLoop
 
 - **Philip Roberts What the heck is the event loop anyway - JSConf EU 2014**
@@ -208,6 +211,7 @@ https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f
 
 
 
+https://leezhenghui.github.io/node.js/2018/11/11/demystify-node.js-modularity.html
 
 
 
