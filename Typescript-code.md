@@ -366,8 +366,34 @@ interface IDog {}
 interface ICat {}
 
 
-```
 
+```
+e) you can loop over type properties
+https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript#:~:text=...%20we%20recommend%20using%20an,than%20creating%20the%20types%20themselves.&text=You%20can%20use%20the%20declaration,to%20an%20already%20declared%20interface%20.
+
+Iterating over union properties in type
+type Keys = "firstName" | "lastName";
+
+type Name = {
+  [key in Keys]: string;
+};
+
+f) interface can be extended 
+
+interface x {
+  age : number
+}
+
+interface x {
+  name : string
+}
+
+function test(param: x){
+  param.age
+  param.name
+  }
+
+..............................................................................................................................................
 /* session 4 */
 
 // decorators
