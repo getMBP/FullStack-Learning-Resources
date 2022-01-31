@@ -214,7 +214,7 @@ https://iamsongcho.medium.com/the-internals-of-node-js-b57bab6dc90
 https://leezhenghui.github.io/node.js/2018/11/11/demystify-node.js-modularity.html
 
 
-
+https://www.youtube.com/watch?v=zphcsoSJMvM (node event thread)
 
 
 
