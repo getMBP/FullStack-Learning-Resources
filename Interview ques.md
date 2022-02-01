@@ -1773,3 +1773,4 @@ function splitSortJoin(w) {
 ## in what order react useEffect runs in parent child grandchild order
 https://codesandbox.io/s/use-effect-lifecycle-npl4j?file=/src/Parent.js
 
+#### problem with react context ? optimize react context
