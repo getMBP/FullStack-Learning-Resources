@@ -1777,5 +1777,7 @@ https://codesandbox.io/s/use-effect-lifecycle-npl4j?file=/src/Parent.js
 problem - https://codesandbox.io/s/react-context-ximn2?file=/src/App.tsx
 https://levelup.gitconnected.com/react-how-i-learned-to-create-optimized-contexts-e121dc232a95
 
+solution https://codesandbox.io/s/react-context-ximn2
+
 
 
