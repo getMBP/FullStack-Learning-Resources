@@ -20,3 +20,5 @@ https://www.udemy.com/course/getting-started-with-ethereum-solidity-development/
 #### 
 https://www.udemy.com/course/build-a-blockchain-in-javascript/
 
+#### MIT course on bitcoin and money
+https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/video-lectures/
