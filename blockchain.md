@@ -9,3 +9,11 @@ https://www.youtube.com/watch?v=jUpyJhnXRFE
 
 #### Creating a blockchain with Javascript (Blockchain, part 1)
 https://www.youtube.com/watch?v=zVqczFZr124
+
+
+#### Getting Started with Web3 Development
+https://www.udemy.com/course/getting-started-with-ethereum-solidity-development/
+
+#### 
+https://www.udemy.com/course/build-a-blockchain-in-javascript/
+
