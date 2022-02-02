@@ -13,3 +13,6 @@ https://codedamn.com/learn/advanced-nextjs
 https://fireship.io/courses/react-next-firebase/
 
 https://tsh.io/blog/what-is-next-js-used-for/
+
+#### NEXT.js – Exploring the Incremental Site Regeneration (ISR)
+https://miguelminoldo.fr/2021/10/22/sitecore-jss-next-incremental-site-regeneration/
