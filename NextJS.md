@@ -9,3 +9,5 @@ https://www.youtube.com/playlist?list=PL6bwFJ82M6FXjyBTVi6WSCWin8q_g_8RR
 https://codedamn.com/learn/nextjs-fundamentals
 
 https://codedamn.com/learn/advanced-nextjs
+
+https://fireship.io/courses/react-next-firebase/
