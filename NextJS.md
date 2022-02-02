@@ -16,3 +16,10 @@ https://tsh.io/blog/what-is-next-js-used-for/
 
 #### NEXT.js – Exploring the Incremental Site Regeneration (ISR)
 https://miguelminoldo.fr/2021/10/22/sitecore-jss-next-incremental-site-regeneration/
+
+
+#### On-demand Static Regeneration
+https://www.jamify.org/2021/05/16/on-demand-static-regeneration-how-blogody-serves-multi-zone-blog-sites/
+
+
+https://www.colbyfayock.com/posts/learn-nextjs-in-10-tweets
