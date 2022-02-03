@@ -20,11 +20,14 @@ https://www.udemy.com/course/web-security-du/
 18) ci cd - https://www.youtube.com/watch?v=l_lWfipUimk&list=PLhW3qG5bs-L8EU_Oocu6RkNPpYpaamtXX
 19) typescript
 20) push notification
+
 https://felixgerschau.com/web-push-notifications-tutorial/
  https://docs.wonderpush.com/docs/wonderpush-overview
+https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d
+https://developers.google.com/web/fundamentals/push-notifications
 
 
-
+...................................................................................
 webpack in depth (loaders, plugins, multiple entery points)
 
 https://app.pluralsight.com/library/courses/transpiling-bundling-javascript-webpack/table-of-contents
