@@ -41,17 +41,18 @@ to learn
 1) Oauth , JWT in depth- https://www.udemy.com/course/api-and-web-service-introduction/ , 
 2) rest api in depth
 3) ds-algo
-4) next.js
-5) benchmarking / optimization
-6) AWS
-7) NEXT.JS IN DEPTH - https://codedamn.com/learn/advanced-nextjs , https://www.udemy.com/course/nextjs-react-the-complete-guide/,https://www.udemy.com/course/complete-nextjs-developer-zero-to-mastery/
-8) System design
-10) write your own lodash methods
-11) read more open source react lib code
-12) cookies in depth - https://www.udemy.com/course/complete-web-application-hacking-penetration-testing/
-13) integrate rest with spring 
-14) cors in depth
-15) elastic search - 
+4) seo in depth 
+6) next.js
+7) benchmarking / optimization
+8) AWS
+9) NEXT.JS IN DEPTH - https://codedamn.com/learn/advanced-nextjs , https://www.udemy.com/course/nextjs-react-the-complete-guide/,https://www.udemy.com/course/complete-nextjs-developer-zero-to-mastery/
+10) System design
+11) write your own lodash methods
+12) read more open source react lib code
+13) cookies in depth - https://www.udemy.com/course/complete-web-application-hacking-penetration-testing/
+14) integrate rest with spring 
+15) cors in depth
+16) elastic search - 
 https://www.udemy.com/course/elasticsearch-complete-guide/ , 
 https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/,
 https://www.udemy.com/course/elasticsearch-masterclass/
