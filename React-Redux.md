@@ -523,6 +523,9 @@ https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
  https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3?source=search_post
  http://blog.isquaredsoftware.com/2016/10/idiomatic-redux-why-use-action-creators/
  
+ #### how to build your own redux (very good)
+ https://zapier.com/engineering/how-to-build-redux/
+ 
   ### Redux saga 
   https://medium.com/agency04/the-redux-saga-continues-implementing-your-own-redux-saga-like-middleware-f93a23ed840
   
