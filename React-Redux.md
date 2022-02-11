@@ -14,6 +14,12 @@ https://www.youtube.com/watch?v=Z7ysKNFrMqo
 
 https://www.youtube.com/watch?v=8XSs2GdhYsc&list=PLIJRjvch2ZlUHDQiMjs5CPHkials-gYtb&index=4 (good)
 
+- **how create react app works**
+https://www.youtube.com/watch?v=A4swyDR45SY
+https://www.youtube.com/watch?v=TjnyFNxQ67Y
+
+- **https://levelup.gitconnected.com/what-does-create-react-app-actually-do-73c899443d61**
+https://levelup.gitconnected.com/what-does-create-react-app-actually-do-73c899443d61
 
 - **Curated tutorial and resource links by markerikson**
  
